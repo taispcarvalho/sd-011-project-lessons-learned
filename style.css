@@ -35,14 +35,42 @@ body {
 #minha_foto {
   width: 250px;
   margin-top: 60px;
+  margin-left: 15px;
   border-radius: 50%;
 }
 
 #lessons-learned {
   display: inline-block;
-  background-color: red;
+  margin-left: 80px;
+  font-size: 18px;
+  background-color: rgba(138, 194, 152, 0.308);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#licoes_aprendidas {
+  padding-left: 25px;
+  padding-top: 5px;
+}
+
+#lessons-to-learn {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 18px;
+  background-color: rgba(138, 194, 152, 0.308);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#licoes_a_aprender {
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 #rodape {
   background-color: rgba(14, 92, 14, 0.863);
+  text-align: center;
+  font-size: 23px;
+  padding: 08px;
+  color: rgba(235, 235, 235, 0.685);
 }
