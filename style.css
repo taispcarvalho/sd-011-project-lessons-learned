@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-body { 
+body {
   background-color: rgb(253, 251, 251);
 }
 
@@ -11,5 +11,35 @@ header {
 }
 
 header nav {
+  /* barra de navegação do header */
   background-color: blue;
 }
+
+main {
+  border: dotted red 1px;
+  
+}
+
+#licoes, #main-content, aside{
+  display: inline-block;
+  
+}
+
+#licoes{
+  background-color: red;
+  width: 20%;
+  float: left;
+}
+
+#main-content{
+  background-color: rebeccapurple;
+  width: 55%;
+  float: left;
+}
+
+aside{
+  background-color: green;
+  width: 25%;
+  float: leftt;
+}
+
