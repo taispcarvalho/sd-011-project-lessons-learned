@@ -15,3 +15,17 @@ body {
   width: 15%;
   display: inline-block;
 }
+
+.nav-list {
+  list-style: none;
+}
+
+.main-section {
+  display: inline-block;
+  width: 50%;
+}
+
+.aside {
+  display: inline-block;
+  width: 30%;
+}
