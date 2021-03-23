@@ -2,6 +2,8 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 0.8em;
+  color: rgb(22, 22, 22);
+  letter-spacing: 0;
 }
 
 h1 {
@@ -33,6 +35,8 @@ h2 {
   text-align: end;
   margin-right: 30px;
   font-size: 13px;
+  background-color: black;
+  color: white;
 }
 
 #index-nav li {
@@ -43,7 +47,7 @@ h2 {
   padding-left: 70px;
 }
 
-a:hover {
+#index-nav a:hover {
   background-color: rgb(28, 28, 28);
 }
 
@@ -87,4 +91,9 @@ aside {
 
 main a {
   text-decoration: none;
+}
+
+span {
+  color: green;
+  font-style: italic;
 }
