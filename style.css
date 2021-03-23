@@ -31,6 +31,6 @@ header {
   border: 1px solid orchid;
 }
 
-#licoes_aprendidas {
-  padding: 10px 30px 30px;
+.lists {
+  padding: 10px 30px;
 }
