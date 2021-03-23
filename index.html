@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <title>Document</title>
 </head>
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Lessons Learned - Trybe</h1>
     <nav>
-      <ul>
+      <ul id="menu">
         <li>Início</li>
         <li>Sobre</li>
         <li>Contato</li>
@@ -22,33 +24,38 @@
   <img id="minha_foto" src="img/minha-foto.jpeg" alt="Foto Rodolfo Rezende">
   <a href="img/minha-foto.jpeg" target="_blank">Rodolfo Rezende</a>
 
-  <ol id="licoes_aprendidas">
-    <li>Unix</li>
-    <li>Shell</li>
-    <li>Bash</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>Internet</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>HTML Semântico</li>
-    <li>Soft Skills - Autoconhecimento</li>
-  </ol>
-
-  <ul id="licoes_a_aprender">
-    <li>JavaScript</li>
-    <li>Lógica de Programção</li>
-    <li>DOM</li>
-    <li>Web Storage</li>
-    <li>Form</li>
-    <li>Flexbox</li>
-    <li>JavaScritt - ES6</li>
-    <li>Teste Unitários</li>
-    <li>High Order Functions</li>
-    <li>Jest</li>
-  </ul>
-  <section>
-    <article>
+  <section id="licoes_aprendidas">
+    <h2>Lições aprendidas</h2>
+    <ol>
+      <li>Unix</li>
+      <li>Shell</li>
+      <li>Bash</li>
+      <li>Git</li>
+      <li>GitHub</li>
+      <li>Internet</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>HTML Semântico</li>
+      <li>Soft Skills - Autoconhecimento</li>
+    </ol>
+  </section>
+  <section id="licoes_a_aprender">
+    <h2>Lições a aprender</h2>
+    <ul>
+      <li>JavaScript</li>
+      <li>Lógica de Programção</li>
+      <li>DOM</li>
+      <li>Web Storage</li>
+      <li>Form</li>
+      <li>Flexbox</li>
+      <li>JavaScritt - ES6</li>
+      <li>Teste Unitários</li>
+      <li>High Order Functions</li>
+      <li>Jest</li>
+    </ul>
+  </section>  
+  <section class="inline-block">
+    <article class="lado-esquerdo">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
     </article>
 
@@ -70,7 +77,7 @@
       </tr>
     </table>
 
-    <aside>
+    <aside class="lado-direito">
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
     </aside>
   </section>
