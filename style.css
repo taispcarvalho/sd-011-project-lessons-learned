@@ -14,3 +14,11 @@ body {
   position: static;
   margin-top: 100px;
 }
+
+.lado_esquerdo {
+  display: inline-block;
+}
+
+.lado_direito {
+  display: inline-block;
+}
