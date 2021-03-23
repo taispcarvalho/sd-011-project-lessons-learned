@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-h3, p, ol , ul {
+h3, p, ol, ul {
 	margin: 0 0 10px;
 }
 
@@ -22,18 +22,18 @@ body {
 
 #minha_foto {
   display: block;
-	padding: 20px 0px 0px 0px;
+	padding: 20px 0 0 0;
 }
 
 #main-body {
   margin: 40px 4px;
 	display: block;
-	margin: 65px 0px 0px 0px;
+	margin: 65px 0 0 0;
 }
 
 .navegation {
 	display: inline;
-	padding: 0px 30px;
+	padding: 0 30px;
 	text-align: center;
 }
 
