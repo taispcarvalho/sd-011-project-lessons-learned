@@ -5,7 +5,7 @@
 
 body {
   background: rgb(253, 251, 251);
-  font-family: monospace, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 14px;
 }
 
@@ -24,7 +24,12 @@ body {
 }
 
 #minha_foto {
-  width: 350px;
+  width: 240px;
+  border-radius: 50%;
+  margin: 2%;
+  display: block;
+  float: left;
+  border: rgb(38, 39, 43) solid 2px;
 }
 
 #rodape {
@@ -37,27 +42,27 @@ body {
   padding: 2%;
 }
 
-#nav {
+.navbar {
   margin-top: 150px;
 }
 
-#nav ul {
+.navbar ul {
   text-align: center;
   font-size: 1.5rem;
 }
 
-#nav ul li {
+.navbar ul li {
   padding: 10px;
   display: inline-block;
   margin-bottom: 5%;
 }
 
-#nav ul li a {
+.navbar ul li a {
   text-decoration: underline;
   color: black;
 }
 
-#nav ul li a:hover {
+.navbar ul li a:hover {
   color: rgb(0, 109, 251);
 }
 
@@ -70,6 +75,49 @@ body {
   color: rgb(33, 134, 97);
 }
 
+article {
+  width: 90%;
+}
+
+.about h2 {
+  margin-right: -10%;
+  font-size: 2.4rem;
+  text-align: center;
+  color: rgb(33, 134, 97);
+}
+
+.about h3 {
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(33, 134, 97);
+}
+
+.about p {
+  font-size: 1.4rem;
+  margin: 3%;
+  text-align: justify;
+}
+
+.about ul {
+  font-size: 1.5rem;
+}
+
+.about ul li {
+  margin-left: 10%;
+}
+
+.about ol {
+  font-size: 1.5rem;
+}
+
+.about ol li {
+  margin-left: 10%;
+}
+
+.section {
+  display: inline;
+}
+
 #main {
   display: flex;
 }
@@ -78,13 +126,4 @@ body {
   margin-top: 10%;
   margin-right: 25px;
   font-size: 1.4rem;
-}
-
-#about-me h2 {
-  font-size: 2.5rem;
-  color: rgb(33, 134, 97);
-}
-
-#about-me {
-  font-size: 2.4rem;
 }

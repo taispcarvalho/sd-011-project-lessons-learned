@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Project Lessons Learned</title>
   </head>
   <body>
@@ -13,30 +17,31 @@
       <h1 id="titulo">Matheus Antonio da Silva</h1>
     </header>
 
-    <nav id="nav">
+    <nav class="navbar">
       <ul>
-        <li><a href="#about-me"> Sobre mim </a></li>
+        <li><a href="#about"> Sobre mim </a></li>
         <li><a href="#rodape"> Minhas redes </a></li>
       </ul>
     </nav>
 
     <main>
-      <article id="about-me">
-        <section >
-          <img src="minha_foto.jpeg" alt="" id="minha_foto" />
+      <article id="#about" class="about">
+        <section>
           <h2>A caminhada na Trybe</h2>
+          <img src="minha_foto.jpeg" alt="" id="minha_foto" />
           <p>
             Até o presente momento, absorvi quase 3 semanas de conteúdo da
             Trybe, em como realmente começar na área de desenvolvimento e
             programação. Não apenas isso, como também trybe-talks de pessoas que
             desempenham na área, juntamente com dinâmicas sobre soft-skills.
-            Sobre hard-skills, ainda estou praticando diariamente o básico explorando
-            HTMl e CSS, e utilizando a ferramenta de versionamento git.
+            Sobre hard-skills, ainda estou praticando diariamente o básico
+            explorando HTMl e CSS, e utilizando a ferramenta de versionamento
+            git.
           </p>
         </section>
 
-        <section>
-          <h2>Lições</h2>
+        <section class="section">
+          <h3>Lições Aprendidas</h3>
           <ol id="licoes_aprendidas">
             <li>Unix</li>
             <li>Bash</li>
@@ -49,8 +54,8 @@
             <li>CSS</li>
             <li>Entendendo Soft Skills</li>
           </ol>
-
-          <ul>
+          <h3>Lições que desejo aprender</h3>
+          <ul id="licoes_a_aprender">
             <li>React e React native</li>
             <li>JavaScript ES6</li>
             <li>Responsividade</li>
@@ -64,6 +69,7 @@
           </ul>
         </section>
       </article>
+
       <aside id="aside"></aside>
     </main>
     <footer id="rodape">
