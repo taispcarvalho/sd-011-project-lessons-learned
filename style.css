@@ -10,3 +10,18 @@ header {
   position: fixed;
   text-align: center;
 }
+
+#minha_foto {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 100%;
+  width: 100px;
+  float: left;
+}
+
+#licoes_aprendidas {
+  margin-top: 100px;
+  padding: 20px;
+}
