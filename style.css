@@ -5,4 +5,32 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+
+#cabecalho ul li {
+  display: inline-block;
+  margin-right: 5%;
+}
+
+#cabecalho a {
+  text-decoration: none;
+  color: white;
+}
+
+#sobreMim {
+  margin-top: 10%;
+}
+
+#sobreMim img {
+  width: 20%;
+  border-radius: 100%;
+}
+
+#trybe article, #trybe aside {
+  border: 1px solid black;
 }
