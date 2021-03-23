@@ -4,5 +4,8 @@ body {
 } 
 
 #cabecalho {
-    top: 0%;
+    top: 0px;
+    background-color: chartreuse;
 }
+
+#minha_foto
