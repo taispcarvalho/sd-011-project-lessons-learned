@@ -3,6 +3,7 @@
   padding: 0;
   font-family: monospace;
   letter-spacing: 1px;
+  line-height: 15px;
   color: midnightblue;
 }
 
@@ -14,8 +15,10 @@ body {
   top: 0;
   position: fixed;
   border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  background-color: lightgray;
+  width: 100%;
+  text-align: center;
 }
 
 .foto-nome {
@@ -24,18 +27,23 @@ body {
   padding-left: 15px;
 }
 
-#artigo_aprendizado_na_trybe {
+.artigo_aprendizado_na_trybe {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.artigo_aside_uma_passagem_do_aprendizado {
   margin-left: 15px;
   padding-left: 15px;
 }
 
 .lista_ordenada {
-  margin-left: 15px;
+  margin-left: 25px;
   padding-left: 15px;
 }
 
 .lista_nao_ordenada {
-  margin-left: 15px;
+  margin-left: 25px;
   padding-left: 15px;
 }
 
