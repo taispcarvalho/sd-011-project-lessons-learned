@@ -1,13 +1,17 @@
-body{
-    background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
 
-.header{
-    position: fixed;
-    top: 0px;
+.header {
+  position: fixed;
+  top: 0;
 }
 
-.img-content{
-    width: 350px;
-    border-radius: 10px;
+.img-content {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.listas {
+  display: inline-block;
 }
