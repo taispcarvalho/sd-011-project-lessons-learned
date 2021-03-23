@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 
 body {
@@ -12,19 +12,19 @@ body {
   top: 0;
   text-align: center;
   width: 100%;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #navList li {
   display: inline-block;
   padding: 3px;
-  margin: 5px 30px 5px 0;
+  margin: 5px 5px 5px 0;
 }
 
 #navList li a {
   list-style: none;
   text-decoration: none;
-  color: #3c4043;
+  color: rgb(60,64,67);
 }
 
 #minha_foto {
@@ -40,7 +40,7 @@ body {
   margin: 30px 10px;
 }
 
-#listaLessons ol , ul li {
+#listaLessons ol , ul > li {
   color: blue;
   font-size: 20px;
 }
@@ -54,19 +54,18 @@ table {
   border-collapse: collapse;
   text-align: center;
   width: 20%;
-  
 }
 
 td , th {
   border: 1px solid black;
   padding: 5px;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 article , aside p {
   font-size: 20px;
-  color: #3c4043;
+  color: rgb(60,64,67);
   font-weight: 600;
   line-height: 29px;
 
