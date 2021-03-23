@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Montserat', sans-serif;
+  font-family: Montserat, sans-serif;
 }
 
 #cabecalho {
@@ -40,7 +40,7 @@ a {
   margin-left: 3%;
   margin-top: 5px;
   text-decoration: none;
-  font-family: 'Montserat', sans-serif;
+  font-family: Montserat, sans-serif;
   color: black;
   font-style: italic;
 }
@@ -71,4 +71,6 @@ footer {
   color: white;
   bottom: 0;
   width: 100%;
+  font-size: 15px;
+  line-height: 1;
 }
