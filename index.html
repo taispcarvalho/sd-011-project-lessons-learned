@@ -1,93 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Rodolfo Wolff - LessonsTrybe</title>
+  <title>Rodolfo Wolff Lessons</title>
 </head>
 <body>
-  <header id="cabecalho">
+  <div class="container">
+    <header id="cabecalho">
+      <div class="title">
+        <h1 id="titulo">Rodolfo Wolff</h1>
+      </div>
+      <nav class="menu-nav">
+        <ul>
+          <li><a href="#titulo">Home</a></li>
+          <li><a href="#licoes_aprendidas">Lições</a></li>
+          <li><a href="#aprendizado">Aprendizado</a></li>
+        </ul>
+      </nav>
+    </header>
+  
+    <main>
+      <section class="photo">
+        <img id="minha_foto"
+          src="https://media-exp1.licdn.com/dms/image/C4E03AQGn2nr_-gOsZw/profile-displayphoto-shrink_200_200/0/1615403955284?e=1622073600&v=beta&t=DH8tWod3IlLt-goJ74E2NYyDT-hpRlE6OEiQKm83hk4"
+          alt="foto do meu perfil">
+      </section>
+  
+      <section class="lessons">
+        <h2>Lições aprendidas</h2>
+        <ol id="licoes_aprendidas">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Internet</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Slack</li>
+          <li>Zoom</li>
+          <li>Semantic HTML</li>
+          <li>Inteligência Emocional</li>
+        </ol>
+      </section>
+  
+      <section class="lessons-learn">
+        <h2>Lições que vou aprender</h2>
+        <ul id="licoes_a_aprender">
+          <li>JavaScript</li>
+          <li>DOM</li>
+          <li>Forms</li>
+          <li>CSS Responsive</li>
+          <li>SQL</li>
+          <li>Node</li>
+          <li>Phyton</li>
+          <li>React</li>
+          <li>Unit tests</li>
+          <li>Softs Skills</li>
+        </ul>
+      </section>
+    </main>
+  
+    <div id="aprendizado">
+      <article class="page-article">
+        <h2>Meu aprendizado na Trybe</h2>
+        <p>
+          O mercado de trabalho na area de Programação esta crescendo muito e com isso esta exigindo cada vez mais
+          conhecimentos em diversas areas, e sem ajuda de algum profissional, o aprendizado se torna muito difícil.
+          Aqui na Trybe desde o primeiro dia de aula voce ja percebe que é muito mais que apenas o conhecimento técnico
+          (conteúdo de programação) pois temos diversas aulas sobre soft skills(desenvolvimento pessoal), e sem duvidas isso
+          é um grande diferencial no mercado de trabalho.
+          Aprendemos a como aprende a aprender, e com isso nos tornamos apto para aprender com mais facilidade outras
+          linguagens ou tecnologias.
+          E em um mercado tão competitivo, se adaptar rapidamente às mudanças é um grande diferencial para carreira.
+        </p>
+      </article>
+    
+      <aside class="page-aside">
+        <h2>Uma passagem sobre seu aprendizado</h2>
+        <p>Aprender programação nao foi facil pois nao é somente aprender uma linguagem de programação, mas sim conceitos
+          iniciais, como declaracoes de variaveis, tipo, operadores, controladores de repeticao e codicao.
+          A passagem que mais me marcou foi quando fiz meu primeiro site, mesmo sem css (estilo). Estava no youtube e vi um
+          video sobre como criar um site e decidi tentar, quando vi que o codigo que eu criei no navegador foi realmente
+          algo incrivel.
+          Foi ai que resolvi buscar cursos, faculdade e hoje estou na Trybe para aprender do zero ate o infinito.
+        </p>
+      </aside>
+    </div>
+  
+    <table>
+      <thead>
+        <tr>
+          <th>Horarios de estudo Trybe</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>13h - 14h</td>
+          <td>Tira duvidas</td>
+        </tr>
+        <tr>
+          <td>14h - 14:30</td>
+          <td>Esquenta/Soft Skills</td>
+        </tr>
+        <tr>
+          <td>14:30 - 16:30</td>
+          <td>Conteudo</td>
+        </tr>
+        <tr>
+          <td>16:30 - 18:00</td>
+          <td>Aula ao vivo</td>
+        </tr>
+        <tr>
+          <td>18:00 - 18:40</td>
+          <td>Exercicios</td>
+        </tr>
+        <tr>
+          <td>18:40 - 19:30</td>
+          <td>Tira duvidas</td>
+        </tr>
+        <tr>
+          <td>19:40 - 20:00</td>
+          <td>Fechamento</td>
+        </tr>
+      </tbody>
+    </table>
 
-    <h1 id="titulo">Rodolfo Wolff</h1>
-
-    <nav class="menu-nav">
-      <ul>
-        <li><a href="#titulo">Home</a></li> 
-        <li><a href="#licoes_aprendidas">Lições</a></li> 
-        <li><a href="#aprendizado">Aprendizado</a></li> 
-      </ul>
-    </nav>
-
-  </header>
-
-  <main>
-    <section class="photo">
-      <img id="minha_foto" src="https://media-exp1.licdn.com/dms/image/C4E03AQGn2nr_-gOsZw/profile-displayphoto-shrink_200_200/0/1615403955284?e=1622073600&v=beta&t=DH8tWod3IlLt-goJ74E2NYyDT-hpRlE6OEiQKm83hk4" alt="foto Rodolfo Wolff">
+    <section class="follow">
+      <p>My Linkedin</p>
+      <a href="https://www.linkedin.com/in/rodolfowolff/" target="_blank">
+        <img src="https://i.ibb.co/b30HMhR/social-linkedin.png" alt="Linkedin Rodolfo Wolff">
+      </a>
     </section>
-
-    <section class="lessons">
-      <h2>Lições aprendidas</h2>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Internet</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Slack</li>
-        <li>Zoom</li>
-        <li>Semantic HTML</li>
-        <li>Inteligência Emocional</li>
-      </ol>
-    </section>
-
-    <section class="lessons-learn">
-      <h2>Lições que vou aprender</h2>
-      <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>DOM</li>
-        <li>Forms</li>
-        <li>CSS Responsive</li>
-        <li>SQL</li>
-        <li>Node</li>
-        <li>Phyton</li>
-        <li>React</li>
-        <li>Unit tests</li>
-        <li>Softs Skills</li>
-      </ul>
-    </section>
-  </main>
-
-  <article id="aprendizado" class="page-article">
-    <h2>Meu aprendizado na Trybe</h2> 
-    <p>
-      O mercado de trabalho na area de Programação esta crescendo muito e com isso esta exigindo cada vez mais conhecimentos em diversas areas, e sem ajuda de algum profissional, o aprendizado se torna muito difícil. 
-      Aqui na Trybe desde o primeiro dia de aula voce ja percebe que é muito mais que apenas o conhecimento técnico (conteúdo de programação) pois temos diversas aulas sobre soft skills(desenvolvimento pessoal), e sem duvidas isso é um grande diferencial no mercado de trabalho.
-       Aprendemos a como aprende a aprender, e com isso nos tornamos apto para aprender com mais facilidade outras linguagens ou tecnologias.
-        E em um mercado tão competitivo, se adaptar rapidamente às mudanças é um grande diferencial para carreira.
-    </p>
-  </article>
-
-  <aside class="page-aside">
-   <h2>Uma passagem sobre seu aprendizado</h2> 
-     <p>Aprender programação nao foi facil pois nao é somente aprender uma linguagem de programação, mas sim conceitos iniciais, como declaracoes de variaveis, tipo, operadores, controladores de repeticao e codicao.
-       A passagem que mais me marcou foi quando fiz meu primeiro site, mesmo sem css (estilo). Estava no youtube e vi um video sobre como criar um site e decidi tentar, quando vi que o codigo que eu criei no navegador foi realmente algo incrivel.
-       Foi ai que resolvi buscar cursos, faculdade e hoje estou na Trybe para aprender do zero ate o infinito.
-     </p>
-  </aside>
-
-  <section class="follow">
-    <p>My Linkedin</p>
-    <a href="https://www.linkedin.com/in/rodolfowolff/" target="_blank">
-      <img src="https://i.ibb.co/b30HMhR/social-linkedin.png" alt="Linkedin Rodolfo Wolff">
-    </a>
-  </section>
-
+  
+  </div>
+  
   <footer id="rodape">
     &copy; Rodolfo Wolff 2021
   </footer>
-
 </body>
 </html>
