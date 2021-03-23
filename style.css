@@ -7,18 +7,18 @@ body {
 main {
   position: center;
 }
-#foto{
+#foto {
   display: absolute;
   margin-left: 450px;
-  padding: 20px 15px 20px;
+  padding: 20px 15px;
 }
 header {
   position: fixed;
   height: 170px;
   text-align: center;
-  top: 0px;
+  top: 0;
   background-color: darkgoldenrod;
-  color:darkred;
+  color: darkred;
   font-size: 30px;
   z-index: 1;
 }
@@ -29,10 +29,10 @@ header {
   z-index: 2;
 }
 #git {
-    display: inline-block;
-    margin-left: 400px;
-    margin-top: 150px;
-    z-index: 2;
+  display: inline-block;
+  margin-left: 400px;
+  margin-top: 150px;
+  z-index: 2;
 }
 #licoes_aprendidas {
   position: absolute;
@@ -57,20 +57,24 @@ h1 {
   width: 1366px;
 }
 #artigo {
-    position: absolute;
-    display: inline;
-    top: 1400px;
-    margin-left: 200px;
-    font-size: 25px;
-    width: 500px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  display: inline;
+  top: 1400px;
+  margin-left: 200px;
+  font-size: 25px;
+  width: 500px;
+  line-height: 40px
+  
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-#resumo{
-    position: absolute;
-    display: inline;
-    top: 1500px;
-    margin-left: 800px;
-    font-size: 25px;
-    width: 500px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#resumo {
+  position: absolute;
+  display: inline;
+  top: 1500px;
+  margin-left: 800px;
+  font-size: 25px;
+  width: 500px;
+  line-height: 40px;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  border:double;
 }
