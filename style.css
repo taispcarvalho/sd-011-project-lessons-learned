@@ -1,19 +1,31 @@
-body{
+*{
+  box-sizing: border-box;
+}
+body {
   background-color: rgb(253, 251, 251);
 }
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0px;
 }
-#minha_foto{
+#titulo {
+  overflow: hidden;
+  background-color: black;
+}
+.white-lettler {
+  color: white;
+}
+header ul {
+  display: inline-block;
+}
+#minha_foto {
   width: 50px;
   display: inline-block;
   margin-left: 1580px;
-  margin-top: -300px;
 }
-footer{
+footer {
   text-align: end;
 }
-main h3{
-  margin-top: 50px;
+main h3 {
+  margin-top: 60px;
 }
