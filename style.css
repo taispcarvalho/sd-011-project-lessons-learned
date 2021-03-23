@@ -5,7 +5,8 @@ body {
 
 #cabecalho {
     background-color: chartreuse;
-    top: 0px;
+   top: 0px;
+   position: fixed;
 }
 
 
