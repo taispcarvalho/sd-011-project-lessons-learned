@@ -8,64 +8,102 @@
     <title>Lessons Learned - Rodrigo Ruan</title>
   </head>
   <body>
-    <header id="cabecalho">			
-      <h1 id="titulo">Projeto 1 - Lessons Learned</h1>
-			<nav>
-				<ul>
-					<li>Meu aprendizado</li>
-					<li>Lista de habilidades</li>
-				</ul>
-			</nav>
-		</div>
+    <header id="cabecalho">
+      <div class="cabecalho-container">
+        <h1 id="titulo">
+          <span id="projeto1-edit">Projeto 1 -</span>
+          <span id="lessons-edit">- Lessons Learned</span>
+        </h1>
+        <nav>
+          <ul class="nav-bar">
+            <li><a href="#section-learning">Meu aprendizado</a></li>
+            <li><a href="#h2-aprendidas">Lista de habilidades</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
-    <section>
-      <img id="minha_foto" src="myphoto.jpg" alt="Foto de Rodrigo Ruan" />
-      <article>
-        Meu aprendizado tem sido muito intenso aqui na Trybe, estou aprendendo
-        muita coisas e realmente "Aprendendo a aprender", pois a maioria dos
-        exércicios se não soubermos algo temos que ir atrás e fazer as nossas
-        buscar para complementar algo que não sabemos, só tenho a agradecer por
-        esta oportunidade maravilhosa que a Trybe está nos proporcionando, pois tenho certeza que todos nós que estamos nos esforçando vamos aprender muitas coisas novas!!!
-      </article>
-			<aside>
-				Meu aprendizado tem sido contínuo desde que conheci a programação, comecei com um simples hello word em python e hoje já sei muitas coisas novas e pretendo me aprofundar muito mais, o nosso aprendizado é uma coisa continua e nunca devemos parar de estudar e aprender coisas novas.
-			</aside>
+    <section class="intro">
+      <div class="intro-container">
+        <h1>
+          Olá, Eu sou <span id="r-edit">R</span>odrigo
+          <span id="margin-lessons">Estudante da Trybe</span>
+        </h1>
+        <p>E este é o projeto <span id="learned-edit">Lessons Learned</span></p>
+        <button id="intro-button"><a href="#section-learning">Sobre mim</a></button>
+      </div>
     </section>
 
-    <section>
-      <div>
-        <ol id="licoes_aprendidas">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Git</li>
-          <li>Github</li>
-          <li>Shell Script</li>
-          <li>Unix</li>
-          <li>Bash</li>
-          <li>Internet</li>
-          <li>Comunicação</li>
-          <li>Soft Skills</li>
-        </ol>
+    <section id="section-learning" class="about">
+      <h2 id="title-learning">Meu aprendizado na Trybe</h2>
+      <div class="about-container">
+        <div>
+          <article class="my-learning">
+            Meu aprendizado tem sido muito intenso aqui na Trybe, estou
+            aprendendo muita coisas e realmente "Aprendendo a aprender", pois a
+            maioria dos exércicios se não soubermos algo temos que ir atrás e
+            fazer as nossas buscar para complementar algo que não sabemos, só
+            tenho a agradecer por esta oportunidade maravilhosa que a Trybe está
+            nos proporcionando, pois tenho certeza que todos nós que estamos nos
+            esforçando vamos aprender muitas coisas novas!!!
+          </article>
+          <h2 id="passagem-aprendizado">Passagem</h2>
+          <aside class="my-learning2">
+            Meu aprendizado tem sido contínuo desde que conheci a programação,
+            comecei com um simples hello word em python e hoje já sei muitas
+            coisas novas e pretendo me aprofundar muito mais, o nosso
+            aprendizado é uma coisa continua e nunca devemos parar de estudar e
+            aprender coisas novas.
+          </aside>
+        </div>
+        <img id="minha_foto" src="myphoto.jpg" alt="Foto de Rodrigo Ruan" />
       </div>
-      <div>
-        <ul id="licoes_a_aprender">
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Metodologias Ágeis</li>
-          <li>Redux</li>
-          <li>Context API</li>
-          <li>SQL</li>
-          <li>MongoDB</li>
-          <li>NodeJS</li>
-          <li>Python</li>
-          <li>POO</li>
-        </ul>
+    </section>
+
+    <section class="list">
+      <div class="list-container">
+          <div>
+            <h2 id="h2-aprendidas">Lições Aprendidas</h2>
+            <ol id="licoes_aprendidas">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Git</li>
+              <li>Github</li>
+              <li>Shell Script</li>
+              <li>Unix</li>
+              <li>Bash</li>
+              <li>Internet</li>
+              <li>Comunicação</li>
+              <li>Soft Skills</li>
+            </ol>
+          </div>
+          <div>
+            <h2 id="h2-aprender">Lições a aprender</h2>
+            <ul id="licoes_a_aprender">
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Metodologias Ágeis</li>
+              <li>Redux</li>
+              <li>Context API</li>
+              <li>SQL</li>
+              <li>MongoDB</li>
+              <li>NodeJS</li>
+              <li>Python</li>
+              <li>POO</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
     <footer id="rodape">
-      <a href= "https://www.linkedin.com/in/rodrigo-ruan/" target="_blank">Meu LinkedIn</a>
+      <div class="footer-container">
+      <a href="https://www.linkedin.com/in/rodrigo-ruan/" target="_blank"
+        >Meu LinkedIn</a
+      >
+      <a href="https://github.com/rodrigoruan" target="_blank">Meu GitHub</a>
+      <p>Projeto feito por Rodrigo Ruan no Curso da <a href="https://www.betrybe.com/?utm_source=trybe.com.br" target="_blank">Trybe</a></p>
+    </div>
     </footer>
   </body>
 </html>

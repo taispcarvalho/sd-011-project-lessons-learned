@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   list-style-type: none;
 }
 
@@ -8,8 +8,237 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+img {
+  width: 300px;
+}
+
+/* MENU NAVEGAÇÃO */
+
 #cabecalho {
   position: fixed;
-  background-color: #1d1d1d;
+  background-color: #181818;
   top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+#projeto1-edit {
+  color: #fd2155;
+}
+
+#lessons-edit {
+  color: #05fdd8;
+  padding-right: 230px;
+}
+
+.cabecalho-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#cabecalho h1 {
+  font-size: 25px;
+  float: left;
+}
+
+.nav-bar li {
+  display: inline-block;
+}
+
+.nav-bar a {
+  display: inline-block;
+  padding: 5px 20px 5px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.nav-bar a:hover {
+  color: #05fdd8;
+  transition: 1s;
+}
+
+/* INTRO */
+
+.intro {
+  padding: 180px 0 200px 0;
+  background-color: #1d1d1d;
+}
+
+.intro-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.intro-container h1 {
+  font-size: 90px;
+  color: #ffffff;
+}
+
+#r-edit {
+  color: #fd2155;
+  font-style: italic;
+}
+
+.intro-container p {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#learned-edit {
+  color: #05fdd8;
+}
+
+#margin-lessons {
+  margin-left: 150px;
+}
+
+#intro-button {
+  background: none;
+  margin: 80px 0 0 342px;
+  border: 2px solid #08fdd8;
+  padding: 15px 0;
+}
+
+#intro-button a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 16px 80px;
+  letter-spacing: 1.5px;
+}
+
+#intro-button a:hover {
+  background-color: #08fdd8;
+  color: black;
+  transition-duration: 1000ms;
+}
+
+/* SEÇÂO DE APRENDIZADOS */
+
+.about {
+  padding: 60px 0;
+  background-color: #1d1d1d;
+}
+
+.about-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.about-container img {
+  border-radius: 20px;
+  width: 400px;
+}
+
+.my-learning {
+  font-size: 28px;
+  color: #ffffff;
+  max-width: 600px;
+  padding-right: 20px;
+}
+
+#title-learning {
+  font-size: 60px;
+  color: #fd2155;
+  padding: 0 0 20px 190px;
+}
+
+#passagem-aprendizado {
+  font-size: 60px;
+  color: #05fdd8;
+  padding: 30px 0 20px 0;
+}
+
+.my-learning2 {
+  font-size: 28px;
+  padding-right: 25px;
+  color: #ffffff;
+}
+
+/* LISTA */
+
+.list {
+  background-color: #1d1d1d;
+  padding: 60px 0;
+}
+
+.list-container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: blue;
+  display: flex;
+  background-color: #282a2d;
+  border-radius: 4px;
+  box-shadow: 0 4px 16px 4px rgb(0 0 0 / 30%);
+  color: #ffffff;
+}
+
+#licoes_aprendidas {
+  padding-left: 120px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+#licoes_a_aprender {
+  padding-left: 10px;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+#h2-aprendidas {
+  padding: 10px 0 20px 40px;
+  color: #05fdd8;
+}
+
+#h2-aprender {
+  padding: 10px 0 20px 10px;
+  color: #fd2155;
+}
+
+/* FOOTER */
+
+#rodape {
+  padding: 30px 0;
+  background-color: #181818;
+}
+
+.footer-container {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-container a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 20px;
+}
+
+.footer-container a:hover {
+  color: #05fdd8;
+  transition: 1000ms;
+}
+
+.footer-container p > a {
+  color: #2fc18c;
+}
+
+.footer-container p > a:hover {
+  color: #036b52;
+  transition: 1s;
+}
+
+.footer-container p {
+  font-size: 20px;
+  padding-left: 40px;
+  color: white;
 }
