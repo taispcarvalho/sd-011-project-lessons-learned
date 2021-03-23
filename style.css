@@ -34,12 +34,6 @@ footer {
   text-align: end;
 }
 
-#aprendizagem {
-  width: 600px;
-  height: 700px;
-  float: left;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -49,11 +43,6 @@ footer {
   width: 200px;
 }
 
-#artigos {
-  width: 600px;
-  float: right;
-  height: 700px;
-}
 
 .nav ul li {
   display: inline-block;
@@ -66,4 +55,20 @@ footer {
 
 table , th , td {
   border: 1px solid black;
+}
+
+.lado-direito {
+  float: left;
+  width: 600px;
+  height: 700px;
+}
+
+.lado-esquerdo {
+  float: right;
+  width: 600px;
+  height: 700px;
+}
+
+.tabela {
+  clear: both;
 }
