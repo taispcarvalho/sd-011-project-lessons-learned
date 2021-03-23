@@ -25,4 +25,46 @@ main {
 
 #minha_foto {
   width: 240px;
+  float: left;
+  margin-right: 48px;
+}
+
+section {
+  margin: 48px 0;
+}
+
+section h1 {
+  text-align: center;
+}
+
+section h1,
+section p,
+section aside {
+  margin-bottom: 36px;
+}
+
+section::after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.row {
+  width: 1080px;
+}
+
+.column__half {
+  width: 480px;
+  display: inline-block;
+}
+
+.column__half:first-of-type {
+  float: left;
+}
+
+.column__half:last-of-type {
+  float: right;
 }
