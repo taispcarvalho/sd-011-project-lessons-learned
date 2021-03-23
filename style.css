@@ -65,12 +65,10 @@ aside {
 }
 
 .lado-esquerdo {
-  display: inline-block;
   float: left;
 }
 
 .lado-direito {
-  display: inline-block;
   float: right;
   margin-top: -12%;
 }
