@@ -9,6 +9,11 @@ top: 0;
 
 }
 
-#minha_foto { }
+#minha_foto { display: inline-block;
+border-radius: 50%;
+width: 300px;
+height: 400px;
+
+}
 
 #rodape { }
