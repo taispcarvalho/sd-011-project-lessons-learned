@@ -3,6 +3,39 @@ body {
 }
 
 #cabecalho {
+  display: block;
+  width: 100%;
+  background-color: rgb(7, 75, 75);  
   position: fixed;
   top: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(37, 36, 36);
+  font-size: x-large;
+}
+
+nav {
+  background-color: aqua;
+  text-align: left;
+}
+img {
+  margin-top: 100px;
+  width: 20%;
+  border-radius: 5px;
+}
+
+article p {
+  display: inline-block;
+  margin-bottom: 35px;
+  border: black 2px dashed;
+  width: 35%;
+}
+
+section aside {
+  display: inline-block;
+  width: 35%;
+  border: black 2px solid;
 }
