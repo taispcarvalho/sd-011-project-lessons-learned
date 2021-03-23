@@ -21,7 +21,12 @@ body {
   padding-left: 15px;
 }
 
-#licoes_aprendidas {
+.lista_ordenada {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
+.lista_nao_ordenada {
   margin-left: 15px;
   padding-left: 15px;
 }
