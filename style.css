@@ -1,8 +1,45 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: 20px;
+  color:#0D1F2D;
+  line-height: 30px;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 400px;
+}
+
+#minha_foto {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid;
+  height: 500px;
+}
+
+.list {
+  line-height: 50px;
+  color: #873D48;
+}
+
+.container {
+  float: right;
+}
+
+.lado-direito {
+  /* padding-left: 5px;
+  margin-left: 5px; */
+  width: calc(50% - 20px); 
+  float: left;
+  box-shadow: inset 5px 0 5px -5px #DEA54B;
+  padding-left: 20px;
+  font-style: italic;
+  color: #DEA54B;
+}
+
+.lado-esquerdo {
+  width: 50%; 
+  float: left;
 }
