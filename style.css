@@ -28,11 +28,15 @@ body {
 }
 
 #minha_foto {
+  display: inline-block;
+  width: 200px;
+  border-radius: 100%;
   margin-top: 100px;
   margin-left: 10px;
 }
 
 #foto-link {
+  text-align: center;
   margin: 10px 0;
 }
 
@@ -68,7 +72,22 @@ article , aside p {
   color: rgb(60, 64, 67);
   font-weight: 600;
   line-height: 29px;
+}
 
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: -5px 5px 9px -1px rgba(0, 0, 0, 0.87);
+}
+
+.lado-esquerdo {
+  width: 1000px;
+}
+
+.lado-direito {
+  width: 500px;
 }
 
 footer {
@@ -77,4 +96,3 @@ footer {
   margin-top: 20px;
   border: 1px solid black;
 }
-
