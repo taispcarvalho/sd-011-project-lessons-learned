@@ -1,5 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: larger;
+  color:#036b52;
+  letter-spacing: 1px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
 }
 
 header {
@@ -28,7 +33,9 @@ table, th {
 
 #minha_foto { 
   display: inline-block;
-  margin: 10% 10%;
+  margin: 10% 0% 0% 0%;
+  float: left;
+  border: 2px solid #036b52;
 }
 
 ul, ol {
@@ -36,6 +43,7 @@ ul, ol {
   text-align: center;
   display: inline-block;
   padding: 2px;
-  margin: 20px;
+  margin: 10% 2% 2% 2%;
   border: 2px solid #036b52;
+  text-decoration: none;
 }
