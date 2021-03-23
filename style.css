@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   position: relative;
@@ -7,7 +11,38 @@ body {
 header {
   position: fixed;
   min-width: 100vw;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background-color: red;
+  padding: 20px;
+  height: 70px;
+  z-index: 60;
+}
+
+header h1 {
+  margin: auto;
+}
+
+#minha_foto {
+  max-width: 15vw;
+  z-index: 0;
+  margin: 15px 35px;
+  display: inline-block;
+  float:left;
+  border-radius: 15px;
+}
+
+#about-me{
+  position: relative;
+  top: 70px;
+  left: 0px;
+  min-width: 100vw;
+  height: 280px;
+}
+
+#about-me section{
+  display: inline-block;
+  max-width: 45vw;
+  margin: 40px 30vw 25px 15px;
+  float:right;
 }
