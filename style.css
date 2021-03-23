@@ -16,3 +16,12 @@ header {
 span {
   font-style: italic;
 }
+
+.titulo nav ul {
+  display: inline-block;
+  background-color: blue;
+}
+
+.titulo nav ul li {
+  list-style: none;
+}
