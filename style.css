@@ -3,6 +3,29 @@
   }
   
   #cabecalho {
+      background-color: purple;
+      width: 100%;
       position: fixed; 
       top: 0px;
+      left:0px;
+      z-index:1;
+      
+  }
+  #pic {
+     left: 0px;
+      
+  }
+  article {
+     top:500px;
+  }
+
+  #minha_foto {
+     left: 0px;  
+     width: 400px;
+     
+  }
+  #licoes_aprendidas {
+      position: absolute;
+      z-index: 3;
+      
   }
