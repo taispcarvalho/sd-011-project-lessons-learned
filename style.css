@@ -5,7 +5,7 @@ body {
 #cabecalho {
   display: block;
   width: 100%;
-  background-color: rgb(7, 75, 75);  
+  background-color: rgb(7, 75, 75);
   position: fixed;
   top: 0;
   text-align: center;
@@ -20,7 +20,22 @@ h1 {
 nav {
   background-color: aqua;
   text-align: left;
+  padding: 4px;
 }
+
+nav a {
+  color: rgb(37, 36, 36);
+  text-decoration: none;
+  margin: 2px;
+  padding: 2px;
+  border: 2px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  background-color: rgba(187, 182, 182, 0.678);
+}
+
 img {
   margin-top: 100px;
   width: 20%;
@@ -34,8 +49,16 @@ article p {
   width: 35%;
 }
 
-section aside {
+aside {
   display: inline-block;
   width: 35%;
   border: black 2px solid;
+  margin-left: auto;
+}
+
+
+#rodape {
+  background-color: rgb(7, 75, 75);
+  color: rgb(37, 36, 36);
+  text-align: center;
 }
