@@ -12,6 +12,6 @@ header {
   width: 300px;
 }
 
-section.licoes ol , ul {
+.licoes ol , ul {
   display: inline-block;
 }
