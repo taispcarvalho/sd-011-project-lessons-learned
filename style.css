@@ -11,10 +11,14 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-ul li {
+nav ul li {
   display: inline-block;
   font-size: 24px;
   margin: 0 8px;
+}
+
+.trybe-icon {
+  width: 80px;
 }
 
 #cabecalho {
@@ -29,6 +33,6 @@ ul li {
   padding: 0 24px;
 }
 
-.trybe-icon {
-  width: 80px;
+#minha_foto {
+  width: 400px;
 }
