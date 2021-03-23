@@ -43,7 +43,7 @@ body {
 
 section section {
   display: inline-block;
-  width: 45%;
+  width: 30%;
   margin-left: 2%;
 }
 
@@ -75,3 +75,20 @@ nav ul li {
 h1 , h2 , h3 {
   padding: 10px 0;
 }
+
+table , th {
+  border: 1px solid black;
+}
+
+td:first-child {
+  background-color: grey;
+}
+
+td:nth-child( 2 ) {
+  background-color: green;
+}
+
+td:nth-child( 3 ) {
+  background-color: greenyellow;
+}
+
