@@ -8,5 +8,5 @@ body {
 }
 
 #minha_foto {
-  src: minha_foto.jpg;
+  src="minha_foto.jpg";
 }
