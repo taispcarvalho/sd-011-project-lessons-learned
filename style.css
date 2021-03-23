@@ -5,7 +5,7 @@
 }
 
 h3 , p , ol , ul {
-	margin: 0 0 10px;
+  margin: 0 0 10px;
 }
 
 body {
@@ -15,27 +15,27 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-	display: block;
+  display: block;
 	background-color: lightgray;
 	padding: 0 499.5px;
 }
 
 #minha_foto {
   display: block;
-	padding: 20px 0 0;
+  padding: 20px 0 0;
 }
 
 #main-body {
-	display: block;
-	margin: 65px 0 0;
+  display: block;
+  margin: 65px 0 0;
 }
 
 .navegation {
-	display: inline;
-	padding: 0 30px;
-	text-align: center;
+  display: inline;
+  padding: 0 30px;
+  text-align: center;
 }
 
 #titulo {
-	text-align: center;
+  text-align: center;
 }
