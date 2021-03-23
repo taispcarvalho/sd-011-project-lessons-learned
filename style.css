@@ -9,9 +9,9 @@ background-color: gray;
    position: fixed;
 }
 
-.minha_foto{
+#minha_foto{
     top: 0%;
-    width: 50spx;
+    margin-top: 10px;
 
     
 }
