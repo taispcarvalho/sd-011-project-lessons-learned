@@ -39,7 +39,7 @@ body {
 .aside {
   display: inline-block;
   width: 30%;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier, monospace;
 }
 
 #table , .th {
@@ -53,11 +53,11 @@ body {
   margin-left: 15%;
 }
 
-.th:nth-of-type(2n+1) {
+.th:nth-of-type( 2n+1 ) {
   font-weight: 600;
 }
 
-.th:nth-of-type(2n) {
+.th:nth-of-type( 2n ) {
   font-weight: 800;
   font-style: italic;
 }
