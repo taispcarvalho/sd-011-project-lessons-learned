@@ -38,6 +38,11 @@ img {
   margin: 0 auto;
 }
 
+.intro-container h1 {
+  font-size: 90px;
+  color: white;
+}
+
 #cabecalho h1 {
   font-size: 25px;
   float: left;
@@ -69,11 +74,6 @@ img {
 .intro-container {
   max-width: 960px;
   margin: 0 auto;
-}
-
-.intro-container h1 {
-  font-size: 90px;
-  color: white;
 }
 
 #r-edit {
