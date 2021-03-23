@@ -1,8 +1,27 @@
-body{
-    background-color: rgb(253, 251, 251);
+* {
+  margin:0px;
 }
 
-header{
-  margin-top: 0;
-  position: fixed;
+body {
+  background-color: rgb(253, 251, 251);
 }
+
+header {
+  margin-top: 0px;
+  position: fixed;
+  background-color: seagreen;
+  width: 100%;
+  height: 60px;
+}
+
+#titulo {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/*
+div #minha_foto {
+  margin-top: 70px;
+  border-radius: 100px;
+}
+*/
