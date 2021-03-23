@@ -5,8 +5,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  display: inline;
-  margin: 10  0;
+	background-color: red ;
 }
 
 #minha_foto {
@@ -16,4 +15,12 @@ body {
 
 #main-body {
   margin: 30px 5px;
+}
+
+#licoes_all {
+
+}
+.navegation {
+	display: inline;
+	padding: 0px 40px;
 }
