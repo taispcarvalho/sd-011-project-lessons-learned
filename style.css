@@ -15,6 +15,7 @@ body {
 
 #titulo {
   margin: 0.5%;
+  text-align: center;
 }
 
 #minha_foto {
@@ -22,9 +23,21 @@ body {
   padding: 0 30px 0 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 #licoes_aprendidas , #licoes_a_aprender {
+  position: relative;
   width: 18%;
   display: inline-block;
+  left: 22%;
+}
+
+#table-section {
+  position: relative;
+  margin: auto;
+  left: 22%;
 }
 
 .nav-list {
@@ -35,6 +48,7 @@ body {
   display: inline-block;
   width: 50%;
   margin-top: 140px;
+  align-items: center;
 }
 
 #article-text {
@@ -48,7 +62,7 @@ body {
   font-size: larger;
 }
 
-#table , .th {
+#table , #mod1 , #th1 , #mod2 , #th2 , #mod3 , #th3, #mod4 , #th4 {
   border: 1px solid black;
   border-radius: 2px;
 }
@@ -70,4 +84,14 @@ body {
 
 .aside-title {
   color: saddlebrown;
+}
+
+#rodape {
+  position: static;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: cornflowerblue;
+  height: auto;
+  text-align: center;
 }
