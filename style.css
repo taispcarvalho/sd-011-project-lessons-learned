@@ -14,3 +14,7 @@ body {
   background-color: rgb(243, 237, 237);
   width: 100%;
 }
+
+.lessons ol li {
+  margin-left: 30px;
+}
