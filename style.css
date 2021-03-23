@@ -3,15 +3,16 @@ body {
    
 } 
 
-#cabecalho {
-    background-color: chartreuse;
+.header {
+background-color: gray;
    top: 0px;
    position: fixed;
 }
 
-#minha_foto{
+.minha_foto{
     top: 0%;
-    
+    width: 50px;
+
     
 }
 
@@ -31,4 +32,7 @@ body {
 
 #footer {
     background-color: chartreuse;
+}
+
+
 }
