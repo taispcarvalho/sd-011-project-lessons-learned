@@ -1,6 +1,6 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #006dfb;
+  background-color: rgb(0, 109, 251);
   padding: 2%;
   width: 100%;
   color: rgb(253, 251, 251);
@@ -38,13 +38,13 @@ body {
   margin-bottom: 5%;
 }
 
-#nav ul li a{
+#nav ul li a {
   text-decoration: underline;
   color: black;
 }
 
-#nav ul li a:hover{
-  color: #006dfb;
+#nav ul li a:hover {
+  color: rgb(0, 109, 251);
 }
 
 #minha_foto {
@@ -54,9 +54,28 @@ body {
 
 .about-me h2 {
   font-size: 2.5rem;
-  color: #218661;
+  color: rgb(33, 134, 97);
 }
 
 .about-me {
   font-size: 2.4rem;
+}
+
+#rodape {
+  background-color: rgb(38, 39, 43);
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 3%;
+  text-align: right;
+  align-items: center;
+  padding: 2%;
+}
+
+#rodape a {
+  color: rgb(253, 251, 251);
+  text-decoration: none;
+}
+
+#rodape a:hover {
+  color: rgb(33, 134, 97);
 }
