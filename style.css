@@ -10,9 +10,18 @@ body {
   width: 100%;
 }
 
+#licoes_text {
+  position: relative;
+  top: 45px;
+  left: 318px;
+  font-size: larger;
+}
+
 #link {
+  position: relative;
   display: block;
   margin-left: 10px;
+  bottom: 20px;
 }
 
 #titulo {
@@ -26,26 +35,28 @@ body {
   padding-top: 25px;
   width: 280px;
   height: 280px;
-  top: 8px;
+  bottom: 18px;
 }
 
 #licoes_aprendidas {
   display: inline-block;
   position: relative;
   padding-left: 50px;
-  bottom: 55px;
+  bottom: 60px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
   position: relative;
   padding-left: 50px;
-  bottom: 43px;
+  bottom: 60px;
 }
 
 #artigo {
+  position: relative;
   margin: 10px 10px 20px;
   font-size: large;
+  bottom: 8px;
 }
 
 #rodape {
