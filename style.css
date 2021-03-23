@@ -43,7 +43,7 @@ section aside {
   margin-bottom: 36px;
 }
 
-section::after {
+.row::after {
   content: ".";
   display: block;
   clear: both;
@@ -67,4 +67,8 @@ section::after {
 
 .column__half:last-of-type {
   float: right;
+}
+
+#rodape {
+  text-align: center;
 }
