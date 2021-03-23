@@ -4,10 +4,6 @@ body {
   font-size: 20px;
 }
 
-header {
-  padding: 100px;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -44,4 +40,8 @@ table , th , td {
 #minha_foto {
   width: 200px;
   border-radius: 5px;
+}
+
+nav {
+  margin-top: 200px;
 }
