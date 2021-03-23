@@ -10,13 +10,30 @@ header {
   width: 100%;
 }
 
+nav {
+	border-bottom: 1px gray solid;
+	width: 100%;
+	text-align: center;
+	margin-left: -22px;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline;
+}
+
+nav ul li a {
+	padding: 20px;
+	text-decoration: none;
+}
+
 h1 {
   text-align: center;
 }
 
 main {
   position: absolute;
-  top: 80px;
+  top: 130px;
 }
 
 img {
