@@ -1,3 +1,10 @@
+* {
+	font-size: 14px;
+	color:black;
+	line-height:normal;
+	font-family: 'Courier New', Courier, monospace;
+}
+
 body {
 	background-color:rgb(253, 251, 251);
 }
