@@ -9,4 +9,8 @@ body {
 
 #cabecalho {
   top: 0px;
+  position: fixed;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
 }
