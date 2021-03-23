@@ -5,10 +5,11 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
-  background-color: rgb(91, 179, 64);
-  
+  background-color: rgb(114, 212, 84);
+  width: 100%;
+  left: 0px;
 }
 
 #titulo {
-  position: center;
+  text-align: center;
 }
