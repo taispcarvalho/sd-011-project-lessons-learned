@@ -18,12 +18,18 @@ nav {
   padding: 10px;
   width: 100%;
   position: fixed;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 }
 
-table { margin: 350px 40% 50px; }
-table,tr,th,td { border: solid black 1px; }
+table {
+  margin: 350px 40% 50px;
+  border: solid black 1px;
+}
+
+table * {
+  border: solid black 1px;
+}
 
 .lado-esquerdo {
   margin: 25px;
