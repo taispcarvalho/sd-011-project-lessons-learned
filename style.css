@@ -15,11 +15,11 @@ body {
     width: 500px;
 }
 
-#artigo{
+#lado-direito{
     display: inline-block;
     width: 500px;
 }
 
-#secao{
+#lado-esquerdo{
     display: inline-block;
 }
