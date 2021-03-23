@@ -1,5 +1,5 @@
 body {
-background-color: rgb(253, 251, 251);
+	background-color: rgb(253, 251, 251);
 }
 #cabecalho {
 	position: fixed;
@@ -53,4 +53,13 @@ h5{
 #right {
 	position: absolute;
 	right: 10px;
+}
+
+#text {
+	background-color: yellow;
+	position: absolute;
+	bottom: 27%;
+	width: 40%;
+	display: inline-block;
+	text-align: center;
 }
