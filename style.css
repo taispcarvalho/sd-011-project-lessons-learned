@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+#cabecalho{
+    color: white;
+    background-color: rgb(200, 233, 230);
+    top: 0px;
+    height: 120px;
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    -webkit-text-stroke: 1px black;
+}
+
+body{
+    background-color: rgb(253, 251, 251);
+    font-family: 'Lexend', sans-serif;
+}
+
+#minha_foto{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    top: 250px;
+    left: 850px;
+    background-image: url("eu.jpeg");
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 1px 15px black;
+}
+
+#licoes_aprendidas{
+    display: inline-block;
+    width: 230px;
+    position: absolute;
+    left: 0px;
+    margin-left: 1%;
+    top: 300px;
+    padding: 70px;
+    font-size: 30px;
+    background: rgb(180, 243, 201);
+    color: black;
+}
+
+#section_title1{
+    position: absolute;
+    left: 50px;
+    margin-left: 1%;
+    top: 250px;
+    -webkit-text-stroke: 1px rgb(196, 241, 192);
+}
+
+#section_title2{
+    position: absolute;
+    left: 450px;
+    margin-left: 1%;
+    top: 250px;
+    -webkit-text-stroke: 1px rgb(196, 241, 192);
+}
+
+#licoes_a_aprender{
+    display: inline-block;
+    width: 230px;
+    padding: 70px;
+    font-size: 30px;
+    position: absolute;
+    background-color: rgb(180, 205, 243);;
+    left: 450px;
+    top: 300px;
+}
+
+#rodape{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#article_main{
+
+display: inline-block;
+position: absolute;
+background-color: rgb(250, 192, 235);
+left: 1100px;
+font-size: 20px;
+top: 300px;
+width: 700px;
+padding: 30px;
+line-height:30px;
+}
+
+#article_submain{
+    display: inline-block;
+    background-color: rgb(245, 232, 180);
+    width: 700px;
+    position: absolute;
+    left: 1100px;
+    padding: 30px;
+    font-size: 20px;
+    top: 580px;
+    line-height:30px;
+}
+
+#htmlphoto{
+    width: 200px;
+    position: absolute;
+    left: 850px;
+    top: 460px;
+    border-radius: 100%;
+}
+
+#htmlphoto2{
+    width: 200px;
+    position: absolute;
+    left: 850px;
+    top: 670px;
+    border-radius: 100%;
+}
+
+#footerphoto{
+    width: 25px;
+    position: absolute;
+    bottom:10%;
+    left:870px;
+
+}
+#footerphoto2{
+    width: 30px;
+    position: absolute;
+    bottom:7%;
+    left:994px;
+
+}
+#footertext{
+    position: absolute;
+    left: 905px;
+    bottom:7%;
+}
