@@ -7,6 +7,10 @@ body {
   line-height: 1em;
 }
 
+main a {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 40px;
 }
@@ -49,10 +53,6 @@ h2 {
   padding-left: 70px;
 }
 
-#index-nav a:hover {
-  background-color: rgb(28, 28, 28);
-}
-
 #index-nav a {
   color: rgb(24, 250, 24);
   border-radius: 5px;
@@ -60,6 +60,10 @@ h2 {
   padding: 7px 30px;
   font-weight: bold;
   border-style: solid;
+}
+
+#index-nav a:hover {
+  background-color: rgb(28, 28, 28);
 }
 
 main {
@@ -89,10 +93,6 @@ aside {
 
 #page-content {
   display: flex;
-}
-
-main a {
-  text-decoration: none;
 }
 
 span {
