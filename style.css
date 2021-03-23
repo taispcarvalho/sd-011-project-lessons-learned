@@ -39,3 +39,7 @@ table , th , td {
   text-align: justify;
   margin: 20px;
 }
+
+.align {
+  text-align: center;
+}
