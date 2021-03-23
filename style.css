@@ -34,3 +34,10 @@ header {
 .lists {
   padding: 10px 30px;
 }
+
+footer {
+  text-align: center;
+  background-color: orchid;
+  padding: 15px 0;
+  color: white;
+}
