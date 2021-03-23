@@ -4,5 +4,11 @@ body {
 
 #cabecalho {
   position: fixed;
-  margin-top: 0px;
+  top: 0;
+}
+
+img {
+  width: 200px;
+  border-radius: 100%;
+  margin: 100px 0 30px 20px;
 }
