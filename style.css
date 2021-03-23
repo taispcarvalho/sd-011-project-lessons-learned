@@ -90,13 +90,6 @@ a:hover {
   line-height: 25px;
 }
 
-#aside-path {
-  text-align: justify;
-  width: 400px;
-  display: inline-block;
-  margin: 10px;
-}
-
 .main-container {
   text-align: center;
   margin: auto;
@@ -133,16 +126,23 @@ a:hover {
 
 .lado-direito {
   text-align: left;
+  float: right;
 }
 
 .lado-esquerdo {
-  margin-bottom: 30px;
+  float: left;
+  padding-top: 55px;
 }
 
 .ul-align {
   text-align: left;
+  float: right;
 }
 
 .learn-content {
   display: inline-block;
+}
+
+.float-aside {
+  float: left;
 }
