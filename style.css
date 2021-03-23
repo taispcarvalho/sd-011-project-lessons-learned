@@ -5,3 +5,16 @@ background-color: rgb(253, 251, 251);
 	position: fixed;
 	top: 0px;
 }
+
+#minha_foto {
+	display: inline-block;
+	width: 500px;
+}
+#licoes_aprendidas {
+	right: 500px;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	max-width: 100px;
+	background-color: blue;
+}
