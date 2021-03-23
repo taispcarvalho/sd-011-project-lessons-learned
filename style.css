@@ -2,7 +2,14 @@
   background-color: rgb(253, 251, 251);
 }
 
+body {
+  font-size: 18px;
+  color: rgb(10, 10, 15);
+  line-height: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
 header {
   position: fixed;
   top: 0;
 }
+
