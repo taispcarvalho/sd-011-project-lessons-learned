@@ -1,12 +1,46 @@
 body {
   background-color: rgb(253, 251, 251);
+  width: 700px;
+  margin: auto;
 }
 
 #cabecalho {
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  text-align: center;
+  background-color: green;
+  background-size: cover;
+}
+
+#navigation_bar {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.navigation_bar_links {
+  display: inline-block;
+  margin: 0 30px ;
 }
 
 #minha_foto {
   width: 200px;
-  alt: "Foto de Ana Clara";
+  margin: auto;
+}
+
+.box {
+  display: inline-block;
+  border-style: solid;
+  border-color: #262626;
+  border-radius: 10px;
+  width: 301px;
+  padding: 10px 15px;
+  margin: 10px 10px 10px 0px;
+}
+
+#rodape {
+  text-align: center;
+  color: #a6a6a6
 }
