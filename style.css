@@ -27,5 +27,15 @@ table, th {
 }
 
 #minha_foto { 
+  display: inline-block;
   margin: 10% 10%;
+}
+
+ul, ol {
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+  padding: 2px;
+  margin: 20px;
+  border: 2px solid #036b52;
 }
