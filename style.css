@@ -44,13 +44,13 @@ header h2 {
 
 .lado_direito {
   width: 400px;
-  float: right;
+  
   z-index: 1;
   margin-top: 60px;
 }
 
-.lado_esquerdo{
-  float:left
+.lado_esquerdo {
+  position: relative;
 }
 
 #rodape {
