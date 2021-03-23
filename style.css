@@ -33,10 +33,9 @@ body {
 #rodape {
   background-color: black;
   color: white;
-  margin-top: 10%;
+  margin-top: 15%;
   padding: 10px;
-  position:absolute;
+  position: absolute;
   width: 100%;
   left: 0;
-  
 }
