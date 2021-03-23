@@ -1,16 +1,38 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 /* --- GENERAL --- */
 
+.flex_parent {
+  display: flex;
+}
+
+.flex_child_1 {
+  flex: 1;
+}
+
 header {
   position: fixed;
   top: 0;
+}
+
+/* --- HEADER --- */
+
+#cabecalho {
+  float: left;
+  height: 100vh;
+  width: 50vw;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  background-color: #EEC7C2;
+  padding-right: 60px;
 }
