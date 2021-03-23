@@ -54,3 +54,11 @@ body {
 .lado-direito {
   margin-left: 12%;
 }
+
+table {
+  width: 75%;
+}
+
+table tr th {
+  border: 1px solid black;
+}
