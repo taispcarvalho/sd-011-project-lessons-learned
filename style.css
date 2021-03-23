@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 20px;
-  color:#036b52;
+  color: green;
   letter-spacing: 2px;
   font-family: monospace;
 }
@@ -9,30 +9,20 @@ body {
 header {
   position: fixed;
   top: 0;
-  background-color: #036b52;
+  background-color: green;
   color: white;
   display: block;
   width: 100%;
   text-align: center;
-  text-decoration: none;
 }
 
-header ul {
-  list-style: none;
-}
-
-header a {
-  color: white;
-  text-decoration: none;
-}
-
-table, th {
+table , th {
   border: 2px solid black;
 }
 
 a {
   text-decoration: none;
-  color: #036b52;
+  color: green;
 }
 
 #minha_foto {
@@ -40,28 +30,28 @@ a {
   margin-left: 10%;
   margin-top: 11.5%;
   margin-right: 10%;
-  border: 2px solid #036b52;
+  border: 2px solid green;
 }
 
-ul, ol {
+ul , ol {
   list-style: none;
   text-align: center;
   display: inline-block;
   padding: 2px;
   margin: 9% 5% 2% 0%;
-  border: 2px solid #036b52;
+  border: 2px solid green;
 }
 
 .lado-esquerdo {
   margin-left: 10%;
   margin-right: 0%;
   display: inline-block;
-  border: 2px solid #036b52;
+  border: 2px solid green;
   width: 30%;
 }
 
 .lado-direito {
   display: inline-block;
-  border: 2px solid #036b52;
+  border: 2px solid green;
   width: 30%;
 }
