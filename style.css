@@ -23,7 +23,26 @@ body {
   color:green;
   font-weight: bold;
 }
+
 #licoes_a_aprender {
   color: black;
   font-weight:lighter;  
+}
+
+#principal {
+  display: inline-block;
+  border: 2px gray solid;
+  padding-left: 20px;
+  width: 40%;
+  padding-bottom: 100px;
+  margin: 10px;
+}
+
+#secundario {
+  display: inline-block;
+  border: 2px gray solid;
+  padding-left: 20px;
+  width: 40%;
+  padding-bottom: 100px;
+  margin: 10px;
 }
