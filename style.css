@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Lexend", sans-serif;
+  font-family: 'Lexend', sans-serif;
 }
 
 #cabecalho {
@@ -26,12 +26,14 @@ td {
 
 img {
   margin: 10px;
+  padding: 2px;
+  border: 1px solid gray;
 }
 
 .lado-esquerdo {
   float: left;
 }
 
-.lado-direito{
+.lado-direito {
   float: right;
 }
