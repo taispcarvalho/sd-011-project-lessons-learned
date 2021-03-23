@@ -4,9 +4,9 @@ body {
   border: 2px solid green;
   padding: 10px;
   font-size: 15px;
-  color:darkslategray;
+  color: darkslategray;
   line-height: 15px;
-  font-family:'Courier New', Courier, monospace
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #cabecalho {
