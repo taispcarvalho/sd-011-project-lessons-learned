@@ -10,7 +10,7 @@ body {
 
 #saiba-mais {
 	position: relative;
-	top: 90px;
+	top: 120px;
 	left: 500px;
 }
 
@@ -58,7 +58,7 @@ h5{
 #text {
 	background-color: yellow;
 	position: absolute;
-	bottom: 27%;
+	top: 400px;
 	width: 40%;
 	display: inline-block;
 	text-align: center;
@@ -68,6 +68,14 @@ h5{
 	position: absolute;
 	background-color: violet;
 	display: inline-block;
-	top: 53%;
+	top: 400px;
 	left: 45%;
+}
+
+nav {
+	background-color: tomato;
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	font-size: 25px;
 }
