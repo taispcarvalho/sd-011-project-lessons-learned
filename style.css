@@ -48,3 +48,9 @@ section div {
   padding-left: 1%;
   border-left: 1px solid black;
 }
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0 100px;
+}
