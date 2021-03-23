@@ -14,8 +14,6 @@ header {
   top: 0;
 }
 
-
-
 .lado-esquerdo {
   text-align: justify;
   margin-top: 10px;
@@ -41,5 +39,5 @@ nav li {
 
 footer {
   background-color:black;
-  color: aliceblue;
+  color:aliceblue;
 }
