@@ -1,8 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
+  max-width: 1000px;
 }
 
 header {
   position: fixed;
   top: 0;
+  background-color: green;
+  right: 0;
+  left: 0;
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+#minha_foto {
+  width: 300px;
+  border-radius: 30%;
+  margin-top: 300px;
 }
