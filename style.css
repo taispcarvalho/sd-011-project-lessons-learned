@@ -27,7 +27,6 @@ h1, h2, h3 {
 }
 
 #about-me {
-    background-color: red;
     margin-top: 140px;
     padding-left: 4%;
     padding-right: 4%;
@@ -41,6 +40,7 @@ h1, h2, h3 {
 
 #rodape {
     font-size: small;
+    text-align: center;
 }
 
 #cabecalho a {
@@ -65,11 +65,11 @@ article {
     margin-left: 10px;
 }
 
-.nav-links{
+.nav-links {
     text-align: center;
     margin-bottom: 15px;
 }
-.nav-links a{
+.nav-links a {
     padding: 10px 10px;
     border-radius: 20px;
     text-decoration: none;
@@ -77,8 +77,25 @@ article {
     border: 1px solid black;
 }
 
-#about-me p {
-    background-color: green;
+#licoes_aprendidas {
     display: inline-block;
-    width: 46%;
+    text-align: center;
+    margin-left: 24%;
+    margin-right: 5%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    border: 2px dashed black;
+}
+
+#licoes_a_aprender {
+    display: inline-block;
+    text-align: center;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    border: 2px dashed black;
+}
+
+#lessons {
+    margin-top: 30px;
+    margin-bottom: 50px;
 }
