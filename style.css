@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+  line-height: 25px;
 }
 
 #cabecalho {
@@ -9,6 +10,9 @@ body {
   top: 0px;
   width: 100%;
   background-color: yellowgreen;
+  border-bottom-style: ridge;
+  background-color: antiquewhite;
+  font-size: 30px;
 }
 
 #titulo {  
@@ -21,10 +25,18 @@ body {
   margin-top: 150px;
 }
 
-#test {
+#licoes {
   display: inline-block;
   width: 100%;
   background-color: antiquewhite;
+  border-bottom-style: ridge;
+  background-color: antiquewhite;
+}
+
+#licoes li:hover {
+  color: aqua;
+  font-weight: bold;
+  background-color: blueviolet;
 }
 
 #licoes_aprendidas {
@@ -43,4 +55,3 @@ body {
   text-align: left;
   width: 0 auto;
 }
-
