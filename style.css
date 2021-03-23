@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(253, 251, 251);
+}
+#cabecalho{
+position: fixed;
+top: 0px;
+background-color: bisque;
+}
+#titulo{
+    font-weight: bolder;
+}
+#minha_foto{
+    margin-top: 8%;
+height:30%;
+width:25% ;
+}
