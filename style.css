@@ -4,3 +4,8 @@ body {background-color: rgb(253, 251, 251);
 h1 {
   top: 0%;
 }
+
+#minha_foto {
+  width: 150px;
+  border-radius: 20%;
+}
