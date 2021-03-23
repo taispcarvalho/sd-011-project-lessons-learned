@@ -19,14 +19,23 @@ body {
   display: inline-block;
 }
 
-#nav_bar > ul {
+#nav_bar > ul,
+#contact_info > ul {
   list-style: none;
+  padding-left: 0;
 }
 
-#nav_bar > ul > li {
+#nav_bar > ul > li,
+#contact_info > ul > li {
   display: inline-block;
 }
 
 #minha_foto {
   width: 200px;
+}
+
+.semantic_heading {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }
