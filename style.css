@@ -1,9 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
-	color: dimgray;
-	font-size: 105%;
-	line-height: 1.1;
-	font-family: monospace;
+  color: dimgray;
+  font-size: 105%;
+  line-height: 1.1;
+  font-family: monospace, sans-serif;
 }
 
 header {
@@ -15,20 +15,20 @@ header {
 }
 
 nav {
-	border-bottom: 1px gray solid;
-	width: 100%;
-	text-align: center;
-	margin-left: -22px;
+  border-bottom: 1px gray solid;
+  width: 100%;
+  text-align: center;
+  margin-left: -22px;
 }
 
 nav ul li {
-	list-style-type: none;
-	display: inline;
+  list-style-type: none;
+  display: inline;
 }
 
 nav ul li a {
-	padding: 20px;
-	text-decoration: none;
+  padding: 20px;
+  text-decoration: none;
 }
 
 h1 {
@@ -47,18 +47,19 @@ img {
 table {
   width: 100%;
   border-collapse: collapse;
-  border: 0px solid black;
+  border: 0 solid black;
 }
 
-.footer, footer {
-	text-align: center;
-	border-top: 1px gray solid;
-	display: inline-block;
-	width: 100%;
-	margin-top: 1em;
-	margin-bottom: 2em;
-	padding-top: 1em;    
+.footer , footer {
+  text-align: center;
+  border-top: 1px gray solid;
+  display: inline-block;
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-top: 1em;
 }
+
 #amor {
-	color: red;
+  color: red;
 }
