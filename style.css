@@ -1,5 +1,15 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.8em;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 20px;
 }
 
 #cabecalho {
@@ -15,10 +25,14 @@ body {
   margin-top: 200px;
 }
 
+#index-nav {
+  flex-wrap: wrap;
+}
+
 #rodape {
   text-align: end;
   margin-right: 30px;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 #index-nav li {
@@ -39,6 +53,7 @@ a:hover {
   border-radius: 5px;
   text-decoration: none;
   padding: 7px 30px;
+  font-weight: bold;
 }
 
 main {
