@@ -1,5 +1,6 @@
  body{
-  background-color: rgb(253, 251, 251)
+  background-color: rgb(253, 251, 251);
+  font-family:"syne Mono", sans-serif;
   }
  #cabecalho{
   position: fixed;
@@ -11,4 +12,7 @@
   }
  #titulo{
    color: rgb(206, 228, 226);
+ }
+ .links{
+   margin-right: 10px;
  }
