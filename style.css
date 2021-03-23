@@ -14,6 +14,7 @@ nav {
 h1 {
   color: white;
   padding-left: 10px;
+  letter-spacing: 2px;
 }
 
 img {
@@ -22,4 +23,15 @@ img {
 
 table {
   border: 1px solid;
+}
+
+ul, ol, table {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(100, 96, 96);
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+
 }
