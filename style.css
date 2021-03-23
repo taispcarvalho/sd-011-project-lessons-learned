@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   top: 0;
   text-align: center;
   width: 100%;
+  font-weight: bold;
 }
 
 #navList li {
@@ -22,6 +24,7 @@ body {
 #navList li a {
   list-style: none;
   text-decoration: none;
+  color: #3c4043;
 }
 
 #minha_foto {
@@ -37,6 +40,11 @@ body {
   margin: 30px 10px;
 }
 
+#listaLessons ol , ul li {
+  color: blue;
+  font-size: 20px;
+}
+
 #listaLessons ol , ul , table {
   display: inline-block;
   padding: 0 30px;
@@ -46,11 +54,22 @@ table {
   border-collapse: collapse;
   text-align: center;
   width: 20%;
+  
 }
 
 td , th {
   border: 1px solid black;
   padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+article , aside p {
+  font-size: 20px;
+  color: #3c4043;
+  font-weight: 600;
+  line-height: 29px;
+
 }
 
 footer {
@@ -59,3 +78,4 @@ footer {
   margin-top: 20px;
   border: 1px solid black;
 }
+
