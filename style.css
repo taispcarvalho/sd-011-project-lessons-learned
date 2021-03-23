@@ -4,7 +4,6 @@ body {
   color:#036b52;
   letter-spacing: 1px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  text-align: center;
 }
 
 header {
@@ -31,10 +30,13 @@ table, th {
   border: 2px solid black;
 }
 
-#minha_foto { 
-  display: inline-block;
-  margin: 10% 0% 0% 0%;
-  float: left;
+a {
+  text-decoration: none;
+  color: #036b52;
+}
+
+#minha_foto {
+  margin-top: 7%;
   border: 2px solid #036b52;
 }
 
@@ -43,7 +45,18 @@ ul, ol {
   text-align: center;
   display: inline-block;
   padding: 2px;
-  margin: 10% 2% 2% 2%;
+  margin: 5% 5% 0% 0%;
   border: 2px solid #036b52;
-  text-decoration: none;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  border: 2px solid #036b52;
+  width: 30%;
+}
+
+.lado-direito {
+  display: inline-block;
+  border: 2px solid #036b52;
+  width: 30%;
 }
