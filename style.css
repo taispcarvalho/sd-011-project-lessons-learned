@@ -1,13 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 body {
   background: rgb(253, 251, 251);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  background-color: #006dfb;
+  padding: 2%;
+  width: 100%;
+  color: rgb(253, 251, 251);
+}
+
+#titulo {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#nav {
+  margin-top: 150px;
+}
+
+#nav ul {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#nav ul li {
+  padding: 10px;
+  display: inline-block;
+  margin-bottom: 5%;
+}
+
+#nav ul li a{
+  text-decoration: underline;
+  color: black;
+}
+
+#nav ul li a:hover{
+  color: #006dfb;
 }
 
 #minha_foto {
-  margin-top: 100px;
   width: 350px;
+  border-radius: 20%;
+}
+
+.about-me h2 {
+  font-size: 2.5rem;
+  color: #218661;
+}
+
+.about-me {
+  font-size: 2.4rem;
 }
