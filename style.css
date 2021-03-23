@@ -1,8 +1,20 @@
+* {
+  background-color: wheat;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.822);
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 #cabecalho {
   position: fixed;
   top: 0px;
+  background-color: rgba(0, 0, 0, 0.959);
 }
