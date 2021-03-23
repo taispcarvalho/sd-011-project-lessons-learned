@@ -2,6 +2,7 @@ body {
   background: rgb(253, 251, 251);
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -71,12 +72,12 @@ table {
   border-collapse: collapse;
 }
 
-table th {
+th {
   text-align: left;
   margin-left: 50px;
 }
 
-th, td {
+th , td {
   border: 3px solid black;
   padding-right: 20px;
 }
@@ -90,12 +91,16 @@ th, td {
   text-align: center;
 }
 
-#meu_aprendizado {
+p {
+  line-height: 25px;
+}
+
+.lado-esquerdo {
   float: left;
   width: 40%;
 }
 
-#passagem_ao_lado {
+.lado-direito {
   float: right;
   width: 40%;
 }
