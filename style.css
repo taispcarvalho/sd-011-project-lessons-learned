@@ -5,4 +5,9 @@ body{
 header{
   position:fixed;
   top: 0px;
+  background-color: tomato;
+  width:100%;
+}
+#titulo{
+    text-align: center;
 }
