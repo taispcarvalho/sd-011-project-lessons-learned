@@ -13,6 +13,10 @@ h1 , h2 , h3 {
   font-family: Montserrat, sans-serif;
 }
 
+h2 {
+  font-size: 25px;
+}
+
 h4 {
   margin: 0;
 }
@@ -90,6 +94,10 @@ a:hover {
   line-height: 25px;
 }
 
+#aside-path {
+  margin-left: 35px;
+}
+
 .main-container {
   text-align: center;
   margin: auto;
@@ -139,10 +147,12 @@ a:hover {
   float: right;
 }
 
-.learn-content {
-  display: inline-block;
+.float-aside {
+  padding-top: 48px;
+  float: left;
 }
 
-.float-aside {
-  float: left;
+ul {
+  padding-left: 40px;
+  margin-left: 90px;
 }
