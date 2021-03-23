@@ -72,19 +72,16 @@ figure figcaption {
   align-items: center;
 }
 
-#sobre_o_curso,
-#passagem {
+#sobre_o_curso , #passagem {
   width: 40%;
 }
 
-#sobre_o_curso p,
-#passagem {
+#sobre_o_curso p , #passagem {
   padding: 5px;
   border-radius: 5px;
 }
 
-#sobre_o_curso p,
-#cursos {
+#sobre_o_curso p , #cursos {
   border: 1px solid black;
 }
 
@@ -96,8 +93,7 @@ figure figcaption {
   font-weight: 700;
 }
 
-#cursos th,
-#cursos td {
+#cursos th , #cursos td {
   padding: 0 10px;
   border: 1px solid black;
   text-align: center;
