@@ -1,7 +1,8 @@
-body { 
+body {
   background-color: rgb(253, 251, 251);
 }
 
-.titulo {
-  top: 0px;
+h1 {
+  top: 0;
+  position: fixed;
 }
