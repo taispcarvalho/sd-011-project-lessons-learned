@@ -33,6 +33,7 @@ header {
 
 .lists {
   padding: 10px 30px;
+  font-size: large;
 }
 
 footer {
@@ -40,10 +41,22 @@ footer {
   background-color: orchid;
   padding: 15px 0;
   color: white;
+  font-size: large;
 }
 
 a {
   text-align: center;
   text-decoration: none;
   color: black;
+  font-size: large;
+}
+
+.articles {
+  font-size: large;
+  padding: 10px 15px;
+  width: 50%;
+}
+
+p {
+  padding: 5px 10px;
 }
