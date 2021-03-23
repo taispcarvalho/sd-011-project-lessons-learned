@@ -5,6 +5,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 
 #minha_foto {
@@ -26,12 +27,18 @@ body {
 }
 
 #block-list {
-  position: absolute;
+  position: relative;
   left: 40px;
 }
 
 #licoes_a_aprender {
   position: absolute;
-  top: 298px;
+  top: 304px;
   left: 230px;
+}
+
+#rodape {
+  position: relative;
+  top: 600px;
+  text-align: center;
 }
