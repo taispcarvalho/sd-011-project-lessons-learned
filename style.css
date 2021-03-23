@@ -1,7 +1,7 @@
 body { background-color: rgb(253, 251, 251);
 }
 #cabecalho { position: fixed;
- margin-top: 0px;
+top: 0px;
 }
 #titulo { color: rgb(21, 255, 0);
     margin-left: 30px;
@@ -20,6 +20,7 @@ body { background-color: rgb(253, 251, 251);
     background-color: yellow;
     padding: 15px 15px 15px;
     border-radius: 5px;   
+    text-align: left;
 }
 #aside {
     display: inline-block;
@@ -29,4 +30,8 @@ body { background-color: rgb(253, 251, 251);
     padding: 15px 15px 15px;
     margin-right: 375px;
     border-radius: 5px;
+    text-align: center;
+}
+p {
+    font-size: 20px;
 }
