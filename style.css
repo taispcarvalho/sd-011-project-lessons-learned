@@ -1,6 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: normal;
 }
 
 header {
@@ -49,7 +52,6 @@ article {
   padding: 15px;
   text-align: justify;
   width: 80%;
-  font-size: large;
 }
 
 section {
