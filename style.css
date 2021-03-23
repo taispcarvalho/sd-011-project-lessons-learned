@@ -10,6 +10,14 @@ nav h1 {
 	color: blanchedalmond;
 }
 header {
+	overflow: hidden;
 	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: black;
+}
+
+section {
+	margin-top: 120px;
 }
 
