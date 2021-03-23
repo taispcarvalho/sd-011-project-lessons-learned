@@ -21,16 +21,10 @@ header {
 
 div #minha_foto {
   border-radius: 50%;
-  margin-top: 100px;
-  margin-left: 50px;
-  margin-bottom: 90px;
+  margin: 90px 50px;
 }
 
-ul, li {
-  margin-left: 50px;
+ol, ul {
+  margin: 50px 50px;
   line-height: 1.5em;
 }
-
-
-
-
