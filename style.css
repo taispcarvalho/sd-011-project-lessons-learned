@@ -41,3 +41,9 @@ footer {
   padding: 15px 0;
   color: white;
 }
+
+a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
