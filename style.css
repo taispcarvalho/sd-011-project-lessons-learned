@@ -10,3 +10,10 @@ body {
 #minha_foto {
   width: 300px;
 }
+
+.button {
+  background-color: rgb(100, 250, 150);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 4px;
+}
