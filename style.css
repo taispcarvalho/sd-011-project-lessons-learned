@@ -10,6 +10,12 @@ body {
   width: 100%;
 }
 
+#nav {
+  position: relative;
+  top: 35px;
+  margin-left: 10px;
+}
+
 #licoes_text {
   position: relative;
   top: 45px;
@@ -59,11 +65,17 @@ body {
   bottom: 8px;
 }
 
+#secao {
+  position: relative;
+  margin-left: 10px;
+  font-size: large;
+}
+
 #rodape {
   color: white;
   background-color: rgb(121, 0, 0);
   text-align: center;
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
