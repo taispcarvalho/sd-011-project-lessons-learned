@@ -6,6 +6,8 @@ body {
   background-color: rgb(253, 251, 251);
   position: relative;
   min-width: 100vw;
+  min-height: 100vh;
+  margin: auto;
 }
 
 header {
@@ -52,4 +54,26 @@ header h1 {
   display: block;
   position: absolute;
   top: 400px;
+  padding-bottom: 80px;
+}
+
+main {
+  display: block;
+  position: static;
+}
+
+footer {
+  background-color: red;
+  position:fixed;
+  height: 25px;
+  bottom: 0px;
+  margin: 0;
+  left: 0;
+  right: 0;
+}
+
+footer p {
+  margin: auto;
+  text-align: center;
+  padding: 4px;
 }
