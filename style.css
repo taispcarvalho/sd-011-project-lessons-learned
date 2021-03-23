@@ -33,3 +33,9 @@ footer {
   height: 200px;
   background-color: slategrey;
 }
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 50px;
+}
