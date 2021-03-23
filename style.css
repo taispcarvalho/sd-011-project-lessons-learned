@@ -1,23 +1,26 @@
 * {
-  color: #fafafa;
+  color: rgb(250, 250, 250);
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   text-decoration: none;
 }
+
 body {
   background-color: rgb(253, 251, 251);
 }
+
 ul li {
   display: inline-block;
   font-size: 24px;
   margin: 0 8px;
 }
+
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: #0fa36b;
+  background-color: rgb(15, 163, 107);
   width: 100%;
   height: 80px;
   display: flex;
@@ -25,6 +28,7 @@ ul li {
   align-items: center;
   padding: 0 24px;
 }
+
 .trybe-icon {
   width: 80px;
 }
