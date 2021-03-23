@@ -13,3 +13,8 @@ body {
   max-width: 500px;
   padding: 100px;
 }
+
+#licoes_aprendidas {
+  color:green;
+  font-weight: bold;
+}
