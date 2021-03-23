@@ -6,7 +6,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Roboto', sans-serif;
+  font-family: Roboto, sans-serif;
   color: rgb(58, 58, 58);
   line-height: 20px;
 }
@@ -21,6 +21,16 @@ a:hover {
   color: #89b0ae;
 }
 
+h2 {
+  font-family: Bebas Neue, cursive;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #69a09d;
+  text-align: center;
+  margin: 20px 0;
+  text-shadow: 1px 2px 2px rgba(179, 179, 179, 0.486);
+}
+
 /** HEADER **/
 #cabecalho {
   background-color: white;
@@ -28,17 +38,17 @@ a:hover {
   height: 15vh;
   position: fixed;
   padding: 5px;
-  top: 0px;
+  top: 0;
   text-align: center;
   box-shadow: 1px 2px 5px rgba(179, 179, 179, 0.486);
 }
 
 #cabecalho h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: Bebas Neue, cursive;
   font-size: 43px;
   font-weight: lighter;
   color: #69a09d;
-  margin-top: 11px;  
+  margin: 20px 0;
   text-shadow: 1px 2px 2px rgba(179, 179, 179, 0.486);
 }
 
@@ -79,16 +89,6 @@ nav li {
 }
 
 /** SOBRE **/
-#sobre h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 36px;
-  font-weight: lighter;
-  color: #69a09d;
-  text-align: center;
-  margin-bottom: 10px;
-  text-shadow: 1px 2px 2px rgba(179, 179, 179, 0.486);
-}
-
 #sobre img {
   float: left;
   margin-right: 18px;
@@ -112,18 +112,8 @@ td {
 }
 
 /** LIÇÕES **/
-#licoes h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 36px;
-  font-weight: lighter;
-  color: #69a09d;
-  text-align: center;
-  margin-bottom: 10px;
-  text-shadow: 1px 2px 2px rgba(179, 179, 179, 0.486);
-}
-
 #licoes h3 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: Bebas Neue, cursive;
   font-size: 29px;
   font-weight: lighter;
   color: #69a09d;
@@ -153,16 +143,6 @@ td {
 }
 
 /** APRENDIZADO **/
-#aprendizado h2 {
-  font-family: 'Bebas Neue', cursive;
-  font-size: 36px;
-  font-weight: lighter;
-  color: #69a09d;
-  text-align: center;
-  margin-bottom: 10px;
-  text-shadow: 1px 2px 2px rgba(179, 179, 179, 0.486);
-}
-
 .lado-esquerdo {
   width: 50%;
   float: left;
