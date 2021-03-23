@@ -24,3 +24,10 @@ main {
 #minha_foto {
   margin: 20px 0;
 }
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
