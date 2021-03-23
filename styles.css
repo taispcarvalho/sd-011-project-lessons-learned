@@ -1,10 +1,10 @@
  body {
 background-color: rgb(253, 251, 251);
-font-family:"syne Mono", sans-serif;
-  }
+font-family:syne Mono, sans-serif;
+}
  main {
-   padding-left: 15px;
- }
+padding-left: 15px;
+}
  #cabecalho {
   position: fixed;
   top: 0px;
@@ -44,7 +44,7 @@ font-family:"syne Mono", sans-serif;
  aside.lado_direito{
    margin-top: 40px;
  }
- #licoes_a_aprender{
+ #licoes_para_aprender{
   margin-top: 59px;
  }
  #rodape{
