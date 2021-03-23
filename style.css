@@ -9,6 +9,25 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  background-image: url(https://thumbs.dreamstime.com/b/fundo-verde-pastel-claro-22836856.jpg);
+  background-size: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+#cabecalho ul{
+  list-style: none;
+  text-decoration: none;
+  left: 0;
+  position: relative;
+}
+
+#cabecalho a{
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
 }
 
 #minha_foto {
@@ -16,4 +35,8 @@ body {
   padding: 10px;
   border: 10px;
   margin: 10px;
+}
+
+#quem_sou_eu {
+  margin-top: 200px;
 }
