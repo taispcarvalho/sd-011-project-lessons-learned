@@ -1,3 +1,9 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,16 +11,15 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-	background-color: red ;
+	display: inline-block;
 }
 
 #minha_foto {
   display: block;
-  padding: 50px 10px 30px;
 }
 
 #main-body {
-  margin: 30px 5px;
+  margin: 114px 5px;
 }
 
 #licoes_all {
