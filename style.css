@@ -7,19 +7,21 @@ body {
   margin-left: 20px;
 }
 
-#titulo {
+#cabecalho {
   position: fixed;
-  top: 00px;
+  top: 0;
   background-color: rgb(97, 124, 150);
   width: 100%;
   text-align: center;
+  color: white;
 }
 
 .image {
   text-align: center;
+  background-color: rgb(224, 224, 224);
 }
 
-.rodape {
+#rodape {
   text-align: center;
   background-color: rgb(161, 161, 161);
 }
