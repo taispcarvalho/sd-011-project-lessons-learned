@@ -19,6 +19,7 @@ body {
 
 #minha_foto {
   width: 300px;
+  padding: 0 30px 0 0;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
@@ -36,10 +37,15 @@ body {
   margin-top: 140px;
 }
 
+#article-text {
+  line-height: 1.8em;
+}
+
 .aside {
   display: inline-block;
   width: 30%;
   font-family: Courier, monospace;
+  font-size: larger;
 }
 
 #table , .th {
