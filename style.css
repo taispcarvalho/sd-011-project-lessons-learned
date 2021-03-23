@@ -1,1 +1,4 @@
-/* */
+body {
+  /* Requirement #1 */
+  background-color: rgb(253, 251, 251);
+}
