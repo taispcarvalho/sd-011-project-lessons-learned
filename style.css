@@ -43,8 +43,7 @@ header h2 {
 }
 
 .lado_direito {
-  width: 400px;
-  
+  width: 400px; 
   z-index: 1;
   margin-top: 60px;
 }
