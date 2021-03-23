@@ -15,7 +15,7 @@ h1 {
   color: white;
   padding-left: 10px;
   letter-spacing: 2px;
-  line-height:15px ;
+  line-height: 15px;
 }
 
 img {
@@ -33,10 +33,8 @@ table {
   margin-top: 20px;
 }
 
-ul ,
-ol ,
-table {
-  font-family: "Courier New", Courier, monospace;
+ul , ol , table {
+  font-family: 'Courier New', Courier, monospace;
   color: rgb(100, 96, 96);
 }
 
@@ -45,19 +43,20 @@ p {
   font-size: 18px;
 }
 
-section.lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 350px;
+  border: 0.5px rgb(100, 96, 96) solid;
 }
 
 .lado-direito {
   display: inline-block;
   width: 345px;
   margin-top: 20px;
+  border: 0.5px rgb(100, 96, 96) solid;
 }
 
-.lado-direito ol ,
-ul {
+.lado-direito ol , ul {
   display: inline-block;
 }
 
