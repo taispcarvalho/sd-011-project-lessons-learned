@@ -1,3 +1,69 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0%;
 }
+header {
+  background-color: rgb(142, 52, 194);
+  position: fixed;
+  width: 100%;
+  z-index: 0;
+  top: 0px;
+}
+header h1 {
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  float: right;
+  font-size: 1.2em;
+  margin: 5px;
+  margin-right: 10px;
+  text-decoration: none;
+  padding: 5px;
+}
+nav a:hover {
+  background-color: rgb(125, 38, 207);
+  color: rgb(109, 241, 213);
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(142, 52, 194);
+  color: white;
+  font-weight: bolder;
+  z-index: 1;
+}
+main {
+  padding-top: 10%;
+  bottom: 200px;
+  top: 200px;
+}
+
+aside img {
+  float: right;
+  width: 300px;
+  border-radius: 50px;
+  margin-right: 50px;
+  border: solid 5px purple;
+}
+
+#licoes_aprendidas {
+  font-size: 1em;
+  display: inline-block;
+}
+#licoes_a_aprender {
+  display: inline-block;
+}
+
+.text {
+  margin: 20px;
+  display: inline-block;
+  width: 60%;
+}
+

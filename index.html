@@ -5,12 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header id="cabeçalho">
       <h1 id="titulo">Lições Aprendidas - Trybe</h1>
-      <nav></nav>
+      <nav>
+        <a href="#home">Início</a>
+        <!-- prettier-ignore -->
+        <a id="linkedin" href="https://www.linkedin.com/in/pieit/" target="_blank">Contato</a>
+        <a href="#about">Sobre</a>
+      </nav>
     </header>
+    <main>
+      <aside>
+        <img src="/images/profile.jpg" />
+      </aside>
+      <div id="listas">
+        <ol id="licoes_aprendidas">
+          <h2>Lições Aprendidas:</h2>
+          <li>Unix</li>
+          <li>Bash</li>
+          <li>GitHub</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Semantic HTML</li>
+          <li>Slack</li>
+          <li>Zoom</li>
+          <li>Inspect</li>
+          <li>Git</li>
+        </ol>
+        <ul id="licoes_a_aprender">
+          <h2>Lições que ainda aprenderei:</h2>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>NodeJS</li>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>DOM</li>
+          <li>CSS Responsive</li>
+          <li>ES6</li>
+          <li>Unit Tests</li>
+          <li>Forms</li>
+        </ul>
+      </div>
+      <article class="text">
+        <h2>Sobre meu aprendizado:</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dui
+          magna, blandit id laoreet et, semper vitae orci. Nulla rutrum turpis
+          hendrerit lobortis tincidunt. Vestibulum ante ipsum primis in faucibus
+          orci luctus et ultrices posuere cubilia curae; Nunc posuere et tortor
+          et pellentesque. Aenean posuere turpis at eleifend auctor. Donec
+          facilisis purus vel nunc maximus tempus. Vestibulum ante ipsum primis
+          in faucibus orci luctus et ultrices posuere cubilia curae; Duis
+          aliquet rhoncus justo, ac molestie diam gravida eu. Integer dui.
+        </p>
+      </article>
+      <section class="text">
+        <h2>Uma passagem sobre meu aprendizado</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend
+          feugiat finibus. Praesent vitae luctus ante. Mauris tempor ullamcorper
+          dui. Nam sed arcu nec ligula vestibulum iaculis et id tortor.
+          Vestibulum nec maximus est. Pellentesque cursus nisl vitae massa
+          aliquam tempor. Nullam tincidunt nulla blandit.
+        </p>
+      </section>
+    </main>
+    <footer id="rodape">
+      <p>Projeto criado por PH Assis</p>
+    </footer>
   </body>
 </html>
