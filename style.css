@@ -14,7 +14,6 @@ body {
   background-color: rgb(7, 88, 7);
   width: 100%;
   text-align: center;
-  height: 10vh;
 }
 
 #cabecalho a {
@@ -22,10 +21,14 @@ body {
   text-decoration: none;
 }
 
+#cabecalho ul {
+  padding-bottom: 20px;
+}
+
 #minha_foto {
   width: 200px;
   border-radius: 100%;
-  margin-top: 70px;
+  margin-top: 120px;
   margin-left: 20px;
 }
 
@@ -34,6 +37,8 @@ body {
   bottom: 0;
   position: fixed;
   width: 100%;
+  padding: 10px;
+  font-style: italic;
 }
 
 section section {
@@ -47,19 +52,26 @@ section section {
   width: 48%;
   padding-left: 1%;
   line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 .lado-direito {
   float: right;
   width: 48%;
-  padding-right: 1%;
   padding-left: 1%;
   border-left: 1px solid black;
   line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 nav ul li {
   list-style: none;
   display: inline-block;
   padding: 0 100px;
+}
+
+h1 , h2 , h3 {
+  padding: 10px 0;
 }
