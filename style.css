@@ -54,9 +54,15 @@ a {
 .articles {
   font-size: large;
   padding: 10px 15px;
-  width: 50%;
+  width: 45%;
+  display: inline-block;
+  top: 0;
 }
 
 p {
   padding: 5px 10px;
+}
+
+.contents {
+  margin-left: 4%;
 }
