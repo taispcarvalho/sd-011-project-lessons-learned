@@ -45,7 +45,7 @@ img {
 
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   margin-right: 80px;
 }
@@ -64,9 +64,20 @@ aside {
   margin-left: auto;
 }
 
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  margin-top: -12%;
+}
 
 #rodape {
   background-color: rgb(7, 75, 75);
   color: rgb(37, 36, 36);
   text-align: center;
+  margin-top: 20%;
 }
