@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin: 0;
+  text-align: center;
 }
 
 nav {
@@ -33,6 +34,10 @@ table {
   margin-top: 20px;
 }
 
+ul , ol {
+  display: inline-block;
+}
+
 ul , ol , table {
   font-family: Courier New, Courier, monospace;
   color: rgb(100, 96, 96);
@@ -45,22 +50,17 @@ p {
 
 .lado-esquerdo {
   display: inline-block;
-  max-width: 40%;
-  min-height: max-content;
-  border: 0.5px rgb(100, 96, 96) solid;
+  width: 300px;
 }
 
 .lado-direito {
   display: inline-block;
-  max-width: 40%;
-  min-height: max-content;
-  margin-top: 20px;
-  border: 0.5px rgb(100, 96, 96) solid;
+  width: 300px;
+  top: 0;
 }
 
 .centralize {
   text-align: center;
-  border: 1px solid;
 }
 
 section aside {
