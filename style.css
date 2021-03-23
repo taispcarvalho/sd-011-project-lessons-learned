@@ -31,6 +31,20 @@ body {
   border-radius: 100%;
 }
 
-#trybe article, #trybe aside {
+#trybe {
+  text-align: center;
+}
+
+.lado-esquerdo, .lado-direito {
   border: 1px solid black;
+  width: 30%;
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  margin-right: 12%;
+}
+
+.lado-direito{
+  margin-left: 12%;
 }
