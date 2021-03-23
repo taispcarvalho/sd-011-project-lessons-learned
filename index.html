@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header id="cabecalho">
         <h1 id="titulo">Igor Mendes de Mattos Borges</h1>
     </header>
     
-  <nav>
-    <button>Aprendizado</button>
-    <button>Sobre o aprendizado</button>
-    <button>Minha Foto</button>
-    <button>Contato</button>
+  <nav id="menu-nav">
+    <button class="button-nav">Aprendizado</button>
+    <button class="button-nav">Sobre o aprendizado</button>
+    <button class="button-nav">Minha Foto</button>
+    <a href="#rodape"><button class="button-nav">Contato</button></a>
   </nav>
 
+  <section id="table">
     <img alt="Foto selfie homem sorrindo" id="minha_foto" src="eu.jpg">
-
-  <section>
     <table class="tabela">  
     <ul id="licoes_aprendidas">
-      <th>
+      <th><h2 class="title-table">Aprendemos</h2>
         <li>Unix</li>
         <li>Git</li>
         <li>GitHub</li>
@@ -33,7 +33,6 @@
         <li>Soft Skills</li>
         <li>Slack</li>
         <li>Trabalho em equipe</li>
-        <li>Empatia</li>
         <li>Sim ou não</li>
       </th>
     </ul>
@@ -41,7 +40,7 @@
 
     <table class="tabela">
     <ul id="licoes_a_aprender">
-      <th>
+      <th><h2 class="title-table">Iremos aprender</h2>
         <li>JavaScript</li>
         <li>React</li>
         <li>SQL</li>
@@ -52,7 +51,6 @@
         <li>HOF</li>
         <li>CSS Responsive</li>
         <li>Organização</li>
-        <li>Unit Tests</li>
       </th>    
     </ul>
     </table>  

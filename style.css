@@ -2,7 +2,62 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+#titulo {
+  color: aliceblue;
+}
+
 #cabecalho {
   position: fixed;
+  border: 10px;
+  padding: 20px;
+  margin: auto;
+  width: 100%;
+  background-color: olive;
+  font-family: cursive;
   top: 0;
+}
+
+#menu-nav {
+  border-color: green;
+  border: 10px;
+  left: 50%;
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+  padding: 50px;
+}
+
+.button-nav {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#minha_foto {
+  display: inline-block;
+  margin: auto;
+  border-radius: 40px;
+  width: 15%;
+  padding: 120px 0 0;
+}
+
+#table li {
+  display: inline-block;
+  font-family: cursive;
+  list-style: none;
+  border: 1px;
+  width: 40%;
+  margin: auto;
+  border-style: solid;
+}
+
+.tabela {
+  border-color: green;
+  width: 80%;
+  margin: auto;
+}
+
+.title-table {
+  background-color: dimgray;
+  font-family: cursive;
 }
