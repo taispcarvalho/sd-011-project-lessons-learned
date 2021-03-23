@@ -229,7 +229,7 @@ Possuir cor de fundo: rgb(253, 251, 251)
 
 ### 2. Adicione uma barra superior com um título
 
-A barra deve possuir o ID "cabecalho" e deve ser fixa no topo da página com a propriedade top tendo **0px**. O título deve estar dentro da barra e ser um elemento **h1** com ID "titulo".
+A barra deve possuir o ID "cabecalho" e deve ser fixa no topo da página com a propriedade top tendo **0**. O título deve estar dentro da barra e ser um elemento **h1** com ID "titulo".
 
 **O que será verificado:**
 
