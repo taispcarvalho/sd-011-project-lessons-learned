@@ -5,4 +5,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
+  display: inline;
+  margin-bottom: 400px;
+}
+
+#minha_foto {
+  display: inline-block;
+  padding-top: 50px;
+}
+#main-body {
+    margin: 30px 5px;
 }
