@@ -5,9 +5,21 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
+    border-color: green; 
+    
 }
 
 #rodape{
     position: absolute;
     bottom: 0;
+    width: 500px;
+}
+
+#artigo{
+    display: inline-block;
+    width: 500px;
+}
+
+#secao{
+    display: inline-block;
 }
