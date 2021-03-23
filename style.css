@@ -1,8 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+}
+
+main {
+  margin-top: 98px;
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  padding: 12px;
+  text-align: center;
+}
+
+#minha_foto {
+  width: 240px;
 }
