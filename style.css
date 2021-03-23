@@ -1,13 +1,13 @@
-body{
+body {
   background: rgb(253, 251, 251);
 }
 
-#cabecalho{
+#cabecalho {
   position: fixed;
   top: 0px;
 }
 
-#minha_foto{
+#minha_foto {
   margin-top: 100px;
   width: 350px;
 }
