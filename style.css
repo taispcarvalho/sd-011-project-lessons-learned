@@ -6,7 +6,7 @@ header {
   top: 0;
   position: fixed;
   background-color: lightgray;
-  width: 700px;
+  width: 100%;
 }
 
 #minha_foto {
@@ -33,4 +33,11 @@ nav ul li {
 #titulo {
   display: inline-block;
   margin: 20px 0 10px;
+  width: 45%;
+  text-align: center;
+}
+
+nav {
+  display: inline-block;
+  width: 45%;
 }
