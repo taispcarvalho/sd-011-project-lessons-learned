@@ -9,24 +9,61 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 80px;
-  background-color: blue;
+  height: 110px;
+  background-color: green;
 }
 
 #titulo {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.navigation-bar {
+  width: 100%;
+  text-align: center;
+}
+
+.navigation-bar ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navigation-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  padding: 8px 20px;
+  margin: 2px 10px;
+}
+
+#perfil {
+  padding-top: 130px;
 }
 
 #minha_foto {
   display: block;
-  margin: 0 130px;
-  margin-top: 100px;
+  margin-left: 130px;
 }
 
 #linkedin {
   display: block;
-  margin: 10px 207px;
+  padding-top: 10px;
+  padding-left: 207px;
+}
+
+#licoes {
+  padding-top: 120px;
+  margin-left: 50px;
+}
+
+#aprendizado {
+  padding: 110px 50px;
+}
+
+#aprendizado h3 {
+  text-align: center;
+  font-size: 1.3em;
 }
 
 #rodape {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt_BR">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,35 +10,47 @@
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Lições aprendidas na Trybe</h1>
+    <nav class="navigation-bar">
+      <ul>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#licoes_trybe">Lições</a></li>
+        <li><a href="#aprendizado">Aprendizado</a></li>
+      </ul>
+    </nav>
   </header>
-  <img id="minha_foto" src="minha-foto.jpg" alt="Foto minha visto de frente com uma roupa social">
-  <a id="linkedin" href="https://github.com/diego-rib" target="_blank">Diego Ribeiro</a>
-  <h3 id="licoes">Lições</h3>
-  <ol id="licoes_aprendidas">
-    <li>Unix</li>
-    <li>Bash</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>HTML Semântico</li>
-    <li>Slack</li>
-    <li>Zoom</li>
-    <li>Colaboração</li>
-  </ol>
-  <ul id="licoes_a_aprender">
-    <li>JavaScript</li>
-    <li>DOM</li>
-    <li>CSS Flexbox</li>
-    <li>ES6</li>
-    <li>React</li>
-    <li>Node</li>
-    <li>SQL</li>
-    <li>Algoritmos e estrutura de dados</li>
-    <li>Autoconhecimento</li>
-    <li>Comunicação</li>
-  </ul>
-  <div id="aprendizado">
+  <section id="perfil">
+    <img id="minha_foto" src="minha-foto.jpg" alt="Foto minha visto de frente com uma roupa social">
+    <a id="linkedin" href="https://github.com/diego-rib" target="_blank">Diego Ribeiro</a>
+  </section>
+  <section id="licoes_trybe">
+    <h2 id="licoes">Lições</h3>
+    <ol id="licoes_aprendidas">
+      <li>Unix</li>
+      <li>Bash</li>
+      <li>Git</li>
+      <li>GitHub</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>HTML Semântico</li>
+      <li>Slack</li>
+      <li>Zoom</li>
+      <li>Colaboração</li>
+    </ol>
+    <ul id="licoes_a_aprender">
+      <li>JavaScript</li>
+      <li>DOM</li>
+      <li>CSS Flexbox</li>
+      <li>ES6</li>
+      <li>React</li>
+      <li>Node</li>
+      <li>SQL</li>
+      <li>Algoritmos e estrutura de dados</li>
+      <li>Autoconhecimento</li>
+      <li>Comunicação</li>
+    </ul>
+  </section>
+  <section id="aprendizado">
+    <h2>Aprendizados</h3>
     <article>
       <p>
         Meu aprendizado na Trybe tem sido incrivelmente enriquecedor. Além de ter visto várias coisas novas como o bash, unix, Git e GitHub, eu pude também aprofundar meu conhecimento sobre eles na prática, coisa que eu nunca havia feito por conta própria.<br>
@@ -52,7 +64,7 @@
         Todos os meus relacionamentos tem melhorado e eu venho me sentindo uma pessoa muito diferente, bem mais evoluído e maduro.
       </p>
     </aside>
-  </div>
+  </section>
   <footer id="rodape">
     <p id="texto-rodape">Todos os direitos reservados, Diego</p>
   </footer>
