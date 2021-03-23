@@ -2,6 +2,11 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+aside {
+  text-align: justify;
+  width: 400px;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -23,4 +28,28 @@ body {
   top: 150px;
   margin: auto;
   width: 900px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin: auto;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  margin: auto;
+}
+
+#rodape {
+  margin: 20px;
+  text-align: center;
+}
+
+.content {
+  margin: auto;
+}
+
+#article-path {
+  text-align: justify;
+  width: 400px;
 }
