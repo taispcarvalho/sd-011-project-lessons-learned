@@ -27,3 +27,9 @@ aside {
   border: 2px solid;
   width: 300px;
 }
+
+table, td {
+  border: 2px solid green;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
