@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  margin-top: 0px;
+  top: 0px;
 }
 
 #titulo {
@@ -12,5 +12,5 @@ body {
 }
 
 #minha_foto {
-
+  
 }
