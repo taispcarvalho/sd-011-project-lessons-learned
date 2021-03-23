@@ -42,7 +42,7 @@ header {
   margin-top: 150px;
   z-index: 2;
 }
-#licoes_aprendidas {
+#aprendidas {
 
   position: absolute;
   display: inline;
@@ -50,7 +50,7 @@ header {
   margin-left: 200px;
   font-size: 25px;
 }
-#licoes_a_aprender {
+#aprender {
 
   position: absolute;
   display: inline;
