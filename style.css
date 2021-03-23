@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
 body {
   background: rgb(253, 251, 251);
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 #cabecalho {
