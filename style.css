@@ -1,6 +1,13 @@
 body {
-    background-color: rgb(253, 251, 251);
+	background-color:rgb(253, 251, 251);
 }
-#Cabecalho{
-    top: 0px;
+
+#Cabecalho {
+  top: 0px;
+}
+
+#minha_foto {
+	width: 200px;
+	border-radius: 50%;
+	height: auto;
 }
