@@ -5,10 +5,10 @@ body {
 
 }
 
-.header {
+#cabecalho {
   position: fixed;
   top: 0;
-  background-color: #11a36a;
+  background-color: rgb(17, 163, 106);
   width: 100%;
 }
 
@@ -17,13 +17,13 @@ body {
   padding: 0 10px;
 }
 
-.header a {
+#cabecalho a {
   color: white;
   padding: 10px 30px;
   float: right;
 }
 
-.header h1 {
+#cabecalho h1 {
   color: white;
   padding: 0 20px;
 }
@@ -50,31 +50,30 @@ body {
 
 #table_trybe {
   width: 100%;
-  margin-top: 50px;
-  
+  margin-top: 50px;  
 }
 
 .articles {
-  display: inline
+  display: inline;
 }
 
-.main-article {
+.lado-esquerdo{
   margin-top: 250px;
   width: 70%;
   text-align: justify;
   line-height: 1.5;
 }
 
-.aside-article {
+.lado-direito {
   float: right;
   line-height: 1.5;
   width: 25%;
-  margin-top: -95px;
+  margin-top: -128px;
 }
 
 .footer {
   margin-top: 90px;
-  background-color: #11a36a;
+  background-color: rgb(17, 163, 106);
   color: white;
   padding: 50px;
 }
