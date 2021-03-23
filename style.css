@@ -5,13 +5,16 @@ body {
 
 #cabecalho {
     background-color: chartreuse;
+    top: 0px;
 }
 
+
+
 #titulo {
- top: 0px;
+ 
    
 }
 
 #licoes_aprendidas {
-    
+
 }
