@@ -4,6 +4,8 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Roboto, sans-serif;
+  font-size: 17px;
 }
 
 #cabecalho {
@@ -13,6 +15,11 @@ body {
   width: 100%;
   text-align: center;
   height: 10vh;
+}
+
+#cabecalho a {
+  color: bisque;
+  text-decoration: none;
 }
 
 #minha_foto {
@@ -39,6 +46,7 @@ section div {
   float: left;
   width: 48%;
   padding-left: 1%;
+  line-height: 22px;
 }
 
 .lado-direito {
@@ -47,6 +55,7 @@ section div {
   padding-right: 1%;
   padding-left: 1%;
   border-left: 1px solid black;
+  line-height: 22px;
 }
 
 nav ul li {
