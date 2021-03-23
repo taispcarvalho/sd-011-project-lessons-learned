@@ -22,3 +22,7 @@ body {
 .lado_direito {
   display: inline-block;
 }
+
+table, th, td {
+  border: 1px solid black;
+}
