@@ -51,23 +51,24 @@ header {
 footer {
   position: absolute;
   margin-left: 80px;
-  top: 1850px;
+  top: 1950px;
+  padding: auto;
 }
 h1 {
   width: 1366px;
 }
-#artigo {
+.lado-esquerdo {
   position: absolute;
+  font-family: sans-serif;
   display: inline;
   top: 1400px;
   margin-left: 200px;
   font-size: 25px;
   width: 500px;
   line-height: 40px
-  
-  font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
-#resumo {
+
+.lado-direito {
   position: absolute;
   display: inline;
   top: 1500px;
