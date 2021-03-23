@@ -42,8 +42,63 @@ header ul li a:hover {
 
 main {
   padding-top: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #minha_foto {
   width: 150px;
+}
+
+figure figcaption {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.main-container {
+  width: 80vw;
+}
+
+#habilidades {
+  display: flex;
+  justify-content: space-around;
+}
+
+#curso_trybe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sobre_o_curso,
+#passagem {
+  width: 40%;
+}
+
+#sobre_o_curso p,
+#passagem {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#sobre_o_curso p,
+#cursos {
+  border: 1px solid black;
+}
+
+#passagem {
+  border: 1px dashed black;
+}
+
+#cursos caption {
+  font-weight: 700;
+}
+
+#cursos th,
+#cursos td {
+  padding: 0 10px;
+  border: 1px solid black;
+  text-align: center;
 }

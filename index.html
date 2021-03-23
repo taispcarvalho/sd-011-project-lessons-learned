@@ -33,7 +33,7 @@
         <figcaption>Minha foto</figcaption>
       </figure>
 
-      <section id="habilidades">
+      <section class="main-container" id="habilidades">
         <ol id="licoes_aprendidas">
           <li>Unix</li>
           <li>Git</li>
@@ -61,11 +61,14 @@
         </ul>
       </section>
 
-      <section id="curso_trybe">
-        <a href="https://www.betrybe.com/" target="_blank">Trybe</a>
-
+      <section class="main-container" id="curso_trybe">
         <article id="sobre_o_curso">
-          <h2>Sobre o curso da <em>Trybe</em></h2>
+          <h2>
+            Sobre o curso da
+            <a href="https://www.betrybe.com/" target="_blank"
+              ><em>Trybe</em></a
+            >
+          </h2>
           <p>
             Com menos de 3 semanas de curso conseguimos aprender um pouco sobre
             Unix e comandos uteis para se usar no terminal, Git e seus comandos
@@ -85,7 +88,10 @@
         </aside>
       </section>
 
-      <table>
+      <table id="cursos">
+        <caption>
+          Cursos realizados
+        </caption>
         <thead>
           <tr>
             <th>Curso</th>
@@ -93,6 +99,10 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>Ciencia da Computacao</td>
+            <td>CEUB</td>
+          </tr>
           <tr>
             <td>Web Full Stack Node</td>
             <td>Digital House</td>
