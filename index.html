@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Lessons Learned</title>
 </head>
@@ -10,57 +14,85 @@
     <h1 id="titulo">Lições Aprendidas</h1>
     <nav>
       <ul>
-        <li><a href="#licoes_aprendidas">Lições aprendidas</a></li>
-        <li><a href="#licoes_a_aprender">Lições a aprender</a></li>
-        <li><a href="https://blog.betrybe.com/" target="_blank">Blog da Trybe</a></li>
+        <li><a href="#sobre">sobre</a></li>
+        <li><a href="#licoes">lições</a></li>
+        <li><a href="#aprendizado">aprendizado</a></li>
+        <li><a href="https://blog.betrybe.com/" target="_blank">trybe</a></li>
       </ul>
     </nav>
   </header> 
 
-  <img src="eu.jpg" id="minha_foto" alt="Menina com cabelo cacheado e piercing no septo sorrindo e usando uma blusa preta">
+  <section id="sobre" class="box">
+    <h2>Sobre</h2>
+    <div class="positions">
+      <img src="eu.jpg" id="minha_foto" alt="Menina com cabelo cacheado e piercing no septo sorrindo e usando uma blusa preta" width="250px">
 
-  <table>
-    <tr>
-      <th>Nome</th>
-      <td>Juliana</td>
-    </tr>
+      <table>
+        <tr>
+          <th>Nome</th>
+          <td>Juliana</td>
+        </tr>
 
-    <tr>
-      <th>Idade</th>
-      <td>20 anos</td>
-    </tr>
-  </table>
+        <tr>
+          <th>Idade</th>
+          <td>20 anos</td>
+        </tr>
+      </table>
 
-  <ol id="licoes_aprendidas">
-    <li>Unix</li>
-    <li>Git</li>
-    <li>GitHub</li>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Slack</li>
-    <li>Zoom</li>
-    <li>Inspect</li>
-    <li>VSCode</li>
-    <li>Semantic HTML</li>
-  </ol>
+      <article><p>Tenho 20 anos, nascida e criada no Rio de Janeiro. Gosto de desenhar, criar, tocar música, ler e jogar. Estou começando na área e a cada dia sinto mais e mais vontade de aprender e aprimorar minhas habilidades. Estou muito feliz por estar na Trybe e espero que possa ajudar as pessoas da melhor forma possível, sempre melhorando.</p></article>
+    </div>
+  </section>
+  
+  <section id="licoes" class="box">
+    <h2>Lições</h2>
 
-  <ul id="licoes_a_aprender">
-    <li>JavaaScript</li>
-    <li>DOM</li>
-    <li>Forms</li>
-    <li>CSS Responsive</li>
-    <li>ES6</li>
-    <li>HOP</li>
-    <li>Unix Tests</li>
-    <li>React</li>
-    <li>Node</li>
-    <li>SQL</li>
-  </ul>
+    <div id="left">
+      <h3>Lições aprendidas</h3>
+      <ol id="licoes_aprendidas">
+        <li>Unix</li>
+        <li>Git</li>
+        <li>GitHub</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Slack</li>
+        <li>Zoom</li>
+        <li>Inspect</li>
+        <li>VSCode</li>
+        <li>Semantic HTML</li>
+      </ol>
+    </div>
 
-  <article>Eu tinha um pouco de medo de entrar de cabeça nesse mundo da tecnologia e ficava reciosa, começava a estudar sozinha e acabava não seguindo em frente. Em 2020 entrei na faculdade de SI e aprendi um pouco mais. Hoje estou na Trybe e percebo que, em apenas duas semanas, já tive um avanço que eu pensava que não seria possível em tão pouco tempo. Não tenho mais medo de estudar e errar, percebi que é com os nossos erros que aprendemos. Agora consigo usar o terminal (o que eu pensava ser impossível), estou aprendendo constantemente sobre GitHub e posso criar páginas HTML e CSS com mais confiança.</article>
+    <div id="right">
+      <h3>Lições a aprender</h3>
+      <ul id="licoes_a_aprender">
+        <li>JavaScript</li>
+        <li>DOM</li>
+        <li>Forms</li>
+        <li>CSS Responsive</li>
+        <li>ES6</li>
+        <li>HOP</li>
+        <li>Unix Tests</li>
+        <li>React</li>
+        <li>Node</li>
+        <li>SQL</li>
+      </ul>
+    </div>
+  </section>
 
-  <section></section><aside>No começo eu ficava nervosa e com medo. Não só das hard skills, mas, principalmente, por causa das soft skills. Sou muito tímida e só de pensar em participar das dinâmicas já começo a ficar ansiosa. Depois de duas semanas continua sendo difícil, mas a cada dia que passa ganho um pouco de confiança.</aside></section>
+  <section id="aprendizado" class="box">
+    <h2>Aprendizado</h2>
 
-  <footer id="rodape"></footer>
+    <div id="left-p">
+      <article><p>Eu tinha um pouco de medo de entrar de cabeça nesse mundo da tecnologia e ficava reciosa, começava a estudar sozinha e acabava não seguindo em frente. Em 2020 entrei na faculdade de SI e aprendi um pouco mais. Hoje estou na Trybe e percebo que, em apenas duas semanas, já tive um avanço que eu pensava que não seria possível em tão pouco tempo. Não tenho mais medo de estudar e errar, percebi que é com os nossos erros que aprendemos. Agora consigo usar o terminal (o que eu pensava ser impossível), estou aprendendo constantemente sobre GitHub e posso criar páginas HTML e CSS com mais confiança.</p></article>
+    </div>
+
+    <div id="right-p">
+      <aside><p>No começo eu ficava nervosa e com medo. Não só das hard skills, mas, principalmente, por causa das soft skills. Sou muito tímida e só de pensar em participar das dinâmicas já começo a ficar ansiosa. Depois de duas semanas continua sendo difícil, mas a cada dia que passa ganho um pouco de confiança.</p></aside>
+    </div>
+  </section>
+
+  <footer id="rodape">
+    <p>Todos os direitos reservados, <em>Juliana Happatsch</em></p>
+  </footer>
 </body>
 </html>
