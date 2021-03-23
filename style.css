@@ -19,3 +19,8 @@ header {
 #titulo {
   font-size: 35px;
 }
+
+#minha_foto {
+  margin: 75px 5px 5px;
+  width: 200px;
+}
