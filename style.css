@@ -30,14 +30,14 @@ p {
   line-height: 150%;
 }
 
-#licoes_aprendidas p, 
-#licoes_a_aprender p, 
-.lado-direito, 
+#licoes_aprendidas p,
+#licoes_a_aprender p,
+.lado-direito,
 .lado-esquerdo {
   display: inline-block;
 }
 
-.lado-direito, 
+.lado-direito,
 .lado-esquerdo {
   text-align: justify;
   max-height: 10%;
