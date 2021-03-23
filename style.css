@@ -67,6 +67,10 @@ img {
   font-size: 20px;
 }
 
+.footer-container a {
+  color: rgb(47, 193, 140);
+}
+
 .nav-bar a:hover {
   color: rgb(5, 253, 216);
   transition: 1s;
@@ -110,10 +114,6 @@ img {
   padding: 15px 0;
 }
 
-.footer-container a {
-  color: rgb(47, 193, 140);
-}
-
 .footer-container a:hover {
   color: rgb(5, 253, 216);
   transition: 1000ms;
@@ -125,6 +125,11 @@ img {
   font-size: 20px;
   padding: 16px 80px;
   letter-spacing: 1.5px;
+}
+
+.footer-container a:hover {
+  color: rgb(3, 107, 82);
+  transition: 1s;
 }
 
 #intro-button a:hover {
@@ -224,11 +229,6 @@ img {
   max-width: 960px;
   margin: 0 auto;
   display: flex;
-}
-
-.footer-container a:hover {
-  color: rgb(3, 107, 82);
-  transition: 1s;
 }
 
 .footer-container p {
