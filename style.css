@@ -1,6 +1,6 @@
-*{
+* {
   box-sizing: border-box;
-  font-family: 'Courier New', Courier, monospace;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
@@ -9,7 +9,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
 }
 
 #titulo {
@@ -49,7 +49,7 @@ article #column {
   column-count: 2;
 }
 
-aside{
+aside {
   background-color: lightgrey;
   width: 300px;
   border: 5px solid rgb(37, 37, 37);
@@ -57,10 +57,12 @@ aside{
   margin-left: 1350px;
   margin-top: -500px;
 }
+
 #article_learning {
   width: 500px;
   margin-left: 20px;
 }
+
 #licoes_aprendidas {
   width: 20px;
 }
