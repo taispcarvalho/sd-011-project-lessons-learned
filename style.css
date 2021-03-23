@@ -52,11 +52,11 @@ a {
 }
 
 .articles {
+  text-align: center;
   font-size: large;
   padding: 10px 15px;
   width: 45%;
   display: inline-block;
-  top: 0;
 }
 
 p {
@@ -65,4 +65,19 @@ p {
 
 .contents {
   margin-left: 4%;
+}
+
+table , tr , th , td {
+  padding: 5px 10px;
+  border: 1px solid black;
+}
+
+table {
+  margin: 10px;
+  display: inline-block;
+}
+
+.tabel {
+  text-align: center;
+  font-size: large;
 }
