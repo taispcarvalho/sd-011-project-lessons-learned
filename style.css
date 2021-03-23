@@ -17,8 +17,8 @@ h1, h2, h3 {
 }
 
 #minha_foto {
-    width: 36%;
-    margin-left: 15%;
+    width: 300px;
+    margin-left: 40%;
 }
 
 #contact-me a {
@@ -31,7 +31,8 @@ h1, h2, h3 {
     margin-top: 140px;
     padding-left: 4%;
     padding-right: 4%;
-    text-align: center;
+    text-align: justify;
+    line-height: 30px;
 }
 
 #about-table {
