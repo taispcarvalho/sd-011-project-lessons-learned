@@ -1,5 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Arial;
+  color: brown;
+  line-height: 25px;
+  font-size: 20px;
 }
 
 #cabecalho {
