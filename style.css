@@ -1,15 +1,24 @@
 body {
+  font-style:oblique;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin: 0;
   background-color: rgb(253, 251, 251);
   border: 0;
   padding: 0;
-    }
-#cabecalho{   
-  top: 0px;
+}
+#cabecalho{
+  top: 0;
   padding: 0;
   order: 0;
   margin: 0;
   width:auto;
   background-color: darkolivegreen;
   text-align: center;
+}
+#titulo{
+  color: white;
+  text-shadow: 2px 2px 4px #000000; 
+}
+#minha_foto{
+  border-radius:200px; 
 }
