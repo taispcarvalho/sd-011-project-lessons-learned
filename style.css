@@ -8,10 +8,24 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-main section img {
-  padding: 55px;
-  border-radius: 40%;
+h2 {
+  margin: 10px;
 }
+
+table {
+  margin: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 95%;
+  margin: 10px;
+}
+
 
 #cabecalho {
   top: 0;
@@ -39,8 +53,14 @@ main section img {
   list-style: none;
 }
 
-.lessons ol li {
+#licoes_aprendidas {
   margin-left: 30px;
+}
+
+.photo img {
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 40%;
 }
 
 .lessons-learn #licoes_a_aprender li {
