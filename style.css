@@ -130,3 +130,19 @@ a:hover {
   margin: 2px;
   display: inline-block;
 }
+
+.lado-direito {
+  text-align: left;
+}
+
+.lado-esquerdo {
+  margin-bottom: 30px;
+}
+
+.ul-align {
+  text-align: left;
+}
+
+.learn-content {
+  display: inline-block;
+}
