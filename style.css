@@ -25,6 +25,14 @@ body {
   width: 300px;
 }
 
+nav p a {
+  color: black;
+}
+
+a:hover {
+  color: seagreen;
+}
+
 #listas_licoes {
   text-align: center;
 }
@@ -48,4 +56,5 @@ article {
 aside {
   float: right;
   width: 35%;
+  text-align: justify;
 }
