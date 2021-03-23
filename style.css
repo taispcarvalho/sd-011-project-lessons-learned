@@ -1,5 +1,5 @@
-html{
-  font-family: "Candara", sans-serif;
+html {
+  font-family: Candara, sans-serif;
 }
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 #cabecalho {
-  background-color:rebeccapurple;
+  background-color: rebeccapurple;
   width: 100%;
   position: fixed;
   top: 0;
@@ -16,8 +16,4 @@ body {
 
 main {
   margin-top: 70px;
-}
-
-footer {
-
 }
