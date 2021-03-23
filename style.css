@@ -17,3 +17,8 @@ body {
 #bordalink {
     border: 2px solid black;
 }
+
+article {
+    border: 2px solid;
+    width: 300px;
+}
