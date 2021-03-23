@@ -1,8 +1,29 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: "Lexend";
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
+}
+
+#titulo {
+  text-align: center;
+}
+
+table {
+  font-size: 14px;
+}
+
+th {
+  color: blue;
+}
+
+td {
+  line-height: 14px;
+}
+
+img {
+  margin: 10px;
 }
