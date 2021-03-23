@@ -41,6 +41,7 @@ table {
   color: antiquewhite;
   font-size: 2em;
   font-family: sans-serif;
+  line-height: ;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
@@ -50,5 +51,15 @@ table {
 
 #my_learning , #study_fact {
   border: 10px solid black;
-  padding: 10px;
+  max-width: 500px;
+  background-color: aquamarine;
+  font-size: 26px;
+}
+
+#licoes_aprendidas li , #licoes_a_aprender li {
+  line-height: 1.5;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
 }
