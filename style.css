@@ -8,12 +8,57 @@ body {
 }
 
 #cabecalho {
-  background-color: rebeccapurple;
+  background-color: rgb(162, 95, 242);
   width: 100%;
   position: fixed;
   top: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+#titulo {
+  margin: 0;
+  color: white;
+}
+
+#aside-main-container {
+  display: flex;
+  margin-top: 60px;
+}
+
+#aside-main-container aside {
+  width: 250px;
+  border-right: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#aside-main-container aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  box-shadow: 0 0 2px black;
+  height: 180px;
 }
 
 main {
-  margin-top: 70px;
+  width: 100%;
+}
+
+footer {
+  background-color: rgb(162, 95, 242);
+  padding: 15px 25px;
+}
+
+footer p {
+  margin: 0;
 }
