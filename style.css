@@ -38,6 +38,11 @@ body {
   border-radius: 50%;
 }
 
+#lessons-learned {
+  display: inline-block;
+  background-color: red;
+}
+
 #rodape {
   background-color: rgba(14, 92, 14, 0.863);
 }
