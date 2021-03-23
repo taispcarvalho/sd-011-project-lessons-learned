@@ -21,6 +21,10 @@ body {
   margin: 5px 5px 5px 0;
 }
 
+#navList li:hover {
+  font-size: 25px;
+}
+
 #navList li a {
   list-style: none;
   text-decoration: none;
@@ -42,6 +46,7 @@ body {
 
 #listaLessons {
   margin: 30px 10px;
+  text-align: center;
 }
 
 #listaLessons ol , ul {
@@ -72,6 +77,7 @@ article , aside p {
   color: rgb(60, 64, 67);
   font-weight: 600;
   line-height: 29px;
+  text-align: justify;
 }
 
 .lado-esquerdo , .lado-direito {
