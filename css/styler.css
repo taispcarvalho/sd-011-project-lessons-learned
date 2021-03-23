@@ -50,3 +50,12 @@
   list-style: none;
   text-decoration: none;
 }
+
+#rodape {
+  font-family: roboto;
+  font-weight: 300;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 2px;
+}
