@@ -57,7 +57,22 @@ body {
   margin: auto;
 }
 
-.title-table {
-  background-color: dimgray;
+.title-table , #contato {
+  background-color: azure;
   font-family: cursive;
+}
+
+#lado-direito , #lado-esquerdo {
+  border-style: solid;
+  border-width: 2px;
+  width: 40%;
+  margin: auto;
+  display: inline-block;
+  padding: 50px;
+}
+
+#rodape {
+  background-color: rgb(212, 212, 209);
+  margin: auto;
+  padding: 50px;
 }
