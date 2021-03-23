@@ -1,5 +1,7 @@
 body {
   background: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
 }
 
 #cabecalho {
@@ -26,4 +28,15 @@ body {
 #linkedin {
   display: block;
   margin: 10px 207px;
+}
+
+#rodape {
+  margin: 0;
+  padding: 0;
+}
+
+#texto-rodape {
+  display: inline-block;
+  margin: 5px 50px;
+  font-size: 1.1em;
 }
