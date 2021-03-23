@@ -15,13 +15,25 @@ header {
   line-height: 25px;
   color: blue;
 }
-#lessons_learned_article {
-  width: 80%;
+#lessons_learned_article {  
   line-height: 25px;
-  color: blue;  
+  color: blue;   
 }
 table, th, td {
   border: 1px solid black;
   padding: 10px;
   margin-left: 20px;  
+}
+.lado-direito {
+  display: inline-block;
+  max-width: 30%;
+}
+.lado-esquerdo {
+  display: inline-block;  
+  max-width: 30%;
+  margin-right: 50px;
+}
+#minha_foto {
+  width: 200px;
+  border-radius: 5px;
 }
