@@ -29,11 +29,11 @@ body {
  text-align: left;
 }
 .lado-direito {
- width: 150px;
+ width: 170px;
  background-color: aqua;
  float: right;
  padding: 15px, 15px, 15px;
- margin-right: 420px;
+ margin-right: 375px;
  border-radius: 5px;
  text-align: center;
 }
