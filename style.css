@@ -44,6 +44,14 @@ header {
   width: 60%;
 }
 
+table {
+  text-align: center;
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  width: 50%;
+}
+
 #rodape {
   text-align: center;
   font-size: small;
