@@ -90,6 +90,7 @@ article {
   font-size: 2rem;
   text-align: center;
   color: rgb(33, 134, 97);
+  margin-bottom: 10%;
 }
 
 .about p {
@@ -114,8 +115,14 @@ article {
   margin-left: 10%;
 }
 
-.section {
-  display: inline;
+#licoes_a_aprender {
+  display: inline-block;
+  margin: 3%;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  margin: 3%;
 }
 
 #main {
