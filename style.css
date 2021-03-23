@@ -1,3 +1,30 @@
 body {
 	background-color: rgb(253,251,251);
 }
+#cabecalho{
+	width: 100%;
+	background-color: rgb(25, 25, 45);
+	top: 0px;
+	position: fixed;
+}
+#titulo{
+	color:floralwhite;
+	text-align: center;
+}
+#minha_foto{
+	max-width: 25%;
+	display: inline-block;
+}
+.licoes{
+	display: inline-block;
+	width: 30%;
+}
+#rodape{
+	background-color: rgb(3,107,82);
+	text-align: center;
+}
+#rodape a:link{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+	color: white
+}
