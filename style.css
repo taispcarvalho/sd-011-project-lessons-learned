@@ -50,13 +50,6 @@ img {
   margin-right: 80px;
 }
 
-article p {
-  display: inline-block;
-  margin-bottom: 35px;
-  border: black 2px dashed;
-  width: 35%;
-}
-
 aside {
   display: inline-block;
   width: 35%;
@@ -66,11 +59,12 @@ aside {
 
 .lado-esquerdo {
   float: left;
+  width: 33%;
+  border: solid black 2px;
 }
 
 .lado-direito {
   float: right;
-  margin-top: -12%;
 }
 
 #rodape {
