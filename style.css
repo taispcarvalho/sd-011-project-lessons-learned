@@ -9,7 +9,7 @@ header {
 }
 
 #minha_foto {
-  width: 200px;
+  max-width: 200px;
   border-radius: 50%;
   height: auto;
 }
