@@ -1,6 +1,10 @@
-body {background-color: rgb(253, 251, 251);
+body { background-color: rgb(253, 251, 251);
 }
 
-.barra {top: 0; position: fixed;}
+.barra { top: 0;
+    position: fixed;
+}
 
-.rodape {bottom: 0; position: fixed;}
+.rodape { bottom: 0;
+     position: fixed;
+}
