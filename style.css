@@ -1,6 +1,67 @@
-body{
-    background-color: rgb(253,251, 251);
+body {
+  background-color: rgb(253, 251, 251);
 }
-#id{
-    position: fixed;
+
+#cabecalho {
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: seagreen;
+  display: block;
+  width: 1366px;
+  height: 100px;
+}
+
+#titulo {
+  text-align: center;
+  color: antiquewhite;
+}
+
+#principal {
+  margin-top: 100px;
+}
+
+#minha_foto {
+  position:fixed;
+  width: 200px;
+  margin-left: 890px;
+  top: 100px;
+  border-radius: 100%;
+}
+
+#eu {
+  font: 200;
+  color: seagreen;
+}
+
+#licoes_aprendidas{
+  position: absolute;
+}
+
+#licoes_a_aprender{
+  position: absolute;
+  left: 400px;
+}
+
+#aside_aprendizado{
+  border-color: seagreen;
+  position: fixed;
+  border-style:dotted;
+  left: 1150px;
+  z-index: 1;
+  padding-left: 10px;
+}
+
+#rodape{
+  position: absolute;
+  margin-top: 320px;
+  left: 0;
+  background-color: seagreen;
+  width: 1366px;
+  height: 100px;
+}
+
+#footer_link{
+  text-align: center;
+  color: antiquewhite;
 }
