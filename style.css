@@ -18,8 +18,8 @@ body {
   padding: 2px 1px;
 }
 
-.container-table table tr td{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.container-table table tr td {
+  font-family: sans-serif;
   font-size: 15px;
   color: darkblue;
   letter-spacing: 1px;
