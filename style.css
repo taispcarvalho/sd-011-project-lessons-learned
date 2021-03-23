@@ -149,7 +149,7 @@ img {
 
 #passagem-aprendizado {
   font-size: 60px;
-  color: #05fdd8;
+  color: rgb(5, 253, 216);
   padding: 30px 0 20px;
 }
 
@@ -168,7 +168,6 @@ img {
 .list-container {
   max-width: 500px;
   margin: 0 auto;
-  background-color: blue;
   display: flex;
   background-color: rgb(40, 42, 45);
   border-radius: 4px;
@@ -223,11 +222,11 @@ img {
   transition: 1000ms;
 }
 
-.footer-container p > a {
+.footer-container a {
   color: rgb(47, 193, 140);
 }
 
-.footer-container p > a:hover {
+.footer-container a:hover {
   color: rgb(3, 107, 82);
   transition: 1s;
 }
