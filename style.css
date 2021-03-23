@@ -41,3 +41,10 @@ table , td {
   margin-bottom: 50px;
 }
 
+.lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-direito {
+  float: right;
+}
