@@ -6,6 +6,10 @@ body {
 	top: 0px;
 	margin: auto;
 }
-header div h1 {
+nav h1 {
 	color: blanchedalmond;
 }
+header {
+	position: fixed;
+}
+
