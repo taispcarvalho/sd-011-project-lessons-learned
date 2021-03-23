@@ -16,7 +16,7 @@ body {
 #navList li {
   display: inline-block;
   padding: 3px;
-  margin: 5px 30px 5px 0px;
+  margin: 5px 30px 5px 0;
 }
 
 #navList li a {
@@ -30,16 +30,16 @@ body {
 }
 
 #foto-link {
-  margin: 10px 0px;
+  margin: 10px 0;
 }
 
 #listaLessons {
   margin: 30px 10px;
 }
 
-#listaLessons ol, ul, table {
+#listaLessons ol,ul,table {
   display: inline-block;
-  padding: 0px 30px;
+  padding: 0 30px;
 }
 
 table {
@@ -48,14 +48,14 @@ table {
   width: 20%;
 }
 
-td, th {
+td,th {
   border: 1px solid black;
   padding: 5px;
 }
 
 footer {
   text-align: center;
-  padding: 10px 0px;
+  padding: 10px 0;
   margin-top: 20px;
   border: 1px solid black;
 }
