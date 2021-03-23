@@ -1,7 +1,26 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  font-family: helvetica, sans-serif;
 }
-header {
-    top: 0;
-    position: fixed;
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  text-align: center;
+  background-color: seagreen;
+  width: 100%;
+}
+
+#hero {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#titulo {
+  color: rgb(253, 251, 251);
+}
+
+#minha_foto {
+  border-radius: 100%;
+  width: 300px;
 }
