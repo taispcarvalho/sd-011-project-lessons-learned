@@ -6,3 +6,6 @@ body {
   position: fixed;
   top: 0;
 }
+#text_about_matheus {
+  width: 80%;
+}
