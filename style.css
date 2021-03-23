@@ -15,4 +15,10 @@ body {
 
 #licoes_aprendidas {
   font-weight: 700;
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  font-weight: 700;
+  display: inline-block;
 }
