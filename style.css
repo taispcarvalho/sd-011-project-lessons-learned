@@ -1,5 +1,9 @@
 body {
 	background-color: rgb(253,251,251);
+	height: 6.5%;
+}
+main{
+	margin-top: 7%;
 }
 #cabecalho{
 	width: 100%;
@@ -7,6 +11,26 @@ body {
 	top: 0px;
 	position: fixed;
 }
+nav{
+
+}
+#navegacao{
+	background-color: rgb(60, 60, 88);
+	text-align: center;
+	align-items: center;
+}
+#navegacao li{
+	display: inline;
+	padding-left: 3%;
+	padding-right: 5%;
+}
+#cabecalho a{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-decoration: none;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: floralwhite;
+}
+
 #titulo{
 	color:floralwhite;
 	text-align: center;
@@ -15,7 +39,7 @@ body {
 	max-width: 25%;
 	display: inline-block;
 }
-.licoes{
+#licoes{
 	display: inline-block;
 	width: 30%;
 }
@@ -23,8 +47,22 @@ body {
 	background-color: rgb(3,107,82);
 	text-align: center;
 }
-#rodape a:link{
+#rodape a{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-decoration: none;
 	color: white
 }
+#passagem{
+	margin-top: 2%;
+	width: 8%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5%;
+}
+#aprendizado{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5%;
+}
+
