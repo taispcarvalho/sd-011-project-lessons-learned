@@ -13,3 +13,33 @@ header {
   position: fixed;
   top: 0;
 }
+
+
+
+.lado-esquerdo {
+  text-align: justify;
+  margin-top: 10px;
+  width: 50%;
+  border: black 2px solid;
+  display: inline-block;
+  padding: 10px;
+}
+
+.lado-direito {
+  text-align: justify;
+  margin-top: 10px;
+  width: 50%;
+  border: black 2px solid;
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+}
+
+footer {
+  background-color:black;
+  color: aliceblue;
+}
