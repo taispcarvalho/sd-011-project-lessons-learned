@@ -1,5 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
+	color: dimgray;
+	font-size: 105%;
+	line-height: 1.1;
+	font-family: monospace;
 }
 
 header {
@@ -38,4 +42,23 @@ main {
 
 img {
   width: 200px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0px solid black;
+}
+
+.footer, footer {
+	text-align: center;
+	border-top: 1px gray solid;
+	display: inline-block;
+	width: 100%;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding-top: 1em;    
+}
+#amor {
+	color: red;
 }
