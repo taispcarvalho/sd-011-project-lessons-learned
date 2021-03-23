@@ -1,10 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: darkolivegreen;
   font-size: large;
   margin-right: 15%;
-	margin-left: 15%;
+  margin-left: 15%;
   padding: 2%;
 }
 
@@ -27,14 +27,18 @@ img {
 
 p {
   font-size: x-large;
-	line-height: 150%;
+  line-height: 150%;
 }
 
-#licoes_aprendidas p, #licoes_a_aprender p, .lado_direito, .lado_esquerdo{
-	display: inline-block;
+#licoes_aprendidas p,
+#licoes_a_aprender p,
+.lado_direito,
+.lado_esquerdo {
+  display: inline-block;
 }
 
-.lado_direito, .lado_esquerdo{
-	text-align: justify;
-	max-height: 10%;
+.lado_direito,
+.lado_esquerdo {
+  text-align: justify;
+  max-height: 10%;
 }
