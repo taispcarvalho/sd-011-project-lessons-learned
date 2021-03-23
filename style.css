@@ -23,7 +23,6 @@ body {
 
 #licoes_aprendidas {
   background-color: rgb(197, 197, 197);
-
 }
 
 #licoes_a_aprender {
@@ -33,7 +32,7 @@ body {
 #rodape {
   background-color: black;
   color: white;
-  margin-top: 15%;
+  margin-top: 10px;
   padding: 10px;
   position: absolute;
   width: 100%;
