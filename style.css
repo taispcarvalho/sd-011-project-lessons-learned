@@ -28,21 +28,21 @@ header h1 {
   z-index: 0;
   margin: 15px 35px;
   display: inline-block;
-  float:left;
+  float: left;
   border-radius: 15px;
 }
 
-#about-me{
+#about-me {
   position: relative;
   top: 70px;
-  left: 0px;
+  left: 0;
   min-width: 100vw;
   height: 280px;
 }
 
-#about-me section{
+#about-me section {
   display: inline-block;
   max-width: 45vw;
   margin: 40px 30vw 25px 15px;
-  float:right;
+  float: right;
 }
