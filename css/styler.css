@@ -56,7 +56,8 @@
   font-family: Cambria, Cochin, Georgia, Times, serif, sans-serif;
   font-weight: 300;
   padding: 20px;
-  margin-bottom: 20px;
+  margin: 5px;
+  border: solid black 1px;
   font-size: 18px;
   line-height: 2px;
   color: blue;
