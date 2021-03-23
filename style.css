@@ -29,17 +29,17 @@ main {
   margin-right: 48px;
 }
 
-section {
+.page-section {
   margin: 48px 0;
 }
 
-section h1 {
+.page-section h1 {
   text-align: center;
 }
 
-section h1,
-section p,
-section aside {
+.page-section h1,
+.page-section p,
+.page-section aside {
   margin-bottom: 36px;
 }
 
