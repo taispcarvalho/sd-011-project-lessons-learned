@@ -1,29 +1,29 @@
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0px;
-    background-color: seagreen;
-    min-width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: seagreen;
+  min-width: 100%;
 }
 
 #minha_foto {
-    width: 200px;
-    margin-top: 70px;
+  width: 200px;
+  margin-top: 70px;
 }
 
 #bordalink {
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
 article {
-    border: 2px solid;
-    width: 300px;
+  border: 2px solid;
+  width: 300px;
 }
 
 aside {
-    border: 2px solid;
-    width: 300px;
+  border: 2px solid;
+  width: 300px;
 }
