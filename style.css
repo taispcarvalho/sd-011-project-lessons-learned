@@ -1,15 +1,21 @@
 body {
     background-color:rgb(253,251,251);
     font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
 }
 
 h1, h2, h3 {
     text-align: center;
 }
 
+
+
 #cabecalho {
     position: fixed;
-    top: 0px; 
+    top: 0; 
+    width: 100%;
+    background-color:rgb(211, 211, 197);  
+    border-bottom: 2px solid black; 
 }
 
 #minha_foto {
@@ -31,7 +37,7 @@ h1, h2, h3 {
 }
 
 #cabecalho a {
-    color: green;
+    color: black
 }
 
 li {
@@ -50,5 +56,16 @@ article {
     display: inline-block;
     width: 600px;
     margin-left: 10px;
-    margin-right: 50px;
+}
+
+.nav-links{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.nav-links a{
+    padding: 10px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid black;
 }
