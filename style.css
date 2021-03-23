@@ -3,18 +3,30 @@ background-color: rgb(253, 251, 251);
 }
 #cabecalho {
 	position: fixed;
-	top: 0px;
+	top:0px;
+	background-color: green;
+	width: 100%;
 }
 
 #minha_foto {
-	display: inline-block;
+	position: absolute;
+	top: 50px;
+	left: 200px;
 	width: 500px;
 }
 #licoes_aprendidas {
-	right: 500px;
 	position: absolute;
-	top: 40px;
+	top: 70px;
 	left: 10px;
 	max-width: 100px;
+	height: 200px;
 	background-color: blue;
+}
+
+#licoes_a_aprender {
+background-color: purple;
+position: absolute;
+top: 70px;
+left: 190px;
+height: 200px;
 }
