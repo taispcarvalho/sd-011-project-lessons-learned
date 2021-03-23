@@ -1,8 +1,26 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: darkolivegreen;
+  font-size: large;
+  margin: 15%;
+  padding: 2%;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
+}
+h1 {
+  text-align: center;
+}
+img {
+  border-radius: 100%;
+  float: left;
+  margin-left: 3%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+p {
+  font-size: x-large;
 }
