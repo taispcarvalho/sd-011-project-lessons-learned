@@ -148,13 +148,12 @@ td {
   margin-right: 23%;
 }
 
-article.lado-esquerdo  {
+article.lado-esquerdo {
   background-color: white;
   width: 400px;
   padding: 15px;
   height: 35vh;
   box-shadow: 1px 2px 5px rgba(179, 179, 179, 0.486);
-
 }
 
 aside.lado-direito {
@@ -163,7 +162,6 @@ aside.lado-direito {
   padding: 15px;
   height: 35vh;
   box-shadow: 1px 2px 5px rgba(179, 179, 179, 0.486);
-
 }
 
 /** RODAPE **/
