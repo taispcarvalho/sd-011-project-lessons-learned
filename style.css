@@ -21,7 +21,7 @@ table {
   margin-top: 2%;
 }
 
-th {
+th , td {
   border: 2px solid green;
   text-align: center;
 }
