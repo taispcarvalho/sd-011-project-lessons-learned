@@ -17,29 +17,27 @@ header nav {
 
 main {
   border: dotted red 1px;
-  
+  height: 500px;
 }
 
 #licoes, #main-content, aside{
   display: inline-block;
-  
+  float: left;
+  height: 100%;
 }
 
 #licoes{
   background-color: red;
   width: 20%;
-  float: left;
 }
 
 #main-content{
   background-color: rebeccapurple;
   width: 55%;
-  float: left;
 }
 
 aside{
   background-color: green;
   width: 25%;
-  float: leftt;
 }
 
