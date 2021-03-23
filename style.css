@@ -78,3 +78,7 @@ img {
 .block-list {
   margin: 0 50px;
 }
+
+table {
+  margin: 50px auto;
+}
