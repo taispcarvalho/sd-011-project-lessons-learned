@@ -3,6 +3,10 @@ body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
+h1, h2, h3 {
+    text-align: center;
+}
+
 #cabecalho {
     position: fixed;
     top: 0px; 
@@ -32,4 +36,19 @@ body {
 
 li {
     line-height: 25px;
+}
+
+article {
+    display: inline-block;
+    width: 600px;
+    background-color: green;
+    margin-left: 50px;
+}
+
+#how-trybe {
+    background-color: red;
+    display: inline-block;
+    width: 600px;
+    margin-left: 10px;
+    margin-right: 50px;
 }
