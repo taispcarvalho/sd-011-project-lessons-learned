@@ -2,9 +2,25 @@ body { background-color: rgb(253, 251, 251);
 }
 
 .barra { top: 0;
-    position: fixed;
+position: fixed;
+margin-left: 200px;
+padding: 20px;
+border-color: green;
+border-style: dotted;
+font-family: 'Courier New', monospace;
 }
 
 .rodape { bottom: 0;
-     position: fixed;
+position: fixed;
+}
+
+article { color: green; 
+font-size: 30px;
+font-family: cursive;
+line-height: 1.5;
+display:inline;
+}
+
+aside { color: red;
+    display:inline;
 }
