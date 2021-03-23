@@ -42,6 +42,35 @@ nav a:hover {
   color: rgb(109, 241, 213);
 }
 
+main {
+  padding-top: 10%;
+}
+
+aside {
+  border: solid 5px rgb(146, 146, 146);
+  border-radius: 15%;
+  float: right;
+  width: 40%;
+  margin-right: 5%;
+  padding: 20px;
+  text-align: justify;
+  line-height: 125%;
+}
+
+/* prettier-ignore */
+.table table , p {
+  bottom: 200px;
+  display: inline-block;
+  font-size: 1.2em;
+  font-family: Courier New, Courier, monospace;
+  border: solid 2;
+}
+
+footer p {
+  display: inline-block;
+  margin-top: 0.5%;
+}
+
 footer {
   position: fixed;
   text-align: center;
@@ -56,34 +85,18 @@ footer {
   height: 5%;
 }
 
-footer p {
-  display: inline-block;
-  margin-top: 0.5%;
+.table {
+  margin-top: 50px;
 }
 
-main {
-  padding-top: 10%;
-  bottom: 200px;
-  top: 200px;
-}
-
-aside {
-  border: solid 5px rgb(146, 146, 146);
-  border-radius: 15%;
-  float: right;
-  width: 30%;
-  margin-right: 20px;
-  padding: 20px;
-  text-align: justify;
-}
-
-aside h2 {
+.table p {
   text-align: center;
 }
 
 #minha_foto {
+  top: 20px;
   float: right;
-  width: 66%;
+  width: 100px;
   border-radius: 50%;
   margin-right: 50px;
   border: solid 5px purple;
@@ -92,14 +105,24 @@ aside h2 {
 #licoes_aprendidas {
   font-size: 1em;
   display: inline-block;
+  line-height: 125%;
 }
 
 #licoes_a_aprender {
   display: inline-block;
+  line-height: 125%;
 }
 
-.text {
-  margin: 20px;
+.lado-direito {
+  margin-right: 100px;
+}
+
+.lado-esquerdo {
+  border: solid 5px rgb(146, 146, 146);
+  border-radius: 5%;
+  padding: 20px;
+  margin-left: 50px;
   display: inline-block;
-  width: 60%;
+  width: 40%;
+  line-height: 125%;
 }
