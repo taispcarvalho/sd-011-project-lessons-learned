@@ -13,7 +13,6 @@ img {
 }
 
 /* MENU NAVEGAÇÃO */
-
 #cabecalho {
   position: fixed;
   background-color: #181818;
@@ -21,7 +20,7 @@ img {
   left: 0;
   right: 0;
   text-align: center;
-  color: #ffffff;
+  color: white;
   padding: 20px 0;
 }
 
@@ -50,9 +49,9 @@ img {
 
 .nav-bar a {
   display: inline-block;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px;
   text-decoration: none;
-  color: #ffffff;
+  color: white;
   font-size: 18px;
 }
 
@@ -62,9 +61,8 @@ img {
 }
 
 /* INTRO */
-
 .intro {
-  padding: 180px 0 200px 0;
+  padding: 180px 0 200px;
   background-color: #1d1d1d;
 }
 
@@ -75,7 +73,7 @@ img {
 
 .intro-container h1 {
   font-size: 90px;
-  color: #ffffff;
+  color: white;
 }
 
 #r-edit {
@@ -85,7 +83,7 @@ img {
 
 .intro-container p {
   text-align: center;
-  color: #ffffff;
+  color: white;
   margin-top: 20px;
   font-size: 20px;
 }
@@ -120,7 +118,6 @@ img {
 }
 
 /* SEÇÂO DE APRENDIZADOS */
-
 .about {
   padding: 60px 0;
   background-color: #1d1d1d;
@@ -139,7 +136,7 @@ img {
 
 .my-learning {
   font-size: 28px;
-  color: #ffffff;
+  color: white;
   max-width: 600px;
   padding-right: 20px;
 }
@@ -153,17 +150,16 @@ img {
 #passagem-aprendizado {
   font-size: 60px;
   color: #05fdd8;
-  padding: 30px 0 20px 0;
+  padding: 30px 0 20px;
 }
 
 .my-learning2 {
   font-size: 28px;
   padding-right: 25px;
-  color: #ffffff;
+  color: white;
 }
 
 /* LISTA */
-
 .list {
   background-color: #1d1d1d;
   padding: 60px 0;
@@ -177,7 +173,7 @@ img {
   background-color: #282a2d;
   border-radius: 4px;
   box-shadow: 0 4px 16px 4px rgb(0 0 0 / 30%);
-  color: #ffffff;
+  color: white;
 }
 
 #licoes_aprendidas {
@@ -204,7 +200,6 @@ img {
 }
 
 /* FOOTER */
-
 #rodape {
   padding: 30px 0;
   background-color: #181818;
@@ -217,7 +212,7 @@ img {
 }
 
 .footer-container a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   padding-right: 20px;
   font-size: 20px;
