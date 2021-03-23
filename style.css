@@ -1,9 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Architects Daughter, cursive;
-  font-size: 18px;
+  font-size: 12px;
   color: black;
   line-height: 30px;
+  margin-top: 120px;
 }
 
 a {
@@ -20,6 +21,25 @@ aside img {
   width: 200px;
 }
 
+header {
+  height: 100px;
+}
+
+main , footer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: end;
+}
+
+#aprendizagem {
+  width: 600px;
+  height: 700px;
+  float: left;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -27,6 +47,12 @@ aside img {
 
 #minha_foto {
   width: 200px;
+}
+
+#artigos {
+  width: 600px;
+  float: right;
+  height: 700px;
 }
 
 .nav ul li {
