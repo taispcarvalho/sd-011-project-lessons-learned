@@ -6,8 +6,13 @@ body {
   position: fixed;
   top: 0;
   border: 1px solid red;
+  text-align: center;
 }
 
 #minha_foto {
   margin-top: 80px;
+}
+
+#navList li{
+  display: inline-block;
 }
