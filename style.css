@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,6 +10,7 @@ body {
 header {
   position: fixed;
   top: 0;
+  background-color: #036b52;
 }
 
 #minha_foto {
@@ -12,4 +18,34 @@ header {
   max-height: 450px;
   width: auto;
   height: auto;
+  margin-top: 70px;
+  border: 10px solid aquamarine;
+  border-radius:100px;
+}
+
+#links {
+  background-color: aquamarine;
+  border: 10px solid black;
+  padding: 10px;
+}
+
+table {
+  background-color: cadetblue;
+  border: 10px solid black;
+  padding: 10px;
+}
+
+.quest {
+  background-color: cadetblue;
+  border: 10px solid black;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  background-color: aquamarine;
+  border: 10px solid black;
+}
+
+#my_learning, #study_fact {
+    border: 10px solid black;
+    padding: 10px;
 }
