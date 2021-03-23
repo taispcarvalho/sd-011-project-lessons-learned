@@ -5,8 +5,27 @@ body {
 header {
   position: fixed;
   top: 0;
+  background-color: #036b52;
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+header ul {
+  list-style: none;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
 }
 
 table, th {
   border: 2px solid black;
+}
+
+#minha_foto { 
+  margin: 10% 10%;
 }
