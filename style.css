@@ -1,24 +1,50 @@
 body {
     background-color: rgb(253, 251, 251);
+    width: 1366px;
+    height: 768px;
 }
 
 main {
-    
+    position: center;
 }
 
-img{
-
+#foto{
+display: absolute;
+margin-left: 400px;
+padding: 30px 15px 20px;
+margin-top:150px;
 }
 
 header {
 position: fixed;
+text-align: center;
 top: 0px;
+background-color: darkgoldenrod;
+color:darkred;
+font-size: 30px;
 }
 
-section {
-
+#licoes_aprendidas {
+    position: absolute;
+    display: inline;
+    top: 700px;
+    margin-left: 200px;
+    font-size: 25px;
 }
 
+#licoes_a_aprender {
+    position: absolute;
+    display: inline;
+    top: 700px;
+    margin-left: 900px;
+    font-size: 25px;
+}
 footer {
+
+}
+
+h1 {
+    width: 1366px;
+    
 
 }
