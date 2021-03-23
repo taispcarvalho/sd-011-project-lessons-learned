@@ -29,7 +29,7 @@ body {
 }
 
 .lado-direito {
-  width: calc(50% - 20px); 
+  width: calc(50% - 20px);
   float: left;
   box-shadow: inset 5px 0 5px -5px rgb(222, 165, 75);
   padding-left: 20px;
@@ -38,6 +38,6 @@ body {
 }
 
 .lado-esquerdo {
-  width: 50%; 
+  width: 50%;
   float: left;
 }
