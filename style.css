@@ -19,7 +19,11 @@ body {
   letter-spacing: 1px;
 }
 
-.container-article {
+.container-section {
+  width: 1000px;
+}
+
+.inline-block {
   display: inline-block;
 }
 
@@ -34,3 +38,10 @@ body {
 .cls {
   clear: both;
 }
+
+.container-article {
+  width: 450px;
+}
+
+
+
