@@ -1,8 +1,26 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Montserrat, sans-serif;
 }
 
 header {
   position : fixed;
   top : 0;
+  margin-left: 500px;
+}
+
+div {
+  margin-top: 6%;
+  text-align: center;
+}
+nav p {
+  font-size: 25px;
+}
+
+#link_externo {
+  text-decoration: none;
+}
+
+#minha_foto {
+  border-radius: 45% 25%;
 }
