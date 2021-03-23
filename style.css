@@ -11,5 +11,21 @@ body {
   position: absolute;
   border-radius: 100px;
   top: 80px;
+  left: 40px;
   width: 160px;
+}
+
+#licoes_aprendidas {
+  position: absolute;
+  top: 290px;
+}
+
+#title-list {
+  position: absolute;
+  top: 240px;
+}
+
+#block-list {
+  position: absolute;
+  left: 40px;
 }
