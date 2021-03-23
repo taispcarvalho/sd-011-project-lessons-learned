@@ -4,5 +4,6 @@ body {
 
 #cabecalho {
   position: fixed;
-  margin-top: 0px;
+  background-color: aqua;
+  border: 0px;
 }
