@@ -1,25 +1,31 @@
 body {
-	background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
-	background-color: black;
-	top: 0px;
-	margin: auto;
+#cabecalho {  
+  background-color: black;
+  top: 0px;
+}
+
+p, li {
+	line-height: 25px;
 }
 
 nav h1 {
-	color: blanchedalmond;
+  color: blanchedalmond;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: xx-large;
 }
 
 header {
-	overflow: hidden;
-	position: fixed;
-	top: 0;
-	width: 100%;
-	background-color: black;
-
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+	text-align: center;
 }
+
 section {
-	margin-top: 120px;
+  margin-top: 120px;
 }
