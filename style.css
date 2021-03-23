@@ -16,6 +16,7 @@ main {
 
 }
 header {
+
   position: fixed;
   height: 170px;
   text-align: center;
@@ -27,6 +28,7 @@ header {
   z-index: 1;
 }
 #linkedin {
+
   display: inline-block;
   margin-left: 400px;
   margin-top: 150px;
@@ -34,13 +36,14 @@ header {
   z-index: 2;
 }
 #git {
+
   display: inline-block;
   margin-left: 400px;
   margin-top: 150px;
-  
   z-index: 2;
 }
 #licoes_aprendidas {
+
   position: absolute;
   display: inline;
   top: 800px;
@@ -48,6 +51,7 @@ header {
   font-size: 25px;
 }
 #licoes_a_aprender {
+
   position: absolute;
   display: inline;
   top: 800px;
@@ -55,15 +59,18 @@ header {
   font-size: 25px;
 }
 footer {
+
   position: absolute;
   margin-left: 80px;
   top: 1950px;
   padding: auto;
 }
 h1 {
+
   width: 1366px;
 }
 .lado-esquerdo {
+
   position: absolute;
   font-family: sans-serif;
   display: inline;
