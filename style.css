@@ -2,9 +2,20 @@ body {
     background-color: rgb(253, 251, 251);
 }
 
-header{
+header {
     position: fixed;
-    top: 0px;
- }
+    top: 0;
+    background-color: green;
+    padding: 2%;
+    border-style: double;
+    text-align: center;
+    }
+
+#minha_foto {
+    border-radius: 15%;
+    position: absolute;
+    bottom: 2%;
+}
+
 
  
