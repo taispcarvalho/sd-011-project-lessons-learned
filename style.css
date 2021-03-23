@@ -1,5 +1,5 @@
 * {
-  margin:0px;
+  margin: 0;
 }
 
 body {
@@ -7,7 +7,7 @@ body {
 }
 
 header {
-  margin-top: 0px;
+  margin-top: 0;
   position: fixed;
   background-color: seagreen;
   width: 100%;
@@ -19,9 +19,8 @@ header {
   text-align: center;
 }
 
-/*
 div #minha_foto {
   margin-top: 70px;
   border-radius: 100px;
 }
-*/
+
