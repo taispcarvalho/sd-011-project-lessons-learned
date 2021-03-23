@@ -5,6 +5,10 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgb(5, 190, 82);
+  color: white;
 }
 
 #minha_foto {
@@ -18,6 +22,7 @@ body {
 
 #trybe-table {
   border: solid 1px black;
+  line-height: 25px;
   margin-top:-20px;
   margin-bottom: 10px;
 }
