@@ -27,3 +27,9 @@ body {
 #navegacao a {
   color: white;
 }
+
+#tabela {
+  border: dashed blue 2px;
+  padding: 5px;
+  margin: 8px;
+}
