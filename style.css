@@ -5,11 +5,25 @@ body {
 header {
 	position: fixed;
   top: 0;
-	background-color: seagreen;
+	background-color: rgb(38, 189, 103);
+	width: 100%;
+	z-index: 1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	padding: 1%;
+	text-align: center;
+	text-align-last: center;
+	text-size-adjust: 5px;
 }
 
 #minha_foto {
   max-width: 200px;
   border-radius: 50%;
   height: auto;
+}
+
+.nav-at-site ul li {
+	position: relative;
+	top: 10px;
+	z-index: 2;
+	display: inline-block;
 }
