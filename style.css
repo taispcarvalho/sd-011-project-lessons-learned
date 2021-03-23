@@ -11,12 +11,33 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: rgba(14, 92, 14, 0.863);
   text-align: center;
-  background-color: green;
   padding: 10px 15px;
+}
+
+#titulo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  color: rgba(235, 235, 235, 0.877);
+  display: inline-block;
+  font-style: italic;
+}
+
+#trybe-img {
+  width: 30px;
+  display: inline-block;
+  padding-top: 2px;
+  padding-right: 40px;
+  float: right;
 }
 
 #minha_foto {
   width: 250px;
   margin-top: 60px;
+  border-radius: 50%;
+}
+
+#rodape {
+  background-color: rgba(14, 92, 14, 0.863);
 }
