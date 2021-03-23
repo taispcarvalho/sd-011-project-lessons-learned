@@ -3,16 +3,17 @@ body {
 }
 
 #cabecalho {
+  margin-left: 250px;
   top: 0;
   position: fixed;
-  display: block;
-  margin: auto;
+  height: 20px;
+  padding: 1px;
 }
 
 #titulo {
   text-align: center;
   color: black;
-  font-size: 70px;
+  font-size: 30px;
   font-weight: 600;
   font-family: "Roboto", sans-serif;
 }
@@ -24,6 +25,19 @@ body {
   width: 200px;
 }
 
+.licoes {
+  margin-top: 100px;
+}
+
 #licoes_aprendidas {
   list-style: none;
+}
+
+#licoes_a_aprender {
+  list-style: none;
+}
+
+#rodape {
+  bottom: 0;
+  background-color: gray;
 }
