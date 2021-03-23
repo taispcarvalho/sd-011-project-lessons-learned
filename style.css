@@ -4,7 +4,7 @@ body {
 
 #cabecalho {
   position: fixed;
-  display: inline-block;
+  display: block;
   top: 0;
   background-color: rgb(121, 0, 0);
   width: 100%;
@@ -17,8 +17,27 @@ body {
 }
 
 #minha_foto {
-  display: inline-block;
+  position: relative;
   padding-top: 25px;
   width: 280px;
   height: 280px;
+}
+
+#licoes {
+  display: flex;
+  flex-direction: row;
+}
+
+#licoes_aprendidas {
+  position: relative;
+  padding: 100px;
+  bottom: 375px;
+  left: 250px;
+}
+
+#licoes_a_aprender {
+  position: relative;
+  padding: 100px;
+  bottom: 375px;
+  left: 175px;
 }
