@@ -1,19 +1,46 @@
 body {
   background-color: rgb(253, 251, 251);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
+
 #cabecalho {
-  top: 0px;
   position: fixed;
+  top: 0px;
   width: 100%;
   background-color: yellowgreen;
 }
+
 #titulo {  
   text-align: center;
 }
+
 #minha_foto {
   width: 300px;
-  margin: 100px;
+  border-radius:200%;
+  margin-top: 150px;
 }
+
+#test {
+  display: inline-block;
+  width: 100%;
+  background-color: antiquewhite;
+}
+
 #licoes_aprendidas {
+  display: inline-block;
   list-style-type:decimal;
+  font-size: 20px;
+  margin: 50px;
+  margin-left: 1px;
+  width: 0 auto;
+  text-align: left;
 }
+
+#licoes_a_aprender {
+  display: inline-block;
+  font-size: 20px;
+  text-align: left;
+  width: 0 auto;
+}
+
