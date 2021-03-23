@@ -55,7 +55,7 @@ body {
 
 #lessons-to-learn {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 80px;
   font-size: 18px;
   background-color: rgba(138, 194, 152, 0.308);
   padding: 10px;
@@ -63,8 +63,22 @@ body {
 }
 
 #licoes_a_aprender {
-  padding-left: 20px;
+  padding-left: 25px;
   padding-top: 5px;
+}
+
+.button {
+  background-color: rgb(99, 179, 119);
+  color: white;
+  text-decoration: none;
+  margin-left: 85px;
+  padding: 5px 10px 5px 5px;
+}
+
+a:hover {
+  transition: 0.5s;
+  font-size: 140%;
+  color: rgba(95, 95, 240, 0.692);
 }
 
 #rodape {
@@ -73,4 +87,16 @@ body {
   font-size: 23px;
   padding: 08px;
   color: rgba(235, 235, 235, 0.685);
+}
+
+#knowledge {
+  display: inline-block;
+  width: 200px;
+  background-color: rgba(138, 194, 152, 0.308);
+}
+
+#my-knowledge {
+  display: inline-block;
+  width: 200px;
+  background-color: rgba(138, 194, 152, 0.308);
 }
