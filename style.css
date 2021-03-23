@@ -98,3 +98,14 @@ figure figcaption {
   border: 1px solid black;
   text-align: center;
 }
+
+#rodape {
+  background-color: black;
+  color: white;
+}
+
+#rodape p {
+  margin: 10px 0 0;
+  padding: 10px;
+  text-align: center;
+}
