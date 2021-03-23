@@ -5,12 +5,15 @@ body {
   font-size: 25px;
 }
 main {
+
   position: center;
 }
+
 #foto {
   display: absolute;
   margin-left: 450px;
   padding: 20px 15px;
+
 }
 header {
   position: fixed;
@@ -20,18 +23,21 @@ header {
   background-color: darkgoldenrod;
   color: darkred;
   font-size: 30px;
+
   z-index: 1;
 }
 #linkedin {
   display: inline-block;
   margin-left: 400px;
   margin-top: 150px;
+
   z-index: 2;
 }
 #git {
   display: inline-block;
   margin-left: 400px;
   margin-top: 150px;
+  
   z-index: 2;
 }
 #licoes_aprendidas {
@@ -65,7 +71,7 @@ h1 {
   margin-left: 200px;
   font-size: 25px;
   width: 500px;
-  line-height: 40px
+  line-height: 40px;
 }
 
 .lado-direito {
@@ -77,5 +83,5 @@ h1 {
   width: 500px;
   line-height: 40px;
   font-family: Tahoma, Geneva, Verdana, sans-serif;
-  border:double;
+  border: double;
 }
