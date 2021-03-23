@@ -25,7 +25,22 @@ header ul {
 }
 footer {
   text-align: end;
+  margin-top: 300px;
+  margin-left: 1320px;
+  position: fixed;
 }
 main h3 {
   margin-top: 60px;
+}
+article #column {
+  column-count: 2;
+}
+aside{
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin-left: 1350px;
+  margin-top: -500px;
+  
 }
