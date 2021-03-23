@@ -1,3 +1,25 @@
+* {
+  margin: 0;
+}
+
 body {
-    background-color: rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
+  margin-left: 20px;
+}
+
+#titulo {
+  position: fixed;
+  top: 00px;
+  background-color: rgb(97, 124, 150);
+  width: 100%;
+  text-align: center;
+}
+
+.image {
+  text-align: center;
+}
+
+.rodape {
+  text-align: center;
+  background-color: rgb(161, 161, 161);
 }
