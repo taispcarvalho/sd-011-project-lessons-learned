@@ -31,6 +31,10 @@ body {
   width: 1000px;
 }
 
+#licoes {
+  width: 1000px;
+}
+
 .inline-block {
   display: inline-block;
 }
