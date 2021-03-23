@@ -55,6 +55,16 @@ body {
   margin-left: 12%;
 }
 
+#rodape {
+  text-align: center;
+  margin-top: 2.5%;
+  background-color: green;
+  color: white;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 0.5%;
+}
+
 table {
   width: 75%;
 }
