@@ -18,3 +18,13 @@ body {
   text-align: center;
 }
 
+#minha_foto {
+  width: 200px;
+  border-color: darkcyan;
+  border-style: solid;
+  margin-top: 10px;
+}
+
+#principal {
+  margin-top: 100px;
+}
