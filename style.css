@@ -49,8 +49,9 @@ body {
 }
 
 #table_trybe {
-  width: 30%;
-  float: left;
+  width: 100%;
+  margin-top: 50px;
+  
 }
 
 .articles {
@@ -87,5 +88,5 @@ body {
   text-decoration: none;
   color: white;
   font-size: 22px;
-  font-weight: bold;
+  font-weight: 600;
 }
