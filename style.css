@@ -73,3 +73,7 @@ article {
 #licoes_a_aprender , #licoes_aprendidas {
   text-align: left;
 }
+
+td {
+  margin: 0 50px;
+}
