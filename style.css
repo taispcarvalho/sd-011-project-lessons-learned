@@ -50,14 +50,14 @@ body {
 
 #table_trybe {
   width: 100%;
-  margin-top: 50px;  
+  margin-top: 50px;
 }
 
 .articles {
   display: inline;
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   margin-top: 250px;
   width: 70%;
   text-align: justify;
@@ -83,7 +83,7 @@ body {
   margin-top: -45px;
 }
 
-.footer a {
+.footer-a {
   text-decoration: none;
   color: white;
   font-size: 22px;
