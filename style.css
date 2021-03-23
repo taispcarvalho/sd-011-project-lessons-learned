@@ -4,8 +4,10 @@ body {
 } 
 
 #cabecalho {
-    top: 0px;
     background-color: chartreuse;
 }
 
-#minha_foto
+#titulo {
+ top: 0px;
+   
+}
