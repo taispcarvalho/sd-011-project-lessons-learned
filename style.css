@@ -3,9 +3,11 @@ body {
 }
 
 #cabecalho {
+  margin-inline-start: 317.641px;
   top: 0;
   position: fixed;
   display: block;
+  text-align: center;
 }
 
 #minha_foto {
