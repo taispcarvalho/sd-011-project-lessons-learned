@@ -4,4 +4,11 @@
  #cabecalho{
   position: fixed;
   top: 0px;
+  left: 0px;
+  background-color: steelblue;
+  width:1500px;
+  padding: 10px;
   }
+ #titulo{
+   color: rgb(206, 228, 226);
+ }
