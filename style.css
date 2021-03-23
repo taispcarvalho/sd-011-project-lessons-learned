@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 5px;
+  border: 2px solid green;
+  padding-left: 10px;
 }
 
 #cabecalho {
@@ -28,8 +31,9 @@ aside {
   width: 300px;
 }
 
-table , td{
+table , td {
   border: 2px solid green;
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
