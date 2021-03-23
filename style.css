@@ -80,12 +80,7 @@ nav li {
   display: inline-block;
   margin-left: 20%;
   margin-top: 5%;
-}
-
-#aprendizado {
-  display: inline-block;
-  margin-left: 20%;
-  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 /** SOBRE **/
@@ -144,14 +139,31 @@ td {
 
 /** APRENDIZADO **/
 .lado-esquerdo {
-  width: 50%;
   float: left;
-  margin-right: 5px;
+  margin-left: 20%;
 }
 
 .lado-direito {
-  width: 45%;
   float: right;
+  margin-right: 23%;
+}
+
+article.lado-esquerdo  {
+  background-color: white;
+  width: 400px;
+  padding: 15px;
+  height: 35vh;
+  box-shadow: 1px 2px 5px rgba(179, 179, 179, 0.486);
+
+}
+
+aside.lado-direito {
+  background-color: white;
+  width: 310px;
+  padding: 15px;
+  height: 35vh;
+  box-shadow: 1px 2px 5px rgba(179, 179, 179, 0.486);
+
 }
 
 /** RODAPE **/
@@ -159,7 +171,7 @@ td {
   background: white;
   height: 15vh;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 25%;
 }
 
 #rodape p {
