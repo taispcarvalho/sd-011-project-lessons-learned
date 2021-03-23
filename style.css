@@ -1,3 +1,16 @@
 body {
-    background-color: rgb(red, green, blue);
+  background-color: rgb(253, 251, 251);
 }
+
+#cabecalho {
+  /* background-color: rgba(57, 81, 185, 0.781); */
+  /* width: 100%; */
+  /* left: 0px; */
+  position: fixed;
+  top: 0px;
+}
+
+
+/* main {
+    margin-top: 100px;
+} */
