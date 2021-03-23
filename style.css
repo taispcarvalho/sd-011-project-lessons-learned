@@ -5,6 +5,18 @@ body {
 header {
   position: fixed;
   top: 0;
+  background-color: rgb(253, 251, 251);
+  z-index: 1;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  position: absolute;
+  top: 80px;
 }
 
 img {
