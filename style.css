@@ -18,3 +18,15 @@ body {
   color: darkblue;
   letter-spacing: 1px;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.cls {
+  clear: both;
+}
