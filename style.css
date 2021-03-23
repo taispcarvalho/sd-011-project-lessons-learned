@@ -1,9 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: darkolivegreen;
   font-size: large;
-  margin: 15%;
+  margin-right: 15%;
+	margin-left: 15%;
   padding: 2%;
 }
 
@@ -11,9 +12,11 @@ body {
   top: 0;
   position: fixed;
 }
+
 h1 {
   text-align: center;
 }
+
 img {
   border-radius: 100%;
   float: left;
@@ -21,6 +24,17 @@ img {
   margin-right: 10%;
   margin-bottom: 5%;
 }
+
 p {
   font-size: x-large;
+	line-height: 150%;
+}
+
+#licoes_aprendidas p, #licoes_a_aprender p, .lado_direito, .lado_esquerdo{
+	display: inline-block;
+}
+
+.lado_direito, .lado_esquerdo{
+	text-align: justify;
+	max-height: 10%;
 }
