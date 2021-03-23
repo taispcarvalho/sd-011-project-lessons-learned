@@ -1,5 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: MontSerrat, sans-serif;
+  font-weight: 200;
 }
 
 #cabecalho {
@@ -22,7 +24,7 @@ body {
 }
 
 #minha_foto {
-  position:fixed;
+  position: fixed;
   width: 200px;
   margin-left: 890px;
   top: 100px;
@@ -34,34 +36,40 @@ body {
   color: seagreen;
 }
 
-#licoes_aprendidas{
+#licoes_aprendidas {
   position: absolute;
 }
 
-#licoes_a_aprender{
+#licoes_a_aprender {
   position: absolute;
   left: 400px;
 }
 
-#aside_aprendizado{
+#lado-direito {
   border-color: seagreen;
   position: fixed;
-  border-style:dotted;
+  border-style: dotted;
   left: 1150px;
   z-index: 1;
   padding-left: 10px;
 }
 
-#rodape{
+#rodape {
   position: absolute;
   margin-top: 320px;
   left: 0;
   background-color: seagreen;
   width: 1366px;
-  height: 100px;
+  height: 80px;
 }
 
-#footer_link{
+#footer_link {
   text-align: center;
   color: antiquewhite;
+}
+
+#zzz {
+  position: absolute;
+  left: 623px;
+  top: 45px;
 }
