@@ -15,6 +15,10 @@ header nav {
   background-color: blue;
 }
 
+header nav ul li{
+  display: inline-block;
+}
+
 main {
   border: dotted red 1px;
   height: 500px;
@@ -24,11 +28,13 @@ main {
   display: inline-block;
   float: left;
   height: 100%;
+  box-sizing: border-box;
 }
 
 #licoes{
   background-color: red;
   width: 20%;
+  
 }
 
 #main-content{
