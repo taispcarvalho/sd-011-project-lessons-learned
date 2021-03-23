@@ -55,3 +55,21 @@ body {
   color: azure;
   font-style: italic;
 }
+
+#rodape {
+  font-style: italic;
+  margin-left: 350px;
+}
+
+#trybe {
+  width: 20px;
+  margin-top: 150px;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#textrodape {
+  margin-left: 5px;
+  display: inline-block;
+  font-size: 20px;
+}
