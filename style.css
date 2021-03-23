@@ -12,6 +12,23 @@ header {
   width: 300px;
 }
 
-.licoes ol , ul {
+#licoes ol , ul {
   display: inline-block;
+}
+
+#artigos {
+  background-color: red;
+  display: inline-block;
+}
+
+article {
+  float: left;
+  margin: 0 2%;
+  width: 50%;
+}
+
+aside {
+  float: rigth;
+  margin: 0 2%;
+  width: 25%;
 }
