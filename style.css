@@ -37,3 +37,15 @@ body {
   padding: 25px;
   margin: 20px;
 }
+
+article {
+  width: 50%;
+  text-align: justify;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+aside {
+  float: right;
+  width: 35%;
+}
