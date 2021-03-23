@@ -22,6 +22,18 @@ nav a {
   font-size: 15px;
 }
 
+nav a img {
+  margin: 0 10px;
+}
+
+footer {
+  display: inline-block;
+}
+
+footer p {
+  font-size: 17px;
+}
+
 #link_externo {
   text-decoration: none;
 }
