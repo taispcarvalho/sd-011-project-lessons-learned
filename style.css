@@ -65,9 +65,6 @@ img {
   text-decoration: none;
   padding-right: 20px;
   font-size: 20px;
-}
-
-.footer-container a {
   color: rgb(47, 193, 140);
 }
 
@@ -115,8 +112,8 @@ img {
 }
 
 .footer-container a:hover {
-  color: rgb(5, 253, 216);
-  transition: 1000ms;
+  color: rgb(3, 107, 82);
+  transition: 1s;
 }
 
 #intro-button a {
@@ -125,11 +122,6 @@ img {
   font-size: 20px;
   padding: 16px 80px;
   letter-spacing: 1.5px;
-}
-
-.footer-container a:hover {
-  color: rgb(3, 107, 82);
-  transition: 1s;
 }
 
 #intro-button a:hover {
