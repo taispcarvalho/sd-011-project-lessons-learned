@@ -23,10 +23,12 @@ body {
 main {
   padding-top: 100px;
   width: 1366px;
-  height: 768px;
 }
 
 #minha_foto {
   width: 200px;
   border-radius: 100%;
+}
+
+#rodape {
 }
