@@ -1,4 +1,4 @@
-body { 
+body {
   background-color: rgb(253, 251, 251);
 }
 
@@ -12,9 +12,10 @@ body {
 }
 
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
   color: rgb(37, 36, 36);
   font-size: x-large;
+  line-height: 40px;
 }
 
 nav {
