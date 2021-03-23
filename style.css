@@ -1,12 +1,16 @@
-body{background-color: rgb(253, 251, 251)}
-#cabecalho{
-  background-color: rgba(100, 143, 237, 0.164);
-  height: 99px;
+body{ background-color: rgb(253, 251, 251) }
+#cabecalho{ background-color: rgba(100, 143, 237, 0.164);
+  width: auto;
   top: 0px;
-}
-#titulo{
-  color: black;
+  position: fixed;
+  
+ }
+#titulo{ color: black;
   text-align: center;
   font-size: 80px;
 }
-
+#minha_foto{
+  vertical-align: 200px;
+  width: 599px;
+  
+}
