@@ -34,24 +34,24 @@ table {
 }
 
 ul , ol , table {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: Courier New, Courier, monospace;
   color: rgb(100, 96, 96);
 }
 
 p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: Times New Roman, Times, serif;
   font-size: 18px;
 }
 
 .lado-esquerdo {
   display: inline-block;
-  width: 350px;
+  max-width: 40%;
   border: 0.5px rgb(100, 96, 96) solid;
 }
 
 .lado-direito {
   display: inline-block;
-  width: 345px;
+  max-width: 40%;
   margin-top: 20px;
   border: 0.5px rgb(100, 96, 96) solid;
 }
@@ -62,6 +62,7 @@ p {
 
 .centralize {
   text-align: center;
+  border: 1px solid;
 }
 
 section aside {
