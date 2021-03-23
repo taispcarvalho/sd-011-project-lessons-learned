@@ -22,6 +22,19 @@ header {
 }
 
 #licoes_aprendidas {
-  margin-top: 100px;
+  display: inline-block;
+  margin-top: 130px;
   padding: 20px;
+  width: 50%;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  padding: 20px;
+  width: 50%;
+}
+
+#rodape {
+  text-align: center;
+  font-size: small;
 }
