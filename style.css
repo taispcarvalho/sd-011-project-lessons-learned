@@ -24,7 +24,7 @@ div #minha_foto {
   margin: 90px 50px;
 }
 
-ol, ul {
-  margin: 50px 50px;
+ol , ul {
+  margin: 50px;
   line-height: 1.5em;
 }
