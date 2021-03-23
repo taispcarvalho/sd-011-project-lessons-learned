@@ -39,3 +39,15 @@ body {
   line-height: 25px;
   font-family: fantasy;
 }
+
+#licoes_aprendidas , #licoes_a_aprender {
+  display: inline-block;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  border: dashed darkcyan 2px;
+  padding: 5px;
+  margin: 10px;
+  width: 40%;
+}
