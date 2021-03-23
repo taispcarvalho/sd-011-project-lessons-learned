@@ -10,9 +10,10 @@ body {
 }
 
 #minha_foto {
-  display: inline-block;
-  padding-top: 50px;
+  display: block;
+  padding: 50px 10px 30px;
 }
+
 #main-body {
-    margin: 30px 5px;
+  margin: 30px 5px;
 }
