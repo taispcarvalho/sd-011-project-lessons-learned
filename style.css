@@ -24,3 +24,7 @@ body {
 #index-nav li {
   display: inline-block;
 }
+
+#titulo {
+  padding-left: 70px;
+}
