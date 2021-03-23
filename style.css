@@ -4,10 +4,15 @@ body {
 
 main {
   padding-top: 1mm;
-}5
-#titulo {
+}
+
+#cabecalho {
   position: fixed;
   top: 0px;
+}
+
+#titulo {
+
 }
 
 #minha_foto {
