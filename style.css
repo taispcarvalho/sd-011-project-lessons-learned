@@ -31,6 +31,9 @@ body {
 .main p {
   font-weight: 700;
   margin: 20px;
+  color: blue;
+  line-height: 30px;
+  font-family: monospace;
 }
 
 .listas {
