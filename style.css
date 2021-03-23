@@ -1,0 +1,10 @@
+body {
+  rgb(253, 251, 251)
+}
+
+/* --- GENERAL --- */
+
+header {
+  position: fixed;
+  top: 0;
+}
