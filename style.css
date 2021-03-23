@@ -76,14 +76,14 @@ article , aside p {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  margin: 10px;
+  margin: 10px 20px;
   padding: 10px;
   border-radius: 4px;
   box-shadow: -5px 5px 9px -1px rgba(0, 0, 0, 0.87);
 }
 
 .lado-esquerdo {
-  width: 1000px;
+  width: 500px;
 }
 
 .lado-direito {
