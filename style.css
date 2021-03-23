@@ -63,3 +63,11 @@ h5{
 	display: inline-block;
 	text-align: center;
 }
+
+#aside {
+	position: absolute;
+	background-color: violet;
+	display: inline-block;
+	top: 53%;
+	left: 45%;
+}
