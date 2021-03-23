@@ -30,6 +30,7 @@ body {
 
 .main p {
   font-weight: 700;
+  font-size: 1em;
   margin: 20px;
   color: blue;
   line-height: 30px;
