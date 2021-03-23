@@ -24,7 +24,7 @@ body {
 #navList li a {
   list-style: none;
   text-decoration: none;
-  color: rgb(60,64,67);
+  color: rgb(60, 64, 67);
 }
 
 #minha_foto {
@@ -40,7 +40,7 @@ body {
   margin: 30px 10px;
 }
 
-#listaLessons ol , ul > li {
+#listaLessons ol , ul {
   color: blue;
   font-size: 20px;
 }
@@ -65,7 +65,7 @@ td , th {
 
 article , aside p {
   font-size: 20px;
-  color: rgb(60,64,67);
+  color: rgb(60, 64, 67);
   font-weight: 600;
   line-height: 29px;
 
