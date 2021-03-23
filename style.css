@@ -6,3 +6,8 @@ body {
     position: fixed;
     top: 0px;
 }
+
+#rodape{
+    position: absolute;
+    bottom: 0;
+}
