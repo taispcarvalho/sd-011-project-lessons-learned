@@ -6,6 +6,7 @@ header {
   top: 0;
   position: fixed;
   background-color: lightgray;
+  width: 700px;
 }
 
 #minha_foto {
@@ -17,11 +18,19 @@ span {
   font-style: italic;
 }
 
-.titulo nav ul {
+nav ul {
+  list-style: none;
+  width: 150px;
   display: inline-block;
-  background-color: blue;
+  margin: 0 0 20px 75%;
 }
 
-.titulo nav ul li {
-  list-style: none;
+nav ul li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+#titulo {
+  display: inline-block;
+  margin: 20px 0 10px 0;
 }
