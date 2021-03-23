@@ -5,3 +5,9 @@ body{
   position: fixed;
   top: 0px;
 }
+#minha_foto{
+  width: 50px;
+}
+footer{
+  text-align: end right;
+}
