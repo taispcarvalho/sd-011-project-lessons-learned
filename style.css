@@ -3,7 +3,7 @@ body {
    
 } 
 
-.header {
+#cabecalho {
 background-color: gray;
    top: 0px;
    position: fixed;
@@ -11,7 +11,7 @@ background-color: gray;
 
 .minha_foto{
     top: 0%;
-    width: 50px;
+    width: 50spx;
 
     
 }
