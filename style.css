@@ -1,43 +1,45 @@
 body {
-background-color: rgb(253, 251, 251);
+ background-color: rgb(253, 251, 251);
 }
 #cabecalho {
-position: fixed;
-top: 0;
+ position: fixed;
+ top: 0;
 }
 #titulo {
-color: rgb(21, 255, 0);
-margin-left: 30px;
-font-size: 60px;
-background-color: rgb(240, 228, 196);
-font-weight: 110;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+ color: rgb(21, 255, 0);
+ margin-left: 30px;
+ font-size: 60px;
+ background-color: rgb(240, 228, 196);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-style: italic;
+ line-height: 70px;
+ font: optional;
 }
 #minha_foto {
-width: 950px;
-height: 400px;
-margin-top: 130px;
+ width: 950px;
+ height: 400px;
+ margin-top: 130px;
 }
 .lado-esquerdo {
-float: left;
-width: 750px;
-background-color: yellow;
-padding: 15px,15px,15px;
-border-radius: 5px;
-text-align: left;
+ float: left;
+ width: 750px;
+ background-color: yellow;
+ padding: 15px, 15px, 15px;
+ border-radius: 5px;
+ text-align: left;
 }
 .lado-direito {
-width: 150px;
-background-color: aqua;
-float: right;
-padding: 15px,15px,15px;
-margin-right: 420px;
-border-radius: 5px;
-text-align: center;
+ width: 150px;
+ background-color: aqua;
+ float: right;
+ padding: 15px, 15px, 15px;
+ margin-right: 420px;
+ border-radius: 5px;
+ text-align: center;
 }
 p {
-font-size: 20px;
+ font-size: 20px;
 }
 h2 {
-margin-top: 15px;
+ margin-top: 15px;
 }
