@@ -6,10 +6,13 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: "Roboto", sans-serif;
+  color: rgb(29, 28, 28);
 }
 
 h2 {
   margin: 10px;
+  color: rgb(54, 54, 218);
 }
 
 table {
@@ -25,7 +28,6 @@ footer {
   width: 95%;
   margin: 10px;
 }
-
 
 #cabecalho {
   top: 0;
@@ -48,9 +50,18 @@ footer {
   justify-content: flex-end;
 }
 
-#cabecalho > nav > ul > li {
+#cabecalho li {
   padding: 0 10px;
   list-style: none;
+}
+
+.fallow section > a {
+  margin-left: 10px;
+}
+
+#cabecalho li > a {
+  text-decoration: none;
+  color: rgb(29, 28, 28);
 }
 
 #licoes_aprendidas {
@@ -65,4 +76,10 @@ footer {
 
 .lessons-learn #licoes_a_aprender li {
   list-style: none;
+}
+
+.fallow section {
+  display: flex;
+  padding: 10px;
+  align-items: center;
 }
