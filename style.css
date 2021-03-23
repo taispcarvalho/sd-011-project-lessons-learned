@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,14 +9,53 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  border: 1px solid red;
   text-align: center;
-}
-
-#minha_foto {
-  margin-top: 80px;
+  width: 100%;
 }
 
 #navList li {
   display: inline-block;
+  padding: 3px;
+  margin: 5px 30px 5px 0px;
+}
+
+#navList li a {
+  list-style: none;
+  text-decoration: none;
+}
+
+#minha_foto {
+  margin-top: 100px;
+  margin-left: 10px;
+}
+
+#foto-link {
+  margin: 10px 0px;
+}
+
+#listaLessons {
+  margin: 30px 10px;
+}
+
+#listaLessons ol, ul, table {
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  width: 20%;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0px;
+  margin-top: 20px;
+  border: 1px solid black;
 }
