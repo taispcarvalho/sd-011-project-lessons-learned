@@ -21,6 +21,11 @@ body {
   padding-left: 15px;
 }
 
+#artigo_aprendizado_na_trybe {
+  margin-left: 15px;
+  padding-left: 15px;
+}
+
 .lista_ordenada {
   margin-left: 15px;
   padding-left: 15px;
@@ -31,8 +36,9 @@ body {
   padding-left: 15px;
 }
 
-#rodape {
-  text-align: center;
+.tabela_sobre_documentação {
+  margin-left: 15px;
+  padding-left: 15px;
 }
 
 #aside_inspiracao {
@@ -40,7 +46,6 @@ body {
   padding-left: 15px;
 }
 
-#artigo_aprendizado_na_trybe {
-  margin-left: 15px;
-  padding-left: 15px;
+#rodape {
+  text-align: center;
 }
