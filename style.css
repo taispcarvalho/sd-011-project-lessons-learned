@@ -28,3 +28,14 @@ body {
 #principal {
   margin-top: 100px;
 }
+
+#listaordenada {
+  display: inline-block;
+
+}
+
+#licoes_aprendidas {
+  text-align: justify;
+
+}
+
