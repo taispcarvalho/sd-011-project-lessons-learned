@@ -5,26 +5,23 @@
 }
 
 #cabecalho {
+  padding: 10px;
   width: 100%;
   top: 0;
   position: fixed;
-  padding: 10px;
-  background-color: red;
+  background-color: hsl(161, 54%, 27%);
 }
 
 #titulo {
+  background-color: hsl(161, 54%, 27%);
   text-align: center;
-  background-color: teal;
   color: white;
 }
 
 #minha_foto {
+  border-radius: 300px;
+  padding: 2px;
   margin-top: 100px;
-  width: 500px;
-  height: 500px;
-  background-color: aqua;
-}
-
-.list {
-  background-color: red;
+  width: 300px;
+  height: 300px;
 }
