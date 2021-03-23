@@ -1,3 +1,23 @@
+html{
+  font-family: "Candara", sans-serif;
+}
+
 body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
+}
+
+#cabecalho {
+  background-color:rebeccapurple;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+main {
+  margin-top: 70px;
+}
+
+footer {
+
 }
