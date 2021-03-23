@@ -46,18 +46,16 @@ p {
 .lado-esquerdo {
   display: inline-block;
   max-width: 40%;
+  min-height: max-content;
   border: 0.5px rgb(100, 96, 96) solid;
 }
 
 .lado-direito {
   display: inline-block;
   max-width: 40%;
+  min-height: max-content;
   margin-top: 20px;
   border: 0.5px rgb(100, 96, 96) solid;
-}
-
-.lado-direito ol , ul {
-  display: inline-block;
 }
 
 .centralize {
