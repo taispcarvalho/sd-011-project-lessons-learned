@@ -45,12 +45,12 @@ a {
   font-style: italic;
 }
 
-#licoes_aprendidas {
+#aprendidas {
   display: inline-block;
   margin-left: 5%;
 }
 
-#licoes_a_aprender {
+#nao-aprendidas {
   display: inline-block;
   margin-left: 5%;
 }
