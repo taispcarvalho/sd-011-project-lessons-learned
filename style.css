@@ -18,3 +18,7 @@ body {
 .lessons ol li {
   margin-left: 30px;
 }
+
+.lessons-learn #licoes_a_aprender li{
+  list-style: none;
+}
