@@ -1,4 +1,6 @@
-body
-{
+body{
   background-color: rgb(253, 251, 251);
+}
+header{
+  position: fixed;
 }
