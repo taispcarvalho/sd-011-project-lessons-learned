@@ -8,24 +8,30 @@ h1, h2, h3 {
     text-align: center;
 }
 
-
-
 #cabecalho {
     position: fixed;
     top: 0; 
     width: 100%;
-    background-color:rgb(211, 211, 197);  
+    bacground-color:rgb(211, 211, 197);  
     border-bottom: 2px solid black; 
 }
 
 #minha_foto {
-    width: 200px;
-    margin-top: 80px;
+    width: 36%;
+    margin-left: 15%;
 }
 
 #contact-me a {
     display: inline-block;
     padding: 10px 10px;
+}
+
+#about-me {
+    background-color: red;
+    margin-top: 140px;
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: center;
 }
 
 #about-table {
@@ -68,4 +74,10 @@ article {
     text-decoration: none;
     text-align: center;
     border: 1px solid black;
+}
+
+#about-me p {
+    background-color: green;
+    display: inline-block;
+    width: 46%;
 }
