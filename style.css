@@ -44,12 +44,32 @@ header {
   width: 60%;
 }
 
+article {
+  margin: 20px;
+  padding: 15px;
+  text-align: justify;
+  width: 80%;
+  font-size: large;
+}
+
+section {
+  margin: 20px;
+  padding: 15px;
+  text-align: justify;
+  width: 80%;
+}
+
+aside {
+  margin-left: auto;
+}
+
 table {
   text-align: center;
   display: block;
   margin: auto;
   border: 1px solid black;
   width: 50%;
+  bottom: 20px;
 }
 
 #rodape {
