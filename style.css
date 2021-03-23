@@ -1,5 +1,19 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Architects Daughter, cursive;
+  font-size: 18px;
+  color: black;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: chocolate;
 }
 
 aside img {
@@ -13,4 +27,17 @@ aside img {
 
 #minha_foto {
   width: 200px;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.nav ul li a {
+  padding: 10px;
+}
+
+table , th , td {
+  border: 1px solid black;
 }
