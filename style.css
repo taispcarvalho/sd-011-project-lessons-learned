@@ -3,7 +3,7 @@ body {
   color: blue;
   line-height: 25px;
   font-size: 1em;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: cursive;
 }
 
 nav {
@@ -23,8 +23,7 @@ nav {
 }
 
 table { margin: 350px 40% 50px; }
-
-table, tr, th, td { border: solid black 1px; }
+table,tr,th,td { border: solid black 1px; }
 
 .lado-esquerdo {
   margin: 25px;
