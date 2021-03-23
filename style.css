@@ -11,3 +11,7 @@ body {
   position: fixed;
   top: 0;
 }
+
+ol {
+  list-style-position: inside;
+}
