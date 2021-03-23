@@ -4,6 +4,7 @@ body {
   font-size: 105%;
   line-height: 1.1;
   font-family: monospace, sans-serif;
+  margin: 0 auto;
 }
 
 header {
@@ -16,9 +17,9 @@ header {
 
 nav {
   border-bottom: 1px gray solid;
+  border-top: 1px gray solid;
   width: 100%;
   text-align: center;
-  margin-left: -22px;
 }
 
 nav ul li {
@@ -41,7 +42,11 @@ main {
 }
 
 img {
-  width: 200px;
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid black;
+  display: block;
+  margin: 0;
 }
 
 table {
@@ -60,6 +65,27 @@ table {
   padding-top: 1em;
 }
 
-#amor {
+.lado-direito , .lado-esquerdo {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 48%;
+  float: left;
+}
+
+.lado-direito {
+  border-left: 1px gray solid;
+  padding-left: 30px;
+  width: 48%;
+  float: right;
+}
+
+.amor {
   color: red;
+}
+
+#licoes_a_aprender , #licoes_aprendidas {
+  list-style-position: inside;
+  
 }
