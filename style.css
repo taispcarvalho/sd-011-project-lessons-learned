@@ -19,19 +19,51 @@ h1 {
 
 img {
   width: 300px;
+  border-radius: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 90px;
 }
 
 table {
   border: 1px solid;
+  border-radius: 2px;
+  margin: auto;
+  margin-top: 20px;
 }
 
-ul, ol, table {
-  font-family: 'Courier New', Courier, monospace;
+ul,
+ol,
+table {
+  font-family: "Courier New", Courier, monospace;
   color: rgb(100, 96, 96);
 }
 
 p {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+}
 
+section.lado-esquerdo {
+  display: inline-block;
+  width: 300px;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 345px;
+  margin-top: 20px;
+}
+
+.lado-direito ol,
+ul {
+  display: inline-block;
+}
+
+.centralize {
+  text-align: center;
+}
+
+section aside{
+  width: 400px;
 }
