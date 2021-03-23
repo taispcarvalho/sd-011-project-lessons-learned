@@ -2,10 +2,14 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+nav{
+  padding-top:100px;
+}
+
 #cabecalho {
   position:fixed; 
   top:0px; 
-  width: 100%;
+  width: 100%; 
 }
 
 #minha_foto {
