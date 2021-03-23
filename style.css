@@ -2,6 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0%;
 }
+
 header {
   background-color: rgb(142, 52, 194);
   position: fixed;
@@ -10,28 +11,32 @@ header {
   z-index: 0;
   top: 0;
 }
+
 header h1 {
   text-align: center;
-  font-family: 'Londrina Solid', cursive;
+  font-family: Londrina Solid, cursive;
   font-weight: 100;
   font-size: 2em;
   color: white;
 }
+
 nav {
   overflow: hidden;
   position: fixed;
   top: 5%;
   width: 100%;
 }
+
 nav a {
   color: white;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: Josefin Sans, sans-serif;
   float: right;
   font-size: 1.2em;
   margin-right: 10px;
   text-decoration: none;
   padding: 5px;
 }
+
 nav a:hover {
   background-color: rgb(125, 38, 207);
   color: rgb(109, 241, 213);
@@ -45,19 +50,23 @@ footer {
   width: 100%;
   background-color: rgb(142, 52, 194);
   color: white;
-  font-weight: bolder;
+  font-weight: 900;
+  font-family: monospace;
   z-index: 1;
   height: 5%;
 }
+
 footer p {
   display: inline-block;
   margin-top: 0.5%;
 }
+
 main {
   padding-top: 10%;
   bottom: 200px;
   top: 200px;
 }
+
 aside {
   border: solid 5px rgb(146, 146, 146);
   border-radius: 15%;
@@ -71,6 +80,7 @@ aside {
 aside h2 {
   text-align: center;
 }
+
 #minha_foto {
   float: right;
   width: 66%;
@@ -83,6 +93,7 @@ aside h2 {
   font-size: 1em;
   display: inline-block;
 }
+
 #licoes_a_aprender {
   display: inline-block;
 }
