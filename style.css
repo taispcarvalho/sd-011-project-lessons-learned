@@ -9,10 +9,15 @@ body {
    position: fixed;
 }
 
+#minha_foto{
+    top: 0%;
+    
+    
+}
 
 
 #titulo {
- 
+ top: 0px;
    
 }
 
