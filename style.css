@@ -4,11 +4,15 @@ body {
 
 #cabecalho {
   position: fixed;
-  display: block;
   top: 0;
   background-color: rgb(121, 0, 0);
-  width: 100%;
   height: 100px;
+  width: 100%;
+}
+
+#link {
+  display: block;
+  margin-left: 10px;
 }
 
 #titulo {
@@ -17,27 +21,31 @@ body {
 }
 
 #minha_foto {
-  position: relative;
+  display: inline-block;
   padding-top: 25px;
   width: 280px;
   height: 280px;
 }
 
-#licoes {
-  display: flex;
-  flex-direction: row;
-}
-
 #licoes_aprendidas {
+  display: inline-block;
+  padding-left: 50px;
   position: relative;
-  padding: 100px;
-  bottom: 375px;
-  left: 250px;
+  bottom: 45px;
 }
 
 #licoes_a_aprender {
+  display: inline-block;
+  padding-left: 50px;
   position: relative;
-  padding: 100px;
-  bottom: 375px;
-  left: 175px;
+  bottom: 26px;
 }
+
+#rodape {
+  color: white;
+  background-color: rgb(121, 0, 0);
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
