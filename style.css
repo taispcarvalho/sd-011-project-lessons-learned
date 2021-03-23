@@ -1,8 +1,17 @@
 body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
 }
 
 header#cabecalho {
   position: fixed;
   top: 0;
+}
+
+main {
+  padding-top: 80px;
+}
+
+img#minha_foto {
+  width: 150px;
 }
