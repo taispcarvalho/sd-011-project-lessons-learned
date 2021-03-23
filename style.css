@@ -25,6 +25,12 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 70px;
+}
+
+.main p {
+  font-weight: 700;
+  margin: 20px;
 }
 
 .listas {
@@ -36,4 +42,11 @@ body {
   background-color: rgb(55, 161, 55);
   padding: 10px;
   margin-top: 10px;
+}
+
+#table {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: none;
 }
