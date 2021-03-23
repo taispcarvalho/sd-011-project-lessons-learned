@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace;
 }
 
 #cabecalho {
@@ -8,7 +9,13 @@ body {
   background-color: rgb(2, 214, 2);
 }
 
+#barra_navegacao{
+  color: white;
+  background-color: darkblue;
+  margin-top: 100px;
+}
+
 #minha_foto{
   max-width: 350px;
-  margin-top: 100px;
+  margin-top: 20px;
 }
