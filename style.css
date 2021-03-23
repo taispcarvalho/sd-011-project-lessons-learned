@@ -33,5 +33,11 @@ body {
 #table , .th {
   border: 1px solid black;
   border-radius: 2px;
-  border-collapse: collapse;
+  /* border-collapse: collapse; */
+}
+
+.table-title {
+  align-content: center;
+  display: block;
+  margin-left: 15%;
 }
