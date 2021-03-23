@@ -44,16 +44,16 @@ h2 {
 }
 
 a:hover {
-  background-color: rgb(0, 141, 0);
+  background-color: rgb(28, 28, 28);
 }
 
 #index-nav a {
-  background-color: rgb(24, 250, 24);
-  color: white;
+  color: rgb(24, 250, 24);
   border-radius: 5px;
   text-decoration: none;
   padding: 7px 30px;
   font-weight: bold;
+  border-style: solid;
 }
 
 main {
@@ -61,7 +61,7 @@ main {
 }
 
 img {
-  border-radius: 20px;
+  border-radius: 100%;
 }
 
 #lessons {
@@ -83,4 +83,8 @@ aside {
 
 #page-content {
   display: flex;
+}
+
+main a {
+  text-decoration: none;
 }
