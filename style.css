@@ -9,8 +9,8 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-h1, h2, h3,
-h4, h5, h6 {
+h1 , h2 , h3
+, h4 , h5 , h6 {
   font-family: sans-serif;
 }
 
@@ -46,14 +46,18 @@ main {
   text-align: center;
 }
 
-.page-section h1,
-.page-section p,
-.page-section aside {
+.page-section h1
+, .page-section p
+, .page-section aside {
   margin-bottom: 36px;
 }
 
-.row::after {
-  content: ".";
+.page-section h1 {
+  font-size: 22px;
+}
+
+.row:after {
+  content: '.';
   display: block;
   clear: both;
   visibility: hidden;
