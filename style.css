@@ -1,5 +1,6 @@
 body {
     background-color:rgb(253,251,251);
+    font-family: 'Times New Roman', Times, serif, sans-serif;
 }
 
 #cabecalho {
@@ -7,16 +8,28 @@ body {
     top: 0px; 
 }
 
-#minha_foto{
+#minha_foto {
     width: 200px;
     margin-top: 80px;
 }
 
-#contact-me a{
+#contact-me a {
     display: inline-block;
     padding: 10px 10px;
 }
 
-#about-table{
+#about-table {
     border: 2px solid black;
+}
+
+#rodape {
+    font-size: small;
+}
+
+#cabecalho a {
+    color: green;
+}
+
+li {
+    line-height: 25px;
 }
