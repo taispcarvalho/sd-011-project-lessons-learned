@@ -38,6 +38,7 @@ header h1 {
   left: 0;
   min-width: 100vw;
   height: 280px;
+  display: block;
 }
 
 #about-me section {
@@ -45,4 +46,10 @@ header h1 {
   max-width: 45vw;
   margin: 40px 30vw 25px 15px;
   float: right;
+}
+
+#lessons {
+  display: block;
+  position: absolute;
+  top: 400px;
 }
