@@ -1,2 +1,2 @@
-body { background-color: rgb(253, 251, 251); }
+body { background-color: rgb(253, 251, 251); font-family: monospace,sans-serif; font-size: medium; color: rgb(30, 6, 53); line-height:inherit;}
 #cabecalho { position:fixed; top: 0px;}
