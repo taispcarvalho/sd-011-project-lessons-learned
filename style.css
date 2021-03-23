@@ -1,9 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-size: larger;
+  font-size: 20px;
   color:#036b52;
-  letter-spacing: 1px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 2px;
+  font-family: monospace;
 }
 
 header {
@@ -36,7 +36,10 @@ a {
 }
 
 #minha_foto {
-  margin-top: 7%;
+  float: left;
+  margin-left: 10%;
+  margin-top: 11.5%;
+  margin-right: 10%;
   border: 2px solid #036b52;
 }
 
@@ -45,11 +48,13 @@ ul, ol {
   text-align: center;
   display: inline-block;
   padding: 2px;
-  margin: 5% 5% 0% 0%;
+  margin: 9% 5% 2% 0%;
   border: 2px solid #036b52;
 }
 
 .lado-esquerdo {
+  margin-left: 10%;
+  margin-right: 0%;
   display: inline-block;
   border: 2px solid #036b52;
   width: 30%;
