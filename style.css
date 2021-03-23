@@ -5,7 +5,7 @@ body {
 
 header {
   background-color: rgb(114, 134, 134);
-  top: 0px;
+  top: 0;
   width: 100%;
   position: fixed;
   text-align: center;
@@ -17,21 +17,31 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 100%;
-  width: 100px;
+  width: 100px;  
   float: left;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.listas {
+  display: inline-block;
+  margin-top: 130px;
+  margin-left: 10%;
+  max-width: 100%;
 }
 
 #licoes_aprendidas {
   display: inline-block;
-  margin-top: 130px;
   padding: 20px;
-  width: 50%;
+  width: 70%;
 }
 
 #licoes_a_aprender {
   display: inline-block;
   padding: 20px;
-  width: 50%;
+  width: 60%;
 }
 
 #rodape {
