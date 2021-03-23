@@ -5,9 +5,14 @@ body {
 header {
   top: 0;
   position: fixed;
+  background-color: lightgray;
 }
 
 #minha_foto {
   width: 150px;
   margin-top: 80px;
+}
+
+span {
+  font-style: italic;
 }
