@@ -6,17 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="header" id="cabecalho">
-        <h1 id="titulo">Lessons Learned - Trybe</h1>        
+        <h1 id="titulo">Lessons Learned - Trybe</h1>     
+        <nav>
+          <a href="#">Sobre</a>
+          <a href="#">Home</a>          
+        </nav>   
     </header>
     <main class="main-content">
-        <header>
-            <img class="img-content" id="minha_foto" src="/images/minhaImagem.jpeg" alt="Foto do Gabriel"> 
+        <header class="header-img">
+            <img class="img-content" id="minha_foto" src="/images/minhaImagem.jpeg" alt="Foto do Gabriel">             
         </header> 
-        <section class="listas" id="listas">
-          <div>
+        
+        <section class="listas" id="listas">         
+          
           <ol id="licoes_aprendidas">
             <li>Html</li>
             <li>CSS</li>
@@ -41,7 +49,7 @@
             <li>Forms</li>
             <li>DOM</li>
           </ul>
-          <table>
+          <table id="table_trybe">
             <th>
               Trybe! <small>Desenvolvimento Web</small>
             </th>
@@ -58,11 +66,11 @@
               <td>3</td>
             </tr>
           </table>
-          </div>
+          
           
         </section>  
 
-        <section class="articles">
+        
           <article class="main-article">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nibh, ultricies id facilisis ac, euismod gravida turpis. Proin euismod sit amet eros quis tristique. Sed eu tincidunt sapien. In tincidunt at velit vitae hendrerit. Nam sed magna eu justo tincidunt aliquet. Quisque id nulla eu quam viverra volutpat condimentum vitae elit. Praesent non maximus massa, et vestibulum purus.
           </article>
@@ -70,16 +78,17 @@
             <article>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mauris nibh, ultricies id facilisis ac, euismod gravida turpis. Proin euismod sit amet eros quis tristique. Sed eu tincidunt sapien.
             </article>
-          </aside>
-
-        </section>
-        <section>
-          <footer id="rodape">
-            <h4>Escrito por Gabriel, 2021</h4>
-          </footer>
-        </section> 
+          </aside>  
     
     </main>
+
+         
+    <section>
+      <footer class="footer" id="rodape">
+        <h4>Escrito por Gabriel, 2021</h4>
+        <h3>Acesse a <a href="https://www.betrybe.com/">Trybe</a> para saber mais</h3>
+      </footer>
+    </section> 
     
 </body>
 </html>
