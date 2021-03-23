@@ -2,18 +2,20 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+main {
+  padding-top: 1mm;
+}5
 #titulo {
   position: fixed;
   top: 0px;
 }
 
 #minha_foto {
-  position: absolute;
   top: 10%;
   border-radius: 100mm;
 }
 
 #licoes_aprendidas {
-  
+
 }
 
