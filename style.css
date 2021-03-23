@@ -2,13 +2,14 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   font-family: MontSerrat, sans-serif;
+
 }
 
 .header {
   position: fixed;
   top: 0;
   background-color: #11a36a;
-  width: 100%;  
+  width: 100%;
 }
 
 .main-content {
@@ -19,7 +20,7 @@ body {
 .header a {
   color: white;
   padding: 10px 30px;
-  float:right;
+  float: right;
 }
 
 .header h1 {
@@ -39,17 +40,17 @@ body {
 
 #licoes_aprendidas {
   width: 20%;
-  float:left;  
+  float: left;
 }
 
-#licoes_a_aprender{
-  width: 30%;  
-  float:left; 
+#licoes_a_aprender {
+  width: 30%;
+  float: left;
 }
 
 #table_trybe {
   width: 30%;
-  float:left;
+  float: left;
 }
 
 .articles {
@@ -60,27 +61,31 @@ body {
   margin-top: 250px;
   width: 70%;
   text-align: justify;
+  line-height: 1.5;
 }
 
 .aside-article {
   float: right;
+  line-height: 1.5;
   width: 25%;
-  margin-top: -75px;
+  margin-top: -95px;
 }
 
 .footer {
   margin-top: 90px;
   background-color: #11a36a;
-  color:white;
-  padding: 50px 50px;
+  color: white;
+  padding: 50px;
 }
 
 .footer h3 {
-  float:right;
+  float: right;
   margin-top: -45px;
 }
 
 .footer a {
   text-decoration: none;
-  color: #00c3ff;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
 }
