@@ -7,3 +7,7 @@ body {
   position: fixed;
   top: 0 px;
 }
+
+#minha_foto {
+  width: 200px;     
+}
