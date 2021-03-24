@@ -1,41 +1,48 @@
 body {
   font-style: oblique;
-  font-family:Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
-  margin: 0;
-  background-color: rgb(253, 251, 251);
-  border: 0;
-  padding: 0;
-}
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  font-size: medium;
+  background-color: rgb(253, 251, 251);}
 #cabecalho{
   top: 0;
-  padding: 0;
-  order: 0;
-  margin: 0;
-  width:auto;
+  width:initial;
+  position:static;
   background-color: darkolivegreen;
-  text-align: center;
-}
+  text-align:center;}
 #titulo{
   color: white;
-  text-shadow: 2px 2px 4px black; 
-}
+  text-shadow: 2px 2px 4px black; }
 #minha_foto{
-  border-radius:200px; 
-  margin-left: 20px;
-}
+  border-radius:200px;
+  margin-left: 20px;}
 #licoes_aprendidas{
-  margin-left: 20px;
-}
+  margin-left: 20px;}
 h3{
+  margin-left: 20px}
+#licoes_a_aprender{
   margin-left: 20px;
-}
+  margin-right: 50px;}
+#listas{
+  /*background-color:gray;
+  /*display:inline-flex;*/
+  /*border-right-width: 20px;*/
+  /*border: red;
+  /*border-style: double;*/
+  width:auto;
+  height:auto;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items: center}
 #rodape{
-  background-color: darkolivegreen;
   border-right-style:groove;
-  text-align: right;
-
-}
+  text-align: right;}
 #rodatex{
   color: white;
-  text-shadow: 2px 2px 4px black; 
-}
+  text-shadow: 2px 2px 4px black;}
+#linkext{
+  color: white;
+  text-shadow: 2px 2px 4px black;}
+footer{
+    display: inline;}
