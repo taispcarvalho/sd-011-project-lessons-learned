@@ -5,4 +5,33 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#licoes_a_aprender {
+  padding-left: 20px;
+  margin-left: 10px;
+}
+
+#licoes_aprendidas {
+  padding-left: 30px;
+  margin-left: 5px;
+}
+
+#emotioncheck {
+  border-width: 4px;
+  background-color: rgb(182, 182, 202);
+  margin-left: 40px;
+}
+
+#navigation , li , a {
+  width: 5;
+  margin-left: 5px;
+}
+
+#link , a {
+  font-size: 20px;
+  margin-left: 150px;
+  padding: 5px;
 }
