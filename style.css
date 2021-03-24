@@ -1,6 +1,5 @@
 body {
   background-color: rgb(253, 251, 251);
-
 }
 
 #cabecalho {
@@ -17,9 +16,9 @@ body {
 }
 
 nav {
-position: relative;
-width: 100%;
-top: 27px;
+  position: relative;
+  width: 100%;
+  top: 27px;
 }
 
 nav ul {
@@ -32,18 +31,16 @@ nav ul {
   padding-top: 5px;
 }
 
-nav ul li { 
+nav ul li {
   display: inline;
   margin-right: 50px;
   margin-top: 50px;
- } 
+}
 
 main {
   position: relative;
   top: 80px;
 }
-
-
 
 main figure {
   position: relative;
@@ -52,15 +49,14 @@ main figure {
 #minha_foto {
   position: absolute;
   border-radius: 200px;
-  float: left ;
-  
+  float: left;
 }
 
 main figure figcaption {
   position: absolute;
   font-family: monospace;
   font-size: 10pt;
-  font-weight: bolder;
+  font-weight: bold;
   top: 320px;
   left: 55px;
 }
