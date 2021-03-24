@@ -67,11 +67,29 @@ body {
   padding-top: 5px;
 }
 
+#table-style {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  float: right;
+  margin-top: 95px;
+  margin-right: 95px;
+}
+
+td , th {
+  border: 1px solid rgb(138, 194, 152);
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child( even ) {
+  background-color: rgba(138, 194, 152, 0.308);
+}
+
 .button {
-  background-color: rgb(99, 179, 119);
+  background-color: rgb(99, 134, 179);
   color: white;
   text-decoration: none;
-  margin-left: 85px;
+  margin-left: 105px;
   padding: 5px 10px 5px 5px;
 }
 
