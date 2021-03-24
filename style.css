@@ -9,7 +9,7 @@ body {
   text-align: center;
 }
 
-#licoes_a_aprender {
+#licoes_a_aprender , li {
   padding-left: 20px;
   margin-left: 10px;
 }
@@ -32,6 +32,14 @@ body {
 
 #link , a {
   font-size: 20px;
-  margin-left: 150px;
+  margin-left: none;
   padding: 5px;
+}
+
+#trybeu , p {
+  font-family: fantasy;
+  font-weight: 100;
+  color: rgb(104, 104, 187);
+  font-size: 20px;
+  line-height: 22px;
 }
