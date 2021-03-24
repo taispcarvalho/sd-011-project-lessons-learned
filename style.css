@@ -4,13 +4,13 @@ body {
   border: none;
   padding: 5px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   line-height: 25px;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
+  top: 0;
   width: 99%;
   background-color: antiquewhite;
   border-bottom-style: ridge;
@@ -19,7 +19,7 @@ body {
   box-shadow: 0 2px 2px grey;
 }
 
-#titulo {  
+#titulo {
   text-align: center;
 }
 
@@ -29,7 +29,7 @@ body {
   margin-top: 100px;
 }
 
-#licoes {
+.licoes {
   display: inline-block;
   width: 99%;
   border-bottom-style: ridge;
@@ -37,7 +37,7 @@ body {
   font-weight: 500;
 }
 
-#licoes li:hover {
+.licoes li:hover {
   color: aqua;
   font-weight: 1000;
   background-color: blueviolet;
@@ -69,7 +69,7 @@ body {
   overflow: hidden;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   background-color: antiquewhite;
   width: 45%;
@@ -122,6 +122,6 @@ body {
 }
 
 .nav li:hover {
-  background-color:white;
+  background-color: white;
   color: black;
 }
