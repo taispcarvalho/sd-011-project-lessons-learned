@@ -20,8 +20,9 @@ h1 {
   line-height: 15px;
 }
 
-h3 {
+h2 {
   color: rgb(100, 96, 96);
+  font-size: large;
 }
 
 img {
@@ -67,7 +68,7 @@ p {
 
 .lado-direito {
   position: relative;
-  bottom: 106px;
+  bottom: 100px;
 }
 
 .centralize {
