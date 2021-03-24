@@ -81,22 +81,28 @@ a:hover {
   color: rgba(95, 95, 240, 0.692);
 }
 
+#lado-esquerdo {
+  display: inline-block;
+  width: 250px;
+  background-color: rgba(138, 194, 152, 0.308);
+  margin-left: 340px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#lado-direito {
+  display: inline-block;
+  width: 200px;
+  background-color: rgba(138, 194, 152, 0.308);
+  margin-left: 80px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 #rodape {
   background-color: rgba(14, 92, 14, 0.863);
   text-align: center;
   font-size: 23px;
-  padding: 08px;
+  padding: 14px;
   color: rgba(235, 235, 235, 0.685);
-}
-
-#knowledge {
-  display: inline-block;
-  width: 200px;
-  background-color: rgba(138, 194, 152, 0.308);
-}
-
-#my-knowledge {
-  display: inline-block;
-  width: 200px;
-  background-color: rgba(138, 194, 152, 0.308);
 }
