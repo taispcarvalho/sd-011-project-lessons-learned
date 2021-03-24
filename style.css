@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Chilanka';
+  font-family: Chilanka;
   font-size: 20px;
   padding: 5px;
 }
@@ -8,21 +8,27 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
+  margin-left: 10px;
   color: rgba(2, 121, 121, 0.582);
+  z-index: 2;
 }
 
 a {
   text-decoration: none;
   font-size: 40px;
-  font-family: 'Dyuthi';
+  font-family: Dyuthi;
   color: rgb(5, 5, 5);
-  padding: 20px;
+  padding: 25px;
 }
 
 nav {
-  margin-top: 15px;
+  margin-top: 3px;
   position: fixed;
-  padding-left: 400px;
+  padding-left: 450px;
+  background-color: salmon;
+  z-index: 1;
+  border-style: groove;
+  padding: 5px 200px 2px 400px;
 }
 
 img {
@@ -30,7 +36,6 @@ img {
   height: 400px;
   width: 400px;
   border-radius: 400%;
-  text-align: center;
 }
 .container {
 
