@@ -33,13 +33,11 @@ img {
 
 .lado-esquerdo {
   float: left;
-  border: 1px solid black;
 }
 
 .lado-direito {
   float: right;
   width: 300px;
-  border: 1px solid black;
 }
 
 .clear {
