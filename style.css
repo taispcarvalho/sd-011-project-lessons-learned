@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #cabecalho {
@@ -11,15 +12,16 @@ body {
 
 #titulo {
   padding: 10px 600px 10px 6px;
-  margin-left: 520px;
+  margin-left: 490px;
 }
 
 .main {
-  margin-top: 140px;
+  margin-top: 150px;
 }
 
 #minha_foto {
   width: 200px;
+  border-radius: 5%;
 }
 
 .menu {
@@ -34,4 +36,8 @@ body {
 
 .lessons {
   display: flex;
+}
+
+#licoes_aprendidas {
+  margin-right: 90px;
 }
