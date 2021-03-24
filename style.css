@@ -65,7 +65,7 @@ body {
   display: inline-block;
 }
 
-.info table,th,td {
+.info table , th , td {
   border: 1px solid black;
 }
 
