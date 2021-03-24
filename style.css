@@ -12,11 +12,19 @@ header{
     background-color: black;  
 }
 
+nav{
+    height: 120px; 
+}
+
 #titulo{
     text-align: center;
     color: green;
-    height: 100px;
 }
+    
+nav{
+    display: inline;
+}
+
 
 #minha_foto{
     max-width:260px;
