@@ -1,5 +1,10 @@
-body { background-color: rgb(253, 251, 251); font-family: monospace,sans-serif; font-size: medium; color: rgb(30, 6, 53); line-height:inherit;}
+body { background-color:rgb(253, 251, 251);
+  font-family: monospace,sans-serif;
+  font-size: medium;
+  color: rgb(30, 6, 53);
+  line-height:inherit;}
 
-#cabecalho { position:fixed; top: 0px; font-size: medium;}
-
-#m {size: 7cm;}
+#cabecalho { position: fixed;
+  top: 0px;
+  font-size: medium;}
+{ size: 7cm;}
