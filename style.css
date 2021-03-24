@@ -26,15 +26,38 @@ img {
 
 #licoes_aprendidas {
 	width: 200px;
-	background-color: red;
+	display: inline-block;
 }
 
 #licoes_a_aprender {
 	width: 200px;
-	float: right;
-	background-color: blue;
+	display:inline-block;
 }
 
-#titulo {
+#texto1 {
+	float: left;
+	width: 66%;
+	border: 5px solid black;
+}
 
+#texto2 {
+	float: right;
+    width: 20%;
+    border: 5px solid black;
+}
+
+#tabela {
+	display: block;
+	float: right;
+
+}
+
+a {
+	display: block;
+	margin: 20px 10px 20px;
+}
+
+#rodape {
+	bottom: 0;
+	position: fixed;
 }
