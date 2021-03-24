@@ -23,6 +23,6 @@ aside p , section ol li , section ul li , section table , section p {
   font-size: 18px;
 }
 
-.lado-direito, .lado-esquerdo {
+.lado-direito , .lado-esquerdo {
   display: inline-block;
 }
