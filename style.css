@@ -22,12 +22,12 @@ body {
 
 #first-project {
   position: relative;
-  float: left;
+  left: 10px;
 }
 
 #my-way {
   position: relative;
-  float: right;
+  right: 10px
 }
 
 #trybe-table {
