@@ -16,7 +16,7 @@ header {
   right: 0;
   border: 2px solid black; 
   width: 100%;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 img {
@@ -37,9 +37,9 @@ main {
   display: flex;
 }
 
-.lado-esquerdo, .lado-direito {
+.lado-esquerdo , .lado-direito {
   text-align: justify;
-  margin: 10px 10px;
+  margin: 10px;
   width: 50%;
   border: black 2px solid;
   padding: 10px;
@@ -69,6 +69,6 @@ table {
   color: rgb(247, 242, 242);
 } 
 
-header ul  {
+header ul {
   text-align: center;
 }
