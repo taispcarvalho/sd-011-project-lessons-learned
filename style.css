@@ -37,8 +37,9 @@ body {
 }
 
 .first-section {
-  margin-top: 100px;
+  margin-top: 60px;
   text-align: center;
+  padding: 40px;
 }
 
 .first-section img {
@@ -71,6 +72,22 @@ body {
 
 .info a:hover {
   background-color: rgb(78, 111, 112);
+}
+
+.second-section {
+  text-align: center;
+  padding: 30px;
+  background-color: cadetblue;
+  color: aliceblue;
+}
+
+.second-section h2 {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.second-section ol {
+  list-style-position: inside;
 }
 
 .lado-esquerdo {
