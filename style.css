@@ -64,6 +64,7 @@
 }
 
 #table {
+  margin: 15px;
   background-color: black;
   padding: 10px;
   border: solid black 2px;
@@ -72,4 +73,15 @@
 #table th , #table td {
   border: solid black 1px;
   padding: 5px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 38%;
+}
+
+.lado-direito {
+  position: absolute;
+  float: right;
+  width: 38%;
 }
