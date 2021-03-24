@@ -1,7 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
-  width: 700px;
-  margin: auto;
+}
+
+.main {
+  margin: 120px auto;
+  width: 650px;
 }
 
 #cabecalho {
@@ -9,38 +12,72 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
+  height: 90px;
   text-align: center;
   background-color: green;
   background-size: cover;
+  z-index: 1;
+}
+
+#titulo {
+  margin-top: -25px;
 }
 
 #navigation_bar {
-  margin-top: 120px;
-  text-align: center;
+  margin-top: 10px;
+  text-align: right;
 }
 
 .navigation_bar_links {
   display: inline-block;
-  margin: 0 30px ;
+  font-size: 15px;
+  margin: 0 15px;
 }
 
 #minha_foto {
-  width: 200px;
-  margin: auto;
+  position:absolute;
+  width: 150px;
+  top: 150px;
+  margin-left: 50px;
+  border-radius: 10px;
 }
 
-.box {
+.box_article, .lado-direito {
+  border-style: solid;
+  border-color: rgb(38, 38, 38);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.lado-direito {
+  position:absolute;
+  width: 200px;
+  top: 120px;
+  margin-left: 1000px;
+  border-radius: 10px;
+  font-size: 15px;
+  text-align: right;
+}
+
+.box_list_left, .box_list_right{
   display: inline-block;
   border-style: solid;
-  border-color: #262626;
+  border-color: rgb(38, 38, 38);
   border-radius: 10px;
-  width: 301px;
-  padding: 10px 15px;
-  margin: 10px 10px 10px 0px;
+  width: 290px;
+  padding: 10px;
+}
+
+.box_list_left {
+  margin: 20px 10px 20px 0;
+}
+
+}
+.box_list_right {
+  margin: 20px 0 20px 10px;
 }
 
 #rodape {
   text-align: center;
-  color: #a6a6a6
+  color: rgb(166, 166, 166);
 }
