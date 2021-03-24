@@ -6,15 +6,17 @@ body{
 #cabecalho{
   background-color:#CA075B;
   position: fixed;
-  margin-top: 0px;
-  right: 10%;
-  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0%;
+  height: 80px;
 }
 #titulo{
-  font-family: fantasy;
-  font-size: 30x;
+  font-family: 'Ranchers', cursive;
+  font-size: 20x;
   text-align:center;
   color: white;
+  letter-spacing: 4px;
 }
 .menu ul li {
   background-color: #CA075B;
@@ -35,7 +37,7 @@ body{
   text-align: center;
   width: 80%;
 }
-#conteiner {
+#conteiner{
   width: 600px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -59,6 +61,11 @@ h2{
 .images_link{
   display: inline-block;
   width: 50px;
+}
+#table, th, td {
+  border: 5px solid #CA075B;
+  margin: 25px 50px 50px 75px
+  
 }
 #rodape {
   background-color: #CA075B;
