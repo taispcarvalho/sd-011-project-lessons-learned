@@ -44,7 +44,7 @@ img {
 }
 
 #meu_aprendizado {
-  width: 1300px;
+  width: 500px;
   display: inline-block;
 }
 
@@ -55,4 +55,5 @@ img {
 
 .list-container {
   display: inline-block;
+  width: 400px;
 }
