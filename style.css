@@ -14,30 +14,31 @@ header {
   background-color: green;
   right: 0;
   left: 0;
-  bottom: auto;
+  bottom: 780px;
   display: inline-block;
 }
 
 #titulo {
   text-align: center;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 #minha_foto {
   width: 500px;
   border-radius: 30%;
-  margin-top: 300px;
+  margin-top: auto;
   float: left;
   padding: 10px 20px;
 }
 
 #main-text {
-  margin-top: 350px;
+  margin-top: 500px;
   border: 10px 10px;
 }
 
-#menu {
+nav ul li {
   font-size: 20px;
+  display: inline-block;
 }
 
 .skills {
@@ -49,10 +50,10 @@ img {
   float: left;
 }
 
-#first-section {
+ol ul li {
   display: inline-block;
 }
 
 #second-section {
-  display: inline-block;
+  margin-top: 200px;
 }
