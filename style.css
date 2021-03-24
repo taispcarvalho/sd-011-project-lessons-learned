@@ -197,3 +197,11 @@ aside p {
   border-bottom: black solid 20px;
   box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.096);
 }
+
+footer img {
+  width: 20px;
+}
+
+th {
+  left: 10px;
+}
