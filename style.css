@@ -2,7 +2,8 @@ body {
 	background-color: rgb(253, 251, 251);
 	line-height: normal;
 	font-family: Times, serif;
-	font-size: 1.1em; }
+	font-size: 1.1em; 
+}
 
 header {
 	color:white;
@@ -11,7 +12,8 @@ header {
 	background-color:rgb(2, 136, 14);
 	display: block;
 	text-align: center;
-	width: 100%; }
+	width: 100%; 
+}
 
 #minha_foto {
 	border-radius: 65px;
@@ -21,13 +23,15 @@ header {
 	background-color:white;
 	box-shadow: 9px 5px 8px rgb(3, 172, 3);
 	margin-left: 25px;
-	margin-top: 110px; }
+	margin-top: 110px; 
+}
 
-#linkedin, a {
-	text-align: left;
+#linkedin , a {
+  text-align: left;
 	margin-left: 15px;
 	text-decoration: none;
-	color: white; }
+	color: white; 
+}
 
 ol , ul {
 	list-style:square;
@@ -35,14 +39,16 @@ ol , ul {
 	display: inline-block;
 	padding: 25px;
 	margin-left: 2%;
-	border: 2px solid green; }
+	border: 2px solid green; 
+}
 
 .lado-esquerdo {
 	display: inline-block;
 	width: 40%;
 	border: 2px solid green;
 	margin: 2%;
-	padding: 10px; }
+	padding: 10px; 
+}
 
 .lado-direito {
 	float: right;
@@ -50,16 +56,19 @@ ol , ul {
 	width: 40%;
 	border: 2px solid green;
 	margin: 2%;
-	padding: 10px; }
+	padding: 10px; 
+}
 
 table {
 	margin: 2%;
-	margin-top: 2%; }
+	margin-top: 2%;
+}
 
 th , td {
 	border: 2px solid green;
-	text-align: center; }
+	text-align: center; 
+}
 
 h3 {
 	padding: 10px; 
-	}
+}
