@@ -97,15 +97,15 @@ article {
 }
 
 #how-trybe {
-	display: inline;
-	text-align: justify;
+  display: inline;
+  text-align: justify;
   line-height: 20px;
   width: 35%;
   margin-bottom: 60px;
 }
 
 .lado-direito {
-	display: inline-block;
+  display: inline-block;
   width: 20%;
   line-height: 30px;
   text-align: justify;
