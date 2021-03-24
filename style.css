@@ -22,13 +22,15 @@ body {
 
 .lado-esquerdo {
   position: relative;
-  left: 10px;
+  float: left;
+  width: 100px;
   top: 200px;
 }
 
 .lado-direito {
   position: relative;
-  right: 10px;
+  float: right;
+  width: 100px;
   top: 200px
 }
 
