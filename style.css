@@ -7,9 +7,8 @@ body {
   word-spacing: 2px;
 }
 
-#licoes .aprendidas
-#licoes .aprender {
-  display:block;
+#licoes {
+  display: inline-block;
 }
 
 #cabecalho {
@@ -45,7 +44,7 @@ body {
   padding: 4px;
   border-style: solid;
   border-radius: 15px;
-  float: left;
+  /* float: left; */
   margin: 10px 50px 25px;
 
 }
@@ -57,7 +56,7 @@ body {
   padding: 4px;
   border-style: solid;
   border-radius: 15px;
-  float: right;
+  /* float: right; */
   margin: 10px 50px 25px;
 }
 
