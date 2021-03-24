@@ -94,13 +94,13 @@ body {
   text-align: justify;
   font-family: fantasy;
   line-height: 50px;
-  color: white;
-  background-color: darkcyan;
+  color: darkcyan;
+  background-color: aquamarine;
   border-style: solid;
   border-color: darksalmon;
   font-size: 20px;
   float: left;
-  width: 600px;
+  width: 650px;
   height: 400px;
   padding-right: 20px;
   padding-left: 20px;
@@ -108,7 +108,7 @@ body {
 
 #lateral {
   float: left;
-  background-color: darkcyan;
+  background-color: aquamarine;
   border-style: solid;
   margin-left: 200px;
   padding-left: 50px;
@@ -118,10 +118,10 @@ body {
   text-align: justify;
   padding-right: 50px;
   font-style: italic;
-  color: azure;
+  color: darkcyan;
   border-color: darksalmon;
   width: 200px;
-  height: 400px;
+  height: 390px;
   line-height: 40px;
 }
 
