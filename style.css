@@ -60,6 +60,14 @@ main {
   
 }
 
+#main-content img{
+  border-radius: 100%;
+  max-width: 30%;
+  height: auto;
+  margin-block-start: 35px;
+  margin-block-end: 100px;
+}
+
 #main-content p{
   margin-right: auto;
   margin-left: auto;
