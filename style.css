@@ -70,10 +70,25 @@ main {
   text-align: left;
 }
 
-.list_box h3 {
+.green_text {
   color: rgb(47, 193, 140);
   margin-bottom: 10px;
   border-bottom: 1px solid rgb(47, 193, 140);
+}
+
+.articles {
+  display: inline-block;
+  padding: 20px 0;
+}
+
+.lado-esquerdo {
+  float: left;
+  max-width: 48%;
+}
+
+.lado-direito {
+  float: right;
+  max-width: 48%;
 }
 
 #rodape {
