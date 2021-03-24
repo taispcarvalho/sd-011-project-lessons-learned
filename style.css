@@ -2,10 +2,11 @@ body {
   background-color: rgb(253, 251, 251);
   margin: 0;
   text-align: center;
+  font-family: Roboto, Helvetica Neue, sans-serif;
 }
 
 nav {
-  background-color: black;
+  background-color: rgb(46, 45, 45);
   position: fixed;
   top: 0;
   margin-left: 0;
@@ -19,49 +20,79 @@ h1 {
   line-height: 15px;
 }
 
+h3 {
+  color: rgb(100, 96, 96);
+}
+
 img {
   width: 300px;
   border-radius: 100%;
   display: block;
   margin: auto;
   margin-top: 90px;
+  box-shadow: 0 5px 5px -3px rgb(0 0 0 / 10%), 0 8px 10px 1px rgb(0 0 0 / 20%),
+    0 3px 14px 2px rgb(0 0 0 / 50%);
 }
 
 table {
-  border: 1px solid;
-  border-radius: 2px;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 ul , ol {
   display: inline-block;
+  list-style: none;
+  padding: 25px;
+  padding-top: 0;
 }
 
 ul , ol , table {
-  font-family: Courier New, Courier, monospace;
   color: rgb(100, 96, 96);
 }
 
+ol {
+  margin-right: 20px;
+}
+
 p {
-  font-family: Times New Roman, Times, serif;
   font-size: 18px;
 }
 
-.lado-esquerdo {
+.lado-esquerdo , .lado-direito {
   display: inline-block;
   width: 300px;
+  padding: 25px;
 }
 
 .lado-direito {
-  display: inline-block;
-  width: 300px;
+  position: relative;
+  bottom: 106px;
 }
 
 .centralize {
   text-align: center;
 }
 
-section aside {
-  width: 400px;
+.shadow {
+  margin: auto;
+  margin-bottom: 20px;
+  width: 800px;
+  padding-top: 25px;
+  box-shadow: 0 5px 5px -3px rgb(0 0 0 / 20%), 0 8px 10px 1px rgb(0 0 0 / 10%),
+    0 3px 14px 2px rgb(0 0 0 / 0.1%);
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer {
+  border-top: 20px;
+  background-color: rgb(46, 45, 45);
+  position: fixed;
+  padding: 10px;
+  width: 100%;
+  bottom: 0;
 }
