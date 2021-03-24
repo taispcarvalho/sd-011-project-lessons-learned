@@ -4,6 +4,9 @@
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+}
+
+a {
   text-decoration: none;
 }
 
@@ -15,6 +18,10 @@ nav ul li {
   display: inline-block;
   font-size: 24px;
   margin: 0 8px;
+}
+
+main {
+  margin: 200px 0 0 0;
 }
 
 .trybe-icon {
@@ -33,6 +40,21 @@ nav ul li {
   padding: 0 24px;
 }
 
+.main-content {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #minha_foto {
-  width: 400px;
+  width: 360px;
+}
+
+#licoes_aprendidas {
+  font-size: 32px;
+}
+
+.learned-content {
+  background-color: rgb(15, 163, 107);
+  width: 1000px;
+  border-radius: 8px;
 }
