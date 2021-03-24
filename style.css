@@ -10,7 +10,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: chocolate;
+  color: green;
 }
 
 table , th , td {
@@ -42,10 +42,21 @@ footer {
 #cabecalho {
   position: fixed;
   top: 0;
+  z-index: 1;
+  background-color: black;
 }
 
 #cabecalho h1 {
   text-align: center;
+  color: white;
+}
+
+#cabecalho ul li a {
+  color: white;
+}
+
+#cabecalho ul li a:hover {
+  color: gray;
 }
 
 #minha_foto {
@@ -57,6 +68,10 @@ footer {
   margin: 0 auto;
 }
 
+.nav {
+  text-align: center;
+}
+
 .nav ul li {
   display: inline-block;
   margin: 0 5px;
@@ -66,22 +81,85 @@ footer {
   padding: 10px;
 }
 
+.foto {
+  width: 900px;
+  text-align: center;
+  padding: 20px;
+}
+
 .lado-direito {
-  float: left;
-  width: 600px;
+  position: relative;
+  top: 50px;
+  float: right;
+  width: 300px;
   height: 700px;
 }
 
+.lado-direito article {
+  margin-bottom: 330px;
+  text-align: center;
+}
+
+.lado-direito section {
+  text-align: center;
+}
+
+
 .lado-esquerdo {
-  float: right;
-  width: 600px;
-  height: 700px;
+  position: relative;
+  top: 50px;
+  float: left;
+  width: 900px;
+  height: 1400px;
+  color: white;
+}
+
+.lado-esquerdo li {
+  color: rgb(131, 131, 131);
+  list-style: none;
+  width: 130px;
+  height: 130px;
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  background-color: black;
+  line-height: 15px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+.lado-esquerdo li:hover {
+  border: 3px solid rgb(106, 255, 106);
+  font-weight: bolder;
+  color: white;
 }
 
 .aside img {
   width: 200px;
 }
 
+.container-licoes-1 {
+  height: 700px;
+}
+
+.container-licoes-2 {
+  height: 700px;
+}
+
+.container-licoes-1 h2 , .container-licoes-2 h2 {
+  color: black;
+  text-align: center;
+}
+
 .tabela {
-  clear: both;
+  float: left;
+  margin-top: 50px;
+  text-align: center;
+  width: 900px;
+}
+
+.tabela h2 {
+  color: black;
 }
