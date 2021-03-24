@@ -20,6 +20,8 @@ body {
 
 #minha_foto {
   position: fixed;
+  border-radius: 45px;
+  border-style: solid;
 }
 
 #principal {
@@ -32,7 +34,7 @@ body {
 /* Para resolver esta área de margin abaixo, foi consultada a documentação da Mozilla
 *Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
 
-.lado-esquerdo , .lado-direito , .aprendidas , .aprender{
+.lado-esquerdo , .lado-direito , .aprendidas , .aprender {
   padding: 2px;
   border-style: solid;
   border-radius: 15px;
@@ -47,8 +49,6 @@ body {
 
 .artigo {
   display: inline-flex;
-  /* margin-left: 50px;
-  margin-right: 50px; */
 }
 
 #rodape {
