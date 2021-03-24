@@ -20,10 +20,10 @@ body {
 }
 
 #minha_foto {
-	position: absolute;
-	border-style: solid;
-	border-radius: 50%;
-	float: left;
-	right: 45%;
-	top: 110px;
+  position: absolute;
+  border-style: solid;
+  border-radius: 50%;
+  float: left;
+  right: 45%;
+  top: 110px;
 }
