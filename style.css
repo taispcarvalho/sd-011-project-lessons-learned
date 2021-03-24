@@ -26,6 +26,15 @@ main {
   line-height: 25px;
 }
 
+th, td {
+}
+
+table, th, td {
+  border: 1px solid black;
+  width: 50%;
+  margin: 20px 0 20px 22px;
+}
+
 .lado-esquerdo {
   width: 400px;
   text-align: justify;
