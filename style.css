@@ -7,7 +7,12 @@ body {
   word-spacing: 2px;
 }
 
+#licoes {
+  display: inline-block;
+}
+
 #cabecalho {
+  background-color: rgb(18, 146, 14);
   text-align: center;
   top: 0;
   position: fixed;
@@ -16,7 +21,7 @@ body {
 
 }
 
-#pagina {
+#principal {
   margin-top: 125px;
   margin-left: 50px;
   margin-right: 50px;
@@ -24,28 +29,49 @@ body {
 
 .lado-esquerdo , .lado-direito {
   display: inline-block;
-  width: 350px;
+  width: 35%;
 }
 
 .artigo {
-  background-color: blue;
   margin-left: 50px;
   margin-right: 50px;
 }
+
+/* Para resolver esta área de margin abaixo, foi consultada a documentação da Mozilla
+*Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
 
 .lado-esquerdo {
-  margin-top: 10px;
-  margin-bottom: 25px;
+  border-radius: 15px;
+  float: left;
+  margin: 10px 50px 25px;
   background-color: red;
-  margin-left: 50px;
-  margin-right: 50px;
+
 }
 
+/* Para resolver esta área de margin abaixo, foi consultada a documentação da Mozilla
+*Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
+
 .lado-direito {
-  padding-top: 100px;
-  margin-top: 10px;
-  margin-bottom: 25px;
+  border-radius: 15px;
+  float: right;
+  margin: 10px 50px 25px;
   background-color: red;
-  margin-left: 50px;
-  margin-right: 50px;
+}
+
+#rodape {
+  margin-top: 23%;
+}
+
+#navegacao {
+  background-color: tomato;
+}
+
+#navegacao a {
+  color: white;
+  text-decoration: none;
+}
+
+#navegacao a:hover {
+  text-decoration: underline;
+  color: rgba(93, 253, 0, 0.63);
 }
