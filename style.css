@@ -46,11 +46,31 @@ h1, h2, h3, h4 {
   border-radius: 10px;
 }
 
+.box_main {
+  display: inline-block;
+}
+.box_list_left, .box_list_right{
+  display: inline-block;
+  border-style: solid;
+  border-color: rgb(38, 38, 38);
+  border-radius: 10px;
+  width: 286px;
+  padding: 10px;
+}
+
+.box_list_left {
+  margin: 20px 10px 20px 0;
+}
+
+.box_list_right {
+  margin: 20px 0 20px 10px;
+}
+
 .article {
   line-height: 22px;
 }
 
-.box_article, .lado-direito {
+.lado-esquerdo, .lado-direito {
   border-style: solid;
   border-color: rgb(38, 38, 38);
   border-radius: 10px;
@@ -60,30 +80,13 @@ h1, h2, h3, h4 {
 .lado-direito {
   position:absolute;
   width: 200px;
-  top: 120px;
+  top: 452px;
   margin-left: 1000px;
   border-radius: 10px;
   font-size: 15px;
   text-align: right;
 }
 
-.box_list_left, .box_list_right{
-  display: inline-block;
-  border-style: solid;
-  border-color: rgb(38, 38, 38);
-  border-radius: 10px;
-  width: 290px;
-  padding: 10px;
-}
-
-.box_list_left {
-  margin: 20px 10px 20px 0;
-}
-
-}
-.box_list_right {
-  margin: 20px 0 20px 10px;
-}
 
 #rodape {
   text-align: center;
