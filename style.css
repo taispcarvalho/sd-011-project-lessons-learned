@@ -24,9 +24,7 @@ main {
   font-size: 15px;
   color: rgb(31, 30, 32);
   line-height: 25px;
-}
-
-th, td {
+  padding: 20px;
 }
 
 table, th, td {
