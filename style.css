@@ -20,7 +20,7 @@ body {
 }
 
 #cabecalho h1 {
-  font-family: 'Domine', serif;
+  font-family: Domine, serif;
   text-align: center;
   padding-top: 2%;
   color: white;
@@ -62,7 +62,17 @@ body {
 }
 
 .container-lesson h2 {
-  font-family: 'Domine', serif;
+  font-family: Domine, serif;
+  color: palegreen;
+  text-shadow: 2px -2px gray;
+  margin-bottom: 0.5em;
+  text-align: center;
+  padding-top: 4%;
+  letter-spacing: 2px;
+}
+
+.container-learning h2 {
+  font-family: Domine, serif;
   color: palegreen;
   text-shadow: 2px -2px gray;
   margin-bottom: 0.5em;
@@ -72,7 +82,7 @@ body {
 }
 
 #about h2 {
-  font-family: 'Domine', serif;
+  font-family: Domine, serif;
   color: palegreen;
   text-shadow: 2px -2px gray;
   margin-bottom: 0.5em;
@@ -117,16 +127,6 @@ body {
 
 #learned-lesson {
   font-size: 1.4em;
-}
-
-.container-learning h2 {
-  font-family: 'Domine', serif;
-  color: palegreen;
-  text-shadow: 2px -2px gray;
-  margin-bottom: 0.5em;
-  text-align: center;
-  padding-top: 4%;
-  letter-spacing: 2px;
 }
 
 .container-learning {
