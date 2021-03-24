@@ -106,24 +106,27 @@ article {
 }
 
 #how-trybe {
-	background-color: green;
 	display: inline;
 	text-align: justify;
   line-height: 20px;
 }
 
 .lado-direito {
-	background-color: red;
 	display: inline-block;
-	width: 40%; 
+  width: 20%;
+  line-height: 30px;
+  text-align: justify;
+  padding: 0 30px;
+  vertical-align: top;
+  margin-left: 3%;
 }
 
 .lado-esquerdo {
-  width: 40%;
-  margin-left: 8%;
-  margin-right: 4%;
   text-align: justify;
-  line-height: 20px;
+  width: 30%;
+  margin-left: 18%;
+  line-height: 30px;
+  padding: 0 30px;
 }
 
 #contact-me a {
