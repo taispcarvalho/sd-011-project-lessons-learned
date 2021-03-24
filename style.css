@@ -7,8 +7,9 @@ body {
   word-spacing: 2px;
 }
 
-#licoes {
-  display: inline-block;
+#licoes .aprendidas
+#licoes .aprender {
+  display:block;
 }
 
 #cabecalho {
