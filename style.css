@@ -2,6 +2,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+h4 {
+  text-align: center;
+}
+
 .main {
   margin: 120px auto;
   width: 650px;
