@@ -1,6 +1,6 @@
 body {
-  background-color: rgb(25, 251, 251);
-  margin-right: 260px;
+  background-color: rgb(250, 251, 251);
+  margin-right: 19%;
   border: 0px;
   padding: 5px;
   text-align: center;
@@ -16,6 +16,8 @@ body {
   border-bottom-style: ridge;
   font-size: 30px;
   color:blueviolet;
+  top: -2;
+  box-shadow: 0 2px 2px #666;
 }
 
 #titulo {  
@@ -26,15 +28,15 @@ body {
 #minha_foto {
   width: 300px;
   border-radius: 200%;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 #licoes {
   display: inline-block;
-  width: 100%;
+  width: 99%;
   border-bottom-style: ridge;
   background-color: antiquewhite;
-  color: black;
+  font-weight: bold;
 }
 
 #licoes li:hover {
@@ -46,7 +48,7 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
-  list-style-type: decimal;
+  list-style-type: decimal-leading-zero;
   font-size: 20px;
   margin: 50px;
   margin-left: 1px;
@@ -62,12 +64,12 @@ body {
 }
 
 .article{
-  background-color: green;
   width: 100%;
   margin-top: 1px;
   border: 10px;
   padding: 0px;
   position: relative;
+  overflow:hidden;
 }
 
 .lado-esquerdo,.lado-direito {
@@ -91,7 +93,7 @@ body {
 
 .section-aside {
   background-color: antiquewhite;
-  width: 250px;
+  width: 20%;
   height: 100%;
   top: 105px;
   float: right;
@@ -99,6 +101,36 @@ body {
   position: fixed;
 }
 
+.table td {
+  border-bottom-style: ridge;
+  font-weight: bold;
+  margin-left: 20px
+}
+
+.table {
+  text-align: center;
+  margin: 0 auto;
+
+
+}
+
 #rodape {
   margin: 10px;
+  clear:both;
+  background-color: beige;
+  list-style: none;
+}
+
+.nav li:hover {
+  font-weight: bold;
+}
+
+.nav li{
+  display: inline-block;
+  top: -2;
+  box-shadow: 0 2px 2px #666;
+}
+
+nav li{
+  position: relative;
 }
