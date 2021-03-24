@@ -89,6 +89,7 @@ a:hover {
   margin-left: 340px;
   padding: 5px;
   border-radius: 5px;
+  line-height: 20px;
 }
 
 .lado-direito {
@@ -99,6 +100,7 @@ a:hover {
   margin-left: 80px;
   padding: 5px;
   border-radius: 5px;
+  line-height: 20px;
 }
 
 #rodape {
