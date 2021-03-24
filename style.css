@@ -1,12 +1,23 @@
 body {
   background-color: rgb(253, 251, 251);
+  text-align: center;
 }
 
 #cabecalho {
-  position: fixed;
-  top: 0;
+  position:fixed;
+  top:0;
+  background-color:grey;
+  width: 100%;
 }
 
 #minha_foto {
   width: 200px;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
 }
