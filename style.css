@@ -43,3 +43,15 @@ body {
   font-size: 20px;
   line-height: 22px;
 }
+
+.lado-direito {
+  float: right;
+  width: 40%;
+  padding-right: 10px;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 30%;
+  padding-left: 30px;
+}
