@@ -1,11 +1,11 @@
 body {
-  background-color:  rgb(253, 251, 251);
-  font-size: 20px; 
-  font-family: monospace; 
+  background-color: rgb(253, 251, 251);
+  font-size: 20px;
+  font-family: monospace;
 }
 
 header {
-  background-color: grey; 
+  background-color: grey;
   text-align: center;
 }
 
@@ -14,68 +14,65 @@ h2 {
 }
 
 nav {
-  padding-top: 50px; 
-  text-align: center; 
+  padding-top: 50px;
+  text-align: center;
 }
 
 nav ul li {
-  display: inline-block; 
+  display: inline-block;
   margin: 20px 25px;
 }
 
 nav ul li:hover {
-  background-color: black; 
+  background-color: black;
 }
 
 nav ul {
-  position:fixed; 
-  background-color: rgb(168, 166, 166); 
-  width: 100%; 
+  position: fixed;
+  background-color: rgb(168, 166, 166);
+  width: 100%;
 }
 
 nav ul li a {
-  color: white; 
-  text-decoration: none; 
-  font-weight: bold; 
-  font-size: 1.5em; 
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 #cabecalho {
-  position: fixed; 
-  top: 0px; 
-  width: 100%;  
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 #minha_foto {
-  width: 200px;  
-  margin-top: 90px;  
+  width: 200px;
+  margin-top: 90px;
 }
 
-table, th, td {
-  border: 1px solid black; 
+table , th , td {
+  border: 1px solid black;
 }
 
 table {
-  margin: 20px 25px; 
+  margin: 20px 25px;
 }
 
 article {
-  display: inline-block; 
-  width: 35%; 
+  display: inline-block;
+  width: 35%;
 }
 
 aside {
-  display: inline-block; 
-  width: 25%; 
+  display: inline-block;
+  width: 25%;
 }
 
 p {
-  text-align: center; 
+  text-align: center;
 }
 
 footer {
-  margin-top: 30px; 
-  background-color: grey 
+  margin-top: 30px;
+  background-color: grey;
 }
-
-
