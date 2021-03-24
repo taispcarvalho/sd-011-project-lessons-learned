@@ -41,21 +41,21 @@ body {
 *Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
 
 .lado-esquerdo {
+  border-style: solid;
   border-radius: 15px;
   float: left;
   margin: 10px 50px 25px;
-  background-color: red;
 
 }
 
 /* Para resolver esta área de margin abaixo, foi consultada a documentação da Mozilla
 *Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
 
-.lado-direito {
+.lado-direito aside {
+  border-style: solid;
   border-radius: 15px;
   float: right;
   margin: 10px 50px 25px;
-  background-color: red;
 }
 
 #rodape {
