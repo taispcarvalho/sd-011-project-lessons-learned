@@ -36,6 +36,43 @@ body {
   margin-right: 20px;
 }
 
+.first-section {
+  margin-top: 100px;
+  text-align: center;
+}
+
+.first-section img {
+  border-radius: 130px;
+  width: 250px;
+}
+
+.info table {
+  display: inline-block;
+}
+
+.info table, th, td {
+  border: 1px solid black;
+}
+
+.info {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.info a {
+  display: block;
+  background-color: cadetblue;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.info a:hover {
+  background-color: rgb(78, 111, 112);
+}
+
 .lado-esquerdo {
   background-color: rgb(245, 210, 146);
   max-width: 60%;
