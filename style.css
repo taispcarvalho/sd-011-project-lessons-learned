@@ -88,6 +88,9 @@ body {
 
 .second-section ol {
   list-style-position: inside;
+  width: 400px;
+  margin: 0 auto;
+  text-align: justify;
 }
 
 .lado-esquerdo {
