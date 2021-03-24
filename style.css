@@ -67,36 +67,41 @@ aside {
   background-color: rgb(173, 170, 170);
   width: 400px;
   height: 700px;
+  border-radius: 10px;
 }
 
 .aprendizado {
   position: relative;
-  margin-left: 80px;
-}
+  margin-left: 30px;
+  }
 
 #section_aprendido {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 #section_aprender {
-  margin-top: 350px;
+  margin-top: 360px;
 }
 
 .aprendizado h3 {
   position: absolute;
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 5px;
+  padding-top: 8px;
+  background-color: rgb(44, 43, 43);
+  color: white;
+  width: 340px;
+  height: 35px;
+  border-radius: 5px;
 }
 
 #licoes_aprendidas, #licoes_a_aprender {
   position: absolute;
-  margin-top: 50px;
-}
-
-licoes_aprendidas {
-
+  text-align:left;
+  margin-top: 80px;
 }
 
 #licoes_aprendidas li, #licoes_a_aprender li {
-  text-align: center;
+   height: 22px;
 }
