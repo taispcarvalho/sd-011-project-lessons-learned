@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family:'Times New Roman', Times, serif;
+  font-size:large;
+  line-height: 1.5em;
 }
 
 #cabecalho {
