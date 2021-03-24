@@ -7,10 +7,6 @@ body {
   word-spacing: 2px;
 }
 
-#licoes {
-  display: inline-block;
-}
-
 #cabecalho {
   background-color: rgb(18, 146, 14);
   text-align: center;
@@ -27,41 +23,34 @@ body {
   margin-right: 50px;
 }
 
-.lado-esquerdo , .lado-direito {
+/* Para resolver esta área de margin abaixo, foi consultada a documentação da Mozilla
+*Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
+
+.lado-esquerdo , .lado-direito , .aprendidas , .aprender{
+  padding: 2px;
+  border-style: solid;
+  border-radius: 15px;
+  margin: 10px 50px 25px;
   display: inline-block;
   width: 35%;
 }
 
+#minha_foto {
+  display:grid;
+}
+
+#licoes {
+  display: inline-flex;
+}
+
 .artigo {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-/* Para resolver esta área de margin abaixo, foi consultada a documentação da Mozilla
-*Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
-
-.lado-esquerdo {
-  padding: 4px;
-  border-style: solid;
-  border-radius: 15px;
-  /* float: left; */
-  margin: 10px 50px 25px;
-
-}
-
-/* Para resolver esta área de margin abaixo, foi consultada a documentação da Mozilla
-*Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
-
-.lado-direito {
-  padding: 4px;
-  border-style: solid;
-  border-radius: 15px;
-  /* float: right; */
-  margin: 10px 50px 25px;
+  display: inline-flex;
+  /* margin-left: 50px;
+  margin-right: 50px; */
 }
 
 #rodape {
-  margin-top: 23%;
+  margin-top: 1%;
 }
 
 #navegacao {
