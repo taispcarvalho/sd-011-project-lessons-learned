@@ -57,3 +57,12 @@ img {
   display: inline-block;
   width: 400px;
 }
+
+#rodape {
+  text-align: center;
+}
+
+button {
+  border-style: groove;
+  
+}
