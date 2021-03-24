@@ -31,6 +31,10 @@ a {
   color: green;
 }
 
+nav a {
+  color: white;
+}
+
 #minha_foto {
   float: left;
   margin-left: 10%;
