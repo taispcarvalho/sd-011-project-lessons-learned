@@ -30,7 +30,7 @@ h1 , h2 , h3 {
   line-height: 30px;
 }
 
-#table-content , th , td {
+table , th , td {
   margin: auto;
   text-align: center;
   border: 2px solid black;
@@ -43,12 +43,12 @@ h1 , h2 , h3 {
 }
 
 
-.nav-links {
+nav {
   text-align: center;
   margin-bottom: 15px;
 }
 
-.nav-links a {
+nav a {
   padding: 10px;
   border-radius: 20px;
   text-decoration: none;
@@ -95,12 +95,20 @@ article {
   border: 2px dashed  black;
 }
 
-#lessons {
-  margin-top: 30px;
-  margin-bottom: 50px;
+#how-trybe {
+	background-color: green;
+	display: inline;
+	text-align: justify;
+  line-height: 20px;
 }
 
-#learned {
+.lado-direito {
+	background-color: red;
+	display: inline-block;
+	width: 40%;
+}
+
+.lado-esquerdo {
   width: 40%;
   margin-left: 8%;
   margin-right: 4%;
