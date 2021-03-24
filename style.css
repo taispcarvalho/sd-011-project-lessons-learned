@@ -1,9 +1,36 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 #cabecalho {
   position: fixed;
-  top: 0px;
-  background-color: rgb(5, 141, 35);
+  top: 0;
+  background-color: rgb(21, 184, 56);
+  height: 150px;
+  width: 100%;
+  margin: -7px; 
+  line-height: 48px;
+  text-align: center;
+  color: aliceblue;
+  border-radius: 10px;
+  }
+nav {
+  margin-left: 50px;
+  margin-top: -30px;
+  color: aliceblue;
+  
+}
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+    background-color: rgb(30, 230, 56);
+    padding: 9px 10px;
+    border-radius: 4px;
+    margin-bottom: 0px;
+    top: 0;
+    position: static;  
+}
+section img {
+  margin-top: 150px;
 }
