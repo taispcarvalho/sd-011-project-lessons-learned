@@ -4,6 +4,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 header {
@@ -13,6 +14,8 @@ header {
   z-index: 1;
   height: 100px;
   width: 100%;
+  box-sizing: border-box;
+  padding-top: 20px;
 }
 
 header nav {
@@ -24,32 +27,36 @@ header nav {
   width: 100%;
 }
 
+header h1{
+  margin-left: 15px;
+}
+
 header nav ul li {
   display: inline-block;
 }
 
 main {
   border: dotted red 1px;
-  height: 500px;
+  
   position: absolute;
   top: 100px;
-  background-size: 100%;
-  
+  background-size: 100%; 
 }
 
-#licoes, #main-content, aside {
+#licoes ,#main-content ,aside {
   display: inline-block;
   float: left;
   height: 90%;
   box-sizing: border-box;
   margin: 20px 5px;
-  
 }
 
 #licoes {
-  background-color: red;
+  /* background-color: red; */
   width: 20%;
-  margin-left: 10px;
+  padding: 10px;
+  height: 100%;
+  margin-top: 0;
 }
 
 #main-content {
@@ -57,7 +64,6 @@ main {
   width: 50%;
   text-align: center;
   padding: 30px;
-  
 }
 
 #main-content img {
@@ -77,5 +83,38 @@ main {
 aside {
   background-color: green;
   width: 25%;
+  padding: 10px;
 }
 
+.aprendi {
+  line-height: 30px;
+}
+
+.aprendi ol { 
+  list-style: none;
+  text-align: center;
+}
+
+.aprendi li {
+  background-color: green;
+  border: black solid 2px;
+  margin-left: -40px;
+  margin-bottom: 2px;
+}
+
+.aprender {
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.aprender ul {
+  list-style: none;
+  text-align: center;
+}
+
+.aprender li {
+  background-color: green;
+  border: black solid 2px;
+  margin-left: -40px;
+  margin-bottom: 2px;
+}
