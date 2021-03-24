@@ -43,9 +43,24 @@ main {
   top: 80px;
 }
 
+
+
+main figure {
+  position: relative;
+}
+
 #minha_foto {
   position: absolute;
-  top: 0px;
-  left: 0px;
   border-radius: 200px;
+  float: left ;
+  
+}
+
+main figure figcaption {
+  position: absolute;
+  font-family: monospace;
+  font-size: 10pt;
+  font-weight: bolder;
+  top: 320px;
+  left: 55px;
 }
