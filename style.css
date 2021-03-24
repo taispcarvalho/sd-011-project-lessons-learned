@@ -187,14 +187,14 @@ th {
 
 }
 
-table, th, td {
+table,  th,  td {
   border: 1px solid black;
   border-collapse: colapse;
   font-size: 40px;
 
 }
 
-th, td {
+th,  td {
   padding: 42px;
 
 }
