@@ -65,3 +65,10 @@ img {
 button {
   border-style: groove;
 }
+
+.table {
+  width: 1000px;
+  border-style: groove;
+  color: rgb(112, 47, 1);
+  font-style: italic;
+}
