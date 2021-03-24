@@ -19,7 +19,6 @@ h1 , h2 , h3 {
 
 #minha_foto {
   width: 300px;
-  margin-left: 40%;
 }
 
 #about-me {
@@ -28,6 +27,15 @@ h1 , h2 , h3 {
   padding-right: 4%;
   text-align: justify;
   line-height: 30px;
+  margin-bottom: 50px;
+}
+
+#about-me p {
+  display: inline-block;
+  width: 30%;
+  padding: 0 50px;
+  margin-left: 13%;
+  text-align: justify;
 }
 
 table , th , td {
@@ -105,7 +113,7 @@ article {
 .lado-direito {
 	background-color: red;
 	display: inline-block;
-	width: 40%;
+	width: 40%; 
 }
 
 .lado-esquerdo {
