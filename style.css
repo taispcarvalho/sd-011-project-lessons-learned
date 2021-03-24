@@ -1,6 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-top: 120px;
+  font-size: 20px;
 }
 
 #cabecalho {
@@ -26,7 +27,7 @@ body {
 
 .links {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 
 .links a {
@@ -43,8 +44,15 @@ body {
 
 #minha_foto {
   width: 200px;
-  display: block;
-  margin-top: 100px;
+  border-radius: 200px;
+  float: left;
+  margin-right: 20px;
+}
+
+#about-me {
+  margin-left: 200px;
+  margin-bottom: px;
+  margin-top: 50px;
 }
 
 #licoes_aprendidas {
