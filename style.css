@@ -4,6 +4,7 @@
   margin: 0;
   scroll-behavior: smooth;
   font-family: Arial, sans-serif;
+  color: black;
 }
 
 header {
@@ -68,6 +69,10 @@ aside {
   margin-left: 100px;
   padding: 20px;
   margin-bottom: 100px;
+}
+
+aside p {
+  color: lightcoral;
 }
 
 footer {
