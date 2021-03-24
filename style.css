@@ -40,3 +40,9 @@ body {
   display: inline-block;
   margin-left: 100px;
 }
+
+nav ul li {
+  display:inline-block;
+  background-color: purple;
+  color: blue;
+}
