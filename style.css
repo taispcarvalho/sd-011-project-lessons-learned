@@ -1,3 +1,5 @@
+/* Tudo */
+
 * {
   color: rgb(250, 250, 250);
   margin: 0;
@@ -14,6 +16,10 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+ol {
+  padding: 0 0 0 40px;
+}
+
 nav ul li {
   display: inline-block;
   font-size: 24px;
@@ -23,6 +29,8 @@ nav ul li {
 main {
   margin: 200px 0 0 0;
 }
+
+/* Header */
 
 .trybe-icon {
   width: 80px;
@@ -40,9 +48,25 @@ main {
   padding: 0 24px;
 }
 
-.main-content {
+/* Main */
+
+#main-content {
   display: flex;
   justify-content: space-evenly;
+}
+
+#learned-content {
+  display: grid;
+  align-items: center;
+  background-color: rgb(15, 163, 107);
+  width: 56%;
+  border-radius: 16px;
+  padding: 40px;
+}
+
+#title-learned-content {
+  text-align: center;
+  font-size: 36px;
 }
 
 #minha_foto {
@@ -50,11 +74,6 @@ main {
 }
 
 #licoes_aprendidas {
-  font-size: 32px;
+  font-size: 24px;
 }
 
-.learned-content {
-  background-color: rgb(15, 163, 107);
-  width: 1000px;
-  border-radius: 8px;
-}
