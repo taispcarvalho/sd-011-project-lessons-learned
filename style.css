@@ -56,6 +56,27 @@ body {
   text-align: left;
   width: 0 auto;
 }
+
+.article{
+  width: 100%;
+  background-color: aqua;
+  text-align: center;
+}
+
+.second-section-article,.first-section-article {
+  display: inline-block;
+  background-color: antiquewhite;
+  width: 48%;
+  height: 600px;
+  margin-top: 10px;
+  border-bottom-style: ridge;
+}
+
+.first-section-article {
+  float: left;
+  margin-left: 22px;
+}
+
 #rodape {
   margin: 10px;
 }
