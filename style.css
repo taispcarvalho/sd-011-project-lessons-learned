@@ -29,7 +29,8 @@ a {
 }
 
 #about-learning {
-  margin: 35px 0 25px 25px;
+  width: 400px;
   text-align: justify;
-  width: 1000px;
+  display: inline-block;
+  float: right;
 }
