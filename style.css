@@ -93,3 +93,7 @@ body {
   height: 200px;
   padding: 1px;
 }
+
+#table {
+  border: 1px;
+}
