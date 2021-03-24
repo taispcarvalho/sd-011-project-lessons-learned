@@ -8,8 +8,9 @@ body {
   position: fixed;
   top: 0;
   font-size: 5px;
-  margin-top: 900px;
-  margin-left: 1340px;
+  margin-top: 10px;
+  margin-left: 1300px;
+  color: antiquewhite;
 }
 
 #topbar {
