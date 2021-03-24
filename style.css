@@ -18,9 +18,18 @@ article { color: green;
   font-size: 30px;
   font-family: cursive;
   line-height: 1.5;
-  display: inline;
 }
 
-aside { color: red;
-  display: inline;
+.lado-esquerdo {
+  display: inline-block;
+  float: left;
+  width: 66%;
+  border: 5px solid purple;
+}
+
+.lado-direito {
+  display: inline-block;
+  float: right;
+  width: 20%;
+  border: 5px solid purple;
 }
