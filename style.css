@@ -3,12 +3,29 @@ body{
 }
 
 #cabecalho{
+    display: block;
     top: 0px;
+    left: 0px;
     position: fixed;
     background-color: green;
-    text-align: center;
 }
 
 #titulo{
     Color: blue;
+    text-align: center;
+}
+
+#minha-foto{
+    border-radius: 100%;
+    width: 130px;
+}
+
+#foto-container{
+    margin-top: 90px;
+}
+
+#rodape{
+    background-color: blue;
+    color: white;
+    text-align: center;
 }
