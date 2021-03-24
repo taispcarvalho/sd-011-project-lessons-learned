@@ -2,6 +2,7 @@ body { background-color: rgb(253, 251, 251);
   font-family: monospace, sans-serif;
   font-size: medium;
   color: rgb(30, 6, 53);
+  line-height: normal;
 }
 
 #cabecalho { position: fixed;
@@ -20,7 +21,7 @@ body { background-color: rgb(253, 251, 251);
   padding: 2px 3px;
   border: 3px;
   border-color: black;
-  }
+}
 
 .lado-direito { display: inline-block;
   width: 3cm;
@@ -34,6 +35,5 @@ body { background-color: rgb(253, 251, 251);
   margin: 2cm;
   padding: 1cm;
   border: 2cm;
-  border-color: black;
   background-color: bisque;
 }
