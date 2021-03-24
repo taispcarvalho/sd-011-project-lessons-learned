@@ -1,7 +1,7 @@
 body {
   margin: 10px;
   padding: 10px;
-  border: firebrick;
+  border: firebrick ;
   font-style: oblique;
   font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
   font-weight: lighter;
@@ -17,10 +17,10 @@ body {
 #barlist{
   display:inline-flex;
   list-style-type: none;
-  margin: 5px;
+  margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: #333;}
+  overflow:visible;
+  background-color:darkolivegreen;}
 #titulo{
   color: white;
   font-size:xx-large;
@@ -68,7 +68,7 @@ li a {
 p {
   font-style:italic;
   font-family:Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
-  font-weig ht:inherit;
+  font-weight:inherit;
   font-size:large;
   line-height:110%;
   }
