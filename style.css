@@ -5,17 +5,16 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  left: 500px;
+  left: 380px;
   background-color: rgb(253, 251, 251);
-  
-}
+  }
 
 #navegacao {
   font-size: medium;
   font-family: Impact, sans-serif;
   position: absolute;
   top: 65px;
-  left: 450px;
+  left: 230px;
   line-height: 15px;
 }
 
@@ -26,8 +25,7 @@ body {
 }
 
 #foto {
-    background-color: seagreen;
-    width: 200px;
-    height: 200px;
-        
+  background-color: seagreen;
+  width: 200px;
+  height: 200px;
 }
