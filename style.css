@@ -34,7 +34,7 @@ h1 , h2 , h3 {
   display: inline-block;
   width: 30%;
   padding: 0 50px;
-  margin-left: 13%;
+  margin-left: 16%;
   text-align: justify;
 }
 
@@ -93,6 +93,7 @@ article {
   padding-right: 2%;
   padding-bottom: 1%;
   border: 2px dashed  black;
+  width: 20%;
 }
 
 #licoes_a_aprender {
@@ -101,6 +102,7 @@ article {
   padding-right: 2%;
   padding-bottom: 1%;
   border: 2px dashed  black;
+  width: 20%;
 }
 
 #how-trybe {
