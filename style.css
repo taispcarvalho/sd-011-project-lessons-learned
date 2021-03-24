@@ -20,3 +20,10 @@ body {
 #minha_foto {
   width: 200px;
 }
+
+#nav ul li{
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
