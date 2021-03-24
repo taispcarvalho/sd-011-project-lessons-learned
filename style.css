@@ -37,3 +37,18 @@ li:hover {
 ul{
   margin: auto;
 }
+
+table, th, td {
+  border: 1px solid  #903c54;
+  font-size: 20px;
+  
+}
+
+th, tr, td {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  font-weight: bolder;
+}
