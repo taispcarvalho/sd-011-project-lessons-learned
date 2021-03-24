@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 body {
@@ -31,4 +33,14 @@ main {
 }
 
 #rodape {
+}
+
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td {
+  border: 5px solid red;
+  border-color: blue;
 }
