@@ -45,6 +45,10 @@ p {
   letter-spacing: -0.5px;
 }
 
+section {
+  margin-bottom: 75px;
+}
+
 /* --- GENERAL --- */
 
 .flex_parent {
@@ -108,12 +112,12 @@ aside img {
 
 /* --- SECTION 2 --- */
 
-ol li {
+#licoes_aprendidas li {
   counter-increment: li;
   line-height: 60px;
 }
 
-ol li::before {
+#licoes_aprendidas li::before {
   content: counter(li); 
   color: red;
   font-size: 48px;
@@ -128,6 +132,12 @@ ol li::before {
 
 /* --- SECTION 3 --- */
 
-section ul li {
+#licoes_a_aprender li {
   line-height: 60px;
+}
+
+/* --- SECTION 4 --- */
+
+article {
+  padding-left: 0;
 }
