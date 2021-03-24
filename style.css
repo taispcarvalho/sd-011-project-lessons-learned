@@ -13,8 +13,7 @@ h1 {
   height: 80px;   
 }
 
-img {
-  position: absolute;
+img {  
   top: 120px;
   height: 240px; 
   width: 240px;   
@@ -22,19 +21,22 @@ img {
   border: solid 3px;
 }
 
-ol {
-  position: absolute;
+ol {  
   top: 500px;
 }
 
-ul {
-  position: absolute;
+ul {  
   top: 500px;
   left: 300px;
 }
 
-footer {
-  position: absolute;
+article {  
+  top: 750px;   
+}
+
+footer {  
   top: 800px;  
   left: 40%;  
 }
+
+
