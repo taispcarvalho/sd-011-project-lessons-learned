@@ -60,3 +60,43 @@ main figure figcaption {
   top: 320px;
   left: 55px;
 }
+
+aside {
+  position: absolute;
+  margin-left: 1500px;
+  background-color: rgb(173, 170, 170);
+  width: 400px;
+  height: 700px;
+}
+
+.aprendizado {
+  position: relative;
+  margin-left: 80px;
+}
+
+#section_aprendido {
+  margin-top: 50px;
+}
+
+#section_aprender {
+  margin-top: 350px;
+}
+
+.aprendizado h3 {
+  position: absolute;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+  position: absolute;
+  margin-top: 50px;
+}
+
+licoes_aprendidas {
+
+}
+
+#licoes_aprendidas li, #licoes_a_aprender li {
+  text-align: center;
+}
