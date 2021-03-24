@@ -1,12 +1,12 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Epilogue, sans-serif;
 }
 
 #cabecalho {
   display: block;
   position: fixed;
   top: 0;
-  display: block;
   bottom: 50px;
 }
 
@@ -21,6 +21,6 @@ body {
   margin-left: 10px;
 }
 
-#barra_de_navegacao{
+#barra_de_navegacao {
   background-color: rgb(253, 251, 251);
 }
