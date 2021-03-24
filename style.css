@@ -6,13 +6,27 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "Roboto", sans-serif;
   color: rgb(29, 28, 28);
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  display: flex;
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: -3px;
+  color: rgb(65, 10, 218);
 }
 
 h2 {
   margin: 10px;
   color: rgb(54, 54, 218);
+}
+
+p {
+  letter-spacing: 1px;
 }
 
 table {
@@ -24,7 +38,7 @@ footer {
   justify-content: center;
 }
 
-#container {
+.container {
   width: 95%;
   margin: 10px;
 }
@@ -42,7 +56,7 @@ footer {
 
 #cabecalho > nav {
   flex: 1;
-  margin-left: 20px;
+  margin: 20px;
 }
 
 #cabecalho > nav > ul {
@@ -68,9 +82,39 @@ footer {
   margin-left: 30px;
 }
 
+#aprendizado {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#aprendizado > article , aside {
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.licoes {
+  display: flex;
+  flex: 1;
+  margin: 60px 50px;
+  align-items: center;
+}
+
+.lessons {
+  flex: 1;
+}
+
+.lessons-learn {
+  flex: 1;
+}
+
+.photo {
+  align-self: center;
+}
+
 .photo img {
   padding: 15px;
-  margin-top: 50px;
   border-radius: 40%;
 }
 
@@ -78,8 +122,33 @@ footer {
   list-style: none;
 }
 
-.fallow section {
-  display: flex;
+table , td , th {
+  border: 1px solid rgb(44, 42, 42);
+}
+
+.table {
+  text-align: -webkit-center;
+}
+
+.table > table {
+  width: 30%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.table > table > thead > tr {
+  height: 30px;
+  background-color: rgb(54, 54, 218);
+  color: aliceblue;
+}
+
+#rodape {
   padding: 10px;
   align-items: center;
+  margin-top: 30px;
+  background-color: rgb(231, 223, 223);
+}
+
+#rodape img {
+  margin-left: 20px;
 }
