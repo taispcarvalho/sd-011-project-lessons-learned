@@ -1,0 +1,36 @@
+* {
+    padding:0;
+    margin:0;
+    border:0
+    }
+
+body{
+    background-color: rgb(253, 251, 251);
+}
+
+header{
+    background-color: black;  
+}
+
+#titulo{
+    text-align: center;
+    color: green;
+    height: 100px;
+}
+
+#minha_foto{
+    max-width:260px;
+    max-height:260px;
+    width: auto;
+    height: auto;
+    border-radius: 100%;
+}
+
+#licoes{
+    background-color: blue;
+}
+
+.item{
+    display: inline;
+    background-color: rebeccapurple;
+}
