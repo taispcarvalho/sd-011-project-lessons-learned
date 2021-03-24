@@ -5,6 +5,7 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: sans-serif;
+  font-size: 18px;
 }
 
 header {
@@ -15,7 +16,7 @@ header {
   height: 105px;
   width: 100%;
   box-sizing: border-box;
-  padding-top: 20px;
+  padding-top: 16px;
 }
 
 header nav {
@@ -30,6 +31,9 @@ header nav {
 
 header h1 {
   margin-left: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: rgb(22, 22, 22);
 }
 
 header nav ul li {
@@ -107,6 +111,7 @@ main {
 #main-content p {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 20px;
   width: 80%;
 }
 
