@@ -82,6 +82,7 @@ a:hover {
 }
 
 #lado-esquerdo {
+  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   width: 250px;
   background-color: rgba(138, 194, 152, 0.308);
@@ -91,6 +92,7 @@ a:hover {
 }
 
 #lado-direito {
+  font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   width: 200px;
   background-color: rgba(138, 194, 152, 0.308);
