@@ -7,6 +7,9 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.shadow {
+  box-shadow: 3px 1px 10px rgba(24, 23, 23, 0.562);
+}
 
 #cabecalho {
   position: fixed;
@@ -21,14 +24,13 @@ body {
   line-height: auto;
 }
 
-
-.navegation {
+.navigation {
   position: absolute;
   right: 400px;
   top: 50px;
 }
 
-.navegation li {
+.navigation li {
   display: inline-block;
   margin: 5px;
   padding: 2px;
@@ -39,13 +41,23 @@ body {
   text-align: center;
 }
 
-.navegation li a {
+.navigation li:hover {
+  background-color: white;
+  color: rgb(3, 107, 82);
+}
+
+.navigation li a {
   color: white;
 }
 
+.navigation li a:hover {
+  color: rgb(3, 107, 82);
+  font-weight: 900;
+}
 
 .link {
   text-decoration: none;
+  color: rgb(3, 107, 82);
 }
 
 main {
@@ -67,7 +79,7 @@ main {
   display: inline-block;
   width: 30%;
   border: 3px solid rgb(47, 193, 140);
-  margin: 20px;
+  margin: 50px 20px;
   padding: 10px 50px;
   border-radius: 10px;
   text-align: left;
