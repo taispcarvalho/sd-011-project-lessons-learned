@@ -3,11 +3,9 @@ body {
   font-family: sans-serif;
 }
 
-h1 {
+.cabecalho {
   top: 0;
   background-color: red;
   position: fixed;
   display: inline-block;
-  width: 99%;
-  text-align: center;
 }
