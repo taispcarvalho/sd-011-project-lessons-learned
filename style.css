@@ -8,57 +8,58 @@ body {
   background-color: rgb(121, 0, 0);
   height: 100px;
   width: 100%;
-  border: 1px groove;
+  border: 1px solid;
 }
 
 #nav {
   position: relative;
-  top: 35px;
-  margin-left: 10px;
+  top: 100px;
 }
 
 #licoes_text {
   position: relative;
-  top: 45px;
+  top: 90px;
   left: 318px;
   font-size: larger;
-}
-
-#link {
-  display: block;
-  margin-left: 10px;
-  padding-left: 10px;
-  bottom: 20px;
 }
 
 #titulo {
   position: relative;
   color: white;
   text-align: center;
-  bottom: 10px;
+  bottom: 15px;
 }
 
 #minha_foto {
   display: inline-block;
   position: relative;
-  padding-top: 25px;
   width: 280px;
   height: 280px;
-  bottom: 27px;
+  top: 50px;
+}
+
+#listas {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 180px;
 }
 
 #licoes_aprendidas {
   display: inline-block;
   position: relative;
   padding-left: 50px;
-  bottom: 60px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
   position: relative;
   padding-left: 50px;
-  bottom: 60px;
+}
+
+#articles {
+  display: flex;
+  justify-content: center;
 }
 
 #artigo {
@@ -66,6 +67,7 @@ body {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
+  bottom: 120px;
 }
 
 #secao {
@@ -73,7 +75,7 @@ body {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  bottom: 78px;
+  bottom: 63px;
 }
 
 .lado-esquerdo {
@@ -86,12 +88,28 @@ body {
   display: inline-block;
   width: 20%;
   padding-left: 80px;
-  bottom: 1px;
+}
+
+th {
+  border: 1px solid;
+  padding: 5px;
+}
+
+#tableLinks {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 65px;
+}
+
+a {
+  text-decoration: none;
 }
 
 #rodape {
   color: white;
   background-color: rgb(121, 0, 0);
+  position: relative;
   width: 100%;
   text-align: center;
   padding: 10px;
