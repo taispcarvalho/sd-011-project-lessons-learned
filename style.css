@@ -4,6 +4,8 @@ body {
   color: brown;
   line-height: 25px;
   font-size: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 #cabecalho {
@@ -35,8 +37,15 @@ body {
   padding: 10px;
   border: 10px;
   margin: 10px;
+  border-radius: 100%;
 }
 
 #quem_sou_eu {
-  margin-top: 200px;
+  padding-top: 160px;
+  text-align: center;
+}
+
+#quem_sou_eu table {
+  max-width: 300px;
+  margin: auto;
 }
