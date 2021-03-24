@@ -17,15 +17,26 @@ body {
   width: 160px;
 }
 
+#title_licoes_aprendidas {
+  position: absolute;
+  top: 236px;
+  left: 64px;
+  width: 180px;
+  text-align: left;
+}
+
 #licoes_aprendidas {
   position: absolute;
   top: 306px;
   left: 40px;
 }
 
-#title-list {
+#title_licoes_aprender {
   position: absolute;
-  top: 240px;
+  top: 236px;
+  left: 322px;
+  width: 200px;
+  text-align: left;
 }
 
 #licoes_a_aprender {
@@ -36,7 +47,7 @@ body {
 
 #rodape {
   position: relative;
-  top: 530px;
+  top: 560px;
   text-align: center;
 }
 
@@ -66,7 +77,7 @@ body {
 #text-article {
   position: absolute;
   top: 308px;
-  left: 540px;
+  left: 550px;
   width: 500px;
   height: 400px;
   padding: 1px;
