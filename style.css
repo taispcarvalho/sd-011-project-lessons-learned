@@ -10,7 +10,13 @@ h1 {
   top: 0;
   left: 0;
   right: 0;
-  height: 80px;   
+  height: 100px;   
+}
+
+nav ul li a {
+  position: fixed;
+  color: white;
+  margin-top: 20px;
 }
 
 img {  
