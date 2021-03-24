@@ -35,8 +35,8 @@ body {
   width: 200px;
   height: 200px;
   margin: auto;
-  top: 250px;
-  left: 850px;
+  top: 200px;
+  left: 870px;
   border-radius: 100%;
   background-size: cover;
   box-shadow: 3px 1px 15px black;
@@ -46,45 +46,47 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
-  width: 230px;
+  width: 270px;
   position: absolute;
-  left: 0;
-  margin-left: 1%;
-  top: 300px;
-  padding: 70px;
-  font-size: 30px;
+  left: 10px;
+  top: 435px;
+  padding: 50px;
+  font-size: 25px;
   background: rgb(180, 243, 201);
   color: black;
 
 }
 
+#licoes_a_aprender {
+    display: inline-block;
+    width: 270px;
+    padding: 50px;
+    font-size: 25px;
+    position: absolute;
+    background-color: rgb(180, 205, 243);
+    left: 400px;
+    top: 435px;
+  
+  }
+
 #section_title1 {
   position: absolute;
-  left: 50px;
+  left: 10px;
   margin-left: 1%;
-  top: 250px;
+  top: 435px;
+  margin-top: 0.5%;
   -webkit-text-stroke: 1px rgb(196, 241, 192);
+  z-index: 1;
 
 }
 
 #section_title2 {
   position: absolute;
-  left: 450px;
-  margin-left: 1%;
-  top: 250px;
+  left: 420px;
+  top: 435px;
+  margin-top: 0.5%;
   -webkit-text-stroke: 1px rgb(196, 241, 192);
-
-}
-
-#licoes_a_aprender {
-  display: inline-block;
-  width: 230px;
-  padding: 70px;
-  font-size: 30px;
-  position: absolute;
-  background-color: rgb(180, 205, 243);
-  left: 450px;
-  top: 300px;
+  z-index: 1;
 
 }
 
@@ -104,9 +106,9 @@ body {
   display: inline-block;
   position: absolute;
   background-color: rgb(250, 192, 235);
-  left: 1100px;
+  left: 10px;
   font-size: 20px;
-  top: 300px;
+  top: 190px;
   width: 700px;
   padding: 30px;
   line-height: 30px;
@@ -118,19 +120,19 @@ body {
   background-color: rgb(245, 232, 180);
   width: 700px;
   position: absolute;
-  left: 1100px;
+  left: 1150px;
   padding: 30px;
-  font-size: 20px;
-  top: 580px;
-  line-height: 30px;
+  font-size: 25px;
+  top: 190px;
+  line-height: 36px;
 
 }
 
 #htmlphoto {
   width: 200px;
   position: absolute;
-  left: 850px;
-  top: 460px;
+  left: 870px;
+  top: 420px;
   border-radius: 100%;
 
 }
@@ -138,8 +140,8 @@ body {
 #htmlphoto2 {
   width: 200px;
   position: absolute;
-  left: 850px;
-  top: 670px;
+  left: 870px;
+  top: 650px;
   border-radius: 100%;
 
 }
@@ -166,4 +168,35 @@ body {
   left: 905px;
   bottom: 7%;
 
+}
+
+table {
+  width: 100px;
+  position: relative;
+  left: 1150px;
+  top: 437px;
+  color: rgb(255, 255, 255);
+  height: 410px;
+
+}
+th {
+  text-align: left;
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  
+}
+table, th, td{
+  border:1px solid black;
+  border-collapse: colapse;
+  font-size: 40px;
+
+}
+
+th, td {
+  padding: 42px;
+
+}
+
+td{
+    background-color: rgb(235, 142, 142);
 }
