@@ -50,7 +50,6 @@ table , th , td {
   text-align: center;
 }
 
-
 nav {
   text-align: center;
   margin-bottom: 15px;
@@ -77,14 +76,6 @@ article {
   height: 10%;
 }
 
-#how-trybe {
-  display: inline-block;
-  width: 35%;
-  text-align: justify;
-  line-height: 20px;
-  margin-bottom: 60px;
-}
-
 #licoes_aprendidas {
   display: inline-block;
   text-align: center;
@@ -109,6 +100,8 @@ article {
 	display: inline;
 	text-align: justify;
   line-height: 20px;
+  width: 35%;
+  margin-bottom: 60px;
 }
 
 .lado-direito {
