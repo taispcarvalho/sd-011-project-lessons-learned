@@ -19,6 +19,7 @@ body {
 
 #titulo {
   color: rgb(253, 251, 251);
+  font-size: 35px;
 }
 
 #minha_foto {
@@ -28,6 +29,7 @@ body {
 
 #meu_nome {
   font-size: 25px;
+  text-transform: uppercase;
 }
 
 nav p a {
@@ -49,17 +51,37 @@ a:hover {
   text-align: left;
   padding: 25px;
   margin: 20px;
+  color: rgb(253, 251, 251);
 }
 
-article {
+.text {
+  margin-top: 50px;
+}
+
+.lado-esquerdo {
   width: 50%;
   text-align: justify;
   display: inline-block;
   margin: 0 50px;
 }
 
-aside {
+.lado-direito {
   float: right;
   width: 35%;
   text-align: justify;
+  margin-right: 50px;
+}
+
+.modulos {
+  margin-left: 50px;
+}
+
+table, th, td {
+  border-bottom: 1px solid seagreen;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+footer {
+  text-align: right;
 }
