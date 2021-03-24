@@ -13,7 +13,7 @@ h1 {
 header {
   position: fixed;
   top: 0;
-  background-color: green;
+  background-color: rgba(0, 128, 0, 0.738);
   padding: 2%;
   border-style: double;
   text-align: center;
@@ -30,14 +30,14 @@ p {
   padding: 2%;
 }
 
-article.lado-direito {
+.lado-direito {
   display: inline-block;
   margin-right: 45%;
   margin-left: 2%;
   padding: 0;
 }
 
-aside.lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   padding: 0;
   margin: -30% 20% 5% 65%;
@@ -69,7 +69,7 @@ table th {
   list-style: none;
   font-size: 20px;
   text-align: center;
-  background-image: url("https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg");
+  background-image: url('https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg');
   padding: 2%;
 }
 
@@ -83,10 +83,10 @@ footer p {
 }
 
 nav {
-  margin: 13% 2% 0 2%;
+  margin: 13% 2% 0;
   padding: 0.5%;
   font-size: 20px;
-  background-image: url("https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg"); 
+  background-image: url('https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg');
 }
 
 nav ul li {
