@@ -7,6 +7,13 @@ body {
   margin: 0;
 }
 
+#navhome , a {
+  text-align: left;
+  text-decoration: none;
+  font-size: 20pt;
+  color: white;
+}
+
 #cabecalho {
   font-family: Tahoma , sans-serif;
   color: aliceblue;
@@ -80,8 +87,8 @@ body {
   width: 500px;
   position: relative;
   display: inline-block;
-  top: -300px;
-  right: 200px;
+  top: -490px;
+  left: 300px;
   border-radius: 2%;
   padding: 10px;
   margin: 0;
@@ -95,8 +102,8 @@ body {
   width: 500px;
   position: relative;
   display: inline-block;
-  top: -300px;
-  right: -305px;
+  top: -330px;
+  right: 230px;
   border-radius: 2%;
   padding: 10px;
   margin: 0;
@@ -113,8 +120,8 @@ table , th , td {
   margin: 0;
   background-color: rgb(185, 185, 185);
   position: relative;
-  top: -280px;
-  left: 300px;
+  top: -310px;
+  left: 295px;
 }
 
 footer {
