@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: Verdana;
 }
 
 #cabecalho {
@@ -31,10 +32,20 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
 }
+
 th, td {
   padding: 5px;
-  text-align: center;    
+  text-align: center;
 }
-th{
+
+th {
   background-color: steelblue;
+}
+
+.espacamento-linhas {
+  line-height: 1.5;
+}
+
+footer {
+  font-size: 15px;
 }
