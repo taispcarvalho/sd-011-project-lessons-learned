@@ -29,5 +29,9 @@ body {
 
 .menu li {
   display: inline-flex;
-  padding: 0px 10px 0px 0px;
+  padding: 0 10px 0 0;
+}
+
+.lessons {
+  display: flex;
 }
