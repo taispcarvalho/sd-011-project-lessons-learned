@@ -8,6 +8,7 @@ main {
 }
 
 #cabecalho {
+  top: 0px;
   width: 100%;
   background-color: rgb(25, 25, 45);
   position: fixed;
@@ -70,4 +71,27 @@ main {
   display: inline-block;
   vertical-align: top;
   padding-left: 5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: darkblue;
+  line-height: 1.8;
+}
+
+#perfil img {
+  display: inline-block;
+}
+
+#perfil table {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#tabela, th{
+  text-align: left;
+  border: 1px solid rgb(25, 25, 45);
+  width: 20%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: darkblue;
+  background-color: rgb(230, 230, 212);
 }
