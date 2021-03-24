@@ -27,10 +27,7 @@ header{
 }
 
 #licoes{
-    background-color: blue;
+    display: flex;
+    align-items: center;
 }
 
-.item{
-    display: inline;
-    background-color: rebeccapurple;
-}
