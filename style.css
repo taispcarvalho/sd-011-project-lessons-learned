@@ -1,5 +1,8 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(25, 251, 251);
+  margin-right: 260px;
+  border: 0px;
+  padding: 5px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
   line-height: 25px;
@@ -8,7 +11,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
-  width: 100%;
+  width: 99%;
   background-color: antiquewhite;
   border-bottom-style: ridge;
   font-size: 30px;
@@ -17,6 +20,7 @@ body {
 
 #titulo {  
   text-align: center;
+  
 }
 
 #minha_foto {
@@ -58,23 +62,41 @@ body {
 }
 
 .article{
+  background-color: green;
   width: 100%;
-  background-color: aqua;
-  text-align: center;
+  margin-top: 1px;
+  border: 10px;
+  padding: 0px;
+  position: relative;
 }
 
-.second-section-article,.first-section-article {
+.lado-esquerdo,.lado-direito {
   display: inline-block;
   background-color: antiquewhite;
-  width: 48%;
-  height: 600px;
-  margin-top: 10px;
+  width: 45%;
+  margin: 5px;
+  border: 5px;
+  padding: 5px;
   border-bottom-style: ridge;
 }
 
-.first-section-article {
+.lado-direito {
+  float: right;
+  margin-right: 10px;
+}
+
+.lado-esquerdo {
   float: left;
-  margin-left: 22px;
+}
+
+.section-aside {
+  background-color: antiquewhite;
+  width: 250px;
+  height: 100%;
+  top: 105px;
+  float: right;
+  margin-left: 80%;
+  position: fixed;
 }
 
 #rodape {
