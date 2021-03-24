@@ -26,7 +26,6 @@ a {
 nav {
   top: 0;
   position: fixed;
-  padding-left: 450px;
   background-color: salmon;
   z-index: 1;
   border-style: groove;
@@ -42,14 +41,20 @@ img {
 
 .lessons {
   background-color: darkgoldenrod;
-  width: 600px;
+  width: 500px;
 }
 
 .me {
   background-color: darkblue;
-  width: 600px;
+  width: 500px;
+}
+
+.learned {
+  background-color: darkgreen;
+  width: 300px;
 }
 
 div {
-display: inline-flex;
+  display: inline-flex;
+  justify-content: space-between;
 }
