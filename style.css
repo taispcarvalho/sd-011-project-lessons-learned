@@ -43,8 +43,10 @@ table , td {
 
 .lado-esquerdo {
   display: inline-block;
+  float: left;
 }
 
 .lado-direito {
-  float: right;
+  margin-left: 350px;
+  margin-bottom: 100px;
 }
