@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(253, 251, 251);
+    background-image: url(https://eskipaper.com/images/white-wallpaper-10.jpg);
+}
+h1{
+    text-align: center;
+    background-color: slategray;
+}
+#minha_foto{
+    
+}
+#meu-nome{
+    text-align: center;
+}
+h2{
+    background-color: slategray;
+}
+
+#trybe{
+    
+}
+.lista-1{
+    
+
+}
+#cabecalho{
+    top: 0px;
+}
+h3{
+    background-color: slategray;
+}
+footer{
+    
+}
+.lista-de-coisas{
+    padding: 20px;
+    overflow: visible;
+    overflow-y: auto;
+    overflow-x: auto;
+    
+}
