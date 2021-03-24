@@ -46,13 +46,11 @@ header h2 {
   width: 400px; 
   z-index: 1;
   margin-top: 60px;
-  position: absolute;
-  right: 350px;
-  top: 289px;
+  float: right;
 }
 
 .lado-esquerdo {
-  display: inline-block;
+  float: left;
 }
 
 #rodape {
@@ -62,8 +60,14 @@ header h2 {
   padding-top: 15px;
   padding-left: 15px;
   padding-bottom: 10px;
+  float: right;
+  margin-top: 100px;
 }
 
 #dancing_gif {
   border: 5px solid;
+  float: left;
+  width: 100px;
+  position: relative;
+  bottom: 150px;
 }
