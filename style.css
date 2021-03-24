@@ -62,14 +62,14 @@ body {
 .cicle {
   border: 5px solid rgb(3, 107, 82);
   border-radius: 100%;
-  padding: 5px 5px 2px;
+  padding: 5px 5px 1px;
   display: inline-block;
 }
 
 .cicle:hover {
   border: 5px solid rgb(47, 193, 140);
   border-radius: 100%;
-  padding: 5px 5px 2px;
+  padding: 5px 5px 1px;
   display: inline-block;
 }
 
