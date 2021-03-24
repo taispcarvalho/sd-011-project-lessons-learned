@@ -1,4 +1,4 @@
-body {
+sbody {
   background-color: rgb(253, 251, 251); 
    
 } 
@@ -12,27 +12,54 @@ background-color: gray;
 #minha_foto{
     top: 0%;
     margin-top: 10px;
+    background-color: green;
 
     
 }
 
 
 #titulo {
- top: 0px;
-   
+  top: 0px;
+  margin: 5px;
+  padding: 5px;
+  border: green;
+  border-top: green;
+  
+    
+  
 }
 
 #licoes_aprendidas {
+    background-color: lightgray
 
+}
+#licoes_aprendidas1{
+background-color: green
+}
+
+#article {
+    background-color: red
 }
 
 #licoes_a_aprender {
-
+background-color: lightgray;
 }
 
-#footer {
-    background-color: chartreuse;
+#licoes_a_aprender1{
+background-color: green;
+}
+#rodape {
+    background-color: darkorange;
+    display: block;
+   /* font-size: 2em; */
+   margin-block-start: 0.67em;
+   margin-block-end: 0.67em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
+   font-weight: bold;
 }
 
+#aside{
+background-color: chartreuse;
+} 
 
-}
