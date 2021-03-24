@@ -49,7 +49,6 @@ article {
 }
 
 aside {
-  display: inline-block;
   float: right;
   width: 50%;
   text-justify: auto;
@@ -64,3 +63,14 @@ ol , ul {
   display: inline-block;
 }
 
+table , td , th{
+  margin: 10px;
+  border: solid black 1px;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table {
+  text-align: center;
+  margin: 0 auto 0 auto;
+}
