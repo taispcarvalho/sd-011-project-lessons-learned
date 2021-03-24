@@ -16,12 +16,18 @@ header {
 
 #titulo {
   margin-top: 10px;
-  text-align: center;
+  margin-right: 50px;
+  text-align: right;
+  color: #EB5E28;
 }
 
-div #minha_foto {
+#minha_foto {
   border-radius: 50%;
-  margin: 90px 50px;
+  margin: 90px 50px 10px;
+}
+
+h3 {
+  margin-left: 100px;
 }
 
 ol , ul {
@@ -29,13 +35,20 @@ ol , ul {
   line-height: 1.5em;
 }
 
+aside {
+  float: right;
+}
+
 footer {
-  height: 200px;
-  background-color: slategrey;
+  margin-top: 600px;
+  height: 300px;
+  background-color: #403D39;
 }
 
 a {
   text-decoration: none;
   font-size: 20px;
-  margin-left: 50px;
+  margin: 50px;
+  color: #FFFCF2;
+  font-weight: 800;
 }
