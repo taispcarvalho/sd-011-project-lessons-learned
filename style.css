@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Arial;
+  font-family: Arial, sans-serif;
   color: brown;
   line-height: 25px;
   font-size: 20px;
@@ -11,23 +11,23 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-image: url(https://thumbs.dreamstime.com/b/fundo-verde-pastel-claro-22836856.jpg);
+  background-image: url('https://thumbs.dreamstime.com/b/fundo-verde-pastel-claro-22836856.jpg');
   background-size: 100%;
   width: 100%;
   text-align: center;
 }
 
-#cabecalho ul{
+#cabecalho ul {
   list-style: none;
   text-decoration: none;
   left: 0;
   position: relative;
 }
 
-#cabecalho a{
+#cabecalho a {
   text-decoration: none;
   color: black;
-  font-weight: bolder;
+  font-weight: 700;
 }
 
 #minha_foto {
