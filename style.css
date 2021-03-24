@@ -10,7 +10,7 @@ body {
   background-color: rgb(253, 251, 251);
   color: rgb(29, 28, 28);
   font-size: 16px;
-  font-family: 'New Tegomin', serif;
+  font-family: "New Tegomin", serif;
 }
 
 main {
@@ -35,10 +35,6 @@ table {
 footer {
   display: flex;
   justify-content: center;
-}
-
-.container {
-  width: 95%;
 }
 
 #cabecalho {
@@ -85,24 +81,20 @@ footer {
   margin-left: 30px;
 }
 
-#aprendizado {
-  display: flex;
-  margin-bottom: 40px;
-}
-
-#aprendizado p {
+article , aside {
   letter-spacing: 1px;
   background-color: rgb(71, 61, 138);
-  color: rgb(250, 235, 215);
+  color: rgb(247, 242, 236);
   padding: 10px;
   border-radius: 20px;
+  width: 40%;
+  display: inline-block;
+  margin-left: 5%;
 }
 
-#aprendizado > article , aside {
-  flex: 1;
-  margin: 10px;
-  display: flex;
-  align-items: center;
+article h2 , aside h2 {
+  color: rgb(247, 242, 236);
+  text-align: center;
 }
 
 .licoes {
@@ -142,15 +134,16 @@ table , td , th {
 }
 
 .table > table {
-  width: 90%;
+  width: 70%;
   text-align: center;
   border-collapse: collapse;
+  margin-top: 50px;
 }
 
 .table > table > thead > tr {
   height: 30px;
   background-color: rgb(55, 42, 141);
-  color: aliceblue;
+  color: rgb(247, 242, 236);
 }
 
 #rodape {
