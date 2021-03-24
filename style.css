@@ -1,113 +1,114 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: Times New Roman, Times, serif, sans-serif;
-    margin: 0;
+  background-color: rgb(253, 251, 251);
+  font-family: Times New Roman, Times, serif, sans-serif;
+  margin: 0;
 }
 
 h1 , h2 , h3 {
-    text-align: center;
+  text-align: center;
 }
 
 #cabecalho {
-    position: fixed;
-    color: white;
-    top: 0;
-    width: 100%;
-    background-color: rgb(128, 128, 128);
-    border-bottom: 2px solid black;
+  position: fixed;
+  color: white;
+  top: 0;
+  width: 100%;
+  background-color: gray;
+  border-bottom: 2px solid black;
 }
 
 #minha_foto {
-    width: 300px;
-    margin-left: 40%;
+  width: 300px;
+  margin-left: 40%;
 }
 
 #about-me {
-    margin-top: 140px;
-    padding-left: 4%;
-    padding-right: 4%;
-    text-align: justify;
-    line-height: 30px;
+  margin-top: 140px;
+  padding-left: 4%;
+  padding-right: 4%;
+  text-align: justify;
+  line-height: 30px;
 }
 
 #table-content , th , td {
-    margin: auto;
-    text-align: center;
-    border: 2px solid black;
-    padding: 5px 3px;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  padding: 5px 3px;
 }
 
 #rodape {
-    font-size: small;
-    text-align: center;
+  font-size: small;
+  text-align: center;
 }
 
 
 .nav-links {
-    text-align: center;
-    margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 15px;
 }
+
 .nav-links a {
-    padding: 10px;
-    border-radius: 20px;
-    text-decoration: none;
-    text-align: center;
-    border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  text-align: center;
+  border: 1px solid white;
 }
 
 #cabecalho a {
-    color: white;
+  color: white;
 }
 
 li {
-    line-height: 25px;
+  line-height: 25px;
 }
 
 article {
-    display: inline-block;
-    height: 10%;
+  display: inline-block;
+  height: 10%;
 }
 
 #how-trybe {
-    display: inline-block;
-    width: 35%;
-    text-align: justify;
-    line-height: 20px;
-    margin-bottom: 60px;
+  display: inline-block;
+  width: 35%;
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 60px;
 }
 
 #licoes_aprendidas {
-    display: inline-block;
-    text-align: center;
-    margin-left: 24%;
-    margin-right: 5%;
-    padding-right: 2%;
-    padding-bottom: 1%;
-    border: 2px dashed  black;
+  display: inline-block;
+  text-align: center;
+  margin-left: 24%;
+  margin-right: 5%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  border: 2px dashed  black;
 }
 
 #licoes_a_aprender {
-    display: inline-block;
-    text-align: center;
-    padding-right: 2%;
-    padding-bottom: 1%;
-    border: 2px dashed  black;
+  display: inline-block;
+  text-align: center;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  border: 2px dashed  black;
 }
 
 #lessons {
-    margin-top: 30px;
-    margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 #learned {
-    width: 40%;
-    margin-left: 8%;
-    margin-right: 4%;
-    text-align: justify;
-    line-height: 20px;
+  width: 40%;
+  margin-left: 8%;
+  margin-right: 4%;
+  text-align: justify;
+  line-height: 20px;
 }
 
 #contact-me a {
-    color: black;
-    font-weight: 600;
+  color: black;
+  font-weight: 600;
 }
