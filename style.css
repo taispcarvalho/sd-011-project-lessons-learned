@@ -7,7 +7,7 @@ body {
 }
 
 #cabecalho {
-  display: fixed;
+  display: block;
   top: 0;
   background-color: aqua;
   padding: 10px;
