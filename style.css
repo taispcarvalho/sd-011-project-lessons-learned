@@ -55,6 +55,24 @@ body {
   font-weight: 900;
 }
 
+#minha_foto {
+  border-radius: 100%;
+}
+
+.cicle {
+  border: 5px solid rgb(3, 107, 82);
+  border-radius: 100%;
+  padding: 5px 5px 2px;
+  display: inline-block;
+}
+
+.cicle:hover {
+  border: 5px solid rgb(47, 193, 140);
+  border-radius: 100%;
+  padding: 5px 5px 2px;
+  display: inline-block;
+}
+
 .link {
   text-decoration: none;
   color: rgb(3, 107, 82);
