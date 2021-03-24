@@ -76,7 +76,7 @@ a:hover {
   margin-left: 50px;
 }
 
-table, th, td {
+table , th , td {
   border-bottom: 1px solid seagreen;
   border-collapse: collapse;
   padding: 10px;
