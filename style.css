@@ -3,9 +3,10 @@ body {
   font-family: sans-serif;
 }
 
-.cabecalho {
+#cabecalho {
   top: 0;
-  background-color: red;
   position: fixed;
-  display: inline-block;
+  left: 0;
+  right: 0;
+
 }
