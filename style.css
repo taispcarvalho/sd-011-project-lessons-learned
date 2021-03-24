@@ -34,7 +34,7 @@ ol , ul {
 	text-align: left;
 	display: inline-block;
 	padding: 25px;
-	margin: 0% 0% 0% 2%;
+	margin-left: 2%;
 	border: 2px solid green; }
 
 .lado-esquerdo {
