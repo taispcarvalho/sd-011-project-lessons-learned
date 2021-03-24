@@ -179,24 +179,26 @@ table {
   height: 410px;
 
 }
+
 th {
   text-align: left;
   font-size: 30px;
   background-color: black;
 
 }
- table, th, td {
+
+table, th, td {
   border: 1px solid black;
   border-collapse: colapse;
   font-size: 40px;
 
 }
 
- th, td {
+th, td {
   padding: 42px;
 
 }
 
-  td {
+td {
   background-color: rgb(235, 142, 142);
 }
