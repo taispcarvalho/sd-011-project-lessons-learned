@@ -48,12 +48,13 @@ body {
 
 .lista_nao_ordenada {
   margin: 5px;
-  padding-left: 40px;
+  padding: 10px 10px 10px 40px;
   display: inline-block;
   width: 305px;
   position: absolute;
   top: 70px;
-  left: 740px;
+  left: 720px;
+  border: 1px solid black;
 }
 
 .tabela_sobre_documentação {
@@ -64,6 +65,10 @@ body {
   top: 70px;
   left: 1100px;
   text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
 }
 
 #tabela_adicionais {
