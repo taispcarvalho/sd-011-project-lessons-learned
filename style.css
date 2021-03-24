@@ -6,10 +6,6 @@ body {
   line-height: auto;
 }
 
-#licoes_aprendidas {
-  margin top: 10;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
