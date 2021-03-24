@@ -1,16 +1,24 @@
-body {background-color: rgb(253, 251, 251); font-family: Arial, Helvetica, sans-serif; text-align: justify;}
+body { background-color: rgb(253, 251, 251); font-family: Arial, Helvetica, sans-serif; text-align: justify; color: royalblue; }
 
-header {position: fixed; top: 0; background-color: green;; padding: 2%; border-style: double; text-align: center; margin: 0.5%;}
+h1 { color: black;}
 
-#minha_foto {border-radius: 15%; margin: 6% 0 0 2%;}
+header { position: fixed; top: 0; background-color: green;; padding: 2%; border-style: double; text-align: center; margin: 0.5%; }
 
-p {margin: 2%; padding: 2%;}
+#minha_foto { border-radius: 15%; margin: 6% 40% 0; }
 
-article {display: inline-block; margin-right: 45%;}
+p { margin: 2%; padding: 2%; } 
 
-aside {display: inline-block; margin-right: 45%;}
+article.lado-direito { display: inline-block; margin-right: 45%; margin-left: 2%; padding: 0; }
 
-main {font-size: 20px;}
+aside.lado-esquerdo { display: inline-block; padding: 0; margin: -30% 20% 5% 65%;}
+
+main { font-size: 20px; }
+
+#habilidades { text-align: justify; }
+
+#licoes_aprendidas { text-align: justify; }
+
+
 
 
  
