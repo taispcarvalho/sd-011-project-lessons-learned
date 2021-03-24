@@ -13,23 +13,19 @@ body {
   position: absolute;
   border-radius: 100px;
   top: 80px;
-  left: 600px;
+  left: 120px;
   width: 160px;
 }
 
 #licoes_aprendidas {
   position: absolute;
-  top: 290px;
+  top: 306px;
+  left: 40px;
 }
 
 #title-list {
   position: absolute;
   top: 240px;
-}
-
-#block-list {
-  position: relative;
-  left: 40px;
 }
 
 #licoes_a_aprender {
