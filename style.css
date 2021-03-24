@@ -22,3 +22,7 @@ aside p, section ol li {
   line-height: 1.5;
   font-size: 18px;
 }
+
+.lado-direito, .lado-esquerdo {
+  display: inline-block;
+}
