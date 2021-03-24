@@ -4,7 +4,7 @@ h1 { color: black;}
 
 header { position: fixed; top: 0; background-color: green;; padding: 2%; border-style: double; text-align: center; margin: 0.5%; }
 
-#minha_foto { border-radius: 15%; margin: 6% 40% 0; }
+#minha_foto { border-radius: 15%; margin: 3% 40% 0; }
 
 p { margin: 2%; padding: 2%; } 
 
@@ -14,9 +14,34 @@ aside.lado-esquerdo { display: inline-block; padding: 0; margin: -30% 20% 5% 65%
 
 main { font-size: 20px; }
 
-#habilidades { text-align: justify; }
+.habilidades { text-align: justify; margin: -5% 3%; }
 
-#licoes_aprendidas { text-align: justify; }
+ol { margin-left: 40%;}
+
+table { margin-left: 25%; }
+
+table th { padding: 3%; font-family: sans-serif }
+
+.licoes_futuras { margin: 8%; }
+
+.contato { text-align: center; }
+
+.contato { list-style: none; font-size: 20px; }
+
+footer { text-align: center; }
+
+footer p { margin-left: 4%; }
+
+nav { margin: 13% 0 0 0; padding: 0; font-size: 20px;}
+
+nav ul li { list-style: none; display:inline; padding: 5%; }
+
+
+
+
+
+
+
 
 
 
