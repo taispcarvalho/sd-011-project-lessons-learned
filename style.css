@@ -6,12 +6,12 @@ body {
 #cabecalho {
   background-color: green;
   position: fixed;
-  top: 0 px;
+  width:100%;
+  top: 0px;
 }
 
 #minha_foto {
   width: 200px;
-  top: 200px;
-  display: inline-block;     
+  position:absolute;     
 }
 
