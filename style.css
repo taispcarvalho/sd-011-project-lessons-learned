@@ -9,7 +9,7 @@
 body {
   background-color: rgb(253, 251, 251);
   color: rgb(29, 28, 28);
-  font-family: 'New Tegomin', serif;
+  font: 16px 'New Tegomin', serif;
 }
 
 main {
@@ -17,10 +17,9 @@ main {
 }
 
 h1 {
-  font-size: 2.1rem;
+  font: 2.1rem 'Nova Flat', cursive;
   letter-spacing: -1px;
   color: rgb(65, 10, 218);
-  font-family: 'Nova Flat', cursive;
 }
 
 h2 {
