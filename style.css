@@ -6,3 +6,15 @@ body {
   position: fixed;
   top: 0;
 }
+
+#rodape {
+  margin: 5px;
+  padding-bottom: 50px;
+  border-bottom: 5px;
+  background-color: aqua;
+}
+
+#table {
+  style="width: 15%;" 
+  border="5px"
+}
