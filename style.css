@@ -6,17 +6,22 @@ body {
 #cabecalho {
   top: 0;
   position: fixed;
-  display: inline-flex;
+  color: rgba(2, 121, 121, 0.582);
+
 }
 
-.navegation {
-  background-color: seagreen;
-  float: left;
-  margin-top: 100px;
-  font-family: Rasa;
-  font-size: 30px;
+a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: Dyuthi;
+  color: rgb(5, 5, 5);
+  padding: 20px;
+
 }
 
 img {
   margin-top: 200px;
+  height: 400px;
+  width: 400px;
+  border-radius: 400%;
 }
