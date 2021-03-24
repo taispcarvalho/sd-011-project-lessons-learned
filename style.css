@@ -1,9 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:cursive;
   font-size: medium;
   color: blueviolet;
   line-height: auto;
+}
+
+#licoes_aprendidas {
+  margin top: 10;
 }
 
 #cabecalho {
@@ -13,23 +17,34 @@ body {
 
 #rodape {
   margin: 5px;
-  padding-bottom: 50px;
+  margin-bottom: 40px;
+  padding: 10px;
   background-color: aqua;
+  max-width: fit-content;
+  border-radius: 10%;
 }
 
-main {
-  
+#rodape:hover {
+background-color: gold;
+color: azure;
 }
 
-#aside {
+.lado-direito {
   width: 50%;
   float: right;
 }
 
-.artigo {
+.lado-esquerdo {
   width: 50%;
+  float: left;
 }
 
 main {
   display:inline-block;
+}
+
+#tabela {
+  border: 5px;
+  padding: 5px;
+  margin: 2px;
 }
