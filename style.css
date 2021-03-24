@@ -76,6 +76,7 @@ header {
 /* --- HEADER --- */
 
 #cabecalho {
+  z-index: -1;
   float: left;
   justify-content: center;
   align-items: flex-end;
@@ -140,4 +141,14 @@ aside img {
 
 article {
   padding-left: 0;
+}
+
+/* --- FOOTER --- */
+
+#rodape {
+  z-index: 10;
+  margin-top: 120px;
+  display: block;
+  height: 10vh;
+  background: linear-gradient(294.94deg, #61838C -0.5%, #EFC7C2 99.78%);
 }
