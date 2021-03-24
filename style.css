@@ -85,3 +85,24 @@ body {
   margin-top: 10px;
   text-align: justify;
 }
+
+#lateral {
+  background-color: darkcyan;
+  border-style: solid;
+  margin-left: 1000px;
+  padding-left: 50px;
+  display: inline-block;
+  height: 200px;
+  font-weight: 30;
+  padding-top: 30px;
+  font-size: 15px;
+  text-align: justify;
+  padding-right: 50px;
+  font-style: italic;
+  color: azure;
+  margin-top: 30px;
+}
+
+#trybe2 {
+  width: 100px;
+}
