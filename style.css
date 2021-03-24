@@ -1,74 +1,74 @@
-body {
-	 background-color: rgb(253, 251, 251);
-	 line-height: normal;
-	 font-family: Times, serif;
-	 font-size: 1.1em;
- }
+  body {
+  background-color: rgb(253, 251, 251);
+  line-height: normal;
+  font-family: Times, serif;
+  font-size: 1.1em;
+  }
 
-header {
-	 color: white;
-	 position: fixed;
-	 top: 0;
-	 background-color: rgb(2, 136, 14);
-	 display: block;
-	 text-align: center;
-	 width: 100%;
-}
+  header {
+  color: white;
+  position: fixed;
+  top: 0;
+  background-color: rgb(2, 136, 14);
+  display: block;
+  text-align: center;
+  width: 100%;
+  }
 
-#minha_foto {
-	 border-radius: 65px;
-	 width: 200px;
-	 padding: 10px;
-	 border: 1px solid rgb(3, 172, 3);
-	 background-color: white;
-	 box-shadow: 9px 5px 8px rgb(3, 172, 3);
-	 margin-left: 25px;
-	 margin-top: 110px;
-}
+  #minha_foto {
+  border-radius: 65px;
+  width: 200px;
+  padding: 10px;
+  border: 1px solid rgb(3, 172, 3);
+  background-color: white;
+  box-shadow: 9px 5px 8px rgb(3, 172, 3);
+  margin-left: 25px;
+  margin-top: 110px;
+  }
 
-#linkedin , a {
+  #linkedin , a {
   text-align: left;
-	 margin-left: 15px;
-	 text-decoration: none;
-	 color: white;
-}
+  margin-left: 15px;
+  text-decoration: none;
+  color: white;
+  }
 
-ol , ul {
-	 list-style: square;
-	 text-align: left;
-	 display: inline-block;
-	 padding: 25px;
-	 margin-left: 2%;
-	 border: 2px solid green;
-}
+  ol , ul {
+  list-style: square;
+  text-align: left;
+  display: inline-block;
+  padding: 25px;
+  margin-left: 2%;
+  border: 2px solid green;
+  }
 
-.lado-esquerdo {
-	 display: inline-block;
-	 width: 40%;
-	 border: 2px solid green;
-	 margin: 2%;
-	 padding: 10px;
-}
+  .lado-esquerdo {
+  display: inline-block;
+  width: 40%;
+  border: 2px solid green;
+  margin: 2%;
+  padding: 10px;
+  }
 
-.lado-direito {
+  .lado-direito {
   float: right;
-	 display: inline-block;
-	 width: 40%;
-	 border: 2px solid green;
-	 margin: 2%;
-	 padding: 10px;
-}
+  display: inline-block;
+  width: 40%;
+  border: 2px solid green;
+  margin: 2%;
+  padding: 10px;
+  }
 
-table {
-	 margin: 2%;
-	 margin-top: 2%;
-}
+  table {
+  margin: 2%;
+  margin-top: 2%;
+  }
 
-th , td {
-	 border: 2px solid green;
-	 text-align: center;
-}
+  th , td {
+  border: 2px solid green;
+  text-align: center;
+  }
 
-h3 {
-	 padding: 10px;
-}
+  h3 {
+  padding: 10px;
+  }
