@@ -33,19 +33,19 @@ body {
   padding-top: 1%;
 }
 
-#menu ul li {
+.menu ul li {
   display: inline-block;
   padding-right: 20px;
 }
 
-#menu ul li a {
+.menu ul li a {
   display: inline;
   text-decoration: none;
   color: white;
   margin-right: 20px;
 }
 
-#menu a:hover {
+.menu a:hover {
   color: sandybrown;
 }
 
@@ -90,12 +90,12 @@ body {
   letter-spacing: 2px;
 }
 
-#header-about img {
+.header-about img {
   float: left;
   margin-left: 15%;
 }
 
-#header-about p {
+.header-about p {
   text-align: justify;
   margin-right: 20%;
   margin-left: 20%;
@@ -113,19 +113,19 @@ body {
   padding-top: 5%;
 }
 
-#table-lesson {
+.table-lesson {
   border: 1px solid black;
   border-spacing: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
-#table-lesson td {
+.table-lesson td {
   border: 1px solid black;
   padding: 20px 90px;
 }
 
-#learned-lesson {
+.learned-lesson {
   font-size: 1.4em;
 }
 
@@ -143,7 +143,7 @@ body {
 
 }
 
-#learning-article {
+.learning-article {
   text-align: justify;
   float: left;
   width: 40%;
@@ -151,7 +151,7 @@ body {
 
 }
 
-#learning-aside {
+.learning-aside {
   text-align: justify;
   float: right;
   width: 40%;
