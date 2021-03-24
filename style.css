@@ -115,6 +115,7 @@ table , th , td {
 }
 
 #table {
+  color: gray;
   font-family: Arial, sans-serif;
   font-size: 20px;
   display: inline;
