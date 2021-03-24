@@ -7,6 +7,7 @@ body {
   position: fixed;
   top: 0;
   left: 470px;
+  color: grey;
 }
 
 #minha_foto {
@@ -78,20 +79,22 @@ body {
 
 #text-article {
   position: absolute;
-  top: 308px;
+  top: 302px;
   left: 550px;
   width: 500px;
   height: 400px;
   padding: 1px;
+  line-height: 22px;
 }
 
 #section-aside {
   position: absolute;
-  top: 308px;
+  top: 298px;
   left: 1100px;
   width: 150px;
   height: 200px;
   padding: 1px;
+  line-height: 22px;
 }
 
 #table {
