@@ -151,3 +151,11 @@ body {
 #caixas {
   padding-top: 25px;
 }
+
+.lado-direito {
+  padding-top: 5px;
+}
+
+.lado-esquerdo {
+  padding-top: 5px;
+}
