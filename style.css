@@ -118,3 +118,42 @@ body {
 #learned-lesson {
   font-size: 1.4em;
 }
+
+.container-learning h2{
+  font-family: 'Domine', serif;
+  color: palegreen;
+  text-shadow: 2px -2px gray;
+  margin-bottom: 0.5em;
+  text-align: center;
+  padding-top: 4%;
+  letter-spacing: 2px;
+}
+
+.container-learning{
+  background-color: rgb(225, 241, 228);
+  width: 90%;
+  margin-top: 25px;
+  padding-bottom: 25px;
+}
+
+#learning{
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+  
+}
+
+#learning-article{
+  text-align: justify;
+  float: left;
+  width: 40%;
+  margin-left: 5%;
+
+}
+
+#learning-aside{
+  text-align: justify;
+  float: right;
+  width: 40%;
+  padding-right: 25px;
+}
