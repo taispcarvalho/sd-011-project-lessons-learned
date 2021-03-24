@@ -108,3 +108,15 @@ span {
   width: 40%;
 }
 
+td {
+  border: 1px black solid;
+  text-align: center;
+}
+
+th {
+  border: 1px black solid;
+}
+
+table {
+  border: 1px black solid;
+}
