@@ -5,7 +5,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(121, 0, 0);
+  background-color: darkred;
   height: 100px;
   width: 100%;
   border: 1px solid;
@@ -14,6 +14,14 @@ body {
 #nav {
   position: relative;
   top: 100px;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+  padding: 10px;
+}
+
+.navLinks {
+  border: 1px groove lightgrey;
+  padding: 5px;
 }
 
 #licoes_text {
@@ -75,7 +83,7 @@ body {
   font-size: large;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.5;
-  bottom: 63px;
+  bottom: 170px;
 }
 
 .lado-esquerdo {
@@ -91,7 +99,7 @@ body {
 }
 
 th {
-  border: 1px solid;
+  border: 1px groove;
   padding: 5px;
 }
 
@@ -99,16 +107,26 @@ th {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: 65px;
+  bottom: 70px;
 }
 
 a {
   text-decoration: none;
 }
 
+a:hover {
+  color: white;
+  background-color: darkred;
+}
+
+th:hover {
+  color: white;
+  background-color: darkred;
+}
+
 #rodape {
   color: white;
-  background-color: rgb(121, 0, 0);
+  background-color: darkred;
   position: relative;
   width: 100%;
   text-align: center;
