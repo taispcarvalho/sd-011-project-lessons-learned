@@ -17,11 +17,10 @@ body {
 #barlist{
   display:inline-flex;
   list-style-type: none;
-  margin: 0;
+  margin: 5px;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
-}
+  background-color: #333;}
 #titulo{
   color: white;
   text-shadow: 2px 2px 4px black; }
@@ -31,8 +30,6 @@ body {
   border-radius:200px;}
 #licoes_aprendidas{
   margin-left: 20px;}
-h3{
-  margin-left: 20px}
 #licoes_a_aprender{
   margin-left: 20px;
   margin-right: 50px;}
@@ -50,6 +47,15 @@ h3{
 #rodatex{
   color: white;
   text-shadow:2px 2px 4px black;}
+#tabela{
+  margin-top:50px;
+  width:auto;
+  height:auto;
+  display:inline-flex;
+  justify-content:center;
+  align-items:center;
+  text-align: justify;
+}
 footer{
     display:inline;}
 li a {
@@ -58,4 +64,15 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;}
-  
+p {
+  font-style:italic;
+  font-family:Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-weig ht:inherit;
+  font-size:large;
+  line-height:110%;
+  }
+h3{
+  margin-left: 20px}
+td {
+  padding: 10px;
+  height: 50%;}
