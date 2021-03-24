@@ -1,9 +1,9 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family:'Times New Roman', Times, serif;
-  font-size:large;
+  font-family: Times New Roman, Times, serif;
+  font-size: large;
   line-height: 1.5em;
-  color: #0a5779d3;
+  color: hsla(198, 85%, 26%, 0.827);
 }
 
 #cabecalho {
@@ -21,9 +21,19 @@ body {
   width: 200px;
 }
 
-#nav ul li{
+#nav ul li {
   display: inline-block;
   margin: 10px;
-  font-weight: bold;
+  font-weight: 1000;
   font-size: 20px;
+}
+
+#lado-esquerdo p {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+#lado-direito {
+  display: inline-block;
 }
