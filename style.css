@@ -6,13 +6,13 @@ body {
   font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
   font-weight: lighter;
   font-size: medium;
+  line-height:normal;
   background-color: rgb(253, 251, 251);}
 #cabecalho{
   top:0;
   width:100%;
   position:fixed;
   background-color: darkolivegreen;
-  margin-bottom: 10px;
   text-align:center;}
 #titulo{
   color: white;
@@ -29,6 +29,7 @@ h3{
   margin-left: 20px;
   margin-right: 50px;}
 #listas{
+  margin-top: 50px;
   width:auto;
   height:auto;
   display:flex;
