@@ -43,7 +43,7 @@ img {
   display: inline-block;
 }
 
-#meu_aprendizado {
+.lado-esquerdo {
   width: 500px;
   display: inline-block;
 }
@@ -53,7 +53,7 @@ img {
   display: inline-block;
 }
 
-.list-container {
+.lado-direito {
   display: inline-block;
   width: 400px;
 }
