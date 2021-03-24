@@ -61,3 +61,21 @@ body {
   color: #d4d4d4;
 }
 
+.profile-container {
+  display: flex;
+  height: 768px;
+}
+
+#main {
+  margin-top: 90px;
+}
+
+#profile-image {
+  flex-grow: 6;
+  top: 280px;
+}
+
+#minha_foto {
+  width: 380px;
+  top: 280px;
+}
