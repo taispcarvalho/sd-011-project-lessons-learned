@@ -34,13 +34,13 @@ img {
 	display:inline-block;
 }
 
-#texto1 {
+.lado-esquerdo {
 	float: left;
 	width: 66%;
 	border: 5px solid black;
 }
 
-#texto2 {
+.lado-direito {
 	float: right;
     width: 20%;
     border: 5px solid black;
