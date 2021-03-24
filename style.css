@@ -9,4 +9,10 @@ body {
 
 #minha_foto {
   width: 300px;
+  margin-top: 120px;
+}
+
+.nav {
+  position: fixed;
+  margin-top: 80px;
 }
