@@ -21,10 +21,44 @@ body {
   text-align: center;
 }
 
+.parte-principal {
+  display: inline-block;
+  width: 100%;
+}
+
 .foto-nome {
   margin-left: 15px;
   margin-top: 70px;
-  padding-left: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+#minha_foto {
+  border-radius: 5%;
+  display: inline-block;
+  width: 260px;
+}
+
+.lista_ordenada {
+  margin: 5px;
+  padding-left: 40px;
+  display: inline-block;
+  width: 220px;
+}
+
+.lista_nao_ordenada {
+  margin: 5px;
+  padding-left: 40px;
+  display: inline-block;
+  width: 220px;
+}
+
+.tabela_sobre_documentação {
+  margin: 5px 5px 5px 15px;
+  width: 220px;
+  display: inline-block;
+  top: 20;
 }
 
 .artigo_aprendizado_na_trybe {
@@ -32,24 +66,17 @@ body {
   padding-left: 15px;
 }
 
+#paragrafo_aprendizado {
+  text-indent: 50px;
+}
+
 .artigo_aside_uma_passagem_do_aprendizado {
   margin-left: 15px;
   padding-left: 15px;
 }
 
-.lista_ordenada {
-  margin-left: 25px;
-  padding-left: 15px;
-}
-
-.lista_nao_ordenada {
-  margin-left: 25px;
-  padding-left: 15px;
-}
-
-.tabela_sobre_documentação {
-  margin-left: 15px;
-  padding-left: 15px;
+#paragrafo_passagem_de_um_aprendizado {
+  text-indent: 50px;
 }
 
 #aside_inspiracao {
