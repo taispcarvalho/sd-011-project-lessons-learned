@@ -1,10 +1,6 @@
-body {
-  background-color: rgb(253, 251, 251);
-  font-family: Architects Daughter, cursive;
-  font-size: 12px;
-  color: black;
-  line-height: 30px;
-  margin-top: 120px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -17,8 +13,17 @@ a:hover {
   color: chocolate;
 }
 
-aside img {
-  width: 200px;
+table , th , td {
+  border: 1px solid black;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Architects Daughter, cursive;
+  font-size: 12px;
+  color: black;
+  line-height: 30px;
+  margin-top: 120px;
 }
 
 header {
@@ -39,10 +44,18 @@ footer {
   top: 0;
 }
 
+#cabecalho h1 {
+  text-align: center;
+}
+
 #minha_foto {
   width: 200px;
 }
 
+.container-header {
+  width: 100vh;
+  margin: 0 auto;
+}
 
 .nav ul li {
   display: inline-block;
@@ -51,10 +64,6 @@ footer {
 
 .nav ul li a {
   padding: 10px;
-}
-
-table , th , td {
-  border: 1px solid black;
 }
 
 .lado-direito {
@@ -67,6 +76,10 @@ table , th , td {
   float: right;
   width: 600px;
   height: 700px;
+}
+
+.aside img {
+  width: 200px;
 }
 
 .tabela {
