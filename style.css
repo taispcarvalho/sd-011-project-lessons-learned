@@ -13,6 +13,10 @@ img {
   display: inline-block;
 }
 
+div {
+  display: inline-block;
+}
+
 p , li {
   line-height: 35px;
 }
@@ -45,7 +49,7 @@ article {
 }
 
 aside {
-  margin-top: 504px;
+  
   display: inline-block;
   float: right;
   width: 50%;
