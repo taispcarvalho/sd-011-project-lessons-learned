@@ -54,30 +54,29 @@ body {
 
 }
 
-/* margin-left -> corrigindo posição do BG-C*/
+/* margin-left -> corrigindo posição do BG-C */
 
 #about {
   display: inline-block;
   margin-left: 5%;
 }
 
-#about h2 {
-  font-family: 'Domine', serif;
-  color: rgb(179, 228, 179);
-  text-shadow: 6px gray;
-  margin-bottom: .5em;
-  text-align: center;
-}
-
 .container-lesson h2 {
   font-family: 'Domine', serif;
   color: rgb(179, 228, 179);
   text-shadow: 2px -2px gray;
-  margin-bottom: .5em;
+  margin-bottom: 0.5em;
   text-align: center;
   padding-top: 4%;
 }
 
+#about h2 {
+  font-family: 'Domine', serif;
+  color: rgb(179, 228, 179);
+  text-shadow: 6px gray;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
 
 #header-about img {
   float: left;
