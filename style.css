@@ -17,7 +17,7 @@ body {
   margin: 10px;
 }
 
-aside p {
+aside p, section ol li {
   color: rgb(46, 46, 46);
   line-height: 1.5;
   font-size: 18px;
