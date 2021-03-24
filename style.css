@@ -7,7 +7,14 @@ body {
   top: 0;
   left: 380px;
   background-color: rgb(253, 251, 251);
-  }
+}
+
+#titulo {
+  font-family: Impact, Arial Bold, sans-serif;
+  font-size: 40px;
+  color: darkblue;
+  line-height: 5px;
+}
 
 #navegacao {
   font-size: medium;
