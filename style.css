@@ -4,6 +4,8 @@ body {
   font-family: sans-serif;
   font-size: 35px;
   text-align: justify;
+  color: #525252;
+  height: 10px;
 }
 
 header {
@@ -24,8 +26,28 @@ header {
   width: 500px;
   border-radius: 30%;
   margin-top: 300px;
+  float: left;
+  padding: 10px 20px;
+}
+
+#main-text {
+  margin-top: 350px;  
+  border: 10px 10px;
 }
 
 #menu {
   font-size: 20px;
+}
+
+img {
+  display: inline-block;
+  float: left;
+}
+
+#first-section {
+  display: inline-block;
+}
+
+#second-section {
+  display:inline-block;
 }
