@@ -5,7 +5,6 @@ body {
 header {
   position: fixed;
   top: 0;
-  background-color: blue;
 }
 
 #minha_foto {
@@ -16,19 +15,17 @@ header {
   display: inline-block;
 }
 
-#artigos {
+#artigos article , aside {
   background-color: red;
-  display: inline-block;
-}
-
-article {
   float: left;
-  margin: 0 2%;
-  width: 50%;
+  width: 45%;
+  padding: 0 10px;
 }
 
-aside {
-  float: rigth;
-  margin: 0 2%;
-  width: 25%;
+#sobre-aprendizado {
+  width: 70%;
+}
+
+#passagem {
+  width: 30%;
 }
