@@ -5,4 +5,30 @@ body {
 #cabecalho {
   position: fixed;
   top: 0px;
+  background-color: rgb(4, 165, 4);
+  color: white;
+  /* padding: 0px 0px 0px 500px; */
+}
+
+#titulo {
+  padding: 10px 600px 10px 6px;
+  margin-left: 520px;
+}
+
+.main {
+  margin-top: 140px;
+}
+
+#minha_foto {
+  width: 200px;
+}
+
+.menu {
+  padding: 0px;
+  margin-left: 10px;
+}
+
+.menu li {
+  display: inline-flex;
+  padding: 0px 10px 0px 0px;
 }
