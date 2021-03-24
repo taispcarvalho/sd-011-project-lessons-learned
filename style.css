@@ -39,6 +39,6 @@ body {
   margin-left: 500px;
 }
 
-.tabela, th, td {
+.tabela , th , td {
   border: 1px double black;
 }
