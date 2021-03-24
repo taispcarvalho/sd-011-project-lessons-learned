@@ -1,11 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-right: 19%;
-  border: none;
   padding: 5px;
   text-align: center;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Courier, monospace;
   line-height: 25px;
+  border-color: aqua;
 }
 
 #cabecalho {
@@ -35,6 +35,11 @@ body {
   border-bottom-style: ridge;
   background-color: antiquewhite;
   font-weight: 500;
+}
+
+.licoes li {
+  border-bottom-style: ridge;
+  border-color: aqua;
 }
 
 .licoes li:hover {
@@ -100,6 +105,7 @@ body {
 
 .table td {
   border-bottom-style: ridge;
+  border-color: aqua;
   font-weight: 1000;
 }
 
@@ -113,15 +119,14 @@ body {
   clear: both;
   background-color: beige;
   list-style: none;
-}
-
-.nav li {
-  display: inline-block;
   top: -2;
   box-shadow: 0 2px 2px grey;
 }
 
+.nav li {
+  display: inline-block;
+}
+
 .nav li:hover {
   background-color: white;
-  color: black;
 }
