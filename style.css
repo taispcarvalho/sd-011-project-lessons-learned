@@ -16,6 +16,7 @@ body {
   font-size: 50px;
   color: antiquewhite;
   text-align: center;
+  font-family: fantasy;
 }
 
 #minha_foto {
@@ -37,6 +38,8 @@ body {
 #licoes_aprendidas {
   text-align: justify;
   background-color: aquamarine;
+  font-family: fantasy;
+  font-size: 20px;
 }
 
 
@@ -48,6 +51,8 @@ body {
 #licoes_a_aprender {
   text-align: justify;
   background-color: aquamarine;
+  font-size: 20px;
+  font-family: fantasy;
 }
 
 .subtitulo {
@@ -73,6 +78,7 @@ body {
   margin-left: 5px;
   display: inline-block;
   font-size: 15px;
+  font-family: fantasy;
 }
 
 #link {
@@ -86,6 +92,13 @@ body {
   font-style: italic;
   margin-top: 10px;
   text-align: justify;
+  font-family: fantasy;
+  line-height: 40px;
+  color: white;
+  background-color: darkcyan;
+  border-style: solid;
+  border-color: darksalmon;
+  font-size: 20px;
 }
 
 #lateral {
@@ -113,5 +126,15 @@ body {
 #barra {
   display: inline-block;
   margin-top: 200px;
+}
+
+.texttable {
+  font-family: fantasy;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#table {
+  margin-left: 2px;
 }
 
