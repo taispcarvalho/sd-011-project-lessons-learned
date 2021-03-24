@@ -1,16 +1,39 @@
-body { background-color:rgb(253, 251, 251);
+body { background-color: rgb(253, 251, 251);
   font-family: monospace, sans-serif;
   font-size: medium;
   color: rgb(30, 6, 53);
-  line-height:inherit;}
+}
 
 #cabecalho { position: fixed;
-  top: 0px;
-  font-size: medium;}
+  top: 0;
+  font-size: medium;
+}
+
+#minha_foto { width: 4cm;
+  height: 4cm;
+}
+
 .lado-esquerdo { display: inline-block;
   width: 8cm;
   height: 4cm;
-}
+  margin: 2px;
+  padding: 2px 3px;
+  border: 3px;
+  border-color: black;
+  }
+
 .lado-direito { display: inline-block;
   width: 3cm;
+  margin: 2px;
+  padding: 2px 3px;
+  border: 3px;
+  border-color: black;
+}
+
+.lista { width: auto;
+  margin: 2cm;
+  padding: 1cm;
+  border: 2cm;
+  border-color: black;
+  background-color: bisque;
 }
