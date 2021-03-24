@@ -1,18 +1,18 @@
 * {
 	font-size: 14px;
-	color:black;
-	line-height:normal;
-	font-family: 'Courier New', Courier, monospace;
+	color: black;
+	line-height: normal;
+	font-family: Courier, Courier, monospace;
 }
 
 body {
-	background-color:rgb(253, 251, 251);
+	background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
 	position: fixed;
 	top: 0px;
-	background-color:red;
+	background-color: red;
 	width: 1366px;
 	height: 100px;
 	padding: 10px;
@@ -31,7 +31,7 @@ img {
 
 #licoes_a_aprender {
 	width: 200px;
-	display:inline-block;
+	display: inline-block;
 }
 
 .lado-esquerdo {
@@ -42,8 +42,8 @@ img {
 
 .lado-direito {
 	float: right;
-    width: 20%;
-    border: 5px solid black;
+	width: 20%;
+	border: 5px solid black;
 }
 
 #tabela {
