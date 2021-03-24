@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   margin-right: 19%;
-  border: 0px;
+  border: none;
   padding: 5px;
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
@@ -15,13 +15,12 @@ body {
   background-color: antiquewhite;
   border-bottom-style: ridge;
   font-size: 30px;
-  color:blueviolet;
+  color: blueviolet;
   box-shadow: 0 2px 2px grey;
 }
 
 #titulo {  
   text-align: center;
-  
 }
 
 #minha_foto {
@@ -35,14 +34,13 @@ body {
   width: 99%;
   border-bottom-style: ridge;
   background-color: antiquewhite;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #licoes li:hover {
   color: aqua;
-  font-weight: bold;
+  font-weight: 1000;
   background-color: blueviolet;
-  
 }
 
 #licoes_aprendidas {
@@ -92,7 +90,7 @@ body {
 
 .section-aside {
   background-color: antiquewhite;
-  width: 20%;
+  width: 19%;
   height: 100%;
   top: 105px;
   float: right;
@@ -102,18 +100,17 @@ body {
 
 .table td {
   border-bottom-style: ridge;
-  font-weight: bold;
-  color: black;
+  font-weight: 1000;
 }
 
 .table {
   text-align: center;
-  margin-left: 0 auto;
+  margin: 0 auto;
 }
 
 #rodape {
   margin: 10px;
-  clear:both;
+  clear: both;
   background-color: beige;
   list-style: none;
 }
@@ -124,6 +121,7 @@ body {
   box-shadow: 0 2px 2px grey;
 }
 
-.nav li {
-  position: relative;
+.nav li:hover {
+  background-color:white;
+  color: black;
 }
