@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  
   }
 
 #cabecalho {
@@ -9,7 +10,11 @@
   top: 0;
   height: 120px;
   padding: 20px;
-}
+  position: fixed;
+  display: inline;
+  width: 100%;
+
+ }
 
 #titulo{
   color: white;
@@ -17,11 +22,13 @@
   text-align: center;
   font-family: 'Lexend', sans-serif;
   -webkit-text-stroke: 1px black;
+
 }
 
 body {
   background-color: rgb(253, 251, 251);
   font-family: 'Lexend', sans-serif;
+
 }
 
 #minha_foto {
@@ -35,19 +42,21 @@ body {
   background-size: cover;
   box-shadow: 3px 1px 15px black;
   background-repeat: no-repeat;
+
 }
 
 #licoes_aprendidas {
   display: inline-block;
   width: 230px;
   position: absolute;
-  left: 0px;
+  left: 0;
   margin-left: 1%;
   top: 300px;
   padding: 70px;
   font-size: 30px;
   background: rgb(180, 243, 201);
   color: black;
+
 }
 
 #section_title1 {
@@ -56,6 +65,7 @@ body {
   margin-left: 1%;
   top: 250px;
   -webkit-text-stroke: 1px rgb(196, 241, 192);
+
 }
 
 #section_title2 {
@@ -64,6 +74,7 @@ body {
   margin-left: 1%;
   top: 250px;
   -webkit-text-stroke: 1px rgb(196, 241, 192);
+
 }
 
 #licoes_a_aprender {
@@ -75,6 +86,7 @@ body {
   background-color: rgb(180, 205, 243);
   left: 450px;
   top: 300px;
+
 }
 
 #rodape {
@@ -86,6 +98,7 @@ body {
   color: white;
   text-align: center;
   padding: 20px;
+
 }
 
 #article_main {
@@ -98,6 +111,7 @@ body {
   width: 700px;
   padding: 30px;
   line-height:30px;
+
 }
 
 #article_submain {
@@ -108,8 +122,9 @@ body {
   left: 1100px;
   padding: 30px;
   font-size: 20px;
-  top: 580px; 
+  top: 580px;
   line-height:30px;
+
 }
 
 #htmlphoto {
@@ -118,6 +133,7 @@ body {
   left: 850px;
   top: 460px;
   border-radius: 100%;
+
 }
 
 #htmlphoto2 {
@@ -126,6 +142,7 @@ body {
   left: 850px;
   top: 670px;
   border-radius: 100%;
+
 }
 
 #footerphoto {
@@ -133,18 +150,21 @@ body {
   position: absolute; 
   bottom:10%; 
   left:870px; 
+
 }
 
 #footerphoto2 {
-  width: 30px; 
-  position: absolute; 
-  bottom:7%;  
-  left:994px; 
+  width: 30px;
+  position: absolute;
+  bottom:7%;
+  left:994px;
+
 }
 
 
 #footertext {
-  position: absolute; 
-  left: 905px; 
-  bottom:7%; 
+  position: absolute;
+  left: 905px;
+  bottom:7%;
+
 } 
