@@ -19,14 +19,12 @@ body {
   display: inline-block;
 }
 
-#nav_bar > ul,
-#contact_info > ul {
+#nav_bar > ul , #contact_info > ul {
   list-style: none;
   padding-left: 0;
 }
 
-#nav_bar > ul > li,
-#contact_info > ul > li {
+#nav_bar > ul > li , #contact_info > ul > li {
   display: inline-block;
 }
 
