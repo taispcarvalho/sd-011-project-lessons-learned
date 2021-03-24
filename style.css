@@ -79,3 +79,9 @@ body {
   border-style: solid;
   background-color: aquamarine;
 }
+
+#artigo {
+  font-style: italic;
+  margin-top: 10px;
+  text-align: justify;
+}
