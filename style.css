@@ -29,6 +29,7 @@ body {
 }
 
 #titulo {
+  letter-spacing: 2px;
   top: 0%;
   margin: 0;
 }
