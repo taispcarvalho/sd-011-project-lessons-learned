@@ -9,12 +9,12 @@ body {
 
 img {
   width: 200px;
-  padding-bottom: 190px;
+  padding-bottom: 60px;
   display: inline-block;
 }
 
 p , li {
-  line-height: 50px;
+  line-height: 35px;
 }
 
 nav h1 {
@@ -43,8 +43,9 @@ article {
   width: 50%;
   justify-content: center;
 }
+
 aside {
-  margin-top: 670px;
+  margin-top: 504px;
   display: inline-block;
   float: right;
   width: 50%;
@@ -53,7 +54,7 @@ aside {
 
 footer {
   text-align: center;
-  
+  padding-top: 30px;
 }
 
 ol , ul {
