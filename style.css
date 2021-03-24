@@ -40,30 +40,18 @@ img {
 }
 
 .lessons {
-  background-color: darkgoldenrod;
-  /* width: 300px; */
   display: inline-block;
 }
 
 #meu_aprendizado {
-  background-color: darkblue;
   width: 1300px;
   display: inline-block;
 }
 
 .learned {
-  background-color: darkgreen;
-  width: 300px;
+  width: 1300px;
   display: inline-block;
 }
-
-/* #licoes_aprendidas {
-  display: inline-block;
-}
-
-#licoes_a_aprender {
-  display: inline-block;
-} */
 
 .list-container {
   display: inline-block;
