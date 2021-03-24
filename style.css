@@ -9,25 +9,6 @@ body {
   line-height: 1.5em;
 }
 
-a {
-  text-decoration: none;
-  font-size: 20px;
-  font-weight: 800;
-  color: snow;
-}
-
-button {
-  margin: 15px 50px;
-  padding: 5px;
-  border-radius: 6px;
-  border-bottom: none;
-  background-color: rgb(64, 61, 57);
-}
-
-button:hover {
-  background-color: rgb(235, 94, 40);
-}
-
 header {
   margin-top: 0;
   position: fixed;
@@ -37,13 +18,13 @@ header {
 }
 
 #titulo {
-  margin: -40px 50px;
+  margin: 20px 50px;
   text-align: right;
   color: rgb(235, 94, 40);
 }
 
 #minha_foto {
-  border-radius: 300px;
+  border-radius: 100%;
   margin: 90px 50px 10px;
 }
 
@@ -52,11 +33,9 @@ main {
   margin-right: 50px;
   font-size: 15px;
   font-weight: 500;
-
 }
 
-h3 {
-  margin-left: 100px;
+nav h2{
   margin-bottom: 50px;
 }
 
@@ -91,4 +70,24 @@ footer {
   margin-top: 300px;
   height: 200px;
   background-color: rgb(64, 61, 57);
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(253, 251, 251);
+}
+
+button {
+  margin: 15px 50px;
+  padding: 5px;
+  border-radius: 6px;
+  border-bottom: none;
+  background-color: seagreen;
+}
+
+button , a:hover {
+  background-color: rgb(235, 94, 40);
+  color: seagreen;
 }
