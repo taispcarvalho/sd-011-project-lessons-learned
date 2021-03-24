@@ -41,6 +41,7 @@ body {
 *Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
 
 .lado-esquerdo {
+  padding: 4px;
   border-style: solid;
   border-radius: 15px;
   float: left;
@@ -52,6 +53,7 @@ body {
 *Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
 
 .lado-direito aside {
+  padding: 4px;
   border-style: solid;
   border-radius: 15px;
   float: right;
