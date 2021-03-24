@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(250, 251, 251);
+  background-color: rgb(253, 251, 251);
   margin-right: 19%;
   border: 0px;
   padding: 5px;
@@ -104,14 +104,11 @@ body {
 .table td {
   border-bottom-style: ridge;
   font-weight: bold;
-  margin-left: 20px
 }
 
 .table {
   text-align: center;
-  margin: 0 auto;
-
-
+  margin-left: 0 auto;
 }
 
 #rodape {
