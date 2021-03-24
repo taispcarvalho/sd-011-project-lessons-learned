@@ -1,5 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  color: blueviolet;
+  line-height: auto;
+
 }
 
 #cabecalho {
@@ -18,3 +23,5 @@ body {
   style="width: 15%;" 
   border="5px"
 }
+
+
