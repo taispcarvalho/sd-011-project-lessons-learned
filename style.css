@@ -15,7 +15,7 @@ h1 {
 img {
   width: 200px;
   border-radius: 100%;
-  margin: 90px 0 30px 20px;
+  margin: 150px 0 30px 20px;
 }
 
 main {
@@ -32,5 +32,12 @@ a {
   width: 400px;
   text-align: justify;
   display: inline-block;
-  float: right;
+  margin-left: 22px;
+}
+
+#learning {
+  width: 400px;
+  text-align: justify;
+  display: inline-block;
+  margin-left: 100px;
 }
