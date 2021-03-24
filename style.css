@@ -64,3 +64,15 @@ body {
   font-weight: 700;
   display: inline-block;
 }
+
+#rodape {
+  position: absolute;
+  background-color: rgb(10, 126, 81);
+  left: 0;
+  right: 0;
+}
+
+#rodape p {
+  text-align: center;
+  color: white;
+}
