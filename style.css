@@ -31,6 +31,13 @@ p {
   margin-left: 20px;
 }
 
+header p {
+  background: green;
+  color: white;
+  font-weight: 900;
+  margin-top: 30px;
+}
+
 div {
   margin-top: 30px;
 }
@@ -42,4 +49,10 @@ div h2 {
 div ol {
   margin-top: 20px;
   margin-left: 80px;
+  display: inline-block;
+}
+
+div ul {
+  margin-left: 50px;
+  display: inline-block;
 }
