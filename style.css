@@ -3,11 +3,13 @@ body {
   font-family:'Times New Roman', Times, serif;
   font-size:large;
   line-height: 1.5em;
+  color: #0a5779d3;
 }
 
 #cabecalho {
   display: fixed;
   top: 0;
+  background-color: aqua;
 }
 
 #minha_foto {
