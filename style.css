@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  background-color: rgb(39, 39, 39); 
+  background-color: rgb(39, 39, 39);
   color: white;
   text-align: center;  
   position: fixed;  
@@ -28,7 +28,13 @@ ol {
 }
 
 ul {
-    position: absolute;
-    top: 500px;
-    left: 300px;
+  position: absolute;
+  top: 500px;
+  left: 300px;
+}
+
+footer {
+  position: absolute;
+  top: 800px;  
+  left: 40%;  
 }
