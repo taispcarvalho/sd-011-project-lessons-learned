@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Chilanka;
+  font-family: Chilanka, sans-serif;
   font-size: 20px;
   color: rgb(14, 8, 8);
   padding: 5px;
@@ -18,7 +18,7 @@ body {
 a {
   text-decoration: none;
   font-size: 40px;
-  font-family: Dyuthi;
+  font-family: Dyuthi, sans-serif;
   color: rgb(5, 5, 5);
   padding: 25px;
 }
