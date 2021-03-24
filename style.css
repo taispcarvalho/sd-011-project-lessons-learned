@@ -7,3 +7,15 @@ body {
   top: 0;
   background-color: rgb(253, 251, 251);
 }
+
+#navegacao {
+  font-size: medium;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+}
+
+#artigo aside {
+  line-height: 20px;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
