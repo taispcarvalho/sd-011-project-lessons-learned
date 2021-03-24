@@ -25,6 +25,7 @@ body {
   padding-top: 2%;
   color: white;
   text-shadow: 2px -2px silver;
+  letter-spacing: 2px;
 }
 
 .nav-menu {
@@ -55,7 +56,6 @@ body {
 }
 
 /* margin-left -> corrigindo posição do BG-C */
-
 #about {
   display: inline-block;
   margin-left: 5%;
@@ -68,6 +68,7 @@ body {
   margin-bottom: 0.5em;
   text-align: center;
   padding-top: 4%;
+  letter-spacing: 2px;
 }
 
 #about h2 {
@@ -76,6 +77,7 @@ body {
   text-shadow: 6px gray;
   margin-bottom: 0.5em;
   text-align: center;
+  letter-spacing: 2px;
 }
 
 #header-about img {
