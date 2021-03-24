@@ -1,8 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif;
 }
 
 h1 {
   top: 0;
+  background-color: red;
   position: fixed;
+  display: inline-block;
+  width: 99%;
+  text-align: center;
 }
