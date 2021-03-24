@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: sans-serif, 'Times New Roman', Times, serif;
+  line-height: normal;
+  font-size: 20px;
 }
 
 header {
@@ -11,12 +14,26 @@ header {
 
 #titulo {
   text-align: center;
+  color: #edd4db;
 }
 
 #minha_foto {
   border-radius: 100%;
 }
 
-#titulo{
-  color: #edd4db;
+h2 {
+  color: #903c54;
+  font-size: 1.5em;
+}
+
+footer {
+  font-size: 10px;
+}
+
+li:hover {
+  color: #b7526f;
+}
+
+ul{
+  margin: auto;
 }
