@@ -4,7 +4,7 @@ body {
   font-size: 105%;
   line-height: 1.1;
   font-family: monospace, sans-serif;
-  margin: 0 auto;
+  margin: 0;
 }
 
 header {
@@ -55,12 +55,6 @@ img {
   margin-bottom: 30px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  border: 0 solid black;
-}
-
 .footer , footer {
   text-align: center;
   border-top: 1px gray solid;
@@ -76,7 +70,7 @@ table {
 }
 
 .lado-esquerdo , #licoes_aprendidas {
-  width: 46%;
+  width: 47%;
   float: left;
   padding-left: 30px;
   padding-right: 15px;
@@ -86,7 +80,7 @@ table {
 .lado-direito , #licoes_a_aprender {
   padding-left: 15px;
   padding-right: 30px;
-  width: 47%;
+  width: 46%;
   float: right;
 }
 
@@ -97,3 +91,4 @@ table {
 #licoes_a_aprender , #licoes_aprendidas {
   list-style-position: inside;
 }
+
