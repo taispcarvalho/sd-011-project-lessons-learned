@@ -1,8 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  
-  }
+
+}
 
 #cabecalho {
   color: white;
@@ -14,7 +14,7 @@
   display: inline;
   width: 100%;
 
- }
+}
 
 #titulo{
   color: white;
@@ -110,7 +110,7 @@ body {
   top: 300px;
   width: 700px;
   padding: 30px;
-  line-height:30px;
+  line-height: 30px;
 
 }
 
@@ -123,7 +123,7 @@ body {
   padding: 30px;
   font-size: 20px;
   top: 580px;
-  line-height:30px;
+  line-height: 30px;
 
 }
 
@@ -146,10 +146,10 @@ body {
 }
 
 #footerphoto {
-  width: 25px; 
-  position: absolute; 
-  bottom:10%; 
-  left:870px; 
+  width: 25px;
+  position: absolute;
+  bottom: 10%;
+  left: 870px;
 
 }
 
@@ -157,7 +157,7 @@ body {
   width: 30px;
   position: absolute;
   bottom:7%;
-  left:994px;
+  left: 994px;
 
 }
 
@@ -165,6 +165,6 @@ body {
 #footertext {
   position: absolute;
   left: 905px;
-  bottom:7%;
+  bottom: 7%;
 
 } 
