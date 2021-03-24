@@ -55,13 +55,13 @@ article {
     display: inline-block;
     width: 600px;
     background-color: green;
-    margin-left: 50px;
+    margin-left: 5%;
 }
 
 #how-trybe {
     background-color: red;
     display: inline-block;
-    width: 600px;
+    width: 300px;
     margin-left: 10px;
 }
 
