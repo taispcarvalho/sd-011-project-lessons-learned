@@ -87,6 +87,11 @@ figure figcaption {
   border: 1px solid black;
 }
 
+#sobre_o_curso h2 a {
+  color: green;
+  text-decoration: none;
+}
+
 #passagem {
   border: 1px dashed black;
 }
