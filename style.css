@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253, 251, 251); font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(253, 251, 251); font-family: Arial, Helvetica, sans-serif;
     text-align: justify; color: royalblue;
 }
 
@@ -52,11 +52,7 @@ table th {
 }
 
 .contato {
-    text-align: center;
-}
-
-.contato {
-    list-style: none; font-size: 20px;
+    list-style: none; font-size: 20px; text-align: center; background-image: url("https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg"); padding: 2%;
 }
 
 footer {
@@ -64,7 +60,7 @@ footer {
 }
 
 footer p {
-    margin-left: 4%;
+    margin-left: 4%; letter-spacing: unset;
 }
 
 nav {
@@ -78,6 +74,8 @@ nav ul li {
 .links {
     text-decoration: none;
     color:blanchedalmond;
+    border-style: double;
+    border-color: seagreen;
 }
 
 .links:hover {
@@ -87,5 +85,3 @@ nav ul li {
 .links:active {
     color: red;
 }
-
-
