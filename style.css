@@ -10,7 +10,7 @@ body {
 }
 
 #titulo {
-  font-family: Impact, Arial Bold, sans-serif;
+  font-family: Impact, sans-serif;
   font-size: 40px;
   color: darkblue;
   line-height: 5px;
@@ -34,5 +34,16 @@ body {
 #foto {
   background-color: seagreen;
   width: 200px;
+  height: 200px;
+}
+
+#lado-direito {
+  margin-left: 550px;
+  width: 400px;
+  height: 200px;
+}
+
+#lado-esquerdo {
+  width: 400px;
   height: 200px;
 }
