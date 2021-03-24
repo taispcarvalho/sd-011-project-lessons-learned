@@ -7,6 +7,7 @@ body {
   background: rgb(253, 251, 251);
   font-family: Roboto, sans-serif;
   font-size: 14px;
+  line-height: 1.6;
 }
 
 #cabecalho {
@@ -86,7 +87,7 @@ article {
   color: rgb(33, 134, 97);
 }
 
-.about h3 {
+.about section h3 {
   font-size: 2rem;
   text-align: center;
   color: rgb(33, 134, 97);
@@ -125,12 +126,11 @@ article {
   margin: 3%;
 }
 
-#main {
+.lado-esquerdo {
   display: flex;
 }
 
-#aside {
-  margin-top: 10%;
-  margin-right: 25px;
+.lado-direito {
+  margin-right: 5%;
   font-size: 1.4rem;
 }
