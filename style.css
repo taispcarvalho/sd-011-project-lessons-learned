@@ -1,22 +1,28 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family: Tibetan Machine Uni;
+  font-family: 'Chilanka';
+  font-size: 20px;
+  padding: 5px;
 }
 
 #cabecalho {
   top: 0;
   position: fixed;
   color: rgba(2, 121, 121, 0.582);
-
 }
 
 a {
   text-decoration: none;
   font-size: 40px;
-  font-family: Dyuthi;
+  font-family: 'Dyuthi';
   color: rgb(5, 5, 5);
   padding: 20px;
+}
 
+nav {
+  margin-top: 15px;
+  position: fixed;
+  padding-left: 400px;
 }
 
 img {
@@ -24,4 +30,8 @@ img {
   height: 400px;
   width: 400px;
   border-radius: 400%;
+  text-align: center;
+}
+.container {
+
 }
