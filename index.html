@@ -5,6 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
   <title>Lessons Learned</title>
 </head>
 <body>
@@ -22,14 +24,20 @@
 
   <main>
     <section class="row page-section">
-      <article>
-        <h1>O meu aprendizado</h1>
-        <img id="minha_foto" src="https://github.com/heyset.png" alt="Foto minha, Matheus Inacio. Sou um homem careca com barba média e óculos de grau. Na foto, estou sentado em um banco em um parque com árvores ao fundo, e estou olhando para o céu azul.">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates expedita doloribus fuga minus enim maiores dolorum exercitationem, praesentium ea cum inventore delectus saepe?</p>
-        <p>Voluptatem error hic sint esse eaque rerum quod quo nulla at! Totam maxime error laudantium. Voluptates perferendis totam commodi. Molestiae, non? Quidem doloribus, expedita asperiores recusandae quae dolorem incidunt eaque?</p>
-      </article>
 
-      <aside class="quote">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, quibusdam. Fugit deserunt excepturi corporis sed aspernatur repudiandae"</aside>
+      <div class="column__one-third">
+        <img id="minha_foto" src="https://github.com/heyset.png" alt="Foto minha, Matheus Inacio. Sou um homem careca com barba média e óculos de grau. Na foto, estou sentado em um banco em um parque com árvores ao fundo, e estou olhando para o céu azul.">
+      </div>
+
+      <div class="column__two-thirds">
+        <article>
+          <h1>O meu aprendizado</h1>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus enim perspiciatis vel aliquam, <strong>facilis accusantium qui.</strong> Temporibus vel voluptates nobis expedita libero at natus necessitatibus commodi <strong>repellat fugiat. Consectetur, sunt.</strong></p>
+          <p>Voluptatem error hic sint esse eaque rerum quod quo nulla at! Totam maxime error laudantium. Voluptates perferendis totam commodi. Molestiae, non? <strong>Quidem doloribus,</strong> expedita asperiores recusandae quae dolorem incidunt eaque?</p>
+        </article>
+        <aside class="quote">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. <strong>Inventore, quibusdam. Fugit deserunt</strong> excepturi corporis sed aspernatur repudiandae"</aside>
+      </div>
+
     </section>
 
     <div class="row">
@@ -78,7 +86,7 @@
         </tr>
         <tr>
           <td>Cor Preferida</td>
-          <td>Bordô</td>
+          <td><a href="https://colorpeek.com/#400f15" target="_blank">Bordô</a></td>
         </tr>
         <tr>
           <td>Livro Preferido</td>
@@ -86,11 +94,10 @@
         </tr>
       </table>
     </section>
-
-
-    <footer id="rodape">
-      <p>Criado por <a href="https://github.com/heyset" target="_blank">Matheus "Set" Inacio</a>, 2021.</p>
-    </footer>
   </main>
+
+  <footer id="rodape">
+    <p>Criado por <a href="https://github.com/heyset" target="_blank">Matheus "Set" Inacio</a>, 2021.</p>
+  </footer>
 </body>
 </html>
