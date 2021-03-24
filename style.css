@@ -2,7 +2,9 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: Chilanka;
   font-size: 20px;
+  color: rgb(14, 8, 8);
   padding: 5px;
+  line-height: 30px;
 }
 
 #cabecalho {
@@ -22,13 +24,13 @@ a {
 }
 
 nav {
-  margin-top: 3px;
+  top: 0;
   position: fixed;
   padding-left: 450px;
   background-color: salmon;
   z-index: 1;
   border-style: groove;
-  padding: 5px 200px 2px 400px;
+  padding: 15px 200px 10px 400px;
 }
 
 img {
@@ -37,6 +39,17 @@ img {
   width: 400px;
   border-radius: 400%;
 }
-.container {
 
+.lessons {
+  background-color: darkgoldenrod;
+  width: 600px;
+}
+
+.me {
+  background-color: darkblue;
+  width: 600px;
+}
+
+div {
+display: inline-flex;
 }
