@@ -63,7 +63,7 @@ ol , ul {
   display: inline-block;
 }
 
-table , td , th{
+table , td , th {
   margin: 10px;
   border: solid black 1px;
   border-collapse: collapse;
@@ -72,5 +72,5 @@ table , td , th{
 
 table {
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 0 auto;
 }
