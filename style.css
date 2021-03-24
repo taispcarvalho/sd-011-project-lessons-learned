@@ -42,7 +42,7 @@ body {
   display: inline;
   text-decoration: none;
   color: white;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 #menu a:hover {
@@ -63,7 +63,7 @@ body {
 
 .container-lesson h2 {
   font-family: 'Domine', serif;
-  color: rgb(179, 228, 179);
+  color: palegreen;
   text-shadow: 2px -2px gray;
   margin-bottom: 0.5em;
   text-align: center;
@@ -73,8 +73,8 @@ body {
 
 #about h2 {
   font-family: 'Domine', serif;
-  color: rgb(179, 228, 179);
-  text-shadow: 6px gray;
+  color: palegreen;
+  text-shadow: 2px -2px gray;
   margin-bottom: 0.5em;
   text-align: center;
   letter-spacing: 2px;
@@ -90,6 +90,7 @@ body {
   margin-right: 20%;
   margin-left: 20%;
   padding-top: 5%;
+  line-height: 1.2em;
 }
 
 .container {
