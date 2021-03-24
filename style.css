@@ -16,8 +16,7 @@ body {
   border-bottom-style: ridge;
   font-size: 30px;
   color:blueviolet;
-  top: -2;
-  box-shadow: 0 2px 2px #666;
+  box-shadow: 0 2px 2px grey;
 }
 
 #titulo {  
@@ -48,7 +47,7 @@ body {
 
 #licoes_aprendidas {
   display: inline-block;
-  list-style-type: decimal-leading-zero;
+  list-style-type: decimal;
   font-size: 20px;
   margin: 50px;
   margin-left: 1px;
@@ -63,16 +62,16 @@ body {
   width: 0 auto;
 }
 
-.article{
+.article {
   width: 100%;
   margin-top: 1px;
   border: 10px;
-  padding: 0px;
+  padding: 0;
   position: relative;
-  overflow:hidden;
+  overflow: hidden;
 }
 
-.lado-esquerdo,.lado-direito {
+.lado-esquerdo, .lado-direito {
   display: inline-block;
   background-color: antiquewhite;
   width: 45%;
@@ -104,6 +103,7 @@ body {
 .table td {
   border-bottom-style: ridge;
   font-weight: bold;
+  color: black;
 }
 
 .table {
@@ -118,16 +118,12 @@ body {
   list-style: none;
 }
 
-.nav li:hover {
-  font-weight: bold;
-}
-
-.nav li{
+.nav li {
   display: inline-block;
   top: -2;
-  box-shadow: 0 2px 2px #666;
+  box-shadow: 0 2px 2px grey;
 }
 
-nav li{
+.nav li {
   position: relative;
 }
