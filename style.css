@@ -31,7 +31,7 @@ p {
   margin-left: 20px;
 }
 
-header p {
+.nav-bar {
   background: green;
   color: white;
   font-weight: 900;
