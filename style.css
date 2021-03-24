@@ -1,6 +1,6 @@
 body {
-  font-style:oblique;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  font-family:Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
   margin: 0;
   background-color: rgb(253, 251, 251);
   border: 0;
@@ -17,8 +17,12 @@ body {
 }
 #titulo{
   color: white;
-  text-shadow: 2px 2px 4px #000000; 
+  text-shadow: 2px 2px 4px black; 
 }
 #minha_foto{
   border-radius:200px; 
+  margin-left: 20px;
+}
+#licoes_aprendidas{
+  margin-left: 20px;
 }
