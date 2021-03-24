@@ -43,22 +43,31 @@ body {
   padding-left: 40px;
   display: inline-block;
   width: 220px;
+  position: absolute;
 }
 
 .lista_nao_ordenada {
   margin: 5px;
   padding-left: 40px;
   display: inline-block;
-  width: 220px;
+  width: 305px;
+  position: absolute;
+  top: 70px;
+  left: 740px;
 }
 
 .tabela_sobre_documentação {
   margin: 5px;
-  width: 220px;
+  width: 250px;
   display: inline-block;
   position: absolute;
   top: 70px;
-  left: 1130px;
+  left: 1100px;
+  text-align: center;
+}
+
+#tabela_adicionais {
+  width: inherit;  
 }
 
 .artigo_aprendizado_na_trybe {
