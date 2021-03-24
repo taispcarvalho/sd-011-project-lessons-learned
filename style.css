@@ -66,7 +66,7 @@ aside {
   margin-left: 1500px;
   background-color: rgb(173, 170, 170);
   width: 400px;
-  height: 700px;
+  height: 750px;
   border-radius: 10px;
 }
 
@@ -80,7 +80,7 @@ aside {
 }
 
 #section_aprender {
-  margin-top: 360px;
+  margin-top: 380px;
 }
 
 .aprendizado h3 {
@@ -100,8 +100,9 @@ aside {
   position: absolute;
   text-align:left;
   margin-top: 80px;
+  font-weight: bold;
 }
 
 #licoes_aprendidas li, #licoes_a_aprender li {
-   height: 22px;
+   height: 25px;
 }
