@@ -1,15 +1,15 @@
-  body {
+body {
   background-color: rgb(253, 251, 251);
   font-family: Arial, Helvetica, sans-serif;
   text-align: justify; color: royalblue;
   line-height: 205%;
 }
 
-  h1 {
+h1 {
   color: black;
 }
 
-  header {
+header {
   position: fixed;
   top: 0;
   background-color: green;
@@ -19,93 +19,93 @@
   margin: 0.5%;
 }
 
-  #minha_foto {
+#minha_foto {
   border-radius: 15%;
   margin: 3% 40% 0;
 }
 
-  p {
+p {
   margin: 2%;
   padding: 2%;
 } 
 
-  article.lado-direito {
+article.lado-direito {
   display: inline-block;
   margin-right: 45%;
   margin-left: 2%;
   padding: 0;
 }
 
-  aside.lado-esquerdo {
+aside.lado-esquerdo {
   display: inline-block;
   padding: 0;
   margin: -30% 20% 5% 65%;
 }
 
-  main {
+main {
   font-size: 20px;
 }
 
-  .habilidades {
+.habilidades {
   text-align: justify;
   margin: -5% 3%;
-  }
+}
 
-  ol {
+ol {
   margin-left: 40%;
-  }
+}
 
-  table th {
+table th {
   padding: 3%;
   font-family: sans-serif;
-  }
+}
 
-  .licoes_futuras {
+.licoes_futuras {
   margin: 8%;
-  }
+}
 
-  .contato {
+.contato {
   list-style: none;
   font-size: 20px;
   text-align: center;
   background-image: url("https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg"); padding: 2%;
-  }
+}
 
-  footer {
+footer {
   text-align: center;
-  }
+}
 
-  footer p {
+footer p {
   margin-left: 4%;
   letter-spacing: unset;
-  }
+}
 
-  nav {
+nav {
   margin: 13% 2% 0 2%;
   padding: 0.5%;
   font-size: 20px;
   background-image: url("https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg"); 
-  }
+}
 
-  nav ul li {
+nav ul li {
   list-style: none; display:inline; padding: 5%;
-  }
+}
 
-  .links {
+.links {
   text-decoration: none;
   color:blanchedalmond;
   border-style: double;
   border-color: seagreen;
-  }
+}
 
-  .links:hover {
+.links:hover {
   font-size: 25px;
-  }
+}
 
-  .links:active {
+.links:active {
   color: red;
-  }
+}
 
-  h2 {
+h2 {
   font-size: 20px; margin-top: 3%;
-  }
+}
