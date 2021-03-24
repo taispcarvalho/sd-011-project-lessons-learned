@@ -3,7 +3,7 @@ body {
   font-family: fantasy, sans-serif;
   color: indigo;
   font-size: medium;
-  letter-spacing: normal;
+  line-height: 25px;
 }
 
 #cabecalho {
