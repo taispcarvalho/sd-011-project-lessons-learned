@@ -33,7 +33,7 @@ h2 {
 
 /** HEADER **/
 #cabecalho {
-  background-color: white;
+  background-color: rgb(247, 247, 247);
   width: 100%;
   height: 15vh;
   position: fixed;
@@ -64,7 +64,7 @@ nav li {
 
 /** CATEGORIAS **/
 .box {
-  background-color: white;
+  background-color: rgb(247, 247, 247);
   width: 55%;
   padding: 15px;
   margin-top: 150px;
@@ -155,7 +155,7 @@ td {
 
 /** RODAPE **/
 #rodape {
-  background: white;
+  background: rgb(247, 247, 247);
   height: 15vh;
   text-align: center;
   margin-top: 5%;
