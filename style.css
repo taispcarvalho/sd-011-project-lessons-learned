@@ -7,6 +7,7 @@ body {
   top: 0px;
   background-color: green;
   width: 100%;
+  z-index: 2;
 }
 
 #titulo {
@@ -105,4 +106,14 @@ aside {
 
 #licoes_aprendidas li , #licoes_a_aprender li {
   height: 25px;
+}
+
+h2 {
+  position: absolute;
+  margin-left: 500px;
+}
+
+#rodape {
+  position: relative;
+  top: 1000px;
 }
