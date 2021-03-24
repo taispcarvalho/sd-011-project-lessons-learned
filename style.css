@@ -13,7 +13,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  background-image: url('https://thumbs.dreamstime.com/b/fundo-verde-pastel-claro-22836856.jpg');
+  /**background-image: url('https://thumbs.dreamstime.com/b/fundo-verde-pastel-claro-22836856.jpg');**/
   background-size: 100%;
   width: 100%;
   text-align: center;
