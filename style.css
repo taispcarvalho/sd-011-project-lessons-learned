@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 a {
@@ -37,13 +38,23 @@ main , footer {
 
 footer {
   text-align: end;
+  clear: both;
+}
+
+span {
+  font-weight: 800;
 }
 
 #cabecalho {
+  width: 100%;
   position: fixed;
   top: 0;
-  z-index: 1;
-  background-color: black;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.89);
+}
+
+.nav ul li a {
+  padding: 10px;
 }
 
 #cabecalho h1 {
@@ -63,13 +74,23 @@ footer {
   width: 200px;
 }
 
-.container-header {
-  width: 100vh;
-  margin: 0 auto;
-}
-
 .nav {
   text-align: center;
+}
+
+.lado-esquerdo li {
+  color: rgb(184, 184, 184);
+  list-style: none;
+  width: 150px;
+  height: 150px;
+  float: left;
+  padding: 15px;
+  margin: 20px;
+  background-color: black;
+  line-height: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: 3px solid black;
 }
 
 .nav ul li {
@@ -77,12 +98,7 @@ footer {
   margin: 0 5px;
 }
 
-.nav ul li a {
-  padding: 10px;
-}
-
 .foto {
-  width: 900px;
   text-align: center;
   padding: 20px;
 }
@@ -92,7 +108,8 @@ footer {
   top: 50px;
   float: right;
   width: 300px;
-  height: 700px;
+  height: 1250px;
+  padding: 30px;
 }
 
 .lado-direito article {
@@ -104,7 +121,6 @@ footer {
   text-align: center;
 }
 
-
 .lado-esquerdo {
   position: relative;
   top: 50px;
@@ -114,25 +130,9 @@ footer {
   color: white;
 }
 
-.lado-esquerdo li {
-  color: rgb(131, 131, 131);
-  list-style: none;
-  width: 130px;
-  height: 130px;
-  float: left;
-  padding: 20px;
-  margin: 20px;
-  background-color: black;
-  line-height: 15px;
-  border-radius: 10px;
-  text-align: center;
-  padding: 20px;
-  border: 3px solid black;
-}
-
 .lado-esquerdo li:hover {
   border: 3px solid rgb(106, 255, 106);
-  font-weight: bolder;
+  font-weight: 800;
   color: white;
 }
 
@@ -155,11 +155,13 @@ footer {
 
 .tabela {
   float: left;
-  margin-top: 50px;
   text-align: center;
-  width: 900px;
 }
 
-.tabela h2 {
-  color: black;
+th , td {
+  padding: 5px 25px;
+}
+
+#rodape {
+  padding-top: 90px;
 }
