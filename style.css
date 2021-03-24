@@ -10,12 +10,11 @@ body {
 
 #navegacao {
   font-size: medium;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  
-}
+  font-family: Impact, sans-serif;
+  }
 
 #artigo aside {
   line-height: 20px;
   font-size: medium;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, sans-serif;
 }
