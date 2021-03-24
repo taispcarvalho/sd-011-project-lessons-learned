@@ -12,23 +12,36 @@ body {
 header {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
+  border: 2px solid black; 
+  width: 100%;
+  margin-left: 0px;
 }
 
-.lado-esquerdo {
-  text-align: justify;
-  margin-top: 10px;
-  width: 50%;
-  border: black 2px solid;
-  display: inline-block;
-  padding: 10px;
+img {
+  position: absolute;
+  border-radius: 100%;
+  margin-left: 900px;
 }
 
-.lado-direito {
+h1 {
+  text-align: center;
+}
+
+main {
+  margin-top: 150px; 
+}
+
+#elements {
+  display: flex;
+}
+
+.lado-esquerdo, .lado-direito {
   text-align: justify;
-  margin-top: 10px;
+  margin: 10px 10px;
   width: 50%;
   border: black 2px solid;
-  display: inline-block;
   padding: 10px;
 }
 
@@ -40,4 +53,22 @@ nav li {
 footer {
   background-color: black;
   color: aliceblue;
+  bottom: 0;
+}
+
+table {
+  margin-top: 10px;
+  border: 1px solid black;
+}
+
+#tabela th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #080101;
+  color: rgb(247, 242, 242);
+} 
+
+header ul  {
+  text-align: center;
 }
