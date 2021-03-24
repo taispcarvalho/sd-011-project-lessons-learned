@@ -4,9 +4,9 @@ body {
 }
 
 #cabecalho {
-  position:fixed;
-  top:0;
-  background-color:grey;
+  position: fixed;
+  top: 0;
+  background-color: grey;
   width: 100%;
 }
 
