@@ -22,11 +22,6 @@ h1, h2, h3 {
     margin-left: 40%;
 }
 
-#contact-me a {
-    display: inline-block;
-    padding: 10px 10px;
-}
-
 #about-me {
     margin-top: 140px;
     padding-left: 4%;
@@ -109,4 +104,9 @@ article {
     margin-right: 4%;
     text-align: justify;
     line-height: 20px;
+}
+
+#contact-me a {
+    color: black;
+    font-weight: 600;
 }
