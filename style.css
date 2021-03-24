@@ -5,6 +5,14 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: forestgreen;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
 }
 
 #minha_foto {
@@ -14,9 +22,10 @@ body {
 
 .nav {
   position: fixed;
-  margin-top: 80px;
+  margin-top: 65px;
+  margin-left: 30px;
+  left: 20px;
 }
-
 
 table, th, td {
   border: 1px solid black;
@@ -25,4 +34,7 @@ table, th, td {
 th, td {
   padding: 5px;
   text-align: center;    
+}
+th{
+  background-color: steelblue;
 }
