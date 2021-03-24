@@ -18,3 +18,12 @@ body {
   font-size: 50px;
   font-style: inherit;
 }
+
+#minha_foto {
+	position: absolute;
+	border-style: solid;
+	border-radius: 50%;
+	float: left;
+	right: 45%;
+	top: 110px;
+}
