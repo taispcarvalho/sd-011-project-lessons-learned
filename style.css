@@ -7,6 +7,7 @@ body {
   word-spacing: 2px;
 }
 
+
 #cabecalho {
   background-color: rgb(18, 146, 14);
   text-align: center;
@@ -17,9 +18,14 @@ body {
 
 }
 
+#minha_foto {
+  position: fixed;
+}
+
 #principal {
+  display: grid;
   margin-top: 125px;
-  margin-left: 50px;
+  margin-left: 19%;
   margin-right: 50px;
 }
 
@@ -35,10 +41,6 @@ body {
   width: 35%;
 }
 
-#minha_foto {
-  display:grid;
-}
-
 #licoes {
   display: inline-flex;
 }
@@ -50,7 +52,8 @@ body {
 }
 
 #rodape {
-  margin-top: 1%;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #navegacao {
