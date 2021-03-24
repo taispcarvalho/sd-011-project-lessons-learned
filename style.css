@@ -93,7 +93,7 @@ main {
   margin-block-end: 100px; */
   position: relative;
   align-items: center;
-  top: 5vw;
+  top: 2vw;
   left: auto;
   right: auto;
   box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.384);;
@@ -104,7 +104,7 @@ main {
   max-width: 30%;
   height: auto;
   position: relative;
-  top: 18vw;
+  top: 15vw;
   box-shadow: 4px 5px 10px rgba(0, 0, 0, 0.384);
   /* margin-block-start: 200px;
   margin-block-end: 300px; */
@@ -118,10 +118,21 @@ main {
 }
 
 aside {
-  background-color: green;
+  margin-top: 20px;
+  border-left: black solid 3px;
   width: 25%;
+  height: 700px;
   padding: 10px;
+  text-align: right;
+  line-height: 25px;
 }
+
+aside p {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+
 
 .aprendi {
   line-height: 30px;
@@ -155,6 +166,7 @@ aside {
   border: black solid 2px;
   margin-left: -40px;
   margin-bottom: 2px;
+  font-size:calc(5px + 1vw);
 }
 
 .aprender li:hover {
@@ -181,7 +193,7 @@ aside {
   background-size: cover;
   height: 180px;
   position: relative;
-  top: 960px;
+  top: 1000px;
   border-bottom: black solid 20px;
   box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.096);
 }
