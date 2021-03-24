@@ -196,12 +196,18 @@ aside p {
   top: 1000px;
   border-bottom: black solid 20px;
   box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.096);
+  box-sizing: border-box;
+  padding: 50px;
+  color: white;
+  font-size: 36px;
+  font-weight: lighter;
 }
 
 footer img {
-  width: 20px;
+  width: 40px;
 }
 
-th {
-  left: 10px;
+th  {
+  display: inline-block;
+  margin-left: 40px;
 }
