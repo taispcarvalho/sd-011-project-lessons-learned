@@ -1,55 +1,91 @@
-body { background-color: rgb(253, 251, 251); font-family: Arial, Helvetica, sans-serif; text-align: justify; color: royalblue; }
+body {
+    background-color: rgb(253, 251, 251); font-family: Arial, Helvetica, sans-serif; 
+    text-align: justify; color: royalblue;
+}
 
-h1 { color: black;}
+h1 {
+    color: black;
+}
 
-header { position: fixed; top: 0; background-color: green;; padding: 2%; border-style: double; text-align: center; margin: 0.5%; }
+header {
+    position: fixed;top: 0; background-color: green;; padding: 2%; border-style: double; text-align: center; margin: 0.5%;
+}
 
-#minha_foto { border-radius: 15%; margin: 3% 40% 0; }
+#minha_foto {
+    border-radius: 15%; margin: 3% 40% 0;
+}
 
-p { margin: 2%; padding: 2%; } 
+p {
+    margin: 2%; padding: 2%;
+} 
 
-article.lado-direito { display: inline-block; margin-right: 45%; margin-left: 2%; padding: 0; }
+article.lado-direito {
+    display: inline-block; margin-right: 45%; margin-left: 2%; padding: 0;
+}
 
-aside.lado-esquerdo { display: inline-block; padding: 0; margin: -30% 20% 5% 65%;}
+aside.lado-esquerdo {
+    display: inline-block; padding: 0; margin: -30% 20% 5% 65%;
+}
 
-main { font-size: 20px; }
+main {
+    font-size: 20px;
+}
 
-.habilidades { text-align: justify; margin: -5% 3%; }
+.habilidades {
+    text-align: justify; margin: -5% 3%;
+}
 
-ol { margin-left: 40%;}
+ol {
+    margin-left: 40%;
+}
 
-table { margin-left: 25%; }
+table {
+    margin-left: 25%;
+}
 
-table th { padding: 3%; font-family: sans-serif }
+table th {
+    padding: 3%; font-family: sans-serif
+}
 
-.licoes_futuras { margin: 8%; }
+.licoes_futuras {
+    margin: 8%;
+}
 
-.contato { text-align: center; }
+.contato {
+    text-align: center;
+}
 
-.contato { list-style: none; font-size: 20px; }
+.contato {
+    list-style: none; font-size: 20px;
+}
 
-footer { text-align: center; }
+footer {
+    text-align: center;
+}
 
-footer p { margin-left: 4%; }
+footer p {
+    margin-left: 4%;
+}
 
-nav { margin: 13% 0 0 0; padding: 0; font-size: 20px;}
+nav {
+    margin: 13% 2% 0 2%; padding: 0.5%; font-size: 20px; background-image: url("https://image.freepik.com/vetores-gratis/plano-de-fundo-verde-abstrato-geometrico_23-2148359494.jpg"); 
+}
 
-nav ul li { list-style: none; display:inline; padding: 5%;}
+nav ul li {
+    list-style: none; display:inline; padding: 5%;
+}
 
-.links { text-decoration: none; }
+.links {
+    text-decoration: none;
+    color:blanchedalmond;
+}
 
-.links:hover { font-size: 25px; }
+.links:hover {
+    font-size: 25px;
+}
 
-.links:active { color: red }
-
-
-
-
-
-
-
-
-
+.links:active {
+    color: red;
+}
 
 
- 
