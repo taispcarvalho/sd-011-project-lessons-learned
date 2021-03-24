@@ -4,7 +4,6 @@ body {
   font-size: medium;
   color: blueviolet;
   line-height: auto;
-
 }
 
 #cabecalho {
@@ -15,7 +14,6 @@ body {
 #rodape {
   margin: 5px;
   padding-bottom: 50px;
-  border-bottom: 5px;
   background-color: aqua;
 }
 
@@ -24,4 +22,19 @@ body {
   border="5px"
 }
 
+main {
+  
+}
 
+#aside {
+  width: 50%;
+  float: right;
+}
+
+.artigo {
+  width: 50%;
+}
+
+main {
+  display:inline-block;
+}
