@@ -6,7 +6,7 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: monospace;
   font-size: 17px;
-  letter-spacing: 2px;
+  line-height: 1.8;
 }
 
 #cabecalho {
@@ -50,7 +50,7 @@ header nav ul li {
   margin-top: 60px;
 }
 
-.content-side{
+.content-side {
   display: inline-block;
 }
 
@@ -68,7 +68,7 @@ header nav ul li {
 }
 
 footer {
-  background-color: #DCCFEC;
+  background-color: rgb(158, 157, 157);
   position: relative;
   padding: 50px;
   text-align: center;
