@@ -1,5 +1,9 @@
 body{
     background-color: rgb(253, 251, 251);
+    font-size: medium;
+    color: rgb(68, 66, 66);
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
 }
 
 .header{
