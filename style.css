@@ -17,7 +17,35 @@ body {
 }
 
 #pagina {
-  margin-top: 135px;
+  margin-top: 125px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.lado-esquerdo, .lado-direito {
+  display: inline-block;
+  width: 350px;
+}
+
+.artigo {
+  background-color: blue;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.lado-esquerdo {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: red;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.lado-direito {
+  padding-top: 100px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  background-color: red;
   margin-left: 50px;
   margin-right: 50px;
 }
