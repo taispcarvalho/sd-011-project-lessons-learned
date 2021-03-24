@@ -12,18 +12,20 @@ header {
   background-color: green;
   position: fixed;
   z-index: 1;
-  height: 100px;
+  height: 105px;
   width: 100%;
   box-sizing: border-box;
   padding-top: 20px;
 }
 
 header nav {
-  background-color: blue;
+  background-color: gray;
   top: 70px;
-  height: 30px;
+  height: 35px;
   position: absolute;
   width: 100%;
+  box-sizing: border-box;
+  
 }
 
 header h1 {
@@ -32,6 +34,23 @@ header h1 {
 
 header nav ul li {
   display: inline-block;
+  height: 100%;
+  margin-right: 80px;
+  padding-top: 9px;
+  box-sizing: border-box;
+}
+
+header nav ul {
+  height: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  
+  height: 100%;
+  
 }
 
 main {
@@ -57,18 +76,38 @@ main {
 }
 
 #main-content {
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
   width: 50%;
   text-align: center;
   padding: 30px;
+  margin-top: 50px;
+  height: auto;
 }
 
-#main-content img {
+
+
+#minha_foto {
   border-radius: 100%;
   max-width: 30%;
   height: auto;
-  margin-block-start: 60px;
-  margin-block-end: 100px;
+  /* margin-block-start: 30px;
+  margin-block-end: 100px; */
+  position: relative;
+  align-items: center;
+  top: 5vw;
+  left: auto;
+  right: auto;
+}
+
+#minha_foto_sec {
+  border-radius: 100%;
+  max-width: 30%;
+  height: auto;
+  position: relative;
+  top: 18vw;
+  
+  /* margin-block-start: 200px;
+  margin-block-end: 300px; */
 }
 
 #main-content p {
@@ -85,6 +124,7 @@ aside {
 
 .aprendi {
   line-height: 30px;
+  margin-top: 10px;
 }
 
 .aprendi ol { 
@@ -128,4 +168,18 @@ aside {
   background-color: rgb(0, 99, 0);
   color: white;
   font-weight: bolder;
-} 
+}
+
+#licoes h2 {
+  margin-bottom: 10px;
+  border-left: 4px solid green;
+}
+
+#rodape {
+  background-color: gray;
+  background-size: cover;
+  height: 180px;
+  position: relative;
+  top: 960px;
+  border-bottom: black solid 40px;
+}
