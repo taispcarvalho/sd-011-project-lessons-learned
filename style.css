@@ -2,6 +2,14 @@ body{
   background-color: rgb(253, 251, 251);
   padding-left: 0%;
   margin: 30 auto;
+  line-height: 1,5;
+}
+h2{
+  font-family: 'Ranchers', cursive;
+  font-size: 20px;
+  letter-spacing: 2px;
+  margin-top: 20px;
+  text-align: center;
 }
 #cabecalho{
   background-color:#CA075B;
@@ -25,47 +33,54 @@ body{
   text-align: center;
   text-decoration: none;
   padding: 15px;
-  margin-top: 150px;
+  margin-top: 100px;
   width: 200px;
   display: inline-block;
 }
+#table, th, td {
+  font-size: 16px;
+  padding: 15px;
+  border: 3px solid #CA075B;
+  margin: auto auto 20px auto;
+}
+
 #minha_foto {
   border-radius: 100%;
   width: 200px;
-}
-#meu_aprendizado{
-  text-align: center;
-  width: 80%;
+  margin: auto auto 20px auto;
+  display: inline-block;
 }
 #conteiner{
-  width: 600px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding-left: 20px;
+  margin: auto auto 20px 70px;
+  border: 2px solid #CA075B;
+  width: 1200pxx;
   display: inline-block;
-
+}
+#meu_aprendizado {
+  text-align:justify;
+  font-size: 20px;
+  padding-left: 20px;
+  width: 350px;
+  display: inline-block;
 }
 #licoes_aprendidas{
-  background-color: yellow;
-  width: 80%
+  font-size: 16px;
+  width: 450px;
   display: inline-block;
-}
+  }
 #licoes_a_aprender{
-  background-color: tomato;
-  width: 80%
+  width: 450px;
   display: inline-block;
 }
-
-h2{
+#aside{
   text-align: center;
+  font-size: 20px;
 }
 .images_link{
   display: inline-block;
   width: 50px;
-}
-#table, th, td {
-  border: 5px solid #CA075B;
-  margin: 25px 50px 50px 75px
-  
+  margin: auto 10px 20px auto;
 }
 #rodape {
   background-color: #CA075B;
