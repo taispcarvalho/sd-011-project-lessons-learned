@@ -1,15 +1,17 @@
-body {background-color: rgb(253, 251, 251);
+body {
+  background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 * {
-  font-family: ' Lucida Sans ', sans-serif;
-  top: 0;
   margin: 0;
 }
 
 #cabecalho {
+  font-family: Arial , sans-serif;
+  color: aliceblue;
   display: inline-block;
-  background-color: blue;
+  background-color: grey;
   top: 0;
   position: fixed;
   width: 100%;
@@ -31,7 +33,7 @@ h1 {
   margin-top: 100px;
 }
 
-#linkedin {
+#linkname {
   display: block;
   position: relative;
   top: 50px;
@@ -99,6 +101,4 @@ table , th , td {
 
 footer {
   text-align: center;
-  top: -250px;
-  position: relative;
 }
