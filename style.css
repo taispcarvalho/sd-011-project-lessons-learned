@@ -10,3 +10,11 @@ body {
   position: fixed;
   top: 0%;
 }
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
