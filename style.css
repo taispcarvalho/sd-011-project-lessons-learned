@@ -53,9 +53,33 @@ main {
   margin: 20px 0;
 }
 
+#licoes {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.list_box {
+  display: inline-block;
+  width: 30%;
+  border: 3px solid rgb(47, 193, 140);
+  margin: 20px;
+  padding: 10px 50px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.list_box h3 {
+  color: rgb(47, 193, 140);
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgb(47, 193, 140);
+}
+
 #rodape {
-  position: fixed;
-  bottom: 0;
   width: 100%;
-  padding: 20px;
+  background-color: rgb(3, 107, 82);
+  color: white;
+  padding: 20px 100px 10px;
+  font-size: 15px;
 }
