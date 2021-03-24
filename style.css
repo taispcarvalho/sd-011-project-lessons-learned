@@ -2,7 +2,7 @@
   margin: 0;
   border: 0;
   padding: 0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   z-index: 0;
   color: rgb(43, 40, 36);
   line-height: 25px;
@@ -28,7 +28,6 @@ body {
   margin: 20px;
   padding-top: 100px;
   padding-left: 30px;
-
 }
 
 #link-nav #link {
@@ -54,7 +53,6 @@ body {
   position: absolute;
   padding-top: 25px;
   padding-left: 40px;
-
 }
 
 #lists-box {
@@ -85,9 +83,20 @@ body {
 }
 
 #rodape {
-position: absolute;
+  position: absolute;
 }
 
 #phase_footer {
   padding: 750px 0 20px 30px;
+}
+
+#table {
+  position: absolute;
+  padding-left: 1080px;
+  padding-top: 150px;
+}
+
+.fonts {
+  font-family: fantasy;
+  font-size: 1.8em;
 }
