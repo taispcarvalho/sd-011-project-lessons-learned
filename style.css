@@ -5,12 +5,18 @@ body {
 header {
   position: fixed;
   top: 0px;
-  background-color: #B7526F;
+  background-color: #b7526f;
   width: 100%;
 }
+
 #titulo {
   text-align: center;
 }
-#minha_foto{
+
+#minha_foto {
   border-radius: 100%;
+}
+
+#titulo{
+  color: #edd4db;
 }
