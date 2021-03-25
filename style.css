@@ -3,6 +3,7 @@ body {
   }
 #cabecalho {
   background-color: purple;
+  border: 05px solid black;
   width: 100%;
   position: fixed; 
   top: 0px;
@@ -19,7 +20,16 @@ body {
       
   }
 article {
-  top: 500px;
+    position: relative;
+    left: -20px;
+    width: 800px;
+    border: 05px solid black;
+    padding: 30px;
+    margin: 20px;
+    background-color: purple;
+    color: white;
+    
+    
   }
 
 #minha_foto {
@@ -27,26 +37,36 @@ article {
   width: 400px;
   }
 #licoes_aprendidas {
-  position: absolute;
-  z-index: 3;
-  ;
-      
-  } 
+   z-index: 3;
+  float: left;
+  }
+#licoes_a_aprender{
+  position: relative;
+  left: 150px;
+  top: -40px;
+}
+#desejo{
+  position: relative;
+  top: -47px;
+  left: 80px;
+}
+ 
 nav{
    float: right;
     width: 400px;
-    border: 05px solid purple;
+    border: 05px solid black;
     padding: 30px;
     margin: 20px;
-  
-} 
+    background-color: purple;
+    color: white;
+   } 
 #experiencias {
-text-align: center;
+text-align: left;
 }
 aside{
     float: right;
     width: 30%;
-    text-align: center;
+    text-align: left;
 }
 table, th, td {
   border: 05px solid black;
