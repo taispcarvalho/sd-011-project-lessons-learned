@@ -123,7 +123,7 @@ main {
 
 #portfolio {
   padding: 20px;
-  background-image: linear-gradient(to right, white, #3dc18d, white);
+  background-image: linear-gradient(to right, white, rgb(61, 193, 140), white);
   border-radius: 10px;
   margin-bottom: 30px;
 }
