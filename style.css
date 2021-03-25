@@ -36,12 +36,12 @@ body {
   border-radius: 100%;
 }
 
-#quem_sou_eu {
+/**#quem_sou_eu {
   padding-top: 160px;
   text-align: center;
-}
+}**/
 
-/**#quem_sou_eu table {
+#quem_sou_eu table {
   max-width: 300px;
   margin: auto;
 }
