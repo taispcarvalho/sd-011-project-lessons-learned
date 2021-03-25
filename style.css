@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
   font-family: monospace;
@@ -14,18 +19,34 @@ h1 {
 
 h2 {
   font-family: monospace;
+  text-align: center;
 }
 
 #cabecalho {
-  top: 0;
-  font-size: medium;
   background-color: rgb(181, 197, 178);
-  margin-bottom: 1px;
+  position:fixed;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  top: 0;
 }
 
-.lado-esquerdo {
+#cabecalho h1 {
+  margin-bottom: 10px;
+}
+
+#cabecalho a {
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+.lado-esquerdo  {
   display: inline-block;
-  width: 8cm;
+  width: 9cm;
   height: 4cm;
   margin: 2px;
   padding: 2px 3px;
@@ -38,7 +59,8 @@ h2 {
   height: 4cm;
   margin: 2px;
   padding: 2px 3px;
-  border: 3px;  
+  border: 3px;
+  
 }
 
 section {
@@ -48,26 +70,28 @@ section {
 
 ul , ol {
   font-family: monospace;
-  font-size: 15px;  
+  font-size: 15px;
+  text-align: center;
 }
 
-
-
-nav {
+nav ul li {
   background-color: transparent;
+  display: inline-block;
+  margin-right: 10px;
+  font-family: monospace;
+  font-size: larger;
 }
 
 img {
   height: 10cm;
-  width: 25cm;
-  margin-right: auto;
-  margin-left: auto;
-  
+  width: 20cm;
 }
 
-.lista { 
+.lista {
   display: inline-block;
   margin: 1cm;
+  text-align: center;
+
 }
 
 main {
@@ -77,14 +101,20 @@ main {
   width: min-content;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;
+footer {
+  text-align: center;
 }
 
-  table {
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+#cabecalho a:hover {
+  color: darkgreen
+}
+
+#cabecalho a {
+  color: darkred
 }
