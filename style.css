@@ -2,13 +2,29 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+nav {
+margin-left: 70px;
+}
+
+article {
+  margin-left: 70px;
+}
+
+aside {
+  margin-left: 70px;
+}
+
+section {
+  margin-left: 70px;
+}
+
 header {
   position: fixed;
   top: 0%;
-}
-
-#titulo {
   color: green;
+  margin-left: 500px;
+  margin-right: auto;
+  width: 700 px;
 }
 
 table {
