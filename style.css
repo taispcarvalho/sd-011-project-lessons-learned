@@ -50,12 +50,12 @@ body {
   display: inline-block;
 }
 
- article {
+.lado-esquerdo {
   float: left;
   width: 65%;
 }
 
-aside {
+.lado-direito {
   float: right;
   width: 15%;  
 }
