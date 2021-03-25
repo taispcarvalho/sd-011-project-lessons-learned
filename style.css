@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  width: 100%;
 }
 
 #cabecalho {
@@ -17,9 +18,9 @@ body {
 }
 
 nav {
-  position: relative;
+  position: absolute;
   width: 100%;
-  top: 27px;
+  top: 40px;
 }
 
 nav ul {
@@ -43,23 +44,45 @@ main {
   top: 80px;
 }
 
-main figure {
+main#section_art {
   position: relative;
+  background-color: royalblue;
+  width: 500px;
+  height: 1000px;
+  margin-left: 300px;
+  margin-right: 200px;
+}
+
+main section figure {
+  position: absolute;
 }
 
 #minha_foto {
   position: absolute;
   border-radius: 200px;
-  float: left;
+  float: right;
 }
 
-main figure figcaption {
+main section figure figcaption {
   position: absolute;
   font-family: monospace;
   font-size: 10pt;
   font-weight: bold;
-  top: 320px;
+  top: 330px;
   left: 55px;
+  width: 200px;
+}
+
+#artigo1 h2 {
+  position: absolute;
+  margin-top:0px;
+}
+
+#artigo1 {
+  position: absolute;
+  margin-left: 500px;
+  margin-right: 650px;
+  margin-top: 150px;
 }
 
 aside {
@@ -106,11 +129,6 @@ aside {
 
 #licoes_aprendidas li , #licoes_a_aprender li {
   height: 25px;
-}
-
-h2 {
-  position: absolute;
-  margin-left: 500px;
 }
 
 #rodape {
