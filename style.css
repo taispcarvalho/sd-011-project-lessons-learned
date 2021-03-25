@@ -24,7 +24,7 @@ body {
 .parte-principal {
   display: inline-block;
   margin: 70px 0 5px 5px;
-  width: 100%;
+  width: 99%;
 }
 
 .foto-nome {
@@ -36,25 +36,37 @@ body {
   border-radius: 5%;
   display: inline-block;
   width: 260px;
+  margin-left: 70px;
+}
+
+.titulo_listas {
+  padding: 5px 5px 8px 5px;
+  text-align: center;
 }
 
 .lista_ordenada {
   margin: 5px;
-  padding-left: 40px;
+  padding: 10px 40px 10px 40px;
   display: inline-block;
-  width: 220px;
+  width: 240px;
   position: absolute;
+  top: 70px;
+  left: 370px;
+  border: 1px solid black;
+  background-color: lightgray;
 }
 
 .lista_nao_ordenada {
   margin: 5px;
-  padding: 10px 10px 10px 40px;
+  padding: 10px 40px 10px 40px;
   display: inline-block;
   width: 305px;
   position: absolute;
   top: 70px;
-  left: 720px;
+  left: 700px;
   border: 1px solid black;
+  background-color: lightgray;
+
 }
 
 .tabela_sobre_documentação {
@@ -67,6 +79,18 @@ body {
   text-align: center;
 }
 
+#aside_inspiracao {
+  margin-left: 15px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  left: 1090px;
+  top: 170px;
+  width: 237px;
+  border: 1px solid black;
+}
+
 table, th, td {
   border: 1px solid black;
 }
@@ -75,29 +99,58 @@ table, th, td {
   width: inherit;  
 }
 
+#titulo_artigo1 {
+  text-align: center;
+  padding: 5px;
+  background-color: lightgreen;
+}
+
 .artigo_aprendizado_na_trybe {
-  margin-left: 15px;
-  padding-left: 15px;
+  width: 49%;
+  background-color: lightgray;
+  display: inline-block;
+  position: absolute;
+  top: 350px;
+  left: 10px;
 }
 
 #paragrafo_aprendizado {
   text-indent: 50px;
 }
 
-.artigo_aside_uma_passagem_do_aprendizado {
-  margin-left: 15px;
+#fato_interessante {
+  text-align: center;
+  background-color: lightgreen;
   padding: 5px;
+}
+
+.artigo_aside_uma_passagem_do_aprendizado {
+  width: 49%;
+  background-color: lightgrey;
+  display: inline-block;
+  position: absolute;
+  left: 688px;
+  top: 350px;
 }
 
 #paragrafo_passagem_de_um_aprendizado {
   text-indent: 50px;
 }
 
-#aside_inspiracao {
-  margin-left: 15px;
-  padding-left: 15px;
+#rodape {
+  position: fixed;
+  overflow: hidden;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  background-color: cadetblue;
 }
 
-#rodape {
-  text-align: center;
+#inspiracao_nome {
+  text-decoration: none;
+}
+
+#inspiracao_nome:hover {
+  color: blue;
+  text-decoration: underline;
 }
