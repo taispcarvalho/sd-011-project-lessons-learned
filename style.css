@@ -134,4 +134,21 @@ aside {
 #rodape {
   position: relative;
   top: 1000px;
+  width: 100%;
+}
+
+#rodape ul {
+  position: absolute;
+  background-color: rgb(75, 15, 4);
+  color: white;
+  width: 100%;
+  text-align: center;
+  height: 25px;
+  padding-top: 5px;
+}
+
+#rodape ul li {
+  display: inline;
+  margin-right: 50px;
+  margin-top: 50px;
 }
