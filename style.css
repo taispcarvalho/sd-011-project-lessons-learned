@@ -9,6 +9,10 @@ body {
   left: 0px;
   z-index: 1;
   }
+  a{
+   color: black;
+   font-family: monospace;
+  }
 #pic {
   left: 0px;
       
@@ -25,11 +29,29 @@ article {
   position: absolute;
   z-index: 3;
       
-  }  
+  } 
+section{
+   float: right;
+    width: 400px;
+    border: 05px solid purple;
+    padding: 30px;
+    margin: 20px;
+  
+} 
+#experiencias {
+text-align: center;
+}
 aside{
     float: right;
     width: 50%;
     
+}
+table, th, td {
+  border: 05px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+  background-color:purple;
+  color: white;
 }
 footer {
   position: fixed;
