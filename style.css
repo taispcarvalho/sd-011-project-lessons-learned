@@ -4,11 +4,12 @@ body{
 
 #cabecalho {
     position: fixed;
-    margin-top: 0px;
+    top: 0px;
 }
 
 
-#titulo {
+
+ #titulo {
     text-align: center;
 }
 
@@ -21,4 +22,8 @@ body{
 
 #rodape {
 	text-align: center;
+}
+
+.div-cabecalho{
+	background: red;
 }
