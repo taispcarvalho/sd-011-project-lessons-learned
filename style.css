@@ -32,20 +32,19 @@ img {
   width: 240px;   
   border-radius: 50%;
   border: solid 3px;
-  margin: 10px;
+  margin: 10px;  
 }
 
-ol {  
-  top: 500px;
+#licoes_aprendidas {
+  width: 250px;
+  height: 250px;
+  padding: 0 50px;
 }
 
-ul {  
-  top: 500px;
-  left: 300px;
-}
-
-article {  
-  top: 750px;   
+#licoes_a_aprender {
+  width: 250px;
+  height: 250px;
+  padding: 0 50px;
 }
 
 footer {  
