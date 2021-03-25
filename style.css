@@ -29,14 +29,18 @@ margin-left: 5%;
   margin-left: 5%;
 }
 
-#navigation {
-  display: inline;
+.lado_direito, .lado_esquerdo{
+  display: inline-block;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: -5px 5px 9px -1px rgba(0, 0, 0, 0.87);
 }
 
 .lado_direito {
-
+  width: 500px;
 }
 
 .lado_esquerdo {
-
+  width: 600px;
 }
