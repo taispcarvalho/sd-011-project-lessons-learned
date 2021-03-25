@@ -8,19 +8,19 @@ body {
   margin-right: 0;
 }
 
-#cabecalho {
+/**#cabecalho {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   width: 100%;
   text-align: center;
-}
+}**/
 
-/**#cabecalho ul {
+#cabecalho ul {
   list-style: none;
   text-decoration: none;
-}**/
+}
 
 #cabecalho a {
   text-decoration: none;
