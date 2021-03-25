@@ -35,11 +35,12 @@ nav {
   margin-bottom: 10px;
 }
 
-.nav li {
+.nav ul li {
   display: inline-block;
   margin-left: 90px;
   margin-right: 200px;
   color: rgb(114, 134, 134);
+  bottom: 50%;
 }
 
 .lado-esquerdo {
@@ -58,18 +59,23 @@ nav {
 
 .listas {
   display: inline-block;
-  margin-left: 20px;
-  max-width: 100%;
+  margin-left: 10px;
+  width: 100%;
 }
 
 #licoes_aprendidas {
+  display: inline-block;
   padding: 20px;
-  width: 50%;
+  width: 30%;
+  
+  margin-right: 10px;
 }
 
 #licoes_a_aprender {
+  display: inline-block;
   padding: 20px;
-  width: 40%;
+  width: 20%;
+  margin-right: auto;
 }
 
 article {
@@ -91,12 +97,20 @@ aside {
 }
 
 table {
-  text-align: center;
-  display: block;
-  margin: auto;
-  border: 1px solid black;
+  text-align: justify;
+  margin-left: 30px;
   width: 50%;
-  bottom: 20px;
+  bottom: 30px;
+  border-collapse: collapse;
+}
+
+td , th {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+th{
+  text-align: center;
 }
 
 #rodape {
