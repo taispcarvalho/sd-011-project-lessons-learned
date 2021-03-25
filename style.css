@@ -69,3 +69,8 @@ table , td , th {
 h3 {
   padding: 10px;
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
