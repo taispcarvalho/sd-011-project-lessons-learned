@@ -2,8 +2,13 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+p {
+  color: rgb(24, 80, 24);
+}
+
 h1 {
   font-family: monospace;
+  color: black;
 }
 
 h2 {
@@ -13,32 +18,27 @@ h2 {
 #cabecalho {
   top: 0;
   font-size: medium;
+  background-color: rgb(181, 197, 178);
+  margin-bottom: 1px;
 }
 
-#artigo {
+.lado-esquerdo {
   display: inline-block;
-  padding: 10px;
-  border: 10px;
-  margin: 10px;
+  width: 8cm;
+  height: 4cm;
+  margin: 2px;
+  padding: 2px 3px;
+  border: 3px;
 }
 
-#passagem {
+.lado-direito {
   display: inline-block;
-  padding: 10px;
-  border: 10px;
-  margin: 10px;
-}
-
-aside p {
-  color: rgb(24, 80, 24);
-  font-size: larger;
-  font-family: monospace;
-}
-
-article p {
-  color: rgb(24, 80, 24);
-  font-size: larger;
-  font-family: monospace;
+  width: 8cm;
+  height: 4cm;
+  margin: 2px;
+  padding: 2px 3px;
+  border: 3px;
+  
 }
 
 section {
@@ -48,12 +48,24 @@ section {
 
 ul , ol {
   font-family: monospace;
-  font-size: 15px;
-  
+  font-size: 15px;  
 }
 
 #tabela {
   font-family: monospace;
-  font-size: 18px;
-  color: rgb(24, 80, 24);
+  font-size: 20px;
+}
+
+nav {
+  background-color: transparent;
+}
+
+img {
+  height: 10cm;
+  width: 25cm;
+}
+
+.lista { 
+  display: inline-block;
+  margin: 1cm;
 }
