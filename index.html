@@ -11,17 +11,22 @@
     <header id="cabecalho">
         <img src="Images/Gabriela-Feijo.jpeg" id="minha_foto" alt="foto de Gabriela Feijó sorrindo, com uma blusa azul e com um fundo verde desfocado">
         <h1 id="titulo">Gabriela Feijó - Lessons Learned</h1>
-            <nav class="nav">
-                <ul class="nav">
-                    <li class="nav"><a href="">Home</a></li>
-                    <li class="nav"><a href="">About</a></li>
-                    <li class="nav"><a href="">Lições</a></li>
-                </ul>
-            </nav>
     </header>
 
+    <nav class="nav">
+        <ul class="nav">
+            <li class="nav"><a href="index.html">Home</a></li>
+            <li class="nav"><a href="#Meu-aprendizado">Meu Aprendizado</a></li>
+            <li class="nav"><a href="#table">Tabela Comparativa</a></li>
+        </ul>
+    </nav>
+
     <main>
-    <section class="listas">
+        <article class='lado-esquerdo' >
+            <h3 id='Meu-aprendizado'>Meu aprendizado</h3>
+            <p >Até o momento aprendemos bastante sobre HTML e CSS, também tivemos aulas sobre Git e GitHub. O próximo passo será o JavaScript. Em HTML aprendemos a fazer uma estrutura base utilizando tags como head e body. Por sua vez, aprendemos a estilizar essa estrutura com o CSS, linkando os dois para que os estilos sejam aplicados no site.<br>De um modo geral estou bastante animada e com muita vontade de aprender.</p>   
+        
+        <section class="listas">
         <h2>Lições aprendidas</h2>
             <ol id="licoes_aprendidas">
                 <li>Unix</li>
@@ -35,8 +40,7 @@
                 <li>HTML & CSS - Seletores e posicionamento</li>
                 <li>HTML Semântico</li>
             </ol>
-    </section>
-    <section class="listas">
+        
         <h2>Lições a aprender</h2>
             <ul id="licoes_a_aprender">
                 <li>JavaScript</li>
@@ -50,10 +54,9 @@
                 <li>Eventos</li>
                 <li>JavaScript - Array e loop For</li>
             </ul>
-    </section>
-    <a href="https://achecker.ca/checker/index.php" target="_blank">Site achecker</a>
-    
-    <table id="table">
+        </section>
+        </article>
+        <table id="table">
             <tr>
                 <td><strong> 1ª Coluna</strong></td>
                 <td><strong> 2ª Coluna</strong></td>
@@ -70,15 +73,15 @@
                 <td>Conteúdo 1 linha (c)</td>
                 <td>Conteúdo 2 linhas (c)</td>
             </tr>
-    </table>
-    <article>
-        <h3>Meu aprendizado</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat enim voluptates ut exercitationem officiis a maiores saepe ipsam blanditiis? Adipisci eveniet exercitationem iusto, blanditiis corporis quam sint doloremque architecto soluta? Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur magnam enim minima, minus beatae soluta ab qui? Eaque, quas accusamus recusandae sapiente veniam nostrum explicabo tenetur corrupti? </p>   
-    </article>
-    <aside>
-        <p>Estou gostando muitíssimo de estudar na Trybe. Tento codar pelo menos um pouco todos os dias. Espero aprender cada vez mais.</p>
+        </table>
+            
+    <aside class='lado-direito'>
+        <h3>Como estou fazendo?</h3>
+        <p>Estou gostando muitíssimo de estudar na Trybe. Tento codar pelo menos um pouco todos os dias e criar uma boa rotina de conteúdo e prática. Espero aprender cada vez mais.</p>
+        <a href="https://gabrielafeijo.github.io/" target="_blank">Confere aqui o meu portfólio no GitHub</a>
+        </section>
     </aside>
-</main>
+    </main>
 <footer id="rodape"><strong>Esta página foi criada por Gabriela Feijó, 2021</strong></footer>
 </body>
 </html>
