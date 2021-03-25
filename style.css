@@ -46,9 +46,14 @@ section {
   font-size: larger;
 }
 
-td , ul , ol {
+ul , ol {
   font-family: monospace;
   font-size: 15px;
-  font: bold;
+  
 }
 
+#tabela {
+  font-family: monospace;
+  font-size: 18px;
+  color: rgb(24, 80, 24);
+}
