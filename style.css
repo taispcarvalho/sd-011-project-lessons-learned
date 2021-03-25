@@ -5,7 +5,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(255, 0, 0);
+  background-color: red;
   display: inline;
 }
 
@@ -13,7 +13,7 @@ body {
   width: 20%;
   margin-top: 100px;
   border-radius: 10px;
-  border: 2px solid #000;
+  border: 2px solid black;
 }
 
 #link-externo {
