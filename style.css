@@ -47,6 +47,9 @@ body {
   margin-left: 50px;
   background: rgba(128, 128, 128, 0.199);
   width: 300px;
+  line-height: 23px;
+  text-align: justify;
+  padding: 10px;
 }
 
 .minha_foto {
@@ -67,7 +70,7 @@ span {
   color: green;
 }
 
-section.licoes {
+.licoes {
   margin-top: 100px;
   margin-left: 350px;
   display: inline-block;
@@ -83,11 +86,63 @@ section.licoes {
 }
 
 .aside {
- width: 500px;
- float: right;
- margin-right: 500px;
+  width: 500px;
+  float: right;
+  margin-right: 500px;
 }
 
 .container {
   margin-top: 100px;
+}
+
+.rodape {
+  margin-top: 100px;
+}
+
+.fname {
+  display: block;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: rgba(128, 128, 128, 0.199);
+}
+
+.femail {
+  display: block;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  background: rgba(128, 128, 128, 0.199);
+}
+
+.fmsg {
+  display: block;
+  width: 400px;
+  border-radius: 10px;
+  padding: 5px;
+  resize: none;
+  background: rgba(128, 128, 128, 0.199);
+}
+
+.form {
+  margin-left: 300px;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+.direitos {
+  text-align: center;
+  background: green;
+  height: 40px;
+  font-weight: 900;
+  font-size: 20px;
+  color: whitesmoke;
 }
