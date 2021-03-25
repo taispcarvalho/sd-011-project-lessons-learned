@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 html {
   font-family: Candara, sans-serif;
 }
@@ -24,26 +29,36 @@ body {
 
 #aside-main-container {
   display: flex;
-  margin-top: 60px;
+  margin-top: 54px;
+  border: 1px solid #000;
 }
 
 #aside-main-container aside {
   width: 250px;
-  border-right: 2px solid;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 #aside-main-container aside ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
   text-align: center;
+}
+
+.section-wrapper section {
+  display: inline-block;
 }
 
 #licoes_aprendidas li , #licoes_a_aprender li {
   line-height: 30px;
+}
+
+#article-section-container {
+  display: flex;
+}
+
+main ul , main ol {
+  list-style: none;
 }
 
 figure {
@@ -56,7 +71,7 @@ figure img {
 }
 
 main {
-  width: 100%;
+  border: 1px solid #000;
 }
 
 footer {
