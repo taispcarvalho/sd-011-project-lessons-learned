@@ -18,20 +18,15 @@ body {
   background-image: url(https://thumbs.dreamstime.com/b/fazer-croch%C3%AA-o-teste-padr%C3%A3o-da-tela-66271289.jpg);
 }
 
-#cabecalho ul {
-  list-style: none;
-  text-decoration: none;
-}
-
 #cabecalho a {
   text-decoration: none;
   color: black;
   font-weight: 700;
 }
 
-#minha_foto {
-  width: 100px;
-  border-radius: 100%;
+#cabecalho ul {
+  list-style: none;
+  text-decoration: none;
 }
 
 #quem_sou_eu {
@@ -44,9 +39,33 @@ body {
   margin: auto;
 }
 
+#description img {
+  float: inline-start;
+  display: inline-block;
+  padding: 0;
+  width: 15%;
+  vertical-align: middle;
+}
+
+#description p {
+  float: inline-end;
+  display: inline-block;
+  padding: 0;
+  width: 20em;
+  vertical-align: middle;
+  text-align: justify;
+  margin-left: 40px;
+}
+
+#minha_foto {
+  width: 100px;
+  border-radius: 100%;
+}
+
 #side_by_side {
   display: inline-block;
   padding-top: 160px;
+  text-align: justify;
 }
 
 .lado-esquerdo {
