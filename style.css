@@ -22,19 +22,19 @@ body {
   text-decoration: none;
 }
 
-/**#cabecalho a {
+#cabecalho a {
   text-decoration: none;
   color: black;
-  font-weight: 700;**/
+  font-weight: 700;
 }
 
-#minha_foto {
+/**#minha_foto {
   width: 100px;
   padding: 10px;
   border: 10px;
   margin: 10px;
   border-radius: 100%;
-}
+}**/
 
 #quem_sou_eu {
   padding-top: 160px;
