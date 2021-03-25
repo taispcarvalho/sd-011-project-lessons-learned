@@ -40,13 +40,13 @@ body {
 }
 
 .titulo_listas {
-  padding: 5px 5px 8px 5px;
+  padding: 5px 5px 8px;
   text-align: center;
 }
 
 .lista_ordenada {
   margin: 5px;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 40px;
   display: inline-block;
   width: 240px;
   position: absolute;
@@ -58,7 +58,7 @@ body {
 
 .lista_nao_ordenada {
   margin: 5px;
-  padding: 10px 40px 10px 40px;
+  padding: 10px 40px;
   display: inline-block;
   width: 305px;
   position: absolute;
@@ -91,12 +91,12 @@ body {
   border: 1px solid black;
 }
 
-table, th, td {
+table,th,td {
   border: 1px solid black;
 }
 
 #tabela_adicionais {
-  width: inherit;  
+  width: inherit; 
 }
 
 #titulo_artigo1 {
@@ -140,7 +140,7 @@ table, th, td {
 #rodape {
   position: fixed;
   overflow: hidden;
-  bottom: 0px;
+  bottom: 0;
   text-align: center;
   width: 100%;
   background-color: cadetblue;
