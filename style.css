@@ -12,17 +12,30 @@ p {
 }
 
 nav {
-  margin-left: 350px;
+  text-align: center;
   padding: 5px;
 }
 
 nav ul li {
   display: inline-block;
-  margin-left: 50px;
   padding: 5px;
   color: rgb(253, 251, 251, 0.8);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: uppercase;
+}
+
+section ol li {
+  margin-top: 10px;
+  margin-left: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+section ul li {
+  margin-top: 10px;
+  margin-left: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
 }
 
 nav ul li:hover {
@@ -68,9 +81,7 @@ nav ul li:hover {
 }
 
 #licoes_a_aprender {
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 80px auto;
   width: 250px;
   height: 320px;
   display: block;
@@ -78,7 +89,6 @@ nav ul li:hover {
   background-color: black;
   color: white;
   border-radius: 10px;
-  margin-bottom: 80px;
 }
 
 .lado-esquerdo {
@@ -103,22 +113,9 @@ nav ul li:hover {
   background-color: black;
   border-radius: 35%;
 }
+
 .lado-direito p {
   color: red;
-}
-
-section ol li{
-  margin-top: 10px;
-  margin-left: 80px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-}
-
-section ul li{
-  margin-top: 10px;
-  margin-left: 70px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
 }
 
 table {
@@ -126,11 +123,12 @@ table {
   padding: px;
   background-color: red;
   border: 2px solid red;
-  margin-top: 600px;
+  margin-top: 700px;
   margin-left: auto;
   margin-right: auto;
   width: 500px;
 }
+
 table caption {
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -144,10 +142,11 @@ table caption {
 table tr {
   border: 1px solid white;
 }
+
 table tr th {
   padding: 23px;
   border: 2px solid white;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 table tr td {
@@ -155,7 +154,7 @@ table tr td {
   border: 2px solid white;
   text-align: center;
   color: white;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 #rodape {
