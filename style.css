@@ -35,7 +35,7 @@ main {
   font-weight: 500;
 }
 
-nav h2{
+nav h2 {
   margin-bottom: 50px;
 }
 
@@ -66,17 +66,23 @@ aside {
   float: right;
 }
 
-footer {
-  margin-top: 300px;
-  height: 200px;
-  background-color: rgb(64, 61, 57);
+table {
+  padding: 5px;
+  background-color: seagreen;
+  margin-top: 50px;
+  width: 40%;
+  border-radius: 10px;
 }
 
-a {
+table a {
   text-decoration: none;
-  font-size: 20px;
-  font-weight: 800;
+  line-height: 1.5em;
   color: rgb(253, 251, 251);
+}
+
+table a:hover {
+  color: rgb(253, 251, 251);
+  background-color: rgb(235, 94, 40);
 }
 
 button {
@@ -87,7 +93,20 @@ button {
   background-color: seagreen;
 }
 
-button , a:hover {
+button a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: rgb(253, 251, 251);
+}
+
+button a:hover {
   background-color: rgb(235, 94, 40);
   color: seagreen;
+}
+
+footer {
+  margin-top: 300px;
+  height: 200px;
+  background-color: rgb(64, 61, 57);
 }
