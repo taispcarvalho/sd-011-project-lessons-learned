@@ -8,12 +8,13 @@ body {
 }
 
 #cabecalho {
-  background-color: rgb(162, 95, 242);
-  width: 100%;
-  position: fixed;
   top: 0;
-  text-align: center;
+  width: 100%;
   padding: 10px;
+  font-size: 0.8rem;
+  position: fixed;
+  text-align: center;
+  background-color: rgb(162, 95, 242);
 }
 
 #titulo {
@@ -39,6 +40,10 @@ body {
   padding: 0;
   margin: 0;
   text-align: center;
+}
+
+#licoes_aprendidas li , #licoes_a_aprender li {
+  line-height: 30px;
 }
 
 figure {
