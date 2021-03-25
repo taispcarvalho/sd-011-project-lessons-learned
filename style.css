@@ -27,7 +27,7 @@ table {
   font-size: 0.8rem;
   margin-bottom: 20px;
   margin-left: 500px;
-  font-family: ubuntu;sans-serif;
+  font-family: ubuntu, sans-serif;
 }
 
 /* CLASS */
