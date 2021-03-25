@@ -8,10 +8,14 @@ margin-left: 70px;
 
 article {
   margin-left: 70px;
+  padding-bottom: 50px;
+  float: right;
 }
 
 aside {
-  margin-left: 70px;
+  width: auto;
+  margin-left: 50px;
+  margin-right: auto;  
 }
 
 section {
@@ -25,6 +29,10 @@ header {
   margin-left: 500px;
   margin-right: auto;
   width: 700 px;
+}
+
+#lista1 {
+float: right;
 }
 
 table {
@@ -42,6 +50,5 @@ td {
   border: solid black;
   border-collapse: collapse;
 }
-
 
 
