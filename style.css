@@ -12,6 +12,7 @@ body {
   a{
    color: black;
    font-family: monospace;
+   font-style: oblique;
   }
 #pic {
   left: 0px;
@@ -28,9 +29,10 @@ article {
 #licoes_aprendidas {
   position: absolute;
   z-index: 3;
+  ;
       
   } 
-section{
+nav{
    float: right;
     width: 400px;
     border: 05px solid purple;
@@ -43,8 +45,8 @@ text-align: center;
 }
 aside{
     float: right;
-    width: 50%;
-    
+    width: 30%;
+    text-align: center;
 }
 table, th, td {
   border: 05px solid black;
