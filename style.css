@@ -47,6 +47,12 @@ img {
   padding: 0 50px;
 }
 
+.tabela {
+  padding: 5px 7px;
+  border: 1px solid;
+  height: 60px;  
+}
+
 footer {  
   top: 800px;  
   left: 40%;  
