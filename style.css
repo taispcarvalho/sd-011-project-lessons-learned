@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family:cursive;
+  font-family: cursive;
   font-size: medium;
   color: blueviolet;
   line-height: auto;
@@ -21,8 +21,8 @@ body {
 }
 
 #rodape:hover {
-background-color: gold;
-color: azure;
+  background-color: gold;
+  color: azure;
 }
 
 .lado-direito {
@@ -36,7 +36,7 @@ color: azure;
 }
 
 main {
-  display:inline-block;
+  display: inline-block;
 }
 
 #tabela {
