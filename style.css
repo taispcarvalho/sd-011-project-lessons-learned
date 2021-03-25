@@ -66,16 +66,15 @@ nav {
 #licoes_aprendidas {
   display: inline-block;
   padding: 20px;
-  width: 30%;
-  
-  margin-right: 10px;
+  width: 28%;
+  margin: 20px;
 }
 
 #licoes_a_aprender {
   display: inline-block;
   padding: 20px;
   width: 20%;
-  margin-right: auto;
+  margin: 20px;
 }
 
 article {
