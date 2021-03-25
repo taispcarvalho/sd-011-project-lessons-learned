@@ -40,6 +40,6 @@ body {
   display: flex;
 }
 
-#licoes_aprendidas {
+.lado-esquerdo {
   margin-right: 90px;
 }
