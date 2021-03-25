@@ -1,20 +1,20 @@
 body {
   background-color: rgb(253, 251, 251);
   color: black;
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: -apple-system, sans-serif;
 }
 
 header {
-  position: fixed;
+  color: black;
+  position:absolute;
   top: 0;
-  background-color: gray;
   float: unset;
   left: 550px;
   padding: 10px;
 }
 
 html {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: -apple-system, sans-serif;
 }
 
 table {
@@ -40,11 +40,11 @@ td {
 }
 
 tr:nth-child( even ) td {
-  background-color: red;
+  background-color: pink;
 }
 
 tr:nth-child( odd ) td {
-  background-color: blue;
+  background-color: grey;
 }
 
 caption {
@@ -53,21 +53,66 @@ caption {
 
 /* CLASS */
 .fotos img {
+  background-color: indigo;
+  margin: 100px;
   width: 200px;
-  padding: 20px;
+  padding: 10px;
   border: 2px solid black;
+  float: right;
 }
 
 .lessons {
-  float: right;
-  position: relative;
-  bottom: 300px;
+  background-color: lawngreen;
+  color: brown;
+  align-self: center;
+  padding: 30px;
+  border: 5px solid brown
 }
 
 .navegacao li {
+  background-color: grey;
   display: inline-block;
   list-style: none;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.navegacao {
+  background-color: teal;
+}
+
+.navegacao a {
+  color: black;
+  text-decoration: none;
+}
+
+.barralateral {
+  background-color: burlywood;
+  color: black;
   padding: 20px;
+  text-align: center;
+  border: 3px solid orange;
+  margin: 50px;
+  width: 200px;
+  float: right;
+}
+
+.linkabout {
+  border: 2px solid brown;
+  background-color: gainsboro;
+  color: black;
+}
+
+.linkabout li{
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}
+
+.linkabout a {
+  text-decoration: none;
+  color: red;
 }
 
 /* IDS */
@@ -77,5 +122,14 @@ caption {
 
 #licoes_a_aprender {
   display: inline-block;
+}
+
+#meuaprendizado {
+  background-color: blueviolet;
+  color: antiquewhite;
+  padding: 20px;
+  text-align: center;
+  border: 3px solid orange;
+  margin: 10px;
 }
 
