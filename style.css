@@ -14,7 +14,8 @@ h2 , h3 , h4 {
 
 .main {
   margin: 120px auto;
-  width: 650px;
+  width: 50%;
+  max-width: 750px;
 }
 
 #cabecalho {
@@ -53,6 +54,7 @@ h2 , h3 , h4 {
 
 .box_main {
   display: inline-block;
+  width: 100%;
 }
 
 .box_list_left , .box_list_right{
@@ -60,16 +62,29 @@ h2 , h3 , h4 {
   border-style: solid;
   border-color: rgb(38, 38, 38);
   border-radius: 10px;
-  width: 286px;
+  width: 43.9%;
   padding: 10px;
 }
 
 .box_list_left {
-  margin: 20px 10px 20px 0;
+  margin: 3% 1.5% 3% 0;
 }
 
 .box_list_right {
-  margin: 20px 0 20px 10px;
+  margin: 3% 0 3% 1.5%;
+}
+
+.lado-direito_superior {
+  position: absolute;
+  margin-top: -661px;
+  margin-left: 985px;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: rgb(38, 38, 38);
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  border-radius: 10px;
 }
 
 .article {
@@ -87,7 +102,7 @@ h2 , h3 , h4 {
   position: absolute;
   width: 200px;
   top: 445px;
-  margin-left: 1000px;
+  right: 50px;
   border-radius: 10px;
   font-size: 15px;
   text-align: right;
@@ -96,4 +111,11 @@ h2 , h3 , h4 {
 #rodape {
   text-align: center;
   color: rgb(166, 166, 166);
+}
+
+td, th {
+  border: 1px solid black;
+  font-size: 12px;
+  padding: 6px;
+  
 }
