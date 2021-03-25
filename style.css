@@ -28,18 +28,18 @@ body {
   font-weight: 700;
 }
 
-/**#minha_foto {
+#minha_foto {
   width: 100px;
   padding: 10px;
   border: 10px;
   margin: 10px;
   border-radius: 100%;
-}**/
+}
 
-#quem_sou_eu {
+/**#quem_sou_eu {
   padding-top: 160px;
   text-align: center;
-}
+}**/
 
 #quem_sou_eu table {
   max-width: 300px;
