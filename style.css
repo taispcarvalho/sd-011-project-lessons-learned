@@ -3,11 +3,58 @@ body{
 }
 
 #cabecalho {
-    margin-top: 0;
-    padding-top: 0;
+    position: fixed;
+    margin-top: 0px;
 }
 
 
 #titulo {
     text-align: center;
 }
+
+#minha_foto {
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
