@@ -109,13 +109,6 @@ main {
   border-bottom: 1px solid rgb(47, 193, 140);
 }
 
-/*
-.articles {
-  display: inline-block;
-  padding: 20px 0;
-}
-*/
-
 .lado-esquerdo {
   max-width: 48%;
   display: inline-block;
