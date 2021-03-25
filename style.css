@@ -45,3 +45,17 @@ body {
   max-width: 300px;
   margin: auto;
 }
+
+#side_by_side {
+  display: inline-block;
+}
+
+ article {
+  float: left;
+  width: 65%;
+}
+
+aside {
+  float: right;
+  width: 15%;  
+}
