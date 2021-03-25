@@ -27,6 +27,7 @@ table {
   font-size: 0.8rem;
   margin-bottom: 20px;
   margin-left: 500px;
+  font-family: ubuntu;sans-serif;
 }
 
 /* CLASS */
@@ -69,6 +70,7 @@ table {
 .navegacao a {
   color: black;
   text-decoration: none;
+  font-family: ubuntu, sans-serif;
 }
 
 .barralateral {
@@ -83,6 +85,7 @@ table {
   font-family: Impact, sans-serif;
   font-style: initial;
   letter-spacing: 0.5px;
+  line-height: 1.2;
 }
 
 .linkabout {
