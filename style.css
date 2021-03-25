@@ -1,5 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 #cabecalho {
@@ -9,13 +18,17 @@ body {
   right: 0;
   left: 0;
   width: 100%;
-  height: 20%;
+  height: 50px;
   background-color: cornflowerblue;
+  z-index: 2;
 }
 
 #titulo {
-  margin: 0.5%;
-  text-align: center;
+  margin-top: 0.5%;
+  /* text-align: center; */
+  margin-left: 30%;
+  position: relative;
+  display: inline-block;
 }
 
 #minha_foto {
@@ -42,13 +55,22 @@ h2 {
 
 .nav-list {
   list-style: none;
+  width: 100%;
+  position: absolute;
+  top: 20px;
 }
 
 .main-section {
   display: inline-block;
   width: 50%;
-  margin-top: 140px;
+  margin-top: 75px;
   align-items: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#main-text {
+  margin: 10px;
 }
 
 #article-text {
@@ -60,6 +82,13 @@ h2 {
   width: 30%;
   font-family: Courier, monospace;
   font-size: larger;
+  position: absolute;
+  top: 12%;
+  right: 2%;
+  background-color: #ccc;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 4px;
 }
 
 #table , #mod1 , #th1 , #mod2 , #th2 , #mod3 , #th3 , #mod4 , #th4 {
@@ -82,16 +111,26 @@ h2 {
   font-style: italic;
 }
 
+ul.nav-list > li {
+  display: inline-block;
+  margin: 0 1.5%;
+}
+
 .aside-title {
   color: saddlebrown;
 }
 
 #rodape {
-  position: static;
+  position: relative;
   bottom: 0;
   right: 0;
   width: 100%;
   background-color: cornflowerblue;
   height: auto;
   text-align: center;
+}
+
+.list-section {
+  margin: 10px 0;
+  align-items: center;
 }
