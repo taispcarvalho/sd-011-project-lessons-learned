@@ -7,32 +7,41 @@
 <link rel="stylesheet" href="style.css">
 <title>Projeto</title>
 </head>
-<body>
-
-
+<body>  
 <header id="cabecalho">
-<h1 id="titulo">Lições Aprendidas</h1></header> 
-
-<nav class="menu"> 
+<h1 id="titulo">Lições Aprendidas</h1>
+<nav> 
 <ul>
 <button><a href="#aprendidas">Lições</a></button>
 <button><a href="#artigo">Artigo</a></button>
 </ul>
 </nav>
+</header> 
 
-
+<main>
+<div>
 <img id="minha_foto" src="mont.jpg" alt="foto montanha">
+</div>
+<section id="artigo">
+<div class="historia">
+<article>
+<h2>Aprendizados</h2>
+<p>O desenvolvimento web é uma das áreas mais promissoras do momento em tecnologia. Afinal, a construção de sites é uma demanda cada vez maior, já que a maioria das empresas deseja um espaço na internet para não só se comunicar com seu público, mas também apresentar seu produto. Aprendi que as pessoas programadoras precisam conhecer e dominar o <strong>HTML (Hyper Text Markup Language)</strong>, e também <strong>CSS (Cascading Style Sheets)</strong> para conseguirem se manter na área de Web Development.</p>
+</article>
+<br>
+<aside id="passagem">
+<h2>Passagem do meu aprendizado</h2>
+<p>Aprender <strong>HTML</strong> para construir sites é tão fundamental para um Web Designer ou Desenvolvedor quanto matemática e física são para um Engenheiro. Ah! Antes que eu me esqueça, ele serve para que seu navegador o interprete e mostre o conteúdo quando você abre uma página na internet.</p>
+</aside>
+</div>
 
-<nav>
+</section>
 
-<table class="lessons">
-<tr id="tabela">
-<td class="learned-lesson"><strong>Lições Aprendidas e a Aprender</strong></td>
 
-</tr>
-</table>
 
-<section class="lista">
+<div class="lista">
+<section class="lado-esquerdo">
+<h2>Lições Aprendidas</h2>
 <ol id="aprendidas">
 <li>Unix & Bash</li>
 <li>Git</li>
@@ -47,7 +56,8 @@
 </ol>
 </section>
 
-<section class="lista">
+<section class="lado-direito">
+<h2>A aprender</h2>
 <ul id="aprender">
 <li>JavaScript</li>
 <li>Unit Tests</li>
@@ -61,25 +71,29 @@
 <li>SQL</li>
 </ul>
 </section>
-
-</nav>
-
-<section id="artigo">
-<div class="lado-esquerdo"><article id="learned">
-<h2>Aprendizados</h2>
-<p>O desenvolvimento web é uma das áreas mais promissoras do momento em tecnologia. Afinal, a construção de sites é uma demanda cada vez maior, já que a maioria das empresas deseja um espaço na internet para não só se comunicar com seu público, mas também apresentar seu produto. Aprendi que as pessoas programadoras precisam conhecer e dominar o <strong>HTML (Hyper Text Markup Language)</strong>, e também <strong>CSS (Cascading Style Sheets)</strong> para conseguirem se manter na área de Web Development.</p>
 </div>
-</article>
 
-<div class="lado-direito"><aside id="passagem">
-<h2>Passagem do meu aprendizado</h2>
-<p>Aprender <strong>HTML</strong> para construir sites é tão fundamental para um Web Designer ou Desenvolvedor quanto matemática e física são para um Engenheiro. Ah! Antes que eu me esqueça, ele serve para que seu navegador o interprete e mostre o conteúdo quando você abre uma página na internet.</p>
-</div>
-</aside>
+<section id="bonus">
+<h2>Sobre o Alan</h2>
+<table >
+<tr>
+<td>Esporte preferido</td>
+<td>Corrida</td>
+</tr>
+<tr>
+<td>Time preferido</td>
+<td>Palmeiras</td>
+</tr>
+<tr>
+<td>Viagem que mais gostou</td>
+<td>Italia</td>
+</tr>
+</table>
 </section>
-<br>
+</main>
 
-<footer id="rodape"><a href="https://www.betrybe.com/" target="_blank"><em>Estude na Trybe!</em></a>
+<footer id="rodape">
+<p>Criado por <a href="https://github.com/alansgoncalves" target="_blank">Alan Gonçalves,</a> mar/2021.</p>
 
 </footer>
 </body>
