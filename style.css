@@ -1,17 +1,187 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+html , body {
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
   background-color: rgb(253, 251, 251);
 }
 
-#cabecalho {
-  position: fixed;
-  top: 0;
-}
-
 ol , ul {
   list-style-position: inside;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+header {
+  width: 100%;
+  padding: 20px 4%;
+  text-align: center;
+  background-color: #3DC18D;
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.7);
+  z-index: 1;
+}
+
+#titulo {
+  color: #FFFCE8;
+  font-size: 2.5em;
+  margin: 10px 0;
+}
+
+header nav ul {
+  text-align: left;
+}
+
+header nav li {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header nav li a {
+  color: #FFFCE8;
+}
+
+main {
+  padding: 0 4%;
+}
+
+.hero-stage {
+  width: 100%;
+}
+
+#minha_foto{
+  width: 450px;
+  margin: 160px 20px 0px 30px;
+  border-radius: 50%;
+  border: 3px solid #3DC18D;
+}
+
+.hero-stage p {
+  margin: 300px 30px 0px 20px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.lado-direito {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w40 {
+  width: 40%;
+}
+
+#licoes {
+  padding-top: 160px;
+  margin-bottom: 30px;
+}
+
+.licoes-single {
+  box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.7);
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 0 45px;
+  padding: 15px;
+}
+
+#licoes li {
+  padding-left: 50px;
+}
+
+#portfolio {
+  padding: 20px;
+  background-image: linear-gradient(to right, white , #3DC18D, white);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+#portfolio h2 {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.portfolio-icon {
+  margin: 0 auto;
+  transform: translate(50%);
+  z-index: 2;
+}
+
+#portfolio img {
+  width: 50px;
+}
+
+#article {
+  padding-top: 160px;
+  margin-bottom: 30px;
+  width: 60%;
+  display: inline-block;
+}
+
+#article p {
+  width: 550px;
+  margin: 0 auto;
+}
+
+aside {
+  width: 30%;
+  display: inline-block;
+  margin-left: 100px;
+  padding: 50px;
+  box-shadow: 0px 1px 7px 2px rgba(0,0,0,0.7);
+  border-radius: 10px;
+  position: relative;
+  bottom: 50px;
+}
+
+table {
+  border: 2px solid black;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+footer {
+  padding: 160px 4% 50px 4%;
+}
+
+footer p {
+  text-align: right;
+}
+
+footer strong {
+  color: #3DC18D;
 }

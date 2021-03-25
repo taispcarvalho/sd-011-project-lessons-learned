@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
   
   <link rel="stylesheet" href="style.css">
 
@@ -11,57 +13,74 @@
 </head>
 <body>
   <header id="cabecalho">
-    <h1 id="titulo">Lições aprendidas - Módulo 1 Fundamentos da WEB | TRYBE</h1>
-
+    <h1 id="titulo">O que aprendi na Trybe até agora?</h1>
+    
     <nav>
       <ul>
-        <li><a>Home</a></li>
-        <li><a>Lições</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#licoes">Lições</a></li>
+        <li><a href="#article">Artigo</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section>
-      <img id="minha_foto" src="julio-image.jpg" alt="Foto de Júlio Mota segurando seu cãozinho filhote Ozzy" >
+    <section class="hero-stage">
+      <div class="lado-esquerdo w50">
+        <img id="minha_foto" src="julio-image.jpg" alt="Foto de Júlio Mota segurando seu cãozinho filhote Ozzy">
+      </div>
+      
+      <div class="lado-direito w50">
+        <p>Aqui vou mostrar um pouco o que já aprendi na Trybe desde o primeiro dia de aula até a data deste projeto! <br><br>Você verá que aqui além de Hard Skills importantes para o mercado, nos praticamos também Soft Skills que nos trarão um grande diferencial e nos dará base para ir <strong>mais longe!</strong></p>
+      </div>
+
+      <div class="clear"></div>
     </section>
 
-    <section>
-      <ol id="licoes_aprendidas">
-        <li>Unix</li>
-        <li>Git</li>
-        <li>GitHub</li>
-        <li>Como funciona a Web</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Slack</li>
-        <li>Zoom</li>
-        <li>Trabalho em grupo</li>
-        <li>Inteligência emocional</li>
-      </ol>
+    <section id="licoes">
+      <div class="lado-esquerdo w40 licoes-single">
+        <h2>O que ja aprendi:</h2>
+        <ol id="licoes_aprendidas">
+          <li>Unix</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>Como funciona a Web</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Slack</li>
+          <li>Zoom</li>
+          <li>Trabalho em grupo</li>
+          <li>Inteligência emocional</li>
+        </ol>
+      </div>
+      
+      <div class="lado-direito w40 licoes-single">
+        <h2>O que ainda vou aprender:</h2>
+        <ul id="licoes_a_aprender">
+          <li>JavaScript</li>
+          <li>Forms</li>
+          <li>CSS Responsive</li>
+          <li>CSS Frameworks</li>
+          <li>ES6</li>
+          <li>Unit Tests</li>
+          <li>React</li>
+          <li>Node</li>
+          <li>SQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
 
-      <ul id="licoes_a_aprender">
-        <li>JavaScript</li>
-        <li>Forms</li>
-        <li>CSS Responsive</li>
-        <li>CSS Frameworks</li>
-        <li>ES6</li>
-        <li>Unit Tests</li>
-        <li>React</li>
-        <li>Node</li>
-        <li>SQL</li>
-        <li>MongoDB</li>
-      </ul>
+      <div class="clear"></div>
     </section>
 
-    <section>
-      <h2>Da uma olhada nos projetos que fiz aqui na Trybe</h2>
-      <ul id="redes_sociais">
-        <li><a href="https://github.com/juliocamposmota" target="_blank">GitHub</a></li>
-      </ul>
+    <section id="portfolio">
+      <h2>Clique no ícone do GitHub pra ver meu repositório!</h2>
+      <div class="portfolio-icon">
+        <a href="https://github.com/juliocamposmota" target="_blank"><img src="/icon-github.png"></a>
+      </div>
     </section>
 
-    <article>
+    <article id="article">
       <h2>Em 10 dias, 85 commits</h2>
 
       <p>Uma das coisas que mais me chamaram atenção na Trybe, é a <strong>metodologia de ensino</strong> dessa instituição. O título deste artigo é bem claro que aqui o aprendizado se da pela <strong>prática</strong>. Desde o primeiro dia, já estamos exercitando todo o conteúdo estudado e aprendido, o que torna a <strong>curva de aprendizado</strong> da pessoa estudante muito mais intensa do que em metodologias tradicionais.
@@ -80,7 +99,7 @@
 
     <section>
       <h2>Conteúdo de Hard Skills da Trybe</h2>
-      <table>
+      <table border="1">
         <tr>
           <th>Módulo 1</th>
           <th>Módulo 2</th> 
@@ -104,7 +123,7 @@
   </main>
 
   <footer id="rodape">
-
+    <p>Todos os direitos reservados, <strong>Júlio Mota</strong></p>
   </footer>
   
 </body>
