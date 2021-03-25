@@ -1,20 +1,19 @@
 body {
   background-color: rgb(253, 251, 251);
   color: black;
-  font-family: -apple-system, sans-serif;
+  font-family: Haettenschweiler, sans-serif;
 }
 
 header {
+  font-size: 15px;
   color: black;
-  position:absolute;
+  position: fixed;
   top: 0;
   float: unset;
   left: 550px;
-  padding: 10px;
-}
-
-html {
-  font-family: -apple-system, sans-serif;
+  padding: 1px;
+  font-family: ubuntu, sans-serif;
+  border: 1px solid grey;
 }
 
 table {
@@ -22,7 +21,7 @@ table {
   border: 2px solid rgb(200, 200, 200);
   letter-spacing: 1px;
   font-size: 0.8rem;
-  margin-bottom: 100px;
+  margin-bottom: 20px;
   margin-left: 400px;
 }
 
@@ -66,7 +65,9 @@ caption {
   color: brown;
   align-self: center;
   padding: 30px;
-  border: 5px solid brown
+  border: 5px solid brown;
+  font-family: Ubuntu, sans-serif;
+  margin: 10px;
 }
 
 .navegacao li {
@@ -76,10 +77,14 @@ caption {
   padding: 10px;
   border: 1px solid black;
   margin: 10px;
+  font-family: ubuntu, sans-serif;
 }
 
 .navegacao {
   background-color: teal;
+  border: 3px solid greenyellow;
+  padding: 10px;
+  margin: 10px;
 }
 
 .navegacao a {
@@ -96,15 +101,19 @@ caption {
   margin: 50px;
   width: 200px;
   float: right;
+  font-family: Impact, sans-serif;
+  font-style: initial;
 }
 
 .linkabout {
   border: 2px solid brown;
   background-color: gainsboro;
   color: black;
+  margin: 10px;
+  font-family: ubuntu, sans-serif;
 }
 
-.linkabout li{
+.linkabout li {
   display: inline-block;
   padding: 10px;
   margin: 10px;
@@ -131,5 +140,13 @@ caption {
   text-align: center;
   border: 3px solid orange;
   margin: 10px;
+  font-family: monospace;
 }
 
+#rodape {
+  padding: 50px;
+  background-color: grey;
+  border: 5px solid blue;
+  margin: 10px;
+  font-family: ubuntu, sans-serif;
+}
