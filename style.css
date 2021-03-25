@@ -14,3 +14,9 @@ body {
   top: 0;
   border: 1 solid black;
 }
+
+h1 {
+  color: rgb(37, 37, 37);
+  font-size: 2rem;
+  line-height: 20px;
+}
