@@ -61,7 +61,7 @@ body {
   font-size: 15px;
   display: inline-block;
   position: relative;
-  left: 950px;
+  left: 1000px;
   top: -250px;
   background-color: rgb(185, 185, 185);
   padding: 25px;
@@ -74,37 +74,39 @@ body {
   font-size: 15px;
   display: inline-block;
   position: relative;
-  left: 700px;
+  left: 750px;
   padding: 25px;
   background-color: rgb(185, 185, 185);
   border-radius: 10%;
 }
 
-.mylearned {
+.lado-esquerdo {
   font-family: Verdana, sans-serif;
   background-color: rgb(185, 185, 185);
   color: grey;
   border: 2px solid black;
-  width: 500px;
+  width: 350px;
+  height: 200px;
   position: relative;
   display: inline-block;
-  top: -300px;
-  right: 210px;
+  top: -250px;
+  right: 280px;
   border-radius: 2%;
   padding: 10px;
   margin: 0;
 }
 
-.article_learned {
+.lado-direito {
   font-family: Verdana, sans-serif;
   background-color: rgb(185, 185, 185);
   color: grey;
   border: 2px solid black;
-  width: 500px;
+  width: 350px;
+  height: 200px;
   position: relative;
   display: inline-block;
-  top: -300px;
-  left: 295px;
+  top: -275px;
+  right: 280px;
   border-radius: 2%;
   padding: 10px;
   margin: 0;
@@ -118,12 +120,12 @@ table , th , td {
   color: gray;
   font-family: Arial, sans-serif;
   font-size: 20px;
-  display: inline;
+  display: inline-block;
   margin: 0;
   background-color: rgb(185, 185, 185);
   position: relative;
-  top: -280px;
-  left: 295px;
+  top: -200px;
+  left: 350px;
 }
 
 footer {
