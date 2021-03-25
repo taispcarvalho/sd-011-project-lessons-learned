@@ -37,7 +37,7 @@ header {
   width: 100%;
   padding: 20px 4%;
   text-align: center;
-  background-color: #3dc18d;
+  background-color: rgb(61, 193, 140);
   position: fixed;
   top: 0;
   box-shadow: 0 1px 7px 2px rgba(0, 0, 0, 0.7);
@@ -45,7 +45,7 @@ header {
 }
 
 #titulo {
-  color: #fffce8;
+  color: rgb(255, 252, 232);
   font-size: 2.5em;
   margin: 10px 0;
 }
@@ -62,7 +62,7 @@ header nav li {
 }
 
 header nav li a {
-  color: #fffce8;
+  color: rgb(255, 252, 232);
 }
 
 main {
@@ -77,7 +77,7 @@ main {
   width: 450px;
   margin: 160px 20px 0 30px;
   border-radius: 50%;
-  border: 3px solid #3dc18d;
+  border: 3px solid rgb(61, 193, 140);
 }
 
 .hero-stage p {
@@ -179,5 +179,5 @@ footer {
 }
 
 footer strong {
-  color: #3dc18d;
+  color: rgb(61, 193, 140);
 }
