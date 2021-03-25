@@ -27,3 +27,12 @@ body {
   top: 100px;
   left: 800px;
 }
+
+#rodape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+  background-color:  rgb(235, 247, 226);
+}
