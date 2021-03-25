@@ -143,6 +143,7 @@ table , th , td {
   text-align: center;
   width: 100%;
   background-color: cadetblue;
+  font-size: 10px;
 }
 
 #inspiracao_nome {
