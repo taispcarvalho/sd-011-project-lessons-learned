@@ -1,49 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>Projeto Lessons Learned - Rafael Schmitz</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+  <title>Projeto Lessons Learned - Rafael Schmitz</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="cabecalho">
-        <h1 id="titulo">Projeto Lessons Learned - Rafael Schmitz</h1>
-    </header>
-    <main>
-        <section id="foto-container">
-            <img src="tche.jpg" id="minha-foto">
-        </section>
-        <section id="order-list-container">
-            <ol id="licoes_aprendidas">
-                <li>Unix e Bash</li>
-                <li>Git e Github</li>
-                <li>Protocolo HTTP</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Github pages</li>
-                <li>Inteligência Emocional</li>
-                <li>VS Code</li>
-                <li>Slack</li>
-                <li>Zoom</li> 
-            </ol>
-        </section>
-        <section id="unorder-list-container">
-            <ul id="licoes_a_aprender">
-                <li>Javascript</li>
-                <li>React</li>
-                <li>SQL</li>
-                <li>Python</li>
-                <li>Node</li>
-                <li>Redes</li>
-                <li>Testes</li>
-                <li>Comunicação</li>
-                <li>Liderança</li>
-                <li>Vida de Desenvolvedor</li>
-            </ul>
-        </section>
-    </main>
-    <footer id="rodape">
-        <p>Desenvolvido por Rafael Schmitz em 2021.</p>
-    </footer>
+  <header id="cabecalho">
+    <h1 id="titulo">Projeto Lessons Learned - Rafael Schmitz</h1>
+		<nav>
+			<ul>
+					<li><a class="navButtons" href="" target="blank">Home</a></li>
+					<li><a class="navButtons" href="" target="blank">Fale com o autor</a></li>
+			</ul>
+		</nav>
+	</header>
+  <main>
+    <section id="foto-container">
+      <img src="tche.jpg" id="minha_foto" alt="Autor do site">
+			<a class=buttonStyle href="https://www.linkedin.com/in/rafaelbschmitz/" target="blank">Linkedin</a>
+    </section>
+		<article>
+			<h2 class="title">Minha opinião sobre o curso</h2>
+			<p>Eu já possuia um background em programação, porém os assuntos do módulo inicial do curso são bastante atuais e estão complementando a minha visão. Destaco o sistema de versionamento <em>Git</em>, que torna o processo de desenvolvimento muito mais confiável. Além disso, o conhecimento de <em>CSS</em> que permite tornar as páginas HTML muito mais interessantes.</p>
+		</article>
+    <div>
+      <section class="lists">
+        <h2 class="title">Lições aprendidas</h2>
+        <ol id="licoes_aprendidas">
+          <li>Unix e Bash</li>
+          <li>Git e Github</li>
+          <li>Protocolo HTTP</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Github pages</li>
+          <li>Inteligência Emocional</li>
+          <li>VS Code</li>
+          <li>Slack</li>
+          <li>Zoom</li> 
+        </ol>
+      </section>
+      <section class="lists">
+        <h2 class="title">Lições a aprender</h2>
+        <ul id="licoes_a_aprender">
+          <li>Javascript</li>
+          <li>React</li>
+          <li>SQL</li>
+          <li>Python</li>
+          <li>Node</li>
+          <li>Redes</li>
+          <li>Testes</li>
+          <li>Comunicação</li>
+          <li>Liderança</li>
+          <li>Vida de Desenvolvedor</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+	<aside>
+		<section>
+			<h3 class="title">CSS não é facil!</h3>
+			<p>O CSS produz um grande impacto visual na página, porém dominar essa linguagem e seus detalhes requer bastante experiência.</p>
+		</section>
+	</aside>
+  <footer id="rodape">
+    <p>Desenvolvido por Rafael Schmitz em 2021.</p>
+  </footer>
 </body>
 </html>
