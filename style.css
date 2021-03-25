@@ -79,7 +79,7 @@ body {
 }
 
 main {
-  padding: 80px 100px;
+  padding: 80px 100px 30px;
 }
 
 #perfil {
@@ -109,19 +109,24 @@ main {
   border-bottom: 1px solid rgb(47, 193, 140);
 }
 
+/*
 .articles {
   display: inline-block;
   padding: 20px 0;
 }
+*/
 
 .lado-esquerdo {
-  float: left;
   max-width: 48%;
+  display: inline-block;
+  min-height: 200px;
 }
 
 .lado-direito {
   float: right;
   max-width: 48%;
+  display: inline-block;
+  min-height: 200px;
 }
 
 #rodape {
