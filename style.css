@@ -7,8 +7,8 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: "IBM Plex Mono", monospace;
-  color: #37474f;
+  font-family: IBM Plex Mono, monospace;
+  color: rgb(55, 71, 79);
 }
 
 ul {
@@ -25,29 +25,29 @@ small {
 
 h1 {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 70px;
   line-height: 65px;
   letter-spacing: -1.5px;
 }
 
 h2 {
-  color: #fff;
+  color: white;
   font-weight: 200;
   padding-top: 15px;
 }
 
 h3 {
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 48px;
   line-height: 48px;
   margin-bottom: 30px;
 }
 
 p {
-  font-family: IBM Plex Mono;
-  font-weight: normal;
+  font-family: IBM Plex Mono, serif;
+  font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   letter-spacing: -0.5px;
@@ -56,14 +56,14 @@ p {
 section {
   margin-bottom: 75px;
 }
-nav a{
+
+nav a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
-
-nav ul{
-  color: #fff;
+nav ul {
+  color: white;
   position: fixed;
   top: 0;
   right: calc(50% + 75px);
@@ -76,10 +76,10 @@ nav ul li {
   display: inline-block;
   padding-left: 30px;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-right: 2px solid #fff;
+  border-right: 2px solid white;
 }
 
 nav ul li:hover {
@@ -88,10 +88,9 @@ nav ul li:hover {
 }
 
 /* --- GENERAL --- */
-
 .flex_parent {
   display: flex;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: center;
 }
 
@@ -113,7 +112,6 @@ header {
 }
 
 /* --- HEADER --- */
-
 #scroll {
   font-size: 12px;
   letter-spacing: 2px;
@@ -121,7 +119,7 @@ header {
   bottom: 10px;
   right: 5%;
   padding-left: 90px;
-  border-bottom: 2px solid #eec7c2;
+  border-bottom: 2px solid rgb(238, 199, 194);
   transform: rotate(-90deg);
 }
 
@@ -134,21 +132,21 @@ header {
   width: 50vw;
   flex-direction: column;
   text-align: right;
-  background-color: #eec7c2;
+  background-color: rgb(238, 199, 194);
   padding-right: 75px;
 }
 
-section ol, section ul {
+section ol , section ul {
   flex-direction: column;
   margin-left: 75px;
   counter-reset: li;
   list-style: none;
   font-size: 24px;
+
   /* Referência https://www.w3.org/Style/Examples/007/color-bullets.pt_BR.html */
 }
 
 /* --- SECTION 1 --- */
-
 #aprendizado aside {
   flex-direction: column;
 }
@@ -162,66 +160,63 @@ aside img {
 }
 
 /* --- SECTION 2 --- */
-
 #licoes_aprendidas li {
   counter-increment: li;
   line-height: 60px;
 }
 
-#licoes_aprendidas li::before {
-  content: counter(li); 
-  color: red;
+#licoes_aprendidas li:before {
+  content: counter(li);
   font-size: 48px;
-  font-weight: bold;
-  display: inline-block; 
+  font-weight: 900;
+  display: inline-block;
   position: absolute;
   margin-left: -15px;
   margin-top: -15px;
   z-index: -1;
-  color: #eec7c2;
+  color: rgb(238, 199, 194);
 }
 
 /* --- SECTION 3 --- */
-
 #licoes_a_aprender li {
   line-height: 60px;
 }
 
 /* --- SECTION 4 --- */
-
 article {
   padding-left: 0;
 }
 
 /* --- FOOTER --- */
-
 #rodape {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 12px;
   letter-spacing: 2px;
   float: right;
   width: 50vw;
-  color: #fff;
+  color: white;
   z-index: 10;
   margin-top: 120px;
   display: block;
   height: 75px;
   padding-top: 25px;
   text-align: center;
-  background: linear-gradient(294.94deg, #61838c -0.5%, #efc7c2 99.78%);
+
+  /* tslint:disable-next-line:max-line-length */
+  background: linear-gradient(294.94deg, rgb(97, 131, 140) -0.5%, rgb(238, 199, 194) 99%);
 }
 
-#rodape td{
+#rodape td {
   width: 33%;
 }
 
-#rodape img{
+#rodape img {
   height: 24px;
   padding-left: 15px;
   transition: all 0.1s ease;
 }
 
-#rodape img:hover{
+#rodape img:hover {
   opacity: 0.6;
 }
