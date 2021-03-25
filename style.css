@@ -10,3 +10,22 @@ header {
 #titulo {
   color: green;
 }
+
+table {
+  border-collapse: collapse;
+  border: solid black;
+}
+
+th {
+  border: solid black;
+  border-collapse: collapse;
+  background-color: darkseagreen;
+}
+
+td {
+  border: solid black;
+  border-collapse: collapse;
+}
+
+
+
