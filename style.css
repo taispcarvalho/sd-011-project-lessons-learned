@@ -1,7 +1,54 @@
 body {
   background-color: rgb(253, 251, 251);
-  }
+}
+
+h1 {
+  font-family: monospace;
+}
+
+h2 {
+  font-family: monospace;
+}
 
 #cabecalho {
   top: 0;
-  }
+  font-size: medium;
+}
+
+#artigo {
+  display: inline-block;
+  padding: 10px;
+  border: 10px;
+  margin: 10px;
+}
+
+#passagem {
+  display: inline-block;
+  padding: 10px;
+  border: 10px;
+  margin: 10px;
+}
+
+aside p {
+  color: rgb(24, 80, 24);
+  font-size: larger;
+  font-family: monospace;
+}
+
+article p {
+  color: rgb(24, 80, 24);
+  font-size: larger;
+  font-family: monospace;
+}
+
+section {
+  font-family: monospace;
+  font-size: larger;
+}
+
+td , ul , ol {
+  font-family: monospace;
+  font-size: 15px;
+  font: bold;
+}
+
