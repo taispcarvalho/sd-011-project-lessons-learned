@@ -5,15 +5,19 @@ body {
 }
 
 header {
-  font-size: 15px;
+  font-size: 5px;
   color: black;
   position: fixed;
   top: 0;
   float: unset;
-  left: 550px;
   padding: 1px;
+  padding-right: 685px;
+  padding-left: 600px;
   font-family: ubuntu, sans-serif;
-  border: 1px solid grey;
+  border: 0.5px solid grey;
+}
+header h1 {
+  letter-spacing: -1px;
 }
 
 table {
