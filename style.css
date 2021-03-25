@@ -3,12 +3,12 @@ body {
 }
 
 #cabecalho {
-	position: fixed;
+  position: fixed;
   top: 0;
   left: 0;
-	width: 100%;
+  width: 100%;
   background-color: green;
-	text-align: center;
+  text-align: center;
 }
 
 #titulo {
@@ -41,50 +41,50 @@ body {
 }
 
 #licoes_aprendidas {
-	padding-inline-end: 40px;
-	font-size: 1.2em;
+  padding-inline-end: 40px;
+  font-size: 1.2em;
 }
 
 #licoes_a_aprender {
-	padding-inline-end: 40px;
-	font-size: 1.2em;
+  padding-inline-end: 40px;
+  font-size: 1.2em;
 }
 
 .buttonStyle {
-	color: rgb(253, 251, 251);
-	background-color: #247cce;
-	padding: 5px;
-	text-decoration: none;
-	font-weight: 700;
-	border-radius: 10px;
-	display: inline-block;
-	margin: auto;
+  color: rgb(253, 251, 251);
+  background-color: #247cce;
+  padding: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 10px;
+  display: inline-block;
+  margin: auto;
 }
 
 main {
-	width: 65%;
-	display: inline-block;
+  width: 65%;
+  display: inline-block;
 }
 
 aside {
-	width: 30%;
-	display: inline-block;
-	border-style: groove;
-	border-radius: 10px;
-	text-align: justify;
+  width: 30%;
+  display: inline-block;
+  border-style: groove;
+  border-radius: 10px;
+  text-align: justify;
 }
 
 .navButtons {
-	text-decoration: none;
-	font-size: 1.5em;
-	color: white;
-	margin: 15px;
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  margin: 15px;
 }
 
 nav ul li {
-	display: inline-block;
+  display: inline-block;
 }
 
 article {
-	text-align: justify;
+  text-align: justify;
 }
