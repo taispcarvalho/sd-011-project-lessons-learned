@@ -62,22 +62,45 @@ body {
   border-radius: 100%;
 }
 
-#side_by_side {
-  display: inline-block;
+#progresso_trybe {
+  text-align: center;
+  list-style-type: none;
   padding-top: 160px;
+}
+
+#progresso_trybe ul {
+  list-style-type: none;
+}
+
+#progresso_trybe ol {
+  list-style-type: none;
+}
+
+#side_by_side {
+  
+  padding-top: 50px;
   text-align: justify;
 }
 
 .lado-esquerdo {
-  float: left;
-  width: 65%;
+  float: inline-start;
+  display: inline-block;
+  width: 60%;
+  margin-left: 5%;
+}
+
+.lado-esquerdo h2 {
+  text-align: center;
 }
 
 .lado-direito {
-  float: right;
+  float: inline-end;
+  display: inline-block;
   width: 25%;
+  vertical-align: top;
+  margin-left: 5%;
 }
 
-#progresso_trybe {
-  padding-top: 160px;
+.lado-direito h3 {
+  text-align: center;
 }
