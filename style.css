@@ -1,5 +1,6 @@
 body{
     background-color: rgb(253, 251, 251);
+    margin: 0 auto;
 }
 
 #cabecalho {
@@ -7,9 +8,7 @@ body{
     top: 0px;
 }
 
-
-
- #titulo {
+#titulo {
     text-align: center;
 }
 
