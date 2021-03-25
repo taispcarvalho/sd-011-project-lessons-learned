@@ -35,20 +35,20 @@ nav {
   margin-bottom: 10px;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
   margin-left: 90px;
   margin-right: 200px;
   color: rgb(114, 134, 134);
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   margin-top: 180px;
   width: 60%;
   text-align: justify;
 }
 
-.lado-direito{
+.lado-direito {
   top: 190px;
   position: fixed;
   width: 30%;
