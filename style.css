@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family:'Comfortaa';
 }
 
 #cabecalho {
@@ -22,8 +23,19 @@ body {
 }
 
 #foto-container {
-  margin-top: 125px;
+  display:inline-block;
 }
+
+#title-container {
+  display:inline-block;
+}
+
+#header-container {
+  margin-top: 125px;
+  width: 100%;
+  text-align: center;
+}
+
 
 #rodape {
   background-color: blue;
@@ -52,7 +64,7 @@ body {
 
 .buttonStyle {
   color: rgb(253, 251, 251);
-  background-color: #247cce;
+  background-color:teal;
   padding: 5px;
   text-decoration: none;
   font-weight: 700;
@@ -68,6 +80,7 @@ main {
 
 aside {
   width: 30%;
+  float: right;
   display: inline-block;
   border-style: groove;
   border-radius: 10px;
