@@ -94,15 +94,13 @@ nav ul li:hover {
   margin-top: -328px;
   border-radius: 10px;
   height: 200px;
-  float: right;
 }
 
 #lado-esquerdo {
-  display: inline-block;
-  float: left;
+  display: inline;
 }
 
 #lado-direito {
-  display: inline-block;
-  float: right;
+  display: inline;
 }
+
