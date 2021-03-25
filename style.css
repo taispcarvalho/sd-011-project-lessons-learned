@@ -17,7 +17,11 @@ body {
    color: black;
    font-family: monospace;
    font-style: oblique;
+   line-height: 01px;
   }
+#navi{
+font-size:22px;
+}
 #pic {
   left: 0px;
       
