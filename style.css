@@ -1,23 +1,23 @@
 body {
-    background-color: rgb(253, 251, 251);
+        background-color: rgb(253, 251, 251);
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: rgb(235, 247, 226);
- }
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: rgb(235, 247, 226);
+}
 
- #minha_foto {
-    position: absolute;
-    top: 100px;
-    width: 300px;
- }
+#minha_foto {
+        position: absolute;
+        top: 100px;
+        width: 300px;
+}
 
- #licoes_aprendidas {
-     position: absolute;
-     top: 100px;
-     left: 500px;
- }
+#licoes_aprendidas {
+        position: absolute;
+        top: 100px;
+        left: 500px;
+}
