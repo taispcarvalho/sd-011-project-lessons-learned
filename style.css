@@ -13,6 +13,12 @@
   background-color: hsl(161, 54%, 27%);
 }
 
+#titulo {
+  background-color: hsl(161, 54%, 27%);
+  text-align: center;
+  color: white;
+}
+
 .nav, .nav a{
   margin: 10px;
   padding: 20px 0 10px 0;
@@ -28,23 +34,40 @@
   font-size: 40px;
 }
 
-#titulo {
-  background-color: hsl(161, 54%, 27%);
-  text-align: center;
-  color: white;
+#minha_foto {
+  border-radius: 200px;
+  padding: 2px;
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
 }
 
+#minha_foto:hover {
+  border-radius: 500px;
+  width: 500px;
+  height: 500px;
+}
 
-#minha_foto {
-  border-radius: 300px;
-  padding: 2px;
+.about {
+  top: 20px;
   margin-top: 120px;
-  width: 300px;
-  height: 300px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.about p{
+  font-size: 20px;
+}
+
+.ab {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
   margin: 20px;
+  padding: 10px;
   line-height: 20px;
   list-style: none;
 }
@@ -52,19 +75,6 @@
 #licoes_aprendidas h2 , #licoes_a_aprender h2 {
   margin-bottom: 5px;
   padding: 2px;
-}
-
-
-
-#rodape {
-  font-family: Cambria, Cochin, Georgia, Times, serif, sans-serif;
-  font-weight: 300;
-  padding: 20px;
-  margin: 5px;
-  border: solid black 1px;
-  font-size: 18px;
-  line-height: 2px;
-  color: blue;
 }
 
 #table {
@@ -93,4 +103,15 @@
   margin: 5px 25px 5px 0;
   float: right;
   width: 40%;
+}
+
+#rodape {
+  font-family: Cambria, Cochin, Georgia, Times, serif, sans-serif;
+  font-weight: 300;
+  padding: 20px;
+  margin: 5px;
+  border: solid black 1px;
+  background-color: teal;
+  font-size: 18px;
+  line-height: 2px;
 }
