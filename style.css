@@ -223,6 +223,7 @@ footer {
 .left-side {
   display: inline-block;
   position: absolute;
+  float: left;
   max-width: 600px;
   top: 2030px;
   left: 50px;
@@ -231,6 +232,7 @@ footer {
 .right-side {
   display: inline-block;
   position: absolute;
+  float: right;
   max-width: 600px;
   top: 2000px;
   left: 750px;
