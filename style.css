@@ -22,7 +22,7 @@ table {
 }
 
 td , th {
-  border: 1px solid rgb(221,221,221);
+  border: 1px solid rgb(221, 221, 221);
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -95,7 +95,7 @@ td , th {
   border-radius: 10px;
   text-align: center;
   line-height: 2;
-  margin-top: 125px;
+  margin-top: 150px;
 }
 
 .lado-esquerdo {
@@ -108,4 +108,9 @@ td , th {
   font-size: 1.5em;
   color: white;
   font-weight: 500;
+}
+
+.dev-name {
+  color: greenyellow;
+  font-weight: 800;
 }
