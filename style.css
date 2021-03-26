@@ -27,3 +27,8 @@ header {
   display: inline-block;
   float: right;
 }
+
+table {
+  margin: 15px;
+  padding: 20px;
+}
