@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rokkitt:wght@300&display=swap');
+
 body {
   background-color: rgb(253, 251, 251);
   width: 100%;
@@ -83,6 +85,12 @@ main section figure figcaption {
   margin-left: 500px;
   margin-right: 650px;
   margin-top: 150px;
+  line-height:35px;
+}
+
+#artigo1 p {
+  font-family: 'Rokkitt', serif;
+  font-size: 25px;
 }
 
 /* main aside:nth-of-type(1) {
@@ -104,12 +112,22 @@ main aside:nth-of-type(2) {
   border-radius: 10px;
 } */
 
+
+/* aside 1 no topo direito */
 main aside:nth-of-type(1) {
   position: absolute;
-
   margin-left: 1500px;
+  background-color: rgb(173, 170, 170);
+  width: 350px;
+  height: 400px;
+  border-radius: 10px;
+}
 
-  
+
+/* aside 1 no topo direito */
+main aside:nth-of-type(1) {
+  position: absolute;
+  margin-left: 1500px;
   background-color: rgb(173, 170, 170);
   width: 350px;
   height: 400px;
