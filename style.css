@@ -1,0 +1,53 @@
+html {
+    background-color: rgb(253, 251, 251);
+  }
+  
+  body {
+    font-family: cursive;
+    font-style: normal;
+    font-size: small;
+    font-display: 1px;
+  }
+  
+  nav {
+    background-color: rgb(255, 133, 206);
+    position: fixed;
+    width: 100%;
+    top: 1px;
+  }
+  
+  img {
+    margin: 10px;
+  }
+  
+  h2 {
+    margin: 10px;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  #licoes_a_aprender:hover {
+    color: rgb(255, 255, 51);
+  }
+  
+  #article , #section {
+    display: inline-block;
+    margin: auto;
+    padding: 0%;
+    top: 0%;
+  }
+  
+  #minha_foto {
+    height: 350px;
+    width: 350px;
+  }
+  
+  #table {
+    border-style: solid;
+  }
+  
+  #rodape {
+    background-color: aquamarine;
+  }
