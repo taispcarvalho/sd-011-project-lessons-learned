@@ -115,7 +115,7 @@ aside {
   display: inline-block;
   position: absolute;
   max-width: 600px;
-  top: 1000px;
+  top: 1500px;
   left: 1000px;
 }
 
@@ -226,4 +226,12 @@ footer {
   max-width: 50px;
   position: absolute;
   bottom: 30px;
+}
+
+.right-side {
+  display: inline-block;
+  position: absolute;
+  max-width: 600px;
+  top: 1000px;
+  left: 1000px;
 }
