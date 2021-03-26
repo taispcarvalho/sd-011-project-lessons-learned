@@ -30,7 +30,17 @@
   background-color: hsl(161, 54%, 27%);
 }
 
+.rede a {
+  text-decoration: none;
+  color: black;
+}
+
 .nav a:hover {
+  font-size: 40px;
+}
+
+.rede a:hover {
+  width: 200;
   font-size: 40px;
 }
 
@@ -125,18 +135,11 @@
   line-height: 2px;
 }
 
-
-.social {
+.rede {
   margin: 20px;
   padding: 10px;
 }
 
-.social li {
+.rede li {
   list-style: none;
-  
-}
-
-.social a {
-  text-decoration: none;
-  color: black;
 }
