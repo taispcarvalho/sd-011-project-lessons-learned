@@ -85,7 +85,7 @@ main section figure figcaption {
   margin-top: 150px;
 }
 
-aside {
+main aside {
   position: absolute;
   margin-left: 1500px;
   background-color: rgb(173, 170, 170);
