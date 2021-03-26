@@ -111,14 +111,6 @@ ul {
   margin-top: 0;
 }
 
-aside {
-  display: inline-block;
-  position: absolute;
-  max-width: 600px;
-  top: 1500px;
-  left: 1000px;
-}
-
 .division-one {
   display: inline-block;
   max-width: 450px;
@@ -228,10 +220,18 @@ footer {
   bottom: 30px;
 }
 
+.left-side {
+  display: inline-block;
+  position: absolute;
+  max-width: 600px;
+  top: 2030px;
+  left: 50px;
+}
+
 .right-side {
   display: inline-block;
   position: absolute;
   max-width: 600px;
-  top: 1000px;
-  left: 1000px;
+  top: 2000px;
+  left: 750px;
 }
