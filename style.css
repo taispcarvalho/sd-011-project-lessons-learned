@@ -17,7 +17,7 @@ body {
 
 #minha_foto {
   width: 300px;
-  overflow: auto;
+}
 
 #licoes_aprendidas {
 display: inline-block;
@@ -32,15 +32,17 @@ margin-left: 5%;
 .lado_direito, .lado_esquerdo{
   display: inline-block;
   margin: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 4px;
   box-shadow: -5px 5px 9px -1px rgba(0, 0, 0, 0.87);
 }
 
 .lado_direito {
+  display: inline-block;
   width: 500px;
 }
 
 .lado_esquerdo {
+  display: inline-block;
   width: 600px;
 }
