@@ -150,9 +150,68 @@ footer {
   width: 100px;
 }
 
+#slack-img {
+  width: 100px;
+}
+
+#zoom-img {
+  width: 80px;
+}
+
+#git-img {
+  width: 60px;
+}
+
+#gh-img {
+  width: 120px;
+}
+
+#html-img {
+  width: 120px;
+}
+
+#css-img {
+  width: 100px;
+}
+
+#js-img {
+  width: 200px;
+}
+
+#ES6-img {
+  width: 150px;
+}
+
+#react-img {
+  width: 200px;
+}
+
+#node-img {
+  width: 200px;
+}
+
+#sql-img {
+  width: 105px;
+}
+
 #home-img {
   width: 50px;
   position: absolute;
+  top: 150px;
+}
+
+#contact-img {
+  width: 50px;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+}
+
+#text-img {
+  width: 50px;
+  position: absolute;
+  top: 150px;
+  left: 125px;
 }
 
 #github-img {
