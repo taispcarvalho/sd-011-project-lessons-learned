@@ -220,7 +220,7 @@ footer {
   bottom: 30px;
 }
 
-.left-side {
+.ladoesquerdo {
   display: inline-block;
   position: absolute;
   float: left;
@@ -229,7 +229,7 @@ footer {
   left: 50px;
 }
 
-.right-side {
+.lado-direito {
   display: inline-block;
   position: absolute;
   float: right;
