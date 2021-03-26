@@ -6,9 +6,10 @@
 }
 
 #cabecalho {
-  padding: 10px;
+  padding-top: 15px;
   width: 100%;
   top: 0;
+  position: fixed;
   background-color: hsl(161, 54%, 27%);
 }
 
@@ -68,7 +69,7 @@
 }
 
 .ab {
-  margin-top: 200px;
+  margin-top: 150px;
   display: flex;
   align-items: center;
 }
