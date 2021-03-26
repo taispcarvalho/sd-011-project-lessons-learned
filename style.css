@@ -31,9 +31,3 @@ body {
 #minha_foto {
   width: 200px;
 }
-
-.semantic_heading {
-  position: absolute;
-  opacity: 0;
-  pointer-events: none;
-}
