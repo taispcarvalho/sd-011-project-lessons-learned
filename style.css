@@ -74,6 +74,10 @@
   align-items: center;
 }
 
+span {
+  font-weight: 600;
+}
+
 #licoes_aprendidas , #licoes_a_aprender {
   display: inline-block;
   margin: 20px;
@@ -90,6 +94,10 @@
   margin-left: 205px;
 }
 
+.lados h2 {
+  padding: 20px;
+  margin: 20px;
+}
 
 #licoes_aprendidas h2 , #licoes_a_aprender h2 {
   margin-bottom: 25px;
@@ -143,4 +151,9 @@
 
 .rede li {
   list-style: none;
+}
+
+.arti {
+  padding: 20px;
+  margin: 20px;
 }
