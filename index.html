@@ -9,10 +9,8 @@
 </head>
 <body>
     <header id="cabecalho">
-        <section>
           <h1 id="titulo">Lições aprendidas - Trybe!</h1>
           <h2>Fundamentos de desenvolvimento web</h2>
-        </section>
     <nav class="navigation">
        <ul>
            <li><a href="">Home</a></li>
@@ -22,9 +20,10 @@
        </ul>>
     </nav>
     </header>
-    <main class="conteudo"></main>
+    <main class="conteudo">
         <img id="minha_foto" src="WhatsApp Image 2021-03-21 at 22.12.38.jpeg" alt="Uma foto do john no computador.">
-        <section id="listas">
+        <section id="listas" class="container-section">
+            <div class="lado-esquerdo inline-block container-article">
           <h3>Lições aprendidas</h3>
             <ol id="licoes_aprendidas">
               <li>Unix</li>
@@ -38,6 +37,8 @@
               <li>Semantic HTML</li>
               <li>Soft Skill</li>
             </ol>
+            </div>
+            <div class="lado-direito inline-block container-article">
           <h3> Lições_a_aprender</h3>  
             <ul id="licoes_a_aprender">
               <li>JavaScript</li>
@@ -51,11 +52,24 @@
               <li>CSS Responsive</li>
               <li>Unit Tests</li>
             </ul>
+             </div> <br>
         </section>
-            <section class="inline-block">
-                <article class="lado-esquerdo">
-            <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
+            <section class="container-section">
+                <div class="lado-esquerdo inline-block container-article">
+                <article>
+                    <h3>Texto 1</h3>
+            <p>Lorem Ipsum é si uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.</p>
                 </article>
+                </div>
+                <div class="lado-direito inline-block container-article">
+                    <section>
+                    <aside class="lado-direito">
+                        <h3>testo 2</h3>
+                        <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos</p>
+                    </aside>
+                    </section>
+                </div>
+            <div class="container-table">
                 <table border="3">
                     <tr>
                         <td>dia 1 momento</td>
@@ -73,11 +87,7 @@
                         <td>RL e Mica</td>
                     </tr>
                 </table>
-                <div>
-                    <aside class="lado-direito">
-                        <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos</p>
-                    </aside>
-                </div>
+            </div>
             </section>   
     </main> 
         <h3 id="contato"><a href="https://github.com/josanjohnata" target="_blanck">GitHub</a></h3>
