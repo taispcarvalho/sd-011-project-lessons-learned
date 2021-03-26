@@ -13,16 +13,16 @@ nav ul li {
   display: inline-block;
 }
 
-aside section p{
+aside section p {
   text-align: justify;
 }
 
-table{
+table {
   margin: auto;
 }
 
-td, th {
-  border: 1px solid #dddddd;
+td , th {
+  border: 1px solid rgb(221,221,221);
   padding-left: 8px;
   padding-right: 8px;
 }
@@ -36,7 +36,7 @@ td, th {
   text-align: center;
 }
 
-#image-container{
+#image-container {
   position: absolute;
   top: 10px;
   right: 25px;
@@ -52,7 +52,7 @@ td, th {
 }
 
 #rodape {
-  background-color:cadetblue;
+  background-color: cadetblue;
   text-align: center;
 }
 
@@ -94,7 +94,7 @@ td, th {
   border-style: groove;
   border-radius: 10px;
   text-align: center;
-  line-height: 2.0;
+  line-height: 2;
   margin-top: 125px;
 }
 
@@ -107,5 +107,5 @@ td, th {
   text-decoration: none;
   font-size: 1.5em;
   color: white;
-  font-weight: bolder;
+  font-weight: 500;
 }
