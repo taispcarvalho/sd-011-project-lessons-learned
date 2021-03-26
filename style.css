@@ -6,3 +6,10 @@ body {
   position: fixed;
   top: 0;
 }
+
+#minha_foto {
+  padding: 35px;
+  margin: 35px;
+  border: 5px;
+  width: 200px;
+}
