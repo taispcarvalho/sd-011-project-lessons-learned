@@ -11,5 +11,6 @@ body {
 article {
   color: rgb(103, 0, 124);
   font-family: sans-serif;
-  font-size: 10px;
+  font-size: 29px;
+  line-height: 150%;
 }
