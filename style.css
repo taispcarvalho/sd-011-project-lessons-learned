@@ -95,7 +95,10 @@ td , th {
   border-radius: 10px;
   text-align: center;
   line-height: 2;
-  margin-top: 150px;
+  margin-top: 125px;
+  padding-bottom: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .lado-esquerdo {
