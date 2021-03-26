@@ -2,7 +2,7 @@ body {
   background-color: rgb(253, 251, 251);
   max-width: 1400px;
   font-family: sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   text-align: justify;
   color: rgb(66, 66, 66);
   line-height: 55px;
@@ -65,13 +65,12 @@ h2 {
 ol {
   display: inline-block;
   top: 0;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
 ul {
   display: inline-block;
   top: 0;
-  margin-right: 1000px;
   list-style: none;
 }
 
@@ -80,6 +79,8 @@ ul {
   margin-top: 20px;
   margin-left: 20px;
   max-width: 450px;
+  left: 0;
+  position: absolute;
 }
 
 .third-section {
@@ -88,6 +89,8 @@ ul {
   margin-top: 20px;
   max-width: 450px;
   border: 2px solid black;
+  left: 500px;
+  position: absolute;
 }
 
 .float-right {
@@ -96,21 +99,40 @@ ul {
 
 aside {
   display: inline-block;
+  position: absolute;
+  max-width: 600px;
+  left: 1000px;
 }
 
 .division-one {
   float: left;
   display: inline-block;
-  max-width: 400px;
+  max-width: 350px;
   border: 2px solid black;
 }
 
 .division-two {
   float: right;
   display: inline-block;
-  max-width: 400px;
+  max-width: 300px;
 }
 
 .last-article {
   margin-top: 40px;
+  float: right;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  top: 3000px;
+  left: 500px;
+}
+
+#linkedin-img {
+  width: 100px;
+}
+
+#unix-img {
+  width: 60px;
 }
