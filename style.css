@@ -4,12 +4,26 @@ body {
 
 article {
   color: goldenrod;
-  font-size: larger;
+  font-size: 20;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 5%;
+  line-height: 100%;
 }
 
 header {
   top: 0;
   position: fixed;
+}
+
+.lado-esquerdo {
+  width: 25%;
+  height: 150px;
+  display: inline-block;
+  float: left;
+}
+
+.lado-direito {
+  width: 25%;
+  height: 150px;
+  display: inline-block;
+  float: right;
 }
