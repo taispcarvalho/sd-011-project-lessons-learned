@@ -86,13 +86,12 @@ main section figure figcaption {
   margin-left: 500px;
   margin-right: 650px;
   margin-top: 150px;
-  
 }
 
 #artigo1 p {
   font-family: 'Rokkitt', serif;
   font-size: 25px;
-  line-height:35px;
+  line-height: 35px;
 }
 
 main aside:nth-of-type(1) {
