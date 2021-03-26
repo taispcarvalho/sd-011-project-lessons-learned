@@ -12,5 +12,13 @@ header {
 #increment {    
   background-color:#00008B; 
   max-width: 100%;
-  padding: 2px 0;    
+  padding: 2px 0;
+}
+#minha_foto {
+  margin-top: 10px;
+  border-radius: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  width: 150px;  
 }
