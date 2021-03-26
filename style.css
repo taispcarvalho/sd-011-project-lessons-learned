@@ -8,3 +8,7 @@ article {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 5%;
 }
+
+header {
+  margin-top: 0px;
+}
