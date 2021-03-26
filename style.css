@@ -15,15 +15,15 @@ body {
   padding: 10px 15px;
 }
 
-.navigation{
+.navigation {
   text-align: left;
 }
 
-.container-section{
+.container-section {
   width: 1000px;
 }
 
-.inline-block{
+.inline-block {
   display: inline-block;
 }
 
@@ -33,7 +33,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   display: inline-block;
   font-style: italic;
-  }
+}
 
 #minha_foto {
   width: 300px;
@@ -43,11 +43,11 @@ body {
 }
 
 #licoes_aprendidas {
-display: inline-block;
-margin-left: 10px;
-font-size: 15px;
-padding: 10px;
-border-radius: 4px;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 #Lições_a_aprender {
@@ -58,12 +58,12 @@ border-radius: 4px;
   border-radius: 4px;
 }
 
-.container-article{
+.container-article {
   width: 450px;
 }
 
 .lado_direito {
- float: right;
+  float: right;
 }
 
 .lado_esquerdo {
