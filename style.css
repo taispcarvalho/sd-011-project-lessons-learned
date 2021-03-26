@@ -1,12 +1,14 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Acme, serif;
+  padding: 0;
+  margin: 0;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(20, 19, 19);
+  background-color: rgb(24, 23, 23);
   color: white;
   width: 100%;
   padding: 15px 10px 5px;
@@ -14,18 +16,21 @@ body {
 
 #minha_foto {
   width: 200px;
+  padding: 150px 50px 10px;
 }
 
-#licoes_aprendidas {
-  display: inline-block;
-}
-
-#licoes_a_aprender {
-  display: inline-block;
+.aprendizados {
+  display: ;
+  
 }
 
 .tab {
   background-color: rgb(26, 23, 23);
   border-color: white;
   color: white;
+}
+
+td {
+  border: 1px solid white;
+  padding: 5px 10px;
 }
