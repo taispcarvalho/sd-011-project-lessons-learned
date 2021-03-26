@@ -1,6 +1,30 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-family:'Comfortaa';
+  font-family: Comfortaa, cursive;
+}
+
+main {
+  margin-top: 125px;
+  width: 65%;
+  display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+aside section p{
+  text-align: justify;
+}
+
+table{
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 #cabecalho {
@@ -8,96 +32,80 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: green;
+  background-color: teal;
   text-align: center;
 }
 
+#image-container{
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
 #titulo {
-  color: blue;
-  text-align: center;
+  color: greenyellow;
 }
 
 #minha_foto {
   border-radius: 100%;
-  width: 130px;
+  width: 100px;
 }
-
-#foto-container {
-  display:inline-block;
-}
-
-#title-container {
-  display:inline-block;
-}
-
-#header-container {
-  margin-top: 125px;
-  width: 100%;
-  text-align: center;
-}
-
 
 #rodape {
-  background-color: blue;
-  color: white;
+  background-color:cadetblue;
   text-align: center;
 }
 
-.lists {
-  display: inline-block;
-  border-style: dashed;
+#licoes_aprendidas {
+  font-size: 1.1em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+  padding-inline-start: 30px;
+}
+
+#licoes_a_aprender {
+  font-size: 1.1em;
+  margin-block-start: 0.5em;
+  margin-block-end: 0.5em;
+}
+
+#espaco {
+  padding: 5px;
 }
 
 .title {
   text-align: center;
 }
 
-#licoes_aprendidas {
-  padding-inline-end: 40px;
-  font-size: 1.2em;
-}
-
-#licoes_a_aprender {
-  padding-inline-end: 40px;
-  font-size: 1.2em;
-}
-
 .buttonStyle {
   color: rgb(253, 251, 251);
-  background-color:teal;
+  background-color: teal;
   padding: 5px;
   text-decoration: none;
   font-weight: 700;
   border-radius: 10px;
   display: inline-block;
-  margin: auto;
+  margin-bottom: 10px;
 }
 
-main {
-  width: 65%;
-  display: inline-block;
-}
-
-aside {
+.lado-direito {
   width: 30%;
   float: right;
-  display: inline-block;
   border-style: groove;
   border-radius: 10px;
+  text-align: center;
+  line-height: 2.0;
+  margin-top: 125px;
+}
+
+.lado-esquerdo {
   text-align: justify;
+  line-height: 1.5;
 }
 
 .navButtons {
   text-decoration: none;
   font-size: 1.5em;
   color: white;
-  margin: 15px;
-}
-
-nav ul li {
-  display: inline-block;
-}
-
-article {
-  text-align: justify;
+  font-weight: bolder;
 }
