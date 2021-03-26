@@ -64,6 +64,7 @@ body {
 
 .lado_direito {
   float: right;
+  padding: 100px;
 }
 
 .lado_esquerdo {
