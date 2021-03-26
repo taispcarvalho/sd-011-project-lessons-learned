@@ -10,7 +10,6 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  /* width: 100%; */
   background-color: salmon;
   text-align: center;
   padding: 10px 15px;
@@ -18,6 +17,14 @@ body {
 
 .navigation{
   text-align: left;
+}
+
+.container-section{
+  width: 1000px;
+}
+
+.inline-block{
+  display: inline-block;
 }
 
 #titulo {
@@ -51,20 +58,14 @@ border-radius: 4px;
   border-radius: 4px;
 }
 
-.lado_direito, .lado_esquerdo{
-  display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
-  border-radius: 4px;
-  box-shadow: -5px 5px 9px -1px rgba(0, 0, 0, 0.87);
+.container-article{
+  width: 450px;
 }
 
 .lado_direito {
-  display: inline-block;
-  width: 500px;
+ float: right;
 }
 
 .lado_esquerdo {
-  display: inline-block;
-  width: 600px;
+  float: left;
 }
