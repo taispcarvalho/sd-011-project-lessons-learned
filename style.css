@@ -22,3 +22,10 @@ header {
   margin-right: auto; 
   width: 150px;  
 }
+.section{
+  font-family: 'New Tegomin', serif; 
+  display: flex;  
+}
+#licoes_a_aprender{
+  
+}
