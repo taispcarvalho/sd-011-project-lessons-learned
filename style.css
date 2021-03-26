@@ -13,11 +13,27 @@
   background-color: hsl(161, 54%, 27%);
 }
 
+.nav, .nav a{
+  margin: 10px;
+  padding: 20px 0 10px 0;
+  text-align: center;
+  line-height: 50px;
+  justify-content: space-between;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(161, 54%, 27%);
+}
+
+.nav a:hover {
+  font-size: 40px;
+}
+
 #titulo {
   background-color: hsl(161, 54%, 27%);
   text-align: center;
   color: white;
 }
+
 
 #minha_foto {
   border-radius: 300px;
@@ -38,19 +54,7 @@
   padding: 2px;
 }
 
-.nav {
-  width: 100%;
-  display: inline-block;
-  background-color: hsl(161, 54%, 27%);
-}
 
-.nav a {
-  color: white;
-  border: solid black 1px;
-  width: auto;
-  list-style: none;
-  text-decoration: none;
-}
 
 #rodape {
   font-family: Cambria, Cochin, Georgia, Times, serif, sans-serif;
