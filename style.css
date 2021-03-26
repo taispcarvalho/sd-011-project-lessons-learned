@@ -36,12 +36,12 @@
 }
 
 .nav a:hover {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .rede a:hover {
   width: 200;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 #minha_foto {
@@ -125,14 +125,15 @@
 }
 
 #rodape {
-  font-family: Cambria, Cochin, Georgia, Times, serif, sans-serif;
-  font-weight: 300;
-  padding: 20px;
-  margin: 5px;
-  border: solid black 1px;
-  background-color: teal;
+  font-family: Times, serif, sans-serif;
+  width: 100%;
   font-size: 18px;
   line-height: 2px;
+}
+
+.roda h3 {
+  padding: 100px;
+  background-color: teal;
 }
 
 .rede {
