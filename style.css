@@ -3,6 +3,7 @@ body {
   font-family: sans-serif, 'Times New Roman', Times, serif;
   line-height: normal;
   font-size: 20px;
+  margin: 30px,30px,20px;;
 }
 
 header {
@@ -51,4 +52,21 @@ th, tr, td {
 
 th {
   font-weight: bolder;
+}
+
+.right-side {
+  max-width: 45%;
+  float: right;
+  margin-left: 5px;
+}
+
+.left-side {
+  max-width: 45%;
+  float: left;
+  margin-right: 5px;
+  }
+
+.both-sides{
+  padding: 30px,50px,20px;
+  margin-bottom: 200px;
 }
