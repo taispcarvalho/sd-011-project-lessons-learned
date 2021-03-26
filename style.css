@@ -2,6 +2,17 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+.insta {
+  position: absolute;
+  top: 270px;
+  left: 245px;
+  font-size: small;
+}
+
+.insta:link {
+  text-decoration: none;
+}
+
 #cabecalho {
   position: fixed;
   top: 0;
@@ -35,4 +46,8 @@ body {
   right: 0;
   text-align: right;
   background-color: rgb(235, 247, 226);
+}
+
+p {
+  padding-right: 20px;
 }
