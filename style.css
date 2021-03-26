@@ -19,9 +19,9 @@
   color: white;
 }
 
-.nav, .nav a{
+.nav , .nav a {
   margin: 10px;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 10px;
   text-align: center;
   line-height: 50px;
   justify-content: space-between;
@@ -50,12 +50,11 @@
 
 .about {
   top: 20px;
-  margin-top: 120px;
-  margin: 20px;
+  margin-top: 40px;
   padding: 10px;
 }
 
-.about p{
+.about p {
   font-size: 20px;
 }
 
