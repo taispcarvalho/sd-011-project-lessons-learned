@@ -30,6 +30,7 @@ body{
 
 #mainContent{
   width: 80%;
+  background-color: rgb(255, 255, 255);
 }
 #sectionAboutme{
 float: right;
