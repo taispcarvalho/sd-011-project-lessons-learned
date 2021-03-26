@@ -220,20 +220,18 @@ footer {
   bottom: 30px;
 }
 
-.ladoesquerdo {
-  display: inline-block;
+.lado-esquerdo {  
   position: absolute;
-  max-width: 600px;
+  float: left;
+  width: 40%;
   top: 2000px;
   left: 50px;
-  height: 0;
 }
 
 .lado-direito {
-  display: inline-block;
   position: absolute;
-  max-width: 600px;
-  top: 2000px;
-  left: 750px;
-  height: 0;
+  float: right;
+  width: 40%;
+  top: 1969px;
+  right: 200px;
 }
