@@ -1,13 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
 }
-header {
-  top: 0px;
+header {  
   background-color:#DC143C; 
   max-width: 100%;
   color: #fff;
-  padding: 4px 0;
+  padding: 4px;
   text-align: center;
+  top: 0px;
 }
 #increment {    
   background-color:#00008B; 
@@ -26,6 +26,11 @@ header {
   font-family: 'New Tegomin', serif; 
   display: flex;  
 }
-#licoes_a_aprender{
+#rodape{
+  background-color: #DCDCDC;
+  flex: 1 1 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
   
 }
