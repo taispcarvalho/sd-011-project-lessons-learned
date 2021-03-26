@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -5,28 +10,45 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  /* width: 100%; */
   background-color: salmon;
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.navigation{
+  text-align: left;
 }
 
 #titulo {
-  font-size: 48px;
+  font-size: 35px;
+  color: 255, 255, 255;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 800;
-  letter-spacing: -2;
+  display: inline-block;
+  font-style: italic;
   }
 
 #minha_foto {
   width: 300px;
+  margin-top: 180px;
+  margin-left: 40px;
+  border-radius: 10px;
 }
 
 #licoes_aprendidas {
 display: inline-block;
-margin-left: 5%;
+margin-left: 10px;
+font-size: 15px;
+padding: 10px;
+border-radius: 4px;
 }
 
 #Lições_a_aprender {
   display: inline-block;
-  margin-left: 5%;
+  margin-left: 10px;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 .lado_direito, .lado_esquerdo{
