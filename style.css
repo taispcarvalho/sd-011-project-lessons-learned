@@ -9,7 +9,6 @@
   padding: 10px;
   width: 100%;
   top: 0;
-  position: fixed;
   background-color: hsl(161, 54%, 27%);
 }
 
@@ -145,7 +144,7 @@ span {
 
 .roda h3 {
   padding: 100px;
-  background-color: teal;
+  background-color: hsl(161, 54%, 27%);
 }
 
 .rede {
