@@ -2,15 +2,15 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
+#titulo {
+  padding-left: 20px;
+}
+
 .insta {
   position: absolute;
   top: 270px;
   left: 245px;
   font-size: small;
-}
-
-.insta:link {
-  text-decoration: none;
 }
 
 #cabecalho {
@@ -48,6 +48,11 @@ body {
   background-color: rgb(235, 247, 226);
 }
 
-p {
+#texto_rodape {
   padding-right: 20px;
+}
+
+article {
+  position: absolute;
+  top: 500px;
 }
