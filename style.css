@@ -1,7 +1,12 @@
 body { 
     background-color: rgb(253, 251, 251);
 }
-header , footer {
+footer {
+    background-color: silver;
+}
+
+header{
+    position: fixed;
     top: 0;
     background-color: silver;
 }
