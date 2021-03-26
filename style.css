@@ -1,3 +1,16 @@
 body {
   background-color: rgb(253, 251, 251);
 }
+header {
+  top: 0px;
+  background-color:#DC143C; 
+  max-width: 100%;
+  color: #fff;
+  padding: 4px 0;
+  text-align: center;
+}
+#increment {    
+  background-color:#00008B; 
+  max-width: 100%;
+  padding: 2px 0;    
+}
