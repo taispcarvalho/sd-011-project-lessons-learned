@@ -1,6 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  max-width: 1400px;
+  max-width: 1600px;
   font-family: sans-serif;
   font-size: 30px;
   text-align: justify;
@@ -222,10 +222,11 @@ footer {
 
 .ladoesquerdo {
   display: inline-block;
-  position: absolute;  
+  position: absolute;
   max-width: 600px;
-  top: 2030px;
+  top: 2000px;
   left: 50px;
+  height: 0;
 }
 
 .lado-direito {
@@ -234,5 +235,5 @@ footer {
   max-width: 600px;
   top: 2000px;
   left: 750px;
-  right: 0;
+  height: 0;
 }
