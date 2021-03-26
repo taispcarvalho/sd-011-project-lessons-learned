@@ -54,5 +54,10 @@ body {
 
 article {
   position: absolute;
+  top: 400px;
+}
+
+aside {
+  position: absolute;
   top: 500px;
 }
