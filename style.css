@@ -115,7 +115,7 @@ aside {
   display: inline-block;
   position: absolute;
   max-width: 600px;
-  top: 1550px;
+  top: 1000px;
   left: 1000px;
 }
 
@@ -226,12 +226,4 @@ footer {
   max-width: 50px;
   position: absolute;
   bottom: 30px;
-}
-
-.last-article {
-  display: inline-block;
-  position: absolute;
-  max-width: 600px;
-  top: 1000px;
-  left: 1000px;
 }
