@@ -54,13 +54,13 @@ th {
   font-weight: bolder;
 }
 
-.right-side {
+.lado-direito {
   max-width: 45%;
   float: right;
   margin-left: 5px;
 }
 
-.left-side {
+.lado-esquerdo {
   max-width: 45%;
   float: left;
   margin-right: 5px;
