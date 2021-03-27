@@ -1,17 +1,24 @@
-#pag { background-color: rgb(253, 251, 251);
-    font-family: helvetica, sans-serif ;
+
+.titulonivel2{
 
 }
+
+
 #cabecalho { position: fixed;
 top: 0;
 }
 #titulo {
 
 }
-#minha_foto { display: inline-block;
+#minha_foto { 
 border-radius: 50%;
 width: 300px;
 height: 400px;
 
 }
 #rodape { }
+
+body { display: grid;
+    background-color: rgb(253, 251, 251);
+    font-family: helvetica, sans-serif;
+}
