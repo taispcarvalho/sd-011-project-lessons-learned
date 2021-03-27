@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(253, 251, 251);
+  margin-right: 19%;
+  padding: 5px;
+  text-align: center;
+  font-family: Courier, monospace;
+  line-height: 25px;
+  border-color: aqua;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 99%;
+  background-color: antiquewhite;
+  border-bottom-style: ridge;
+  font-size: 30px;
+  color: blueviolet;
+  box-shadow: 0 2px 2px grey;
+}
+
+#titulo {
+  text-align: center;
+}
+
+#minha_foto {
+  width: 300px;
+  border-radius: 200%;
+  margin-top: 100px;
+}
+
+.licoes {
+  display: inline-block;
+  width: 99%;
+  border-bottom-style: ridge;
+  background-color: antiquewhite;
+  font-weight: 500;
+}
+
+.licoes li {
+  border-bottom-style: ridge;
+  border-color: aqua;
+}
+
+.licoes li:hover {
+  color: aqua;
+  font-weight: 1000;
+  background-color: blueviolet;
+}
+
+#licoes_aprendidas {
+  display: inline-block;
+  list-style-type: decimal;
+  font-size: 20px;
+  margin: 50px;
+  margin-left: 1px;
+  width: 0 auto;
+  text-align: left;
+}
+
+#licoes_a_aprender {
+  display: inline-block;
+  font-size: 20px;
+  text-align: left;
+  width: 0 auto;
+}
+
+.article {
+  width: 100%;
+  margin-top: 1px;
+  border: 10px;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.lado-esquerdo , .lado-direito {
+  display: inline-block;
+  background-color: antiquewhite;
+  width: 45%;
+  margin: 5px;
+  border: 5px;
+  padding: 5px;
+  border-bottom-style: ridge;
+}
+
+.lado-direito {
+  float: right;
+  margin-right: 10px;
+}
+
+.lado-esquerdo {
+  float: left;
+}
+
+.section-aside {
+  background-color: antiquewhite;
+  width: 19%;
+  height: 100%;
+  top: 105px;
+  float: right;
+  margin-left: 80%;
+  position: fixed;
+}
+
+.table td {
+  border-bottom-style: ridge;
+  border-color: aqua;
+  font-weight: 1000;
+}
+
+.table {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#rodape {
+  margin: 10px;
+  clear: both;
+  background-color: beige;
+  list-style: none;
+  top: -2;
+  box-shadow: 0 2px 2px grey;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav li:hover {
+  background-color: white;
+}
