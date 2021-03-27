@@ -1,13 +1,17 @@
 /* Tudo */
 * {
-  color: rgb(250, 250, 250);
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
-a {
+ul , ol {
+  padding-left: 40px;
+}
+
+a , h1 , h3 , li {
+  color: rgb(250, 250, 250);
   text-decoration: none;
 }
 
@@ -15,31 +19,30 @@ body {
   background-color: rgb(253, 251, 251);
 }
 
-nav ul li {
-  display: inline-block;
-  font-size: 24px;
-  margin: 0 8px;
-}
-
-main {
-  margin: 200px 0 0;
-}
-
 /* Header */
-.trybe-icon {
-  width: 80px;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
   background-color: rgb(15, 163, 107);
   width: 100%;
-  height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 24px;
+}
+
+#titulo {
+  font-style: italic;
+}
+
+#trybe-icon {
+  width: 80px;
+}
+
+#header-navigation ul li {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 8px;
 }
 
 /* Main */
@@ -47,44 +50,65 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 160px 0;
 }
 
 #learned-content {
   display: grid;
   align-items: center;
   background-color: rgb(15, 163, 107);
-  width: 30%;
+  width: 400px;
   height: 400px;
   border-radius: 16px;
-  padding: 24px;
 }
 
-#title-learned-content {
+#title-learned-content , #title-unlearned-content {
   text-align: center;
   font-size: 24px;
 }
 
-#minha_foto {
-  width: 360px;
-}
-
 #licoes_aprendidas , #licoes_a_aprender {
   font-size: 24px;
-  padding: 0 0 0 40px;
 }
 
 #unlearned-content {
   display: grid;
   align-items: center;
   background-color: rgb(61, 31, 163);
-  width: 30%;
+  width: 400px;
   height: 400px;
   border-radius: 16px;
-  padding: 24px;
 }
 
+#minha_foto {
+  width: 400px;
+  height: 480px;
+  border-radius: 16px;
+}
 
+#main-content2 {
+  margin: 80px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
 
+#article-about-me {
+  width: 64%;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(70, 63, 63);
+}
+
+.side-bar {
+  background-color: gray;
+  width: 240px;
+  border-radius: 4px;
+}
+
+#aside-title {
+  text-align: center;
+  margin: 24px 0;
+}
 
 
 #rodape {
