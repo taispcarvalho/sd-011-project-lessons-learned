@@ -6,3 +6,18 @@ body {
   position: fixed;
   top: 0;
 }
+
+nav {
+  margin-top: 10vh;
+}
+
+aside, article {
+  padding: 5px;
+}
+
+#minha_foto {
+  border-radius: 30%;
+  border: solid 3px;
+  width: 25vw;
+  height: 25vh;
+}
