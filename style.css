@@ -10,14 +10,20 @@ body {
 h1 {
   font-family: 'VT323' ;
   font-weight: normal;
+  color: green;
+}
+
+h2 {
+  font-size: 1,5rem;
 }
 
 nav {
   margin-top: 10vh;
 }
 
-aside {
+aside,article {
   padding: 5px;
+  line-height: 2vh;
 }
 
 #minha_foto {
