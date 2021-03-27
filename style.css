@@ -13,7 +13,7 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: cadetblue;
+  background-color: rgb(80, 71, 70);
   display: block;
   width: 100%;
   padding: 20px;
@@ -32,7 +32,7 @@ body {
 
 .info a {
   display: block;
-  background-color: cadetblue;
+  background-color: rgb(80, 71, 70);
   padding: 15px;
   border-radius: 10px;
   text-decoration: none;
@@ -41,7 +41,7 @@ body {
 }
 
 .info a:hover {
-  background-color: rgb(78, 111, 112);
+  background-color: rgb(184, 150, 133);
 }
 
 #cabecalho nav a {
@@ -63,10 +63,14 @@ body {
 
 .info table {
   display: inline-block;
+  border-collapse: collapse;
+  background-color: rgb(184, 150, 133);
+  color: white;
+  border: 1px white;
 }
 
 .info table , th , td {
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 .info {
@@ -77,7 +81,7 @@ body {
 .second-section {
   text-align: center;
   padding: 30px;
-  background-color: cadetblue;
+  background-color: rgb(184, 150, 133);
   color: aliceblue;
 }
 
@@ -93,20 +97,50 @@ body {
   text-align: justify;
 }
 
+.third-section {
+  padding: 30px;
+  text-align: center;
+}
+
+.third-section h2 {
+  display: block;
+  color: rgb(184, 150, 133);
+
+}
+
 .lado-esquerdo {
-  background-color: rgb(245, 210, 146);
+  background-color: rgb(184, 150, 133);
   max-width: 60%;
+  color: aliceblue;
   display: inline-block;
   padding: 20px;
   margin: 10px;
-  border: 1px solid black;
 }
 
 .lado-direito {
-  background-color: rgb(250, 230, 139);
+  background-color: rgb(184, 150, 133);
   max-width: 30%;
+  color: aliceblue;
   display: inline-block;
   margin: 10px;
   padding: 20px;
-  border: 1px solid black;
+}
+
+.fourth-section {
+  background-color: rgb(184, 150, 133);
+  padding: 30px;
+  text-align: center;
+}
+
+.fourth-section h2 {
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.fourth-section ul {
+  margin: 0 auto;
+  text-align: justify;
+  list-style-position: inside;
+  width: 400px;
+  color: aliceblue;
 }
