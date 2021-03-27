@@ -34,8 +34,7 @@ body{
 #mainContent{
   width: 80%;
   background-color: rgb(157, 212, 177);
-  margin: 8%;
-  padding: 30px;
+  margin: 9% 5% 2% 9.5%;
 
 }
 #sectionAboutme{
@@ -102,18 +101,22 @@ h2{
   margin-left: 25px;
   text-align: center;
 }
-#teste{
-  background-color: rgb(105, 10, 168);
+#sections {
+  width: 100%;
+  background-color: inherit;
+  height:100%;
 }
-
-
 .lado_esquerdo{
-  background-color: red;
+  background-color: inherit ;
   float: left;
-  width: 20%;
+  width: 50%;
 }
 .lado_direito{
-  background-color: blue;
+  background-color: inherit;
   float: right;
-  width: 20%;
+  width: 50%;
+}
+#rodape{
+  background-color: red;
+  margin-top: 10%;
 }
