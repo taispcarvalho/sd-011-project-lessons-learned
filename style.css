@@ -1,8 +1,10 @@
 * {
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  border: 0;
 }
 
 body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
   font-size: 15px;
   font-family: -apple-system, BlinkMacSystemFont, Ubuntu, Helvetica Neue, sans-serif;
@@ -12,6 +14,8 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
+  width: 100%;
+  background-color: greenyellow;
 }
 
 #minha_foto {
@@ -24,6 +28,11 @@ body {
 
 table , th , td {
   border: 1px solid black;
+}
+
+.first-box {
+  width: 100%;
+  margin-top: 150px;
 }
 
 .box {
