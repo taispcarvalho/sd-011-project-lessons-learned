@@ -23,7 +23,7 @@ header h1 {
   padding: 3px 0 0;
 }
 
-header nav ul li a {
+a {
   color: white;
   text-decoration: none;
   margin: 50px;
@@ -72,6 +72,11 @@ img {
 }
 
 footer {  
-  margin-left: 450px;
+  text-align: center;
   font-size: x-small;    
+}
+
+.rodape-link {
+  color: black;
+  margin: 4px;
 }
