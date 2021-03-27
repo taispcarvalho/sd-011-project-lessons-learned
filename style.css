@@ -3,20 +3,20 @@ body {
 }
 
 h1 {
-  font-family: 'VT323' ;
-  font-weight: normal;
+  font-family: 'VT323', monospace;
+  font-weight: 100;
   color: green;
 }
 
 h2 {
-  font-size: 1,5rem;
+  font-size: 1.5rem;
 }
 
 nav {
   margin-top: 10vh;
 }
 
-aside,article {
+aside , article {
   padding: 5px;
   line-height: 2vh;
   vertical-align: middle;
@@ -34,7 +34,7 @@ aside,article {
   height: 15%;
 }
 
-#lado-esquerdo,#lado-direito {
+.lado-esquerdo , .lado-direito {
   width: 45%;
   display: inline-block;
 }
