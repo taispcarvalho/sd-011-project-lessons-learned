@@ -1,69 +1,105 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header id="cabecalho">
+      <h1 id="titulo">Lessons Learned Project</h1>
+    </header>
 
-  <header id="cabecalho">
-    <h1 id="titulo">Lessons Learned Project - Trybe</h1>
-  </header>
+    <main>
+      <div>
+        <img
+          id="minha_foto"
+          src="https://avatars.githubusercontent.com/u/39578998?v=4"
+          alt="Foto de rosto de Carlos Eduardo"
+        />
+        <p>
+          <strong>Carlos Eduardo Tofanim</strong> - estudante
+          <strong
+            ><a
+              id="link_externo"
+              href="https://www.betrybe.com/"
+              target="_blank"
+              >Trybe</a
+            ></strong
+          >
+        </p>
+      </div>
+      <section class="listas">
+        <aside>
+          <nav>
+            <ol id="licoes_aprendidas">
+              <p class="list-tittle">Lições que já aprendi:</p>
+              <li>Unix & Bash - Comandos</li>
+              <li>Softskills - Inteligência emocional [Auto-conhecimento]</li>
+              <li>Git & GitHub - O que é e para que serve</li>
+              <li>Git & GitHub - Entendendo os comandos</li>
+              <li>Internet - Entendendo como ela funciona</li>
+              <li>Introdução - HTMl & CSS</li>
+              <li>HTMl & CSS - Estruturas de página</li>
+              <li>HTMl & CSS - Primeiros passos em CSS</li>
+              <li>HTMl & CSS - Seletores e posicionamento</li>
+              <li>HTMl Semântico</li>
+            </ol>
+          </nav>
+        </aside>
+        <aside>
+          <nav>
+            <ul id="licoes_a_aprender">
+              <p class="list-tittle">Lições que ainda quero aprender:</p>
+              <li>Introdução à JavaScript e Lógica de Programação</li>
+              <li>JavaScript: DOM, Eventos e Web Storage</li>
+              <li>HTMl & CSS: Forms, Flexbox e Responsivo</li>
+              <li>
+                Higher Order functions do JavaScript ES6 e Teste Unitários
+              </li>
+              <li>JavaScript Assíncrono e Promises</li>
+              <li>Testes automatizados com Jest</li>
+              <li>Introdução ao desenvolvimento Web com NodeJS</li>
+              <li>NodeJS: Camada de serviço e Arquitetura REST e RESTful</li>
+              <li>Autenticação e Upload de Arquivos</li>
+              <li>Arquitetura: SOLID e ORM</li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+    </main>
 
-  <main>
-    <div>
-      <img id="minha_foto" src="https://avatars.githubusercontent.com/u/39578998?v=4" alt="Foto de rosto de Carlos Eduardo">
-      <p><strong>Carlos Eduardo Tofanim</strong> - estudante <strong><a id="link_externo" href="https://www.betrybe.com/" target="_blank">Trybe</a></strong></p>
-    </div>
-    <section class="listas">
-      <aside>
-        <nav>
-          <ol id="licoes_aprendidas"><p class="list-tittle">Lições que já aprendi:</p>
-            <li>Unix & Bash - Comandos</li>
-            <li>Softskills - Inteligência emocional [Auto-conhecimento]</li>
-            <li>Git & GitHub - O que é e para que serve</li>
-            <li>Git & GitHub - Entendendo os comandos</li>
-            <li>Internet - Entendendo como ela funciona</li>
-            <li>Introdução - HTMl & CSS</li>
-            <li>HTMl & CSS - Estruturas de página</li>
-            <li>HTMl & CSS - Primeiros passos em CSS</li>
-            <li>HTMl & CSS - Seletores e posicionamento</li>
-            <li>HTMl Semântico</li>
-          </ol>
-        </nav>
-      </aside>
-      <aside>
-        <nav>
-          <ul id="licoes_a_aprender"><p class="list-tittle">Lições que ainda quero aprender:</p>
-            <li>Introdução à JavaScript e Lógica de Programação</li>
-            <li>JavaScript: DOM, Eventos e Web Storage</li>
-            <li>HTMl & CSS: Forms, Flexbox e Responsivo</li>
-            <li>Higher Order functions do JavaScript ES6 e Teste Unitários</li>
-            <li>JavaScript Assíncrono e Promises</li>
-            <li>Testes automatizados com Jest</li>
-            <li>Introdução ao desenvolvimento Web com NodeJS</li>
-            <li>NodeJS: Camada de serviço e Arquitetura REST e RESTful</li>
-            <li>Autenticação e Upload de Arquivos</li>
-            <li>Arquitetura: SOLID e ORM</li>
-          </ul>
-        </nav>
-      </aside>
-    </section>
-  </main>
-
-  <footer id="rodape"><p>Stay in touch</p>
-    <nav>
-      <a href="https://github.com/dutofanim" target="_blank"><img src="https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white" alt="Logo do Github"></a>
-      <a href="https://linkedin.com/in/etofanim" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white" alt="Logo do Linkedin"></a>
-      <a href="mailto:etofanim@gmail.com"><img src="https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white" alt="Logo do Gmail"></a>
-      <a href="https://twitter.com/etofanim" target="_blank"><img src="https://img.shields.io/badge/-Twitter-blue?style=flat&logo=Twitter&logoColor=white" alt="Logo Twitter"></a>
-    </nav>
-  </footer>
-
-</body>
+    <footer id="rodape">
+      <p>Stay in touch</p>
+      <nav>
+        <a href="https://github.com/dutofanim" target="_blank"
+          ><img
+            src="https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white"
+            alt="Logo do Github"
+        /></a>
+        <a href="https://linkedin.com/in/etofanim" target="_blank"
+          ><img
+            src="https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white"
+            alt="Logo do Linkedin"
+        /></a>
+        <a href="mailto:etofanim@gmail.com"
+          ><img
+            src="https://img.shields.io/badge/-Gmail-c14438?style=flat&logo=Gmail&logoColor=white"
+            alt="Logo do Gmail"
+        /></a>
+        <a href="https://twitter.com/etofanim" target="_blank"
+          ><img
+            src="https://img.shields.io/badge/-Twitter-blue?style=flat&logo=Twitter&logoColor=white"
+            alt="Logo Twitter"
+        /></a>
+      </nav>
+    </footer>
+  </body>
 </html>

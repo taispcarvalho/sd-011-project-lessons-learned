@@ -1,17 +1,28 @@
 body {
+  margin: 0;
   background-color: rgb(253, 251, 251);
   font-family: Montserrat, sans-serif;
 }
 
 header {
-  position : fixed;
-  top : 0;
-  margin-left: 500px;
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  top: 0;
+  text-align: center;
+  background-color: #2fc18c;
+  background-image: url(https://drive.google.com/uc?id=1PiS5O6kB3yOJyzaSKJajnaI_oPZqsVmp);
+  background-position: center;
 }
 
 div {
   margin-top: 6%;
   text-align: center;
+}
+
+div img {
+  margin-top: 130px;
+  width: 300px;
 }
 
 nav p {
