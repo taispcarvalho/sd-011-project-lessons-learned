@@ -7,6 +7,11 @@ body {
   top: 0;
 }
 
+h1 {
+  font-family: 'VT323' ;
+  font-weight: normal;
+}
+
 nav {
   margin-top: 10vh;
 }
