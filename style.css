@@ -7,14 +7,16 @@ body {
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: rgb(21, 184, 56);
-  height: 150px;
+  background-color: rgb(40, 134, 114);
+  height: 25% 0 ;
   width: 100%;
-  margin: -7px; 
+  margin: -7px;
+  padding-bottom: -1; 
   line-height: 48px;
   text-align: center;
   color: aliceblue;
   border-radius: 10px;
+  display: inline;
   }
 nav {
   margin-left: 50px;
@@ -23,15 +25,110 @@ nav {
   
 }
 nav a {
-    color: aliceblue;
+    color: rgb(112, 114, 116);
     text-decoration: none;
-    background-color: rgb(30, 230, 56);
-    padding: 9px 10px;
+    background-color:aquamarine;
+    padding: 5px 10px;
     border-radius: 4px;
     margin-bottom: 0px;
     top: 0;
-    position: static;  
+    position: static; 
+    display: inline;
 }
 section img {
   margin-top: 150px;
+  border-radius: 500px;
+  margin-left: 10%;
+  width: 30%;
+  border: 5px solid aquamarine;
+  margin-bottom: 200px;
 }
+
+div {
+    float: right;
+  width: 50%;
+  margin-top:350px;
+  margin-right: 10px;
+
+}
+  
+ .lista {
+   margin-top: 100px;
+   height: 500px;
+ }
+
+ol {
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 5px solid aquamarine;
+  padding:15px 40px;
+  border-radius: 15px;
+ 
+}
+
+h3 {
+  color: rgb(4, 54, 33);
+  font-size: 30px;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  margin-left: 12%;
+  margin-right: 10%;
+  padding:15px 85px;
+  border: 5px solid aquamarine;
+  border-radius: 15px;
+}
+
+.left {
+  height: 200px;
+  float: left;
+  margin-left: 20px;
+  width:40%;
+  margin-top: 150px;
+}
+
+.right {
+  margin: 0px;
+  float: right;
+  width:40%;
+  height: 200px;
+  margin-right: 20px;
+  margin-top: 205px
+  
+}
+
+.title_table {
+  margin-top: 580px;
+}
+
+table {
+  border-radius: 10px;
+  border-color: aqua;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(40, 134, 114);
+  border-radius: 10px;
+  margin-bottom: -80px;
+  width: 100%;
+  text-align: center;
+   bottom: 0;
+     
+}
+  
+
+footer img { 
+  border-radius: 100px;
+  padding: 10px;
+   margin: -7px;
+  }
+
+  .lin{
+    margin-right: 25px;
+    
+  }
+ 
