@@ -60,7 +60,14 @@ img {
 }
 
 .texto-2 {
-  
+
+}
+
+.tabela {
+  width: 100%;
+  font-style: italic;
+  text-align: left;
+  border: 1px solid;    
 }
 
 footer {  
