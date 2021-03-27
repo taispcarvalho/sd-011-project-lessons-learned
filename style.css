@@ -1,10 +1,9 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+
 
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 #cabecalho {
@@ -20,7 +19,7 @@ body {
 }
 
 .container-section {
-  width: 1000px;
+  text-align: left;
 }
 
 .inline-block {
@@ -48,6 +47,7 @@ body {
   font-size: 15px;
   padding: 10px;
   border-radius: 4px;
+  list-style: none;
 }
 
 #Lições_a_aprender {
@@ -62,9 +62,12 @@ body {
   width: 450px;
 }
 
+.lado_direito .lado_esquerdo {
+display: inline-block;
+}
+
 .lado_direito {
   float: right;
-  padding: 100px;
 }
 
 .lado_esquerdo {
