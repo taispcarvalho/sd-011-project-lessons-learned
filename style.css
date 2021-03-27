@@ -25,6 +25,10 @@ div img {
   width: 300px;
 }
 
+nav {
+  background-color: red;
+}
+
 nav p {
   font-size: 25px;
 }
@@ -38,15 +42,36 @@ nav a img {
 }
 
 footer {
+  text-align: center;
+}
+
+footer nav {
   display: inline-block;
+  text-align: center;
+  align-items: center;
+  margin: 10px auto;
 }
 
 footer p {
   font-size: 17px;
 }
 
+aside {
+  margin: 50px auto;
+  width: 40%;
+  padding: 0 50px;
+  display: inline-block;
+}
+
+.article-block {
+  margin: 0 auto;
+  width: 40%;
+  padding: 0 50px;
+  display: inline-block;
+}
+
 .article {
-  width: 35%;
+  width: 100%;
 }
 
 .title {
@@ -56,6 +81,14 @@ footer p {
 
 .text {
   text-align: justify;
+}
+
+.lado-esquerdo {
+  align-items: left;
+}
+
+.lado-direito {
+  align-items: right;
 }
 
 #link_externo {
