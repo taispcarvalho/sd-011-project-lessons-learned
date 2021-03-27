@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  font-family: VT323, monospace;
+  font-family: "VT323", monospace;
   font-weight: 100;
   color: green;
 }
