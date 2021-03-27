@@ -9,6 +9,21 @@ body {
      position: fixed;
      padding: 10px;
      width: 100%;
-     background-color: hsl(161,54%, 27%);
+     background-color: rgb(5, 5, 5);
 
+}
+#titulo{
+  text-align: center;
+  color: whitesmoke;
+
+}
+#minhaFoto{
+  position: fixed;
+  top: 200px;
+  margin-left: 50px;
+  padding: 2px;
+  width: 200px;
+  
+
+  
 }
