@@ -15,7 +15,8 @@ header {
 }
 
 div {
-  margin-top: 6%;
+  margin: 100px auto;
+  width: 40%;
   text-align: center;
 }
 
@@ -42,6 +43,19 @@ footer {
 
 footer p {
   font-size: 17px;
+}
+
+.article {
+  width: 35%;
+}
+
+.title {
+  font-size: 26px;
+  text-align: center;
+}
+
+.text {
+  text-align: justify;
 }
 
 #link_externo {
