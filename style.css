@@ -1,0 +1,27 @@
+body {
+
+background-color: rgb(253, 251, 251);
+font-family:'Satisfy';
+
+}
+
+#cabeçalho {
+
+position: fixed;
+top: 0px;
+background-color: seagreen;
+
+}
+
+img {
+
+border-radius: 20px;
+width: 200px;
+top: 150px;
+}
+
+#rodapé {
+
+background-color: seagreen;
+
+}
