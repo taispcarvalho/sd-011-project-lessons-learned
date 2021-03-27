@@ -4,14 +4,14 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;     
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(253, 251, 251);
 }
 
 header {
   background-color: rgb(39, 39, 39);
   color: white;
-  padding: 40px 0 25px;  
+  padding: 40px 0 25px;
   position: fixed;
   right: 0;
   left: 0;
@@ -20,27 +20,28 @@ header {
 header h1 {
   text-align: center;
   font-weight: 300;
-  padding: 3px 0 0;  
+  padding: 3px 0 0;
 }
 
-header nav ul li a {  
+header nav ul li a {
   color: white;
   text-decoration: none;
   margin: 50px;
-  line-height: 1.5;   
+  line-height: 1.5;
 }
 
-img {    
-  height: 240px; 
-  width: 240px;   
+img {
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
   border: solid 3px;
   margin: 50px;
-  margin-top: 200px;        
+  margin-top: 200px;
 }
 
-.licoes { 
+.licoes {
   width: 500px;
+  margin-left: 30px;
 }
 
 #licoes_aprendidas {
@@ -55,11 +56,11 @@ img {
   margin-left: 30px;   
 }
 
-.texto-1 {  
-  
+.lado-esquerdo {
+
 }
 
-.texto-2 {
+.lado-direito {
 
 }
 
