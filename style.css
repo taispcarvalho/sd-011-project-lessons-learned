@@ -50,33 +50,20 @@ nav ul {
 
 .lado-esquerdo {
   display: inline-block;
+  width: 9cm;
   height: 4cm;
   margin: 2px;
   padding: 2px 3px;
   border: 3px;
-  font-size: 16px;
-  width: 300px;
 }
 
 .lado-direito {
   display: inline-block;
+  width: 8cm;
   height: 4cm;
-  margin-left: 3px;
+  margin: 2px;
   padding: 2px 3px;
   border: 3px;
-  font-size: 16px;
-  width: 350px;
-}
-
-section {
-  font-family: monospace;
-  font-size: larger;
-}
-
-ul ol {
-  font-family: monospace;
-  font-size: 15px;
-  text-align: center;
 }
 
 nav li {
@@ -92,12 +79,6 @@ img {
   width: 20cm;
   border-radius: 100%;
   float: left;
-}
-
-.lista {
-  display: inline-block;
-  margin: 1cm;
-  text-align: center;
 }
 
 main {
@@ -118,19 +99,37 @@ table {
   width: 300px;
   background-color: rgb(181, 197, 178);
   text-align: center;
+  font-size: 16px;
 }
 
 #cabecalho a:hover {
   color: darkgreen;
 }
 
-.historia {
-  text-align: justify;
+.lado-esquerdo {
   font-size: 16px;
-  padding-left: 20px;
+  width: 350px;
   display: inline-block;
 }
 
-ol li {
-  margin-top: 11px;
+.lado-direito {
+  font-size: 16px;
+  width: 350px;
+  display: inline-block;
+}
+
+.lessons-learned {
+  display: inline-block;
+  margin-left: 80px;
+  font-size: 18px;
+  padding: 10px;
+  font-family: monospace;
+}
+
+.lessons-to-learn {
+  display: inline-block;
+  margin-left: 80px;
+  font-size: 18px;
+  padding: 10px;
+  font-family: monospace;
 }
