@@ -50,7 +50,6 @@ nav ul {
 
 .lado-esquerdo {
   display: inline-block;
-  width: 9cm;
   height: 4cm;
   margin: 2px;
   padding: 2px 3px;
@@ -61,9 +60,8 @@ nav ul {
 
 .lado-direito {
   display: inline-block;
-  width: 8cm;
   height: 4cm;
-  margin: 2px;
+  margin-left: 3px;
   padding: 2px 3px;
   border: 3px;
   font-size: 16px;
@@ -131,4 +129,8 @@ table {
   font-size: 16px;
   padding-left: 20px;
   display: inline-block;
+}
+
+ol li {
+  margin-top: 11px;
 }
