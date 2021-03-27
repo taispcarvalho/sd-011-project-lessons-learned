@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(253,251, 251);
+    background-color: rgb(253, 251, 251);
 }
 
 #cabecalho h1 {
@@ -11,9 +11,9 @@ body {
     position: fixed;
     top: 0px;
     background-color: green;
-    width: 100%;
     height: 200px;
-    margin-left: 0px;    
+    margin-left: 0px;
+    text-align: center;    
 }
 
 #minha_foto {
