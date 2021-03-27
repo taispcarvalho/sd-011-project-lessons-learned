@@ -18,3 +18,13 @@ body {
 table , th , td {
   border: 1px solid black;
 }
+
+.box {
+  margin: 15px 30px;
+  border: 5px;
+  padding: 10px 20px;
+}
+
+#rodape {
+  text-align: right;
+}
