@@ -44,10 +44,14 @@ body {
   border-radius: 4px;
 }
 
-.container-table table tr td {
+.container-table table th {
   font-family: fantasy, sans-serif;
   margin: 5px 1px;
   padding: 2px 1px;
+  font-size: 13px;
+  color: blue;
+  letter-spacing: 1px;
+  line-height: 25px;
 }
 
 .container-section {
