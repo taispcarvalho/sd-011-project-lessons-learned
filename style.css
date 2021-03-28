@@ -1,64 +1,63 @@
 body {
-background-color: rgb(253, 251, 251);
-position: absolute;
-font-family: 'Satisfy', sans-serif;
-letter-spacing: 2px;
-color: rgb(28, 28, 28);
-font-size: 17px;
-z-index: 1;
-top: 100px;
-left: 30px;
+  background-color: rgb(253, 251, 251);
+  position: absolute;
+  font-family: 'Satisfy', sans-serif;
+  letter-spacing: 2px;
+  color: rgb(28, 28, 28);
+  font-size: 17px;
+  z-index: 1;
+  top: 100px;
+  left: 30px;
 }
 
 #cabeçalho {
-background-color: lightseagreen;
-position: fixed;
-height: 80px;
-top: 0;
-left: 9px;
-width: 100%;
-border-bottom: 5px solid teal;  
+  background-color: lightseagreen;
+  position: fixed;
+  height: 80px;
+  top: 0;
+  left: 9px;
+  width: 100%;
+  border-bottom: 5px solid teal;  
 }
 
 #minha_foto {
-border-radius: 50px;    
-border: 3px solid forestgreen;
+  border-radius: 50px;    
+  border: 3px solid forestgreen;
 }
 
 #título {
-margin-left: 20px;
-margin-bottom: 20px;
-letter-spacing: 10px; 
+  margin-left: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 10px;
 }
 
 h2 {
-letter-spacing: 5px;
+  letter-spacing: 5px;
 }
 
 #licoes_aprendidas {
-display: inline-block;
+  display: inline-block;
 }
 
 #licoes_a_aprender {
-display: inline-block;
+  display: inline-block;
 }
 
 #rodape {
-background-color: lightseagreen;
-padding-left: 100px;
-padding-top: 5px;
-font-size: 15px;
+  background-color: lightseagreen;
+  padding-left: 100px;
+  padding-top: 5px;
+  font-size: 15px;
 }
 
 #link_externo {
-padding-left: 50px;
+  padding-left: 50px;
 }
 
 .section-main {
-display: inline-block;
+  display: inline-block;
 }
+
 .section1 {
-width: 40%;
+  width: 40%;
 }
-
-
