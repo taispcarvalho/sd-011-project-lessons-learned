@@ -17,6 +17,7 @@ header {
 
 h3 {
   color: rgb(0, 26, 51);
+  letter-spacing: 1px;
 }
 
 div {
@@ -40,6 +41,15 @@ nav a {
 
 nav a img {
   margin: 0 10px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+th , td {
+  border: 1px solid black;
 }
 
 footer {
@@ -74,6 +84,7 @@ aside {
 .article {
   width: 100%;
   text-align: justify;
+  line-height: 1.5em;
 }
 
 .title {
