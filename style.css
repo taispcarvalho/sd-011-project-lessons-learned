@@ -1,23 +1,19 @@
 body {
   background-color: rgb(253, 251, 251);
 }
-.Barra {  
-  background-color: black;
-  position: fixed;
-  color: aqua;
-  text-align: center;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 60px;
+#cabecalho {
+  top: 0px;   
+  background-color: #DC143C;
+  text-align: center;     
 }
 nav {
-  margin-top: 60px;  
-  background-color: #A9A9A9;
-  color: #A9A9A9;  
+  margin-top: 0px;  
+  color: #A9A9A9;
+   
 }
 .Table {
   color: #A0522D;
+  
 }
 #minha_foto {
   margin-top: 0px;
