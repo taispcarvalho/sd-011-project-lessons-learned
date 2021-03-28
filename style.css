@@ -1,27 +1,25 @@
 body {
-
-background-color: rgb(253, 251, 251);
-font-family:'Satisfy';
-
+  background-color: rgb(253, 251, 251);
+  font-family: "Satisfy";
 }
 
 #cabeçalho {
-
-position: fixed;
-top: 0px;
-background-color: seagreen;
-
+  background-color: seagreen;
+  position: fixed;
+  height: 60px;
+  top: 0px;
+  left: 9px;
+  width: 95%;
+  border: 3px solid;
+  
 }
 
-img {
-
-border-radius: 20px;
-width: 200px;
-top: 150px;
+#minha_foto {
+  border-radius: 300px;
+   
 }
 
-#rodapé {
-
-background-color: seagreen;
-
+#título {
+  margin-left: 20px;
+  
 }
