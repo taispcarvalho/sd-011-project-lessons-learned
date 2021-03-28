@@ -20,6 +20,15 @@ header {
   box-shadow: 0 2px 2px grey;
 }
 
+.licoes li {
+  border-bottom-style: ridge;
+  border-color: aqua;
+}
+
+.nav li{
+  display: inline-block;
+}
+
 .home ul li {
   display: inline-block;
   list-style: none;
@@ -40,8 +49,9 @@ header {
 
 #titulo {
   font-size: 20px;
-  color: dodgerblue;
-  width: 5px;
+  padding-left: 20px;
+  color: rgb(50, 237, 138);
+  width: 50px;
   height: 5px;
 }
 
@@ -75,12 +85,7 @@ header {
   background-color: aliceblue;
 }
 
-.licoes {
-  border-bottom-style: ridge;
-  border-color: aqua;
-}
-
-.licoes {
+.licoes li:hover {
   color: aqua;
   font-weight: 1000;
   background-color: dodgerblue;
@@ -157,10 +162,6 @@ header {
   top: -2;
   box-shadow: 0 2px 2px grey;
   background-color: aliceblue;
-}
-
-.nav li{
-  display: inline-block;
 }
 
 .nav li:hover {
