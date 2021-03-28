@@ -105,3 +105,26 @@ article p {
   padding-left: 7px;
   line-height: 1.5;
 }
+
+#blocos_fundamentos {
+  margin-top: 60px;
+}
+
+#blocos_fundamentos h3 {
+  font-size: 18px;
+  color: rgb(68, 68, 68);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+table , tr , td {
+  border-collapse: collapse;
+  border-radius: 15px;
+  border-spacing: 0;
+  margin: 0 auto;
+  border: 1px solid rgb(68, 68, 68);
+}
+
+td {
+  padding: 5px 15px;
+}
