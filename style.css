@@ -79,6 +79,8 @@ span {
 }
 
 #licoes_aprendidas , #licoes_a_aprender {
+  border: black solid 3px;
+  border-radius: 15px;
   display: inline-block;
   margin: 20px;
   padding: 10px;
@@ -113,6 +115,7 @@ span {
   background-color: black;
   padding: 10px;
   border: solid black 2px;
+  border-radius: 15px;
 }
 
 #table th , #table td {
