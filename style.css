@@ -1,24 +1,19 @@
-
-.titulonivel2{
-
+* {
+    background-color:rgb(253, 251, 251);
 }
-
-
-#cabecalho { position: fixed;
-top: 0;
+#cabecalho {
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: rgb(37, 63, 81);
+    text-align:center;
+    padding: 20px 0;   
+    
 }
 #titulo {
-
-}
-#minha_foto { 
-border-radius: 50%;
-width: 300px;
-height: 400px;
-
-}
-#rodape { }
-
-body { display: grid;
-    background-color: rgb(253, 251, 251);
-    font-family: helvetica, sans-serif;
+    background-color: rgb(37, 63, 81);  
+    font-family: 'Cinzel', serif;
+    color: white;
 }
