@@ -30,6 +30,8 @@ html {
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -38,6 +40,7 @@ body {
 }
 #cabecalho {
   position: fixed;
+  top:0;
   background-color: green;
   color: white;
   padding-left: 5%;
@@ -47,7 +50,7 @@ body {
 nav ul {
 display: inline-block;
 position: absolute;
-top: 110px;
+top: 90px;
 width: 50%;
 }
 
@@ -59,7 +62,8 @@ nav ul a {
   text-align: center;
   text-decoration: none;
   color: white;
-  height: 15%;
+  padding: 10px, 20px; 5px;
+ 
 }
 
 a {
