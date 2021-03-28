@@ -4,31 +4,67 @@ body {
 
 #cabecalho {
     position: fixed;
-    top: 0px;
-    border-color: green; 
+    top: 0px; 
     color: white;
     margin: auto;
     background-color: forestgreen;
+    width: 100%;
+    height: 125px;
+    text-align: center;
     
 }
-#sub-titulo{
-    font-size: 10px;
+#sub-titulo-1{
+    font-size: 15px;
+    text-align: left;
+    line-height: 0%;
+    font-weight: bold;
+    padding-left: 15px;
 }
 
+#sub-titulo-2{
+    font-size: 15px;
+    text-align: left;
+    line-height: 15px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+#minha_foto{
+    margin-top: 150px;
+    margin-left: 10px;
+    display: block;
+}
+
+#link{
+    display:block;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#direito{
+    display: inline-block;
+    width: 300px;
+}
+#esquerdo{
+    display: inline-block;
+    width: 500px;
+}
 #rodape{
     position: absolute;
     bottom: 0;
     width: 500px;
+    padding-top: 800px;
 }
 
-#lado-direito{
+.lado-direito{
     padding: 10px;
     display: inline-block;
-    width: 500px;
+    width: 300px;
 }
 
-#lado-esquerdo{
+.lado-esquerdo{
     display: inline-block;
+    width: 300px;
 }
 
 #text{
