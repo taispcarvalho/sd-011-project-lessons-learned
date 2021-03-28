@@ -6,7 +6,13 @@ body {
     position: fixed;
     top: 0px;
     border-color: green; 
+    color: white;
+    margin: auto;
+    background-color: forestgreen;
     
+}
+#sub-titulo{
+    font-size: 10px;
 }
 
 #rodape{
@@ -16,10 +22,15 @@ body {
 }
 
 #lado-direito{
+    padding: 10px;
     display: inline-block;
     width: 500px;
 }
 
 #lado-esquerdo{
     display: inline-block;
+}
+
+#text{
+    font-family: fantasy;
 }
