@@ -13,29 +13,28 @@ body{
   width: 100%;  
 }
 #titulo{
+  line-height: 40px;
   font-size: 40px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-align: center;
   color: white;
   margin-top: 20px;
 }
-#navegation {
+.navegation {
   text-align: center;
 }
-#navegation a {
+.navegation a {
   padding: 0% 5%;
   /* background-color: red; */
   font-size: 18px;
   display: inline-block;
   margin: 20px 0;
-
 }
-
 #mainContent{
-  width: 80%;
+  width: 90%;
   background-color: rgb(157, 212, 177);
-  margin: 9% 5% 2% 9.5%;
-
+  margin: 9% 2% 2% 5%;
+  height:
 }
 #sectionAboutme{
 float: right;
@@ -43,16 +42,16 @@ text-align: center;
 padding-top: 80px;
 }
 #sectionAboutme{
-  color: rgb(105, 10, 168);
-  margin-bottom: 40px;
+  /* color: rgb(105, 10, 168); */
+  margin-bottom: 30px;
   margin-top: -10px;
   font-size: 2.5em;
   font-weight: bold;
-  display: inline-block;
 }
-#sectionAboutme h3{
-  margin-bottom: 60px;
-  margin-top: -50px;
+#sectionAboutme h2{
+  margin-bottom: 50px;
+  width: 85%;
+  font-size: 50px;
 }
 #minha_foto{
   margin-left: 30px;
@@ -69,12 +68,11 @@ padding-top: 80px;
 }
 #lessons-table{
   background-color: inherit;
-  display: inline-block;
   margin: 40px 25%;
   font-size: 25px;
   width: 50%;
   border-spacing: 0;
-  padding: 50px;
+  padding: 30px 50px 20px 50px;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #lessons-table td{
@@ -87,36 +85,58 @@ padding-top: 80px;
 h2{
   text-align: center;
   color: rgb(105, 10, 168);
-  font-size: 2em;
+  font-size: 2em; 
 }
-
 #licoes_a_aprender{
   padding: 25px;
   text-align: center;
   margin-left: 25px;
-  
 }
 #licoes_aprendidas{
   padding: 25px; 
   margin-left: 25px;
   text-align: center;
 }
-#sections {
-  width: 100%;
-  background-color: inherit;
-  height:100%;
+ #sections {
+   background-color: rgb(27, 192, 96);
+   display: inline-block;
+   font-size: 25px;
 }
-.lado_esquerdo{
-  background-color: inherit ;
+#sections h3{
+  text-align: center;
+  padding-bottom: 30px;
+}
+#sections h2{
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+#sections p{
+  margin-left: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.lado-esquerdo {
+  width: 45%;
   float: left;
-  width: 50%;
 }
-.lado_direito{
-  background-color: inherit;
+.lado-direito {
   float: right;
-  width: 50%;
+  width: 45%;
 }
-#rodape{
-  background-color: red;
-  margin-top: 10%;
+ #rodape{
+  background-color: rgb(105, 10, 168);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+a {
+  padding: 20px;
+  color: white;
+}
+#rodape p {
+  color: white;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
