@@ -2,86 +2,126 @@
   padding: 0;
   margin: 0;
   border: 0;
-  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: sans-serif;
-}
-
-ul, ol, li {
-  list-style: none;
+  font-family: monospace;
 }
 
 header {
   background-color: black;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-align: center;
-  height: 15%;
-  padding: 10px;
+  height: 110px
 }
 
 #titulo {
   color: green;
-  margin-top: 18px;
-  margin-bottom: 18px;
+  text-align: center;
+  padding: 18px
 }
 
 nav {
-  background-color: red;
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-
-#nav-items {
-  background-color: yellow;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 12px
 }
 
 .nav-item {
   display: inline-block;
-  margin: 10px;
-  background-color: red;
-  font-size: 25px;
+  
+}
+
+span {
+  color: white;
 }
 
 #minha_foto {
-  border-radius: 100%;
+  border-radius: 50%;
+  margin: 40px;
   height: 250px;
   width: 250px;
-  position: relative;
-  margin-top: 16%;
-  margin-left: 5%;  
 }
 
-h3 {
-  margin: 10px;
+#nome {
+  background-color: red;
+  display: inline-block;
+  position: absolute;
+  margin-top: 55px;
+  font-size: 26px;
+  
+}
+
+#apres {
+  background-color: red;
+  width: 455px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 100px;
+  font-size: 15px;
+}
+
+#god {
+  height: 200px;
+  margin-left: 500px;
+  margin-bottom: 60px;
+}
+
+#facts {
+  background-color: black;
   text-align: center;
-}
-li {
-  margin: 3px;
-}
-#licoes_aprendidas {
-  display: inline-block;
-  margin-left: 20%;
+  font-size: 26px;
+  height: 40px;
+  color: green;
+  padding: 10PX;
+  margin-bottom: 15px;
 }
 
-#licoes_a_aprender {
-  display: inline-block;
-  margin-left: 15%;
+#tabela {
+  background-color: black;
+  margin-left: 220px;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px;
+
+}
+
+th {
+  color: green;
+  background-color: black;
+}
+
+td {
+  color: white;
+  text-align: left;
+  
 }
 
 #rodape {
-  position: fixed;
-  bottom: 0;
-  height: 75px;
-  width: 100%;
-  background-color: red;
+  background-color: black;
+  height: 60px;
+  margin-top: 25px;
 }
 
-#title-footer {
-  margin-top: 15px;
+
+#lessons {
+  font-size: 24px;
+  color: green;
+  background-color: black;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
+
+.card {
+  display: inline-block;
+}
+
+.container {
+  padding: 2px 16px;
+  margin: 40px;
+  margin-left: 270px;
+}
+
+
+
