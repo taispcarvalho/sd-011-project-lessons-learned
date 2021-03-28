@@ -19,6 +19,12 @@ a , h1 , h2 , h3 , h4 , ul li , ol li {
   text-decoration: none;
 }
 
+hr {
+  width: 80%;
+  margin: auto;
+  border-color: rgba(130, 130, 130, 0.1);
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -108,6 +114,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 800px;
+  margin: 0 40px;
 }
 
 #article-about-me {
@@ -119,6 +126,7 @@ body {
 
 table {
   border-collapse: collapse;
+  width: 400px;
 }
 
 td , th {
