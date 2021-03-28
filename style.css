@@ -8,33 +8,29 @@ body {
 }
 
 main {
-  position:static ;
+  position:;
+  margin-top: 10%;
 }
 
 #cabecalho {
   position: fixed;
   top: 0%;
-
   background-image:url(image/logoTrybe.jpeg);
-  background-position:center;
-
-  
+  background-position:center; 
   color: white;
- /*  height: 5%; */
   width: 100%;
   text-align:left;
-
-
-  
+  z-index: 1;
 }
 
-#title {
+#titulo {
   padding-left: 10%;
 }
 
 nav {
-  position: static;
-  top: 0%;
+  position:fixed;
+  background-color: rgb(46, 92, 1);
+  
 }
 
 #minha_foto {
