@@ -18,15 +18,18 @@ body {
 }
 
 .image {
-  text-align: center;
   background-color: rgb(224, 224, 224);
-  padding-top: 80px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 120px;
 }
 
 #rodape {
+  text-decoration: none;
   text-align: center;
+  padding-left: 100px;
   background-color: rgb(161, 161, 161);
-}
+  }
 
 #minha_foto {
   border-radius: 20px;
@@ -44,10 +47,42 @@ body {
 }
 
 nav ul li {
+  text-decoration: none;
   display: inline-block;
-  color: blue;
+  color: white;
+  line-height: 30px;
+  margin-left: 90px;
+  padding: 2px 100px;
+  background-color: rgb(199, 199, 211);
+  
 }
 
 table {
   margin-left: 120px;
+}
+
+.texto-lateral {
+  width: 30%;
+  padding-top: 320px;
+  padding-bottom: 63px;
+  padding-left: 15px;
+  padding-right: 20px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;
+}
+ 
+ .lado-esquerdo {
+  display: inline-block;
+  margin-left: 120px;
+  width: 70%;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.lado-direito {
+  display:inline-block;
+  float: right;
+  line-height: 1.5;
+  width: 15%;
 }
