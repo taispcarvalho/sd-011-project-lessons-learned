@@ -7,11 +7,12 @@ body {
 
 #menu {
   display: block;
-  padding: 1px 1px;
+  padding: 5px px;
   margin-bottom: 10px;
 }
 
 #cabecalho {
+  background-color: #036b52;
   color: white;
   height: 90px;
   width: 99%;
@@ -19,7 +20,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 50px;
-  background-color: #036b52;
+  
 }
 
 #minha_foto {
@@ -31,20 +32,14 @@ body {
 
 .lado-direito {
   float: right;
-  border: solid 5px black; 
+  border: solid 5px rgb(0, 0, 0); 
   width: 320px;
   position: relative;
-  /*width: 500px;
-  height: 400px;
-  border: solid 5px black; 
-  margin: 10% auto;
-  padding: 20px 20px;
-  display: inline-block;*/
 }
 
-.lado-esquerdo{
+.lado-esquerdo {
   float: left;
-  border: solid 5px black; 
+  border: solid 5px rgb(0, 0, 0);  
   width: 320px;
   position: relative;
 }
@@ -70,5 +65,6 @@ body {
   border: solid 5px black; 
   margin: 400px 0px 600px 0px;
   padding: 20px 20px 150px 10px;
-  margin-top: 400px ;
+  margin-top: 400px;
 }
+
