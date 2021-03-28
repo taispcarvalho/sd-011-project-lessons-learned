@@ -12,3 +12,37 @@ body {
 .em-linha {
   display: inline;
 }
+
+#rodape {
+  padding-top: 20px;
+  border: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.lado-esquerdo {
+  background-color: aquamarine;
+  float: left;
+  padding-right: 40px;
+  width: 40%;
+}
+
+.lado-direito {
+  background-color: blueviolet;
+  float: left;
+  padding-right: 40px;
+  width: 40%;
+}
+
+table {
+  font-family: Comic 'Gill Sans', Helvetica, sans-serif;
+  font-size: 10px;
+  line-height: 25px;
+  color: aqua;
+  margin: 5px;
+  border: 5px;
+  border-color: brown;
+  border-style: solid;
+  background-color: darkblue;
+  padding: 5px;
+}
