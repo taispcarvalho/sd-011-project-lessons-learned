@@ -9,7 +9,6 @@ body {
   background-color: rgb(253, 251, 251);
   font-family: monospace;
   font-size: 15px;
-  
 }
 
 header {
@@ -100,7 +99,6 @@ td {
   color: white;
   text-align: left;
 }
-
 
 #lessons {
   font-size: 24px;
