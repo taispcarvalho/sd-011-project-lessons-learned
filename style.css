@@ -66,8 +66,12 @@ hr {
   padding: 160px 0 80px;
 }
 
-#learned-and-unlearned {
+.lado-esquerdo {
   display: flex;
+}
+
+.lado-direito {
+  width: 520px;
 }
 
 #learned-content , #unlearned-content {
@@ -113,7 +117,6 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 560px;
   margin: 0 40px;
 }
 
