@@ -11,7 +11,7 @@ body {
   top: 0;
   width: 900px;
   background-color: rgb(253, 251, 251);
-  color: rgb(52, 44, 74);
+  color: rgb(0, 133, 102);
   text-align: center;
 }
 
@@ -139,10 +139,10 @@ nav {
 }
 
 nav a {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   margin: 0 10px;
-  color: rgb(52, 44, 74);
+  color: rgb(0, 133, 102);
 }
 
 .anchor {
