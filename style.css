@@ -12,15 +12,14 @@ body {
 }
 
 #cabecalho {
-  background-color: #036b52;
+  background-color: rgb(48, 59, 143);
   color: white;
   height: 90px;
   width: 99%;
   display: block;
   position: fixed;
   top: 0;
-  bottom: 50px;
-  
+  bottom: 50px;  
 }
 
 #minha_foto {
@@ -32,20 +31,22 @@ body {
 
 .lado-direito {
   float: right;
-  border: solid 5px rgb(0, 0, 0); 
+  border: solid 5px;
+  color: rgb(7, 7, 7);
   width: 320px;
   position: relative;
 }
 
 .lado-esquerdo {
   float: left;
-  border: solid 5px rgb(0, 0, 0);  
+  border: solid 5px;
+  color: rgb(7, 7, 7);  
   width: 320px;
   position: relative;
 }
 
 #rodape {
-  background-color: #036b52;
+  background-color: rgb(48, 59, 143);
   color: white;
   height: 80px;
   width: 1300px;
@@ -62,8 +63,9 @@ body {
 .box {
   width: 400px;
   height: 300px;
-  border: solid 5px black; 
-  margin: 400px 0px 600px 0px;
+  border: solid 5px;
+  color: rgb(7, 7, 7); 
+  margin: 400px 600px;
   padding: 20px 20px 150px 10px;
   margin-top: 400px;
 }
