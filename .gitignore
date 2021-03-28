@@ -2,4 +2,8 @@
 node_modules/
 cypress/reports
 cypress/screenshots
+<<<<<<< HEAD
 .DS_Storeg
+=======
+.DS_Store
+>>>>>>> c108142ddf70a5716a69e9c2fe4b9d06c4dd9874
