@@ -37,6 +37,14 @@ body {
 
 }
 
+#licoes_a_aprender{
+  color:#1C1C1C ;
+}
+
+#licoes_aprendidas{
+  color: #1C1C1C;
+}
+
 .lado-esquerdo{
   width: 400px;
   display: inline-block;
