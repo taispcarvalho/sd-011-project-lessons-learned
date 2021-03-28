@@ -19,7 +19,7 @@ body {
   display: block;
   position: fixed;
   top: 0;
-  bottom: 50px;  
+  bottom: 50px;
 }
 
 #minha_foto {
@@ -40,7 +40,7 @@ body {
 .lado-esquerdo {
   float: left;
   border: solid 5px;
-  color: rgb(7, 7, 7);  
+  color: rgb(7, 7, 7);
   width: 320px;
   position: relative;
 }
@@ -64,8 +64,8 @@ body {
   width: 400px;
   height: 300px;
   border: solid 5px;
-  color: rgb(7, 7, 7); 
-  margin: 400px 600px;
+  color: rgb(7, 7, 7);
+  margin: 1000px 200px 200px 400px;
   padding: 20px 20px 150px 10px;
   margin-top: 400px;
 }
