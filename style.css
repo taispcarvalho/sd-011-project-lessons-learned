@@ -60,11 +60,13 @@ body {
     padding: 10px;
     display: inline-block;
     width: 300px;
+    border-style: double;
 }
 
 .lado-esquerdo{
     display: inline-block;
     width: 300px;
+    border-style: double;
 }
 
 #text{
