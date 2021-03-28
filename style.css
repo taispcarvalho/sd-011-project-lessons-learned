@@ -12,7 +12,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: #049775;
+  color: rgb(4, 151, 117);
   transition: 0.5s;
 }
 
@@ -55,10 +55,8 @@ span {
 }
 
 .container-header {
-  margin: 0px 30px;
   padding: 30px;
-  border-radius: 20px;
-  background-color: black
+  background-color: black;
 }
 
 .nav ul li a {
@@ -76,7 +74,7 @@ span {
 }
 
 #cabecalho ul li a:hover {
-  color: #44D9FE;
+  color: rgb(68, 217, 254);
   transition: 0.3s;
 }
 
@@ -101,6 +99,7 @@ span {
   border-radius: 10px;
   text-align: center;
   border: 3px solid black;
+  transition: 0.3s;
 }
 
 .nav ul li {
@@ -109,7 +108,7 @@ span {
 }
 
 .foto {
-  background-image: url(/img/background-foto.png);
+  background-image: url('/img/background-foto.png');
   background-size: cover;
   background-position-y: -85px;
   text-align: center;
@@ -118,14 +117,14 @@ span {
 }
 
 .lado-direito {
-  background-image: url(/img/background-direita.png);
+  background-image: url('/img/background-direita.png');
   background-size: cover;
-  background-color: rgb(245, 245, 245);
+  background-color: whitesmoke;
   position: relative;
   float: right;
   width: 25%;
   height: 1350px;
-  padding: 440px 30px 100px 30px;
+  padding: 440px 30px 100px;
 }
 
 .lado-direito article {
@@ -144,10 +143,6 @@ span {
   width: 75%;
   height: 1400px;
   color: white;
-}
-
-.lado-esquerdo li {
-  transition: 0.3s;
 }
 
 .lado-esquerdo li:hover {
@@ -170,7 +165,7 @@ span {
   width: 200px;
 }
 
-.container-licoes-1, .container-licoes-2, .tabela {
+.container-licoes-1 , .container-licoes-2 , .tabela {
   height: 450px;
   width: 900px;
   margin: 0 auto;
