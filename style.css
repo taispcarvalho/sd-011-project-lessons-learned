@@ -3,7 +3,7 @@ body {
   font-family: Source Sans Pro, sans-serif;
   max-width: 900px;
   margin: 0 auto;
-  color: rgb(20, 20, 20);
+  color: rgb(40, 34, 56);
 }
 
 #cabecalho {
@@ -11,7 +11,7 @@ body {
   top: 0;
   width: 900px;
   background-color: rgb(253, 251, 251);
-  color: rgb(68, 68, 68);
+  color: rgb(52, 44, 74);
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ main {
 #intro {
   width: 600px;
   margin: 100px auto 30px;
-  background-color: rgb(98, 98, 98);
+  background-color: rgb(64, 49, 109);
   padding: 35px 60px;
   border-radius: 15px;
 }
@@ -60,7 +60,7 @@ main {
 
 article h2 {
   text-align: left;
-  color: rgb(68, 68, 68);
+  color: rgb(52, 44, 74);
   font-size: 32px;
   max-width: 400px;
 }
@@ -87,7 +87,7 @@ article p {
 }
 
 .lado-direito h3 {
-  color: rgb(68, 68, 68);
+  color: rgb(52, 44, 74);
   font-size: 20px;
   margin: 30px 0 23px 25px;
 }
@@ -107,7 +107,7 @@ article p {
 
 #blocos_fundamentos h3 {
   font-size: 20px;
-  color: rgb(68, 68, 68);
+  color: rgb(52, 44, 74);
   text-align: center;
   margin-bottom: 30px;
 }
@@ -117,7 +117,7 @@ table , tr , td {
   border-radius: 15px;
   border-spacing: 0;
   margin: 0 auto;
-  border: 1px solid rgb(68, 68, 68);
+  border: 1px solid rgb(52, 44, 74);
 }
 
 td {
@@ -142,7 +142,7 @@ nav a {
   font-size: 16px;
   font-weight: 600;
   margin: 0 10px;
-  color: rgb(68, 68, 68);
+  color: rgb(52, 44, 74);
 }
 
 .anchor {
@@ -157,5 +157,5 @@ nav a {
   font-weight: 600;
   letter-spacing: -0.5px;
   margin: 15px 0;
-  color: rgb(68, 68, 68);
+  color: rgb(52, 44, 74);
 }
