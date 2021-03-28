@@ -1,17 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  top: 0px;
+  top: 0;
 }
+
 body {
   background-color: rgb(253, 251, 251);
 }
+
 #cabecalho {
   position: fixed;
   background-color: rgb(16, 150, 38);
   padding: 2px;
   width: 100%;
 }
+
 #titulo {
   line-height: 40px;
   font-size: 40px;
@@ -20,29 +23,35 @@ body {
   color: white;
   margin-top: 20px;
 }
+
 h2 {
   text-align: center;
   color: rgb(105, 10, 168);
   font-size: 2em;
-  }
-a {
-    padding: 20px;
-    color: white;
 }
+
+a {
+  padding: 20px;
+  color: white;
+}
+
 .navegation {
   text-align: center;
 }
+
 .navegation a {
   padding: 0% 5%;
   font-size: 18px;
   display: inline-block;
   margin: 20px 0;
 }
+
 #mainContent {
   width: 90%;
   background-color: rgb(157, 212, 177);
   margin: 9% 2% 2% 5%;
 }
+
 #sectionAboutme {
   float: right;
   text-align: center;
@@ -50,13 +59,15 @@ a {
   margin-bottom: 30px;
   margin-top: -10px;
   font-size: 2.5em;
-  font-weight: bold;
+  font-weight: 900;
 }
+
 #sectionAboutme h2 {
   margin-bottom: 50px;
   width: 85%;
   font-size: 50px;
 }
+
 #minha_foto {
   margin-left: 30px;
   margin-top: -50px;
@@ -64,12 +75,14 @@ a {
   border-radius: 30%;
   border: solid rgb(10, 168, 63) 3px;
 }
+
 #aboutme {
   background-color: rgb(27, 192, 96);
   padding: 30px;
   font-size: 25px;
   text-align: center;
 }
+
 #lessons-table {
   background-color: inherit;
   margin: 40px 25%;
@@ -77,57 +90,68 @@ a {
   width: 50%;
   border-spacing: 0;
   padding: 30px 50px 20px;
-  font-family:-apple-system, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  font-family: -apple-system, Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
+
 #lessons-table td {
   border-style: solid;
   text-align: center;
   padding: 20px;
   border-color: rgb(105, 10, 168);
-  border-spacing: 0px;
+  border-spacing: 0;
 }
+
 #licoes_a_aprender {
   padding: 25px;
   text-align: center;
   margin-left: 25px;
 }
+
 #licoes_aprendidas {
   padding: 25px;
   margin-left: 25px;
   text-align: center;
 }
+
 #sections {
   background-color: rgb(27, 192, 96);
   display: inline-block;
   font-size: 25px;
 }
+
 #sections h3 {
   text-align: center;
   padding-bottom: 30px;
 }
+
 #sections h2 {
-  text-align:center;
+  text-align: center;
   padding-top: 30px;
   margin-bottom: 40px;
 }
+
 #sections p {
   margin-left: 20px;
   text-align: center;
   padding-bottom: 30px;
 }
+
 .lado-esquerdo {
   width: 45%;
   float: left;
 }
+
 .lado-direito {
   float: right;
   width: 45%;
 }
+
 #rodape {
   background-color: rgb(105, 10, 168);
   color: white;
   text-align: center;
 }
+
 #rodape p {
   color: white;
   display: inline-block;
