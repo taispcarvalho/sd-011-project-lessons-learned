@@ -14,15 +14,39 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: greenyellow;
+  background-color: rgb(128, 185, 24);
+  color: white;
 }
 
-#minha_foto {
-  width: 150px;
+#titulo {
+  margin: 15px 30px;
+  font-family: -apple-system, BlinkMacSystemFont, Ubuntu, Helvetica Neue, sans-serif;
+  font-size: 30px;
 }
 
 #menu-de-navegacao li {
   display: inline-block;
+}
+
+.button {
+  background-color: white;
+  padding: 5px;
+  color: rgb(128, 185, 24);
+  text-align: center;
+  font-size: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a:hover , a:active {
+  background-color: greenyellow;
+  color: white;
+}
+
+#minha_foto {
+  width: 160px;
+  border-radius: 100%;
+  padding: 20px;
 }
 
 table , th , td {
@@ -31,7 +55,7 @@ table , th , td {
 
 .first-box {
   width: 100%;
-  margin-top: 150px;
+  margin: 120px 0 0 50px;
 }
 
 .box {
@@ -51,9 +75,10 @@ table , th , td {
 }
 
 #rodape {
-  text-align: right;
+  background-color: silver;
   display: inline-block;
   width: 100%;
+  text-align: right;
 }
 
 .trybe {
