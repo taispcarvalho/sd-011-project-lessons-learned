@@ -1,6 +1,13 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Epilogue, sans-serif;
+  word-spacing: 3px;
+}
+
+#menu {
+  display: block;
+  padding: 1px 1px;
+  margin-bottom: 10px;
 }
 
 #cabecalho {
@@ -11,7 +18,7 @@ body {
   display: block;
   position: fixed;
   top: 0;
-  bottom: 50px;*/
+  bottom: 50px;
 }
 
 #barra_de_navegacao {
@@ -22,9 +29,12 @@ body {
 }
 
 #titulo {
+  font-family: Epilogue, sans-serif;
+  font-size: 30px;
+  
   text-align: center;
   color: white;
-  padding: auto;
+  padding-bottom: 70px;
 }
 
 #minha_foto {
@@ -51,6 +61,8 @@ body {
 
 .box {
   width: 400px;
-  height: 400px;
-  
+  height: 200px;
+  border: solid 5px black; 
+  margin: 10% auto;
+  padding: 20px 20px;
 }
