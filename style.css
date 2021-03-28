@@ -7,11 +7,13 @@
 a {
   text-decoration: none;
   color: black;
+  transition: 0.3s;
 }
 
 a:hover {
   text-decoration: none;
-  color: green;
+  color: #049775;
+  transition: 0.5s;
 }
 
 table , th , td {
@@ -24,7 +26,7 @@ body {
   font-size: 12px;
   color: black;
   line-height: 30px;
-  margin-top: 120px;
+  margin-top: 115px;
 }
 
 header {
@@ -32,13 +34,13 @@ header {
 }
 
 main , footer {
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
 }
 
 footer {
-  text-align: end;
   clear: both;
+  text-align: end;
 }
 
 span {
@@ -50,11 +52,17 @@ span {
   position: fixed;
   top: 0;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.89);
+}
+
+.container-header {
+  margin: 0px 30px;
+  padding: 30px;
+  border-radius: 20px;
+  background-color: black
 }
 
 .nav ul li a {
-  padding: 10px;
+  padding: 5px 20px;
 }
 
 #cabecalho h1 {
@@ -64,10 +72,12 @@ span {
 
 #cabecalho ul li a {
   color: white;
+  transition: 0.3s;
 }
 
 #cabecalho ul li a:hover {
-  color: gray;
+  color: #44D9FE;
+  transition: 0.3s;
 }
 
 #minha_foto {
@@ -85,7 +95,7 @@ span {
   height: 150px;
   float: left;
   padding: 15px;
-  margin: 20px;
+  margin: 15px;
   background-color: black;
   line-height: 15px;
   border-radius: 10px;
@@ -99,21 +109,27 @@ span {
 }
 
 .foto {
+  background-image: url(/img/background-foto.png);
+  background-size: cover;
+  background-position-y: -85px;
   text-align: center;
   padding: 20px;
+  background-color: rgb(219, 219, 219);
 }
 
 .lado-direito {
+  background-image: url(/img/background-direita.png);
+  background-size: cover;
+  background-color: rgb(245, 245, 245);
   position: relative;
-  top: 50px;
   float: right;
-  width: 300px;
-  height: 1250px;
-  padding: 30px;
+  width: 25%;
+  height: 1350px;
+  padding: 440px 30px 100px 30px;
 }
 
 .lado-direito article {
-  margin-bottom: 330px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -125,27 +141,39 @@ span {
   position: relative;
   top: 50px;
   float: left;
-  width: 900px;
+  width: 75%;
   height: 1400px;
   color: white;
 }
 
+.lado-esquerdo li {
+  transition: 0.3s;
+}
+
 .lado-esquerdo li:hover {
-  border: 3px solid rgb(106, 255, 106);
+  border: 3px solid aqua;
   font-weight: 800;
   color: white;
+  transition: 0.5s;
+}
+
+.lado-esquerdo li span {
+  transition: 0.1s;
+}
+
+.lado-esquerdo li:hover span {
+  color: aqua;
+  transition: 0.5s;
 }
 
 .aside img {
   width: 200px;
 }
 
-.container-licoes-1 {
-  height: 700px;
-}
-
-.container-licoes-2 {
-  height: 700px;
+.container-licoes-1, .container-licoes-2, .tabela {
+  height: 450px;
+  width: 900px;
+  margin: 0 auto;
 }
 
 .container-licoes-1 h2 , .container-licoes-2 h2 {
@@ -154,14 +182,20 @@ span {
 }
 
 .tabela {
-  float: left;
+  color: black;
   text-align: center;
 }
 
-th , td {
-  padding: 5px 25px;
+.tabela table {
+  color: black;
+  position: relative;
+  left: 70px;
 }
 
-#rodape {
-  padding-top: 90px;
+th , td {
+  padding: 5px 15px;
+}
+
+#artigo p {
+  margin-top: 10px;
 }
