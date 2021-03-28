@@ -58,6 +58,11 @@ main {
   display: block;
 }
 
+article h2 {
+  font-size: 24px;
+  max-width: 300px;
+}
+
 .lado-esquerdo {
   display: inline-block;
   vertical-align: top;
