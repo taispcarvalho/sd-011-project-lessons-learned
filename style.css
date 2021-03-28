@@ -17,14 +17,13 @@ body {
   color: whitesmoke;
 
 }
-#minhaFoto{
-  position: fixed;
-  top: 200px;
+#minha_foto{
+  
+  margin-top: 20px;
   margin-left: 50px;
   padding: 2px;
   width: 200px;
   
-
 }
 
 #rodape{
@@ -36,4 +35,9 @@ body {
      width: 100%;
      background-color: rgb(18, 136, 7);
 
+}
+
+.lado-esquerdo{
+  width: 400px;
+  display: inline-block;
 }
