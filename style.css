@@ -1,8 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Epilogue, sans-serif;
-  font-size: 20px;
-  line-height: 20px;
+  font-size: 25px;
+  line-height: 25px;
 }
 
 #menu {
@@ -22,27 +22,31 @@ body {
   background-color: #036b52;
 }
 
-#barra_de_navegacao {
-  padding-bottom: 0px;
-  padding-top: 10;
-  left: 50px;
-  margin: 20px;
-}
-
-#titulo {
-  font-family: Epilogue, sans-serif;
-  font-size: 30px;
-  
-  text-align: center;
-  color: white;
-  padding-bottom: 70px;
-}
-
 #minha_foto {
   width: 200px;
   border-radius: 100%;
   margin-top: 100px;
   margin-left: 10px;
+}
+
+.lado-direito {
+  float: right;
+  border: solid 5px black; 
+  width: 320px;
+  position: relative;
+  /*width: 500px;
+  height: 400px;
+  border: solid 5px black; 
+  margin: 10% auto;
+  padding: 20px 20px;
+  display: inline-block;*/
+}
+
+.lado-esquerdo{
+  float: left;
+  border: solid 5px black; 
+  width: 320px;
+  position: relative;
 }
 
 #rodape {
@@ -64,6 +68,7 @@ body {
   width: 400px;
   height: 300px;
   border: solid 5px black; 
-  margin: 10% auto;
-  padding: 20px 20px;
+  margin: 400px 0px 600px 0px;
+  padding: 20px 20px 150px 10px;
+  margin-top: 400px ;
 }
