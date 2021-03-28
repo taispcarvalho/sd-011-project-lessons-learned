@@ -1,17 +1,18 @@
 body {
   background-color: rgb(253, 251, 251);
 }
-header {  
-  background-color:#A0522D; 
-  max-width: 100%;
-  color: #fff;
-  padding: 15px;
+.Barra {  
+  background-color: black;
+  position: fixed;
+  color: aqua;
   text-align: center;
-  top: 0px;
-  margin-top: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
 }
 nav {
-  margin-top: 0px;  
+  margin-top: 60px;  
   background-color: #A9A9A9;
   color: #A9A9A9;  
 }
@@ -19,7 +20,7 @@ nav {
   color: #A0522D;
 }
 #minha_foto {
-  margin-top: 10px;
+  margin-top: 0px;
   border-radius: 100%;
   display: block;
   margin-left: auto;
@@ -32,13 +33,16 @@ nav {
 }
 .lado-esquerdo{
   display: flex;
-  color: red;
-}
-
-.lado-direito {
-  display: flex;
+  color:#696969;
+  font-family: 'New Tegomin', serif;
+  
   
 }
+
+/* .lado-direito {
+  display: flex;
+  max-width: 100%;  
+} */
 #rodape{
   background-color: #DCDCDC;
   display: flex;
