@@ -6,13 +6,13 @@ body {
   position: fixed;
   top: 0;
   left: 380px;
-  background-color: rgb(253, 251, 251);
+  background-color: rgb(18, 133, 228);
 }
 
 #titulo {
   font-family: Impact, sans-serif;
   font-size: 40px;
-  color: darkblue;
+  color: rgb(255, 255, 255);
   line-height: 5px;
 }
 
@@ -23,6 +23,16 @@ body {
   top: 65px;
   left: 230px;
   line-height: 15px;
+  padding-left: 24%;
+  text-align: center;
+}
+
+#licoes_aprendidas {
+  transform: translate(5%, -20%);
+}
+
+#licoes_a_aprender {
+  transform: translate(65%, -138%);
 }
 
 #artigo aside {
@@ -32,18 +42,37 @@ body {
 }
 
 #foto {
-  background-color: seagreen;
   width: 200px;
   height: 200px;
+  transform: translate(255%, 75%);
+  background-color: rgb(18, 133, 228);
+}
+
+#minha_foto {
+  border-radius: 50%;
 }
 
 #lado-direito {
-  margin-left: 550px;
-  width: 400px;
-  height: 200px;
+  width: 650px;
+  height: 100px;
 }
 
 #lado-esquerdo {
-  width: 400px;
-  height: 200px;
+  width: 650px;
+  height: 100px;
+}
+
+#principais {
+  transform: translate(45%, -38%);
+  background-color: rgb(218, 234, 240);
+  width: max-content;
+}
+
+#trybe {
+  text-align: center;
+  font-size: 25px;
+}
+
+#rodape {
+  text-align: center;
 }
