@@ -25,7 +25,7 @@ header {
   border-color: aqua;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
 }
 
@@ -79,7 +79,7 @@ header {
 
 .licoes {
   display: inline-block;
-  width: 80%;
+  width: 50%;
   border-bottom-style: ridge;
   box-shadow: 0 2px 2px grey;
   background-color: aliceblue;
