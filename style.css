@@ -1,47 +1,10 @@
 body {
-  background-color: rgb(253, 251, 251);
+  background-color:rgb(253, 251, 251);
 }
 #cabecalho {
-  top: 0px;   
-  background-color: #DC143C;
-  text-align: center;     
-}
-nav {
-  margin-top: 0px;  
-  color: #A9A9A9;
-   
-}
-.Table {
-  color: #A0522D;
-  
-}
-#minha_foto {
-  margin-top: 0px;
-  border-radius: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  width: 150px;  
-}
-.section{
-  font-family: 'New Tegomin', serif; 
-  display: flex;  
-}
-.lado-esquerdo{
-  display: flex;
-  color:#696969;
-  font-family: 'New Tegomin', serif;
-  
-  
-}
-
-/* .lado-direito {
-  display: flex;
-  max-width: 100%;  
-} */
-#rodape{
-  background-color: #DCDCDC;
-  display: flex;
-  flex-direction: column;
-  text-align: center; 
+  top: 0px;
+  text-align: center;
+  color: aqua;
+  background: #0033C6;
+  border-bottom: 10px solid #ED1A3B;
 }
