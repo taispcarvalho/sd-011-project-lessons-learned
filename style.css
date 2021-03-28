@@ -1,3 +1,6 @@
+*{
+    border: transparent;
+}
 body {
     background-color: rgb(253, 251, 251)
 }
@@ -5,8 +8,15 @@ body {
 #cabecalho {
     position: fixed;
     top: 0px;
-}
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    background-color: rgb(234, 228, 233);
+    }
 
 #minha_foto {
     border-radius: 100%;
+    border-color: rgb(190, 225, 230);
+    border-style: solid;
+    width: 200px;
 }
