@@ -1,17 +1,32 @@
 body {
-  background-color: rgb(253, 251, 251);
+
+  --cinza-claro: rgb(253, 251, 251);
+
+  --roxo-escuro-texto: rgb(41, 34, 63);
+
+  --roxo-cor-de-fundo: rgb(61, 19, 122);
+
+  --verde: rgb(3, 107, 82);
   font-family: Source Sans Pro, sans-serif;
   max-width: 900px;
   margin: 0 auto;
-  color: rgb(40, 34, 56);
+  background-color: var(--cinza-claro);
+  color: var(--roxo-escuro-texto);
+}
+
+.ancora {
+  display: block;
+  position: relative;
+  top: -250px;
+  visibility: hidden;
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
   width: 900px;
-  background-color: rgb(253, 251, 251);
-  color: rgb(0, 133, 102);
+  background-color: var(--cinza-claro);
+  color: var(--verde);
   text-align: center;
 }
 
@@ -27,7 +42,7 @@ main {
 #intro {
   width: 600px;
   margin: 100px auto 30px;
-  background-color: rgb(64, 49, 109);
+  background-color: var(--roxo-cor-de-fundo);
   padding: 35px 60px;
   border-radius: 15px;
 }
@@ -36,14 +51,14 @@ main {
   display: inline-block;
   vertical-align: top;
   width: 150px;
-  border: 3px solid rgb(230, 230, 230);
+  border: 3px solid var(--cinza-claro);
   border-radius: 50%;
   margin: 0 30px 0 0;
 }
 
 #texto-intro {
   font-size: 16px;
-  color: rgb(240, 240, 240);
+  color: var(--cinza-claro);
   display: inline-block;
   vertical-align: top;
   line-height: 1.35;
@@ -60,7 +75,7 @@ main {
 
 article h2 {
   text-align: left;
-  color: rgb(52, 44, 74);
+  color: var(--roxo-escuro-texto);
   font-size: 32px;
   max-width: 400px;
 }
@@ -87,7 +102,7 @@ article p {
 }
 
 .lado-direito h3 {
-  color: rgb(52, 44, 74);
+  color: var(--roxo-escuro-texto);
   font-size: 20px;
   margin: 30px 0 23px 25px;
 }
@@ -107,7 +122,7 @@ article p {
 
 #blocos_fundamentos h3 {
   font-size: 20px;
-  color: rgb(52, 44, 74);
+  color: var(--roxo-escuro-texto);
   text-align: center;
   margin-bottom: 30px;
 }
@@ -117,7 +132,7 @@ table , tr , td {
   border-radius: 15px;
   border-spacing: 0;
   margin: 0 auto;
-  border: 1px solid rgb(52, 44, 74);
+  border: 1px solid var(--roxo-escuro-texto);
 }
 
 td {
@@ -142,14 +157,7 @@ nav a {
   font-size: 18px;
   font-weight: 600;
   margin: 0 10px;
-  color: rgb(0, 133, 102);
-}
-
-.anchor {
-  display: block;
-  position: relative;
-  top: -250px;
-  visibility: hidden;
+  color: var(--verde);
 }
 
 #rodape {
@@ -157,5 +165,5 @@ nav a {
   font-weight: 600;
   letter-spacing: -0.5px;
   margin: 15px 0;
-  color: rgb(52, 44, 74);
+  color: var(--roxo-escuro-texto);
 }
