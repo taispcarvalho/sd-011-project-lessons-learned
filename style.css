@@ -15,7 +15,7 @@ section ul , ol {
   padding-left: 40px;
 }
 
-ul > li , ol > li {
+ul li , ol li {
   margin: 4px 0;
 }
 
@@ -27,6 +27,16 @@ hr {
   width: 80%;
   margin: auto;
   border-color: rgba(130, 130, 130, 0.1);
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+}
+
+td , th {
+  border: 1px solid rgb(221, 221, 221);
+  color: rgb(70, 63, 63);
 }
 
 
@@ -54,7 +64,6 @@ hr {
 
 #header-navigation li {
   display: inline-block;
-  font-size: 20px;
   margin: 0 16px 0 0;
 }
 
@@ -63,15 +72,11 @@ hr {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 160px 0 80px;
+  padding: 136px 0 80px;
 }
 
 .lado-esquerdo {
   display: flex;
-}
-
-.lado-direito {
-  width: 520px;
 }
 
 #learned-content , #unlearned-content {
@@ -82,11 +87,6 @@ hr {
   height: 320px;
   border-radius: 16px;
   margin-right: 24px;
-}
-
-#unlearned-content {
-  background-color: rgb(61, 31, 163);
-  margin-right: 0;
 }
 
 #title-learned-content , #title-unlearned-content {
@@ -100,24 +100,19 @@ hr {
   margin: auto 0;
 }
 
-#minha_foto {
-  width: 300px;
-  height: 380px;
-  border-radius: 16px;
+#unlearned-content {
+  background-color: rgb(61, 31, 163);
+  margin-right: 0;
 }
 
-#main-content2 {
-  padding: 80px 0;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+.lado-direito {
+  width: 520px;
 }
 
 #article-and-table {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 40px;
 }
 
 #article-about-me {
@@ -127,14 +122,22 @@ hr {
   color: rgb(70, 63, 63);
 }
 
-table {
-  border-collapse: collapse;
-  width: 400px;
+#main-content2 {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-td , th {
-  border: 1px solid rgb(221, 221, 221);
-  color: rgb(70, 63, 63);
+#minha_foto {
+  width: 300px;
+  height: 380px;
+  border-radius: 16px;
+}
+
+#aside-title {
+  text-align: center;
+  margin: 24px 0;
 }
 
 .side-bar {
@@ -142,11 +145,6 @@ td , th {
   width: 240px;
   border-radius: 4px;
   height: 400px;
-}
-
-#aside-title {
-  text-align: center;
-  margin: 24px 0;
 }
 
 #rodape {
