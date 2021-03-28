@@ -19,7 +19,7 @@ body {
 }
 #minha_foto{
   
-  margin-top: 20px;
+  margin-top: 200px;
   margin-left: 50px;
   padding: 2px;
   width: 200px;
@@ -40,4 +40,15 @@ body {
 .lado-esquerdo{
   width: 400px;
   display: inline-block;
+}
+
+
+.lado-direito{
+  display:inline-block;
+  width: 400px;
+}
+
+.learned{
+  width: 1200px;
+  display:inline-block;
 }
