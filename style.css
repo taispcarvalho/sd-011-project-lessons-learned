@@ -1,16 +1,18 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Source Sans Pro, sans-serif;
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 auto;
+  color: rgb(20, 20, 20);
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  width: 800px;
+  width: 900px;
   background-color: rgb(253, 251, 251);
   color: rgb(68, 68, 68);
+  text-align: center;
 }
 
 #cabecalho nav {
@@ -31,7 +33,7 @@ main {
   width: 600px;
   margin: 100px auto 30px;
   background-color: rgb(98, 98, 98);
-  padding: 40px;
+  padding: 35px 60px;
   border-radius: 15px;
 }
 
@@ -51,24 +53,55 @@ main {
   vertical-align: top;
   line-height: 1.35;
   width: 400px;
-  margin: 12px 0 0;
+  margin: 14px 0 0;
+  text-align: justify;
 }
 
 #primeira-parte {
   display: block;
+  width: 900px;
+  text-align: center;
 }
 
 article h2 {
-  font-size: 24px;
+  text-align: left;
+  color: rgb(68, 68, 68);
+  font-size: 28px;
   max-width: 300px;
+}
+
+article p {
+  line-height: 1.5;
+  text-align: justify;
 }
 
 .lado-esquerdo {
   display: inline-block;
   vertical-align: top;
-  width: 50%;
+  width: 360px;
+  margin-right: 40px;
 }
 
 .lado-direito {
   display: inline-block;
+  vertical-align: top;
+  width: 360px;
+  margin: 0;
+  overflow: hidden;
+  text-align: left;
+}
+
+.lado-direito h3 {
+  color: rgb(68, 68, 68);
+  font-size: 18px;
+  margin: 30px 0 23px 25px;
+}
+
+.lado-direito h3:first-of-type {
+  margin-top: 70px;
+}
+
+.lado-direito li {
+  padding-left: 7px;
+  line-height: 1.5;
 }
