@@ -1,3 +1,4 @@
+/* background-image: url('https://drive.google.com/uc?id=1PiS5O6kB3yOJyzaSKJajnaI_oPZqsVmp'); */
 body {
   margin: 0;
   background-color: rgb(253, 251, 251);
@@ -10,7 +11,7 @@ header {
   height: 200px;
   top: 0;
   text-align: center;
-  background-image: url('https://drive.google.com/uc?id=1PiS5O6kB3yOJyzaSKJajnaI_oPZqsVmp');
+  background-image: url('./src/capa_linkedin_perfil_pessoal03__1_.png');
   background-position: center;
 }
 
@@ -23,10 +24,6 @@ div {
 div img {
   margin-top: 130px;
   width: 300px;
-}
-
-nav {
-  background-color: red;
 }
 
 nav p {
@@ -89,6 +86,10 @@ aside {
 
 .lado-direito {
   align-items: right;
+}
+
+.tabela {
+  border : 2px solid black;
 }
 
 #link_externo {
