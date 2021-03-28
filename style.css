@@ -148,5 +148,7 @@ td , th {
 
 
 #rodape {
+  margin: 160px 0 0;
+  background-color: rgb(15, 163, 107);
   width: 100%;
 }
