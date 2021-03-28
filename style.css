@@ -86,3 +86,13 @@ article {
   bottom: 190px;
   margin: -10% 60% -7% -4%;
 }
+
+aside {
+  background-color: green;
+  font-size: 16px;
+  border-style: solid;
+  width: 400px;
+  position: relative;
+  left: 640px;
+  margin: -10% 60% -7% -4%;
+}
