@@ -4,14 +4,27 @@ body {
 }
 
 #cabecalho {
+  background-color: #036b52;
+  color: white;
+  height: 90px;
+  width: 99%;
   display: block;
   position: fixed;
   top: 0;
-  bottom: 50px;
+  bottom: 50px;*/
+}
+
+#barra_de_navegacao {
+  padding-bottom: 0px;
+  padding-top: 10;
+  left: 50px;
+  margin: 20px;
 }
 
 #titulo {
   text-align: center;
+  color: white;
+  padding: auto;
 }
 
 #minha_foto {
@@ -21,6 +34,17 @@ body {
   margin-left: 10px;
 }
 
-#barra_de_navegacao {
-  background-color: rgb(253, 251, 251);
+#rodape {
+  background-color: #036b52;
+  color: white;
+  height: 80px;
+  width: 1300px;
+  display: block;  
+}
+
+#conteudo_aprendido {
+  position: relative;
+  margin-top: 130px;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
