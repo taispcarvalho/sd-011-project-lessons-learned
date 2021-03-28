@@ -1,9 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
   font-family: Epilogue, sans-serif;
-  font-size: 18px;
-  word-spacing: 3px;
-  letter-spacing: 1px;
+  font-size: 20px;
+  line-height: 20px;
 }
 
 #menu {
@@ -13,7 +12,6 @@ body {
 }
 
 #cabecalho {
-  background-color: #036b52;
   color: white;
   height: 90px;
   width: 99%;
@@ -21,6 +19,7 @@ body {
   position: fixed;
   top: 0;
   bottom: 50px;
+  background-color: #036b52;
 }
 
 #barra_de_navegacao {
