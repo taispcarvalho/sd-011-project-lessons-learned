@@ -9,15 +9,20 @@ main {
 }
 
 #cabecalho {
-  position: sticky;
+  position: fixed;
   top: 0%;
-  background-color: blue;
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background-color: rgb(39, 39, 104);
  margin-left: 0%;
+ color: white;
   
 }
 
-#titulo {
-
+nav {
+  position: static;
+  top: 0%;
 }
 
 #minha_foto {
