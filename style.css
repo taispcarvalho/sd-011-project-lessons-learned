@@ -11,3 +11,7 @@ body {
   width: 200px;
   border-radius: 100px;
 }
+
+#rodape {
+    background-color: palevioletred;
+}
