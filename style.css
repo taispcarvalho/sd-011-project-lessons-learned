@@ -1,8 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
-  margin-top: 120px;
   font-size: 20px;
   font-family: monospace;
+  margin: 0;
 }
 
 #cabecalho {
@@ -21,19 +21,19 @@ body {
 #navegation {
   text-align: center;
   text-decoration: none;
-  background-color: yellow;
-  display: block;
-  margin: 0;
+  background-color: rgb(47, 193, 140);
+  margin-top: 100px;
 }
 
 .links {
   display: inline-block;
   margin-left: 50px;
-  padding: 20px;
+  padding: 15px;
 }
 
 .links a {
   text-decoration: none;
+  color: white;
 }
 
 #titulo {
@@ -55,25 +55,28 @@ body {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: left;
-  background-color: blueviolet;
 }
 
 #licoes {
-  background-color: chartreuse;
-  text-align: center;
   line-height: 30px;
+  text-align: center;
 }
 
 #licoes_aprendidas {
-  font-weight: 700;
+  font-weight: 500;
   display: inline-block;
-  background-color: blueviolet;
+  text-align: left;
 }
 
 #licoes_a_aprender {
-  font-weight: 700;
+  font-weight: 500;
   display: inline-block;
-  background-color: pink;
+  text-align: left;
+}
+
+.titulo-tabela {
+  font-weight: 700;
+  font-size: 25px;
 }
 
 #rodape {
@@ -86,12 +89,12 @@ body {
 #rodape p {
   text-align: center;
   color: white;
+  font-size: 10px;
 }
 
 .lado-direito {
   display: block;
   width: 49%;
-  background-color: blue;
   float: right;
 }
 
@@ -99,6 +102,33 @@ body {
   display: inline-block;
   width: 50%;
   top: 100px;
-  background-color: red;
 }
 
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+tbody {
+  font-size: 90%;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+caption {
+  font-weight: 700;
+}
+
+#table {
+  height: 200px;
+  margin-top: 50px;
+}
