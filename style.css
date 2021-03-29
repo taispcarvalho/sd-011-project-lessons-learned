@@ -1,18 +1,25 @@
 body {
-    background-color: rgb(253, 251, 251);
-    margin: 0 auto;
+    background-color:	rgb(253, 251, 251);
+    margin:	0	auto;
 }
 #cabecalho {
-    top: 0px;
-		text-align:center;
-    position:fixed;
-	  margin-left:550px;
+    top:	0px;
+		text-align:	center;
+    position:	fixed;
+	  margin-left:	550px;
 }
+
+.container {
+	background: #333;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 #minha_foto {
-    width:250px;
-    height:250px;
-    margin-top: 50px;
+    width:	250px;
+    height:	250px;
+    margin-top:	50px;
 }
 #rodape {
-	text-align: center;
+	text-align:	center;
 }
