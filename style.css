@@ -43,3 +43,13 @@ body {
   z-index: 3;
   top: 580px;
 }
+
+#rodape {
+  position: absolute;
+  background-color: rgb(29, 53, 87);
+  color: rgb(244, 244, 244);
+  top: 900px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
