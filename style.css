@@ -91,14 +91,19 @@ nav a:hover {
 
 main {
   position: absolute;
+  box-sizing: border-box;
+  /* percentual que ocupa na tela */
   top: 30%;
   background-color: cadetblue;
   padding: 30px 10px;
-  
-}
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: center;
 
 .listas {
   padding-bottom: 40px;
+  
+}
 }
 
 #list1 {
@@ -107,14 +112,12 @@ main {
   right: 0;
   padding-top: 20px;
   padding-left: 50px;
-  text-align: center;
 }
 
 #list2 {
   display: inline-block;
   width: 40%;
   left: 0;
-  text-align: center;
   padding-top: 20px;
   padding-left: 50px;
 }
