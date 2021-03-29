@@ -49,13 +49,13 @@ width: 50%;
 flex-flow: row wrap;
 padding: 30px 20px;
 }
-.coluna1 { display: inline-block;
+.lado-esquerdo { display: inline-block;
 width: 50%;
 text-align: justify;
 align-content: center;
 }
 
-.coluna2 { display: inline-block;
+.lado-direito { display: inline-block;
 width: 50%;
 font-style: italic;
 text-align: center;
