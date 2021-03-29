@@ -3,13 +3,16 @@ body {
     background-color:	rgb(253, 251, 251);
     margin:	0	auto;
     font-size: 16px;
+    color: black;
+    letter-spacing: .5px;
     font-family: 'Roboto', sans-serif;;
 }
+
 #cabecalho {
-    top:	0px;
-		text-align:	center;
-    position:	fixed;
-	  margin-left:	550px;
+    top: 0px;
+		text-align: center;
+    position: fixed;
+	  margin-left: 550px;
 }
 
 .container {
@@ -19,14 +22,13 @@ body {
 	margin: 0 auto;
 }
 
-
 aside #paragrafo {
   max-width: 500px;
   margin-left:200px;
 }
 
 #minha_foto {
-    width:	300px;
+    width: 300px;
 		border-radius: 50%;
 		border: solid 5px dimgray;
 		float: left;
@@ -37,7 +39,6 @@ aside #paragrafo {
 	transition: 2s;
 	border: solid 5px slategray;
 }
-
 
 .sociais li {
 	display: inline;
@@ -53,9 +54,6 @@ aside #paragrafo {
 	color:white;
 	transition: 2s;
 }
-
-
-
 
 #rodape {
   text-align:	center;
