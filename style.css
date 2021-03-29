@@ -15,10 +15,28 @@ body {
 }
 
 img {
-  width: 300px;
-  margin-top: 130px;
+  width: 200px;
+  margin-top: 150px;
 }
 
 nav {
   text-align: left;
+}
+
+ul {
+  display: inline-block;
+}
+
+ol {
+  display: inline-block;
+}
+
+article {
+  display: inline-block;
+  width: 300px;
+}
+
+aside {
+  display: inline-block;
+  width: 300px;
 }
