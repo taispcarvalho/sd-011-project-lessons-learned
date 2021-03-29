@@ -50,6 +50,7 @@ body {
 }
 
 #Licao {
+  margin-left: auto;
   display: flex;
   font-family: 'Open Sans', sans-serif;
 }
@@ -58,7 +59,7 @@ body {
   font-family: 'Train One', cursive;
 }
 #licoes_a_aprender {
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 #licoes_a_aprender h3 {
   color: #ED1A3B;
@@ -81,10 +82,32 @@ body {
   border-bottom: 10px solid #ED1A3B;
   
 }
-#Conteudo {
+#Conteudo {  
   display: flex;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
+#lado-esquerdo h3 {
+  width:100%;
+  color: #ED1A3B;
+  font-family: 'Train One', cursive;
+}
+#lado-esquerdo p {
+  width: 90%;
+  
+}  
+#lado-direito h3 {
+  color:#0033C6;
+  font-family: 'Train One', cursive;  
+}
+#lado-direito p {
+  width: 90%;
+  
+}
+
+
+
+
+
 
 
 
