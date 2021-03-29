@@ -57,7 +57,7 @@ aside #paragrafo {
   display: inline-block;
 }
 
-table, th, td {
+table {
   border: 1px solid black;
   margin: 0 auto;
   color: black;
