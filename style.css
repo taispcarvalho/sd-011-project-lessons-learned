@@ -3,50 +3,50 @@ body {
   margin: 0	auto;
   font-size: 16px;
   color: black;
-  letter-spacing: .5;
+  letter-spacing: 0.5;
   font-family: sans-serif;
 }
 
 #cabecalho {
- top: 0;
-	text-align: center;
- position: fixed;
-	margin-left: 550px;
+  top: 0;
+	 text-align: center;
+  position: fixed;
+	 margin-left: 550px;
 }
 
 .container {
   background: dimgray;
-	max-width: 960px;
-	padding: 100px 0;
-	margin: 0 auto;
+	 max-width: 960px;
+	 padding: 100px 0;
+	 margin: 0 auto;
 }
 
 #minha_foto {
   width: 300px;
-	border-radius: 50%;
-	border: solid 5px dimgray;
-	float: left;
-	margin: 0 10px;
+	 border-radius: 50%;
+	 border: solid 5px dimgray;
+	 float: left;
+	 margin: 0 10px;
 }
 
 .content #minha_foto:hover {
-	transition: 2s;
-	border: solid 5px slategray;
+	 transition: 2s;
+	 border: solid 5px slategray;
 }
 
 .sociais li {
-	display: inline;
-	padding: 20px 12px;
+	 display: inline;
+	 padding: 20px 12px;
 }
 
 .sociais li a {
-	color: black;
-	text-decoration: none;
+	 color: black;
+	 text-decoration: none;
 }
 
 .sociais li a:hover {
-	color: white;
-	transition: 2s;
+	 color: white;
+	 transition: 2s;
 }
 
 aside #paragrafo {
