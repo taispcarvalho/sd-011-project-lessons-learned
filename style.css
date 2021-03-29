@@ -35,7 +35,8 @@ body {
 *Source: https://developer.mozilla.org/pt-BR/docs/Web/CSS/margin */
 
 .lado-esquerdo , .lado-direito , .aprendidas , .aprender {
-  padding: 2px;
+  text-align: justify;
+  padding: 10px;
   border-style: solid;
   border-radius: 15px;
   margin: 10px 50px 25px;
