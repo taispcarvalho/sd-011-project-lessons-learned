@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
-body{
+body {
     background-color:	rgb(253, 251, 251);
     margin:	0	auto;
 }
@@ -11,7 +11,7 @@ body{
 }
 
 .container {
-	background: #333;
+	background: #333333;
 	max-width: 960px;
 	padding: 100px 0;
 	margin: 0 auto;
@@ -52,7 +52,14 @@ body{
 	transition: 2s;
 }
 #rodape {
-	text-align:	center;
+  text-align:	center;
 	background: dimgray;
-	padding: 25px
+	padding: 25px;
+}
+
+aside #paragrafo {
+  color: slategray;
+  font-weight: bold;
+  max-width: 500px;
+  margin-left:200px;
 }
