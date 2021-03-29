@@ -2,20 +2,27 @@
     border: transparent;
 }
 body {
-    background-color: rgb(253, 251, 251)
+    background-color: rgb(253, 251, 251);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(33, 37, 41);
+    line-height: 20px;
+    font-size: 15px;
 }
-
 #cabecalho {
     position: fixed;
     top: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     background-color: rgb(234, 228, 233);
-    }  
-
+}
 #minha_foto {
     border-radius: 100%;
     border-color: rgb(190, 225, 230);
     border-style: solid;
     width: 200px;
-}  
+    position: relative;
+    top: 20px;
+}
+#tabela {
+    font-size: 20px;
+}
