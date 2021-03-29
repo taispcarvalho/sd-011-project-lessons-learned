@@ -1,9 +1,10 @@
 body {
-  font: normal 16px arial;
+  font: arial, sans-serif;
   background-color: rgb(253, 251, 251);
   font-family: Acme, serif;
   padding: 0;
   margin: 0;
+  font-weight: normal 700 20px;
 }
 
 #cabecalho {
@@ -12,7 +13,7 @@ body {
   background-color: rgb(24, 23, 23);
   color: white;
   width: 100%;
-  padding: 15px ;
+  padding: 15px;
   text-align: center;
 }
 
