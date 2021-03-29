@@ -53,3 +53,16 @@ body {
   right: 0;
   text-align: center;
 }
+
+#footer_link {
+  text-decoration: none;
+  color: rgb(244, 244, 244);
+  font-style: italic;
+}
+
+#footer_link:hover {
+  text-decoration: underline;
+  background-color: rgb(244, 244, 244);
+  color: rgb(29, 53, 87);
+  transition: 400ms;
+}
