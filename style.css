@@ -1,4 +1,5 @@
 body {
+  font: normal 16px arial;
   background-color: rgb(253, 251, 251);
   font-family: Acme, serif;
   padding: 0;
@@ -38,6 +39,7 @@ a:hover {
 .aprendizados {
   display: flex;
   padding: 5px 50px;
+  font-style: italic;
 }
 
 .lado-direito {
