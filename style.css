@@ -1,36 +1,39 @@
-body {
-  background-color: rgb(253, 251, 251);
-  font-family: 'Raleway';
-}
-
-#titulo {
-  padding-left: 20px;
-}
-
-.listas {
-  display: inline-block;
-  position: absolute;
-  top: 300px;
-}
-
-.insta {
-  position: absolute;
-  top: 270px;
-  left: 245px;
-  font-size: small;
-}
-
 #cabecalho {
   position: fixed;
+  top: 0;
   right: 0;
   left: 0;
   background-color: rgb(235, 247, 226);
 }
 
-#minha_foto {
-  position: absolute;
-  top: 100px;
+.image {
+  position: relative;
+}
+.image .mpred {
+  visibility: hidden;
+  opacity: 0;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.image:hover .mpred {
+  visibility: visible;
+  opacity: 1;
+}
+.mp .mpred {
   width: 300px;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+article {
+  width: 50%;
+}
+
+aside {
+  width: 40%;
 }
 
 #rodape {
@@ -40,24 +43,4 @@ body {
   right: 0;
   text-align: right;
   background-color: rgb(235, 247, 226);
-}
-
-#texto_rodape {
-  padding-right: 20px;
-}
-
-article {
-  position: absolute;
-  top: 400px;
-}
-
-aside {
-  position: absolute;
-  top: 550px;
-}
-
-nav {
-  position: absolute;
-  top: 100px;
-  left: 350px;
 }
