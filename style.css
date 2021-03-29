@@ -35,40 +35,42 @@ body {
     display: block;
 }
 
-#link{
-    display:block;
-    margin-top: 10px;
-    margin-left: 10px;
+#link {
+  display:block;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
-#direito{
-    display: inline-block;
-    width: 300px;
-}
-#esquerdo{
-    display: inline-block;
-    width: 500px;
-}
-#rodape{
-    position: absolute;
-    bottom: 0;
-    width: 500px;
-    padding-top: 800px;
+#direito {
+  display: inline-block;
+  width: 300px;
 }
 
-.lado-direito{
-    padding: 10px;
-    display: inline-block;
-    width: 300px;
-    border-style: double;
+#esquerdo {
+  display: inline-block;
+  width: 500px;
 }
 
-.lado-esquerdo{
-    display: inline-block;
-    width: 300px;
-    border-style: double;
+#rodape {
+  position: absolute;
+  bottom: 0;
+  width: 500px;
+  padding-top: 800px;
 }
 
-#text{
-    font-family: fantasy;
+.lado-direito {
+  padding: 10px;
+  display: inline-block;
+  width: 300px;
+  border-style: double;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  width: 300px;
+  border-style: double;
+}
+
+#text {
+  font-family: fantasy;
 }
