@@ -1,8 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-}
-
 html {
   font-family: Candara, sans-serif;
 }
@@ -27,10 +22,20 @@ body {
   color: white;
 }
 
+h2 {
+  text-align: center;
+  color: lightseagreen;
+}
+
+h3, ul , ol {
+  margin: 0;
+  padding: 0;
+}
+
 #aside-main-container {
   display: flex;
   margin-top: 54px;
-  border: 1px solid #000;
+  border: 1px solid black;
 }
 
 #aside-main-container aside {
@@ -39,6 +44,30 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#aside-main-container ul {
+  list-style: none;
+  line-height: 1.5rem;
+}
+
+.section-wrapper {
+  text-align: center;
+}
+
+.section-wrapper h3 {
+  background-color: cornflowerblue;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+}
+
+.section-wrapper > section {
+  width: 400px;
+  border: 1px solid black;
+}
+
+main ul , main ol {
+  list-style: none;
 }
 
 #aside-main-container aside ul {
@@ -53,12 +82,12 @@ body {
   line-height: 30px;
 }
 
-#article-section-container {
-  display: flex;
+#licoes_aprendidas li:nth-child(even) , #licoes_a_aprender li:nth-child(odd) {
+  background-color: lightgrey;
 }
 
-main ul , main ol {
-  list-style: none;
+#article-section-container {
+  display: flex;
 }
 
 figure {
@@ -71,7 +100,7 @@ figure img {
 }
 
 main {
-  border: 1px solid #000;
+  border: 1px solid black;
 }
 
 footer {
