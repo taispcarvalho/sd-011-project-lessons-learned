@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
-
 body {
     background-color: rgb(253, 251, 251);
     margin: 0 auto;
@@ -10,61 +8,17 @@ body {
     top:0px;
 		text-align: center;
     position:fixed;
-  	margin-left: 550px;
-}
-
-.container {
-	background: #333;
-	max-width: 1000px;
-	margin: 0 auto;
-	padding: 100px 0
+	  margin-left: 550px;
 }
 
 
-
-.content #minha_foto{
-    width: 300px;
-    border-radius: 50%;
-    border: solid 10px dimgray;
-    float: left;
-    margin: 0 10px;
+#minha_foto {
+    width:250px;
+    height:250px;
+    margin-top: 50px;
 }
 
-.content #minha_foto:hover {
-	transition: 2s;
-	border: solid 10px white;
-}
-
-.div-content p {
-	text-align: justify;
-	color: slategray;
-  margin: 15px;
-}
-
-.sociais li {
-	display: inline;
-	padding: 12px 12px;
-}
-
-.sociais li {
-	display: inline-block;
-	padding: 10px 12px;
-}
-
-.sociais li a {
-	color: white;
-	text-decoration: none;
-}
-
-.sociais li a:hover {
-	color: gray;
-	transition:  1s;
-}
 
 #rodape {
-	margin-top: 25px;
 	text-align: center;
-	background: dimgray;
-	font-family: 'Metal Mania', cursive;
-	padding: 15px;
 }
