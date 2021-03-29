@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: 'Raleway';
 }
 
 #titulo {
@@ -7,9 +8,9 @@ body {
 }
 
 .listas {
+  display: inline-block;
   position: absolute;
-  top: 100px;
-  left: 500px;
+  top: 300px;
 }
 
 .insta {
@@ -21,7 +22,6 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0;
   right: 0;
   left: 0;
   background-color: rgb(235, 247, 226);
@@ -31,12 +31,6 @@ body {
   position: absolute;
   top: 100px;
   width: 300px;
-}
-
-#licoes_a_aprender {
-  position: absolute;
-  top: 50px;
-  left: 200px;
 }
 
 #rodape {
