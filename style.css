@@ -108,7 +108,7 @@ span {
 }
 
 .foto {
-  background-image: url('/img/background-foto.png');
+  /* background-image: url('/img/background-foto.png'); */
   background-size: cover;
   background-position-y: -85px;
   text-align: center;
@@ -117,7 +117,7 @@ span {
 }
 
 .lado-direito {
-  background-image: url('/img/background-direita.png');
+  /* background-image: url('/img/background-direita.png'); */
   background-size: cover;
   background-color: whitesmoke;
   position: relative;
