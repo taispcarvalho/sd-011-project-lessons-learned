@@ -3,27 +3,27 @@ body{
     background-color:	rgb(253, 251, 251);
     margin:	0	auto;
 }
-#cabecalho{
+#cabecalho {
     top:	0px;
 		text-align:	center;
     position:	fixed;
 	  margin-left:	550px;
 }
 
-.container{
+.container {
 	background: #333;
 	max-width: 960px;
 	padding: 100px 0;
 	margin: 0 auto;
 }
 
-#paragrafo{
+#paragrafo {
 	color: white;
 	text-align: justify;
 	padding: 15px 15px;	
 }
 
-#minha_foto{
+#minha_foto {
     width:	300px;
 		border-radius: 50%;
 		border: solid 5px dimgray;
@@ -31,7 +31,7 @@ body{
 		margin: 0 10px;
 }
 
-.content #minha_foto:hover{
+.content #minha_foto:hover {
 	transition: 2s;
 	border: solid 5px white;
 }
@@ -47,13 +47,11 @@ body{
 	text-decoration: none;
 	font-family: 'Metal Mania', cursive;
 }
-.sociais li a:hover{
+.sociais li a:hover {
 	color:gray;
 	transition: 2s;
 }
-
-
-#rodape{
+#rodape {
 	text-align:	center;
 	background: dimgray;
 	padding: 25px
