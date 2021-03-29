@@ -1,12 +1,13 @@
-/* 
+/*
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
-Author: Richard Clark - http://richclarkdesign.com 
+Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 ###################################
 Edited by Leonardo Lima (AKA me) to fit my usual format parameters
-This Does a Reset on CSS to prevent miss behavior of my styles, and a more uniform behavior between browsers.
+This Does a Reset on CSS to prevent miss 
+behavior of my styles, and a more uniform behavior between browsers.
 */
 
 html, body, div, span, object, iframe,
@@ -17,8 +18,8 @@ small, strong, sub, sup, var,
 b, i,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure, 
+table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
   margin: 0;
@@ -53,11 +54,6 @@ a {
 
 del {
   text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-  border-bottom: 1px dotted;
-  cursor: help;
 }
 
 table {
