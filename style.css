@@ -34,8 +34,7 @@ h3 , ul , ol {
 
 #aside-main-container {
   display: flex;
-  margin-top: 54px;
-  border: 1px solid black;
+  margin-top: 75px;
 }
 
 #aside-main-container aside {
@@ -88,10 +87,14 @@ main ul , main ol {
 
 #article-section-container {
   display: flex;
+  margin-top: 40px;
 }
 
 .lado-esquerdo , .lado-direito {
   width: 50%;
+  min-width: 280px;
+  padding: 0 40px;
+  text-align: justify;
 }
 
 figure {
@@ -103,13 +106,23 @@ figure img {
   height: 180px;
 }
 
-main {
+table , td , tr , th {
   border: 1px solid black;
+  width: 100%;
+}
+
+table th {
+  text-align: center;
+}
+
+table tr {
+  margin-left: 10px;
 }
 
 footer {
   background-color: rgb(162, 95, 242);
   padding: 15px 25px;
+  margin-top: 40px;
 }
 
 footer p {
