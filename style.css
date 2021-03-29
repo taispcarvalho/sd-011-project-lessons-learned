@@ -4,12 +4,6 @@ body {
   line-height: 20px;
 }
 
-h3 {
-  border: 20px;
-  border-color: aqua;
-  border: solid;
-}
-
 #cabecalho {
   position: fixed;
   top: 0;
@@ -24,19 +18,21 @@ h3 {
 img {
   width: 200px;
   margin-top: 150px;
+  display:block;
+  padding: 2px;
 }
 
-nav {
-  text-align: left;
-  font-size: large;
-}
 
 ul {
   display: inline-block;
+  border: 20px;
+  align-items: top;
 }
 
 ol {
   display: inline-block;
+  border: 20px;
+  align-items: top;
 }
 
 .lado-esquerdo {
