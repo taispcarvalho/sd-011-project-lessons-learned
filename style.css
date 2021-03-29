@@ -4,17 +4,64 @@ main {
 
 body {
   background-color: rgb(253, 251, 251);
+  border: 1px solid red; /*apenas teste para visualizar*/
 }
 
 #cabecalho {
   top: 0;
+  margin: 0;
   position: fixed;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border: 1px solid blue; /*apenas teste para visualizar*/
+  background-color: rgb(46, 193, 139);
+}
+
+.main-content {
+  margin-top: 134px;
+}
+
+#titulo {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+}
+
+#cabecalho nav ul li{
+  display: inline;
+  text-decoration: none;
+  margin: 0 0 0 30px;
+  color: rgb(255, 255, 255);
 }
 
 #minha_foto {
   padding: 5px;
-  border: 3px solid rgba(43, 39, 39, 0.897);
-  margin: 10px;
+  border: 1px solid rgba(43, 39, 39, 0.897);
+  width: 180px;
+  margin: 5px;
+}
+
+.social-media {
+  padding: 1em 0;
+  height: 300px;
+  display: inline-block;
+  width: 49.5%;
+  border: 1px solid blue; /*apenas teste para visualizar*/
+}
+
+.social-media-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+}
+
+.lateral-content {
+  padding: 1em 0;
+  height: 300px;
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+  border: 1px solid blue; /*apenas teste para visualizar*/
 }
 
 aside p , section ol li , section ul li , section table , section p {
@@ -23,6 +70,10 @@ aside p , section ol li , section ul li , section table , section p {
   font-size: 18px;
 }
 
+
+
 .lado-direito , .lado-esquerdo {
   display: inline-block;
+  width: 45%;
+  text-align: center;
 }
