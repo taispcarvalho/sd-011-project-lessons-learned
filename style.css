@@ -36,7 +36,11 @@ nav img {
   margin-left: 1220px;
 
 }
-aside {
+aside{
   margin-left: 1200px;
-  margin-up: 2333px;
+}
+
+article p {
+  margin-right: 1000px;
+  margin-left: 10px;
 }
