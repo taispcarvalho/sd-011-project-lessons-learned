@@ -30,6 +30,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  letter-spacing: 3px;
   
 }
 
@@ -99,6 +100,7 @@ main {
   font-size: 20px;
   letter-spacing: 3px;
   text-align: center;
+  height: 60%;
 
 .listas {
   padding-bottom: 40px;
@@ -148,6 +150,7 @@ aside {
   background-color: crimson;
   bottom: 0;
   padding-top: 10px;
+  top: 30%;
 }
 
 footer {
