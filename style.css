@@ -4,8 +4,8 @@ body {
 
 #cabecalho {
   position: fixed;
-  text-align: center;
   top: 0px;
+  text-align: center;
   background-color: green;
   width: 100%;
   height: 100px;
@@ -126,7 +126,7 @@ article {
   border-style: solid;
 }
 
-footer {
+#rodape {
   position: absolute;
   bottom: -270px;
 }
