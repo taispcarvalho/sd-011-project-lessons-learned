@@ -2,6 +2,10 @@
   font-family: Montserrat, sans-serif;
 }
 
+.site_content {
+  margin-top: 8%;
+}
+
 body {
   background-color: rgb(253, 251, 251);
 }
@@ -52,8 +56,4 @@ body {
   background-color: rgb(244, 244, 244);
   color: rgb(29, 53, 87);
   transition: 400ms;
-}
-
-.all {
-  margin-top: 8%;
 }
