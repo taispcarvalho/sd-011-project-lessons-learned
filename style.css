@@ -15,7 +15,7 @@ body {
 }
 
 #titulo {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", 'Times', serif;
   font-size: 150px;
   color: aqua;
   line-height: 1.5em;
