@@ -8,12 +8,23 @@
        <title>Document</title>
 </head>
 <body>
-<div id="cabecalho">
+ <div id="cabecalho">
      <h1 id="titulo">Lessons Learned</h1>
-</div>
+ </div>
     <img src =imagens/tais.jpg id="minha_foto" alt="foto minha"
     width = 300px>
     <h3 class="insta"><a href = "https://www.instagram.com/por.tais/" target = "_blank"> @por_tais </a></h3>
+    <nav class="indice">
+    <h3>Índice</h3>    
+      <ul>
+        <li><a href = "#licoes_aprendidas">Lições Aprendidas<a></li>
+        <li><a href = "#licoes_a_aprender">Lições a Aprender<a></li>    
+        <li><a href = "#minha_trajetoria">Minha Tragetória</a></li>
+        <li><a href = "#meu_aprendizado">Meu Aprendizado</a></li>
+     </ul>  
+    </nav>  
+ <div class="listas">
+    <h2>Lições</h2>
     <ol id="licoes_aprendidas">
         <li>Unix</li>
         <li>Bash</li>
@@ -29,18 +40,22 @@
     <ul id="licoes_a_aprender">
         <li>JavaScript</li>
         <li>DOM</li>
-        <li>Web Storege</li>
+        <li>Web Storage</li>
         <li>Forms</li>
         <li>Flexbox</li>
         <li>ES6</li>
-        <li>Testes Unitários</li>
+        <li>TestesUnitários</li>
         <li>Promises</li>
         <li>Jest</li>
         <li>Responsivo</li>
     </ul>
-<div>
+ </div>
+ <div>
     <article>
+      <header>
         <h3>Minha Trajetória</h3>
+        <h4>por Taís Carvalho</h4>
+      </header>  
         <p id="minha_trajetoria">
         Minha trajetória na Trybe já completou 3 semanas. 
         Desde então, já aprendi sobre o funcionamento da internet, 
@@ -51,6 +66,7 @@
         outras informações.
         </p>
     </article>
+    <section>
     <aside>
         <h3>Meu Aprendizado</h3>
         <p id="meu_aprendizado">
@@ -59,9 +75,10 @@
             visual imediata do meu comando. 
         </p>
     </aside>
+    </section>
     <footer id="rodape">
         <p id="texto_rodape">Taís Carvalho</p>
     </footer>
-</div>
+ </div>
 </body>
 </html>
