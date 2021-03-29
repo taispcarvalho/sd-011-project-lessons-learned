@@ -15,8 +15,20 @@ body {
 
 article {
   width: 365px;
+  
 }
 
 aside {
+  position: relative;
+  bottom: 227px;
   width: 365px;
+  margin: 1%;
+  padding: 0px 350px 0px;
+  border: black;
 }
+
+table {
+  position: relative;
+  bottom: 120px;
+}
+
