@@ -3,6 +3,14 @@ body {
 }
 
 #cabecalho {
+  background-color: #1d3557;
   position: fixed;
-  top: 0px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#titulo {
+  text-align: center;
+  color: #f4f4f4;
 }
