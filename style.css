@@ -60,10 +60,7 @@ aside #paragrafo {
 }
 
 
-article p {
-  max-width: 400px;
-  background: orange;
-}
+
 
 table, th, td {
   border: 1px solid black;
