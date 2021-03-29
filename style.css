@@ -86,7 +86,7 @@ main {
   vertical-align: top;
 }
 
-#tabela, th{
+#tabela , th {
   text-align: left;
   border: 1px solid rgb(25, 25, 45);
   width: 20%;
