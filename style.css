@@ -88,14 +88,14 @@ body {
   color: white;
 }
 
-#lado-direito {
+.lado-direito {
   display: block;
   width: 49%;
   background-color: blue;
   float: right;
 }
 
-#lado-esquerdo {
+.lado-esquerdo {
   display: inline-block;
   width: 50%;
   top: 100px;
