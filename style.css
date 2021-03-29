@@ -5,7 +5,8 @@ body {
 
 #cabecalho {
   position: fixed;
-  top: 0px; 
+  top: 0;
+
   color: white;
   margin: auto;
   background-color: forestgreen;
@@ -14,6 +15,7 @@ body {
   text-align: center;
     
 }
+
 #sub-titulo-1 {
   font-size: 15px;
   text-align: left;
