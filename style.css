@@ -37,9 +37,9 @@ header {
 }
 
 .home li:hover {
+  text-decoration: underline;
   color: dodgerblue;
   font-weight: 1000;
-  padding: 10px;
 }
 
 .home a {
