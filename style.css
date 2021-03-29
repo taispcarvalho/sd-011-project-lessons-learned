@@ -48,17 +48,17 @@ a {
 #licoes_aprendidas {
   float: left;
   margin-left: 30px;
-  margin-right: 70px;   
+  margin-right: 70px;
 }
 
-.paragrafo {  
+.paragrafo {
   width: 500px;
   font-family: serif;
-  margin-left: 30px;   
+  margin-left: 30px;
 }
 
 .texto {
-  display: table;  
+  display: table;
 }
 
 .lado-esquerdo {
@@ -73,23 +73,23 @@ a {
   float: left;
   width: 200px;
   margin-top: -20px;
-  margin-left: 20px;  
+  margin-left: 20px;
 }
 
 .tabela {
   width: 70%;
   font-style: italic;
   text-align: center;
-  border: 3px solid;    
+  border: 3px solid;
 }
 
 td {
   border: 1px solid black;
 }
 
-footer {  
+footer {
   text-align: center;
-  font-size: x-small;    
+  font-size: x-small;
 }
 
 .rodape-link {
