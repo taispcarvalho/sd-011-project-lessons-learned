@@ -9,7 +9,11 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
+}
+
+#titulo {
+  text-align: center;
 }
 
 #minha_foto {
