@@ -98,7 +98,6 @@ main {
   background-color: cadetblue;
   padding: 30px 10px;
   font-size: 20px;
-  letter-spacing: 3px;
   text-align: center;
   height: 60%;
 
@@ -131,13 +130,17 @@ h2 {
 p {
   padding: 5px;
 }
+
 .textos {
 
 }
 
-.text1 {
-  position: absolute;
-  
+.lado-esquerdo {
+
+}
+
+.lado-direito {
+
 }
 
 aside {
