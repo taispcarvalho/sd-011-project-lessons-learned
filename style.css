@@ -26,14 +26,29 @@ body {
 #nave a:hover {
   color: coral;
 }
+
 #minha_foto {
-  /* border-radius: 100%; */
-  width: 150px;
+  margin-top: 0px;
+  border-radius: 100%;
+  width: 200px;
   display: block;
   margin-left: auto;
-  /* margin-right: auto; */
+  margin-top: 3px;
+  
    
 }
+.Table {
+  font-family: 'Open Sans', sans-serif;   
+  padding-left: 2px;
+  display: flex;
+  color:black;
+  
+}
+#Tabe {
+  margin-top:30px;
+  border-color: aqua;
+}
+
 #Licao {
   display: flex;
   font-family: 'Open Sans', sans-serif;
@@ -49,17 +64,28 @@ body {
   color: #ED1A3B;
   font-family: 'Train One', cursive;
 }
-#Link a {  
+#Link a { 
+  
+  color: black; 
   padding: 20px;
   display: inline block ;
-  text-decoration: none;
+  
 }
 
 #rodape {
+  border-bottom: 0px;  
+  /* display: flex; */
+  flex-direction: column;
+  text-align: center; 
   background:#5f5f5f;  
   border-bottom: 10px solid #ED1A3B;
-  text-align: center;
+  
 }
+#Conteudo {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
 
 
 
