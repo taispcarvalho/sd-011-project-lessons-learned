@@ -1,7 +1,7 @@
 body {
   background-color: rgb(253, 251, 251);
   position: absolute;
-  font-family: 'Satisfy', sans-serif;
+  font-family: 'satisfy', sans-serif;
   letter-spacing: 2px;
   color: rgb(28, 28, 28);
   font-size: 17px;
@@ -35,14 +35,6 @@ h2 {
   letter-spacing: 5px;
 }
 
-#licoes_aprendidas {
-  display: inline-block;
-}
-
-#licoes_a_aprender {
-  display: inline-block;
-}
-
 #rodape {
   background-color: lightseagreen;
   padding-left: 100px;
@@ -51,13 +43,13 @@ h2 {
 }
 
 #link_externo {
-  padding-left: 50px;
+  padding-left: 30px;
 }
 
-.section-main {
-  display: inline-block;
+.lado-esquerdo {
+  width: 30%;
 }
 
-.section1 {
-  width: 40%;
+.lado-direito {
+  width: 30%;
 }
