@@ -30,16 +30,17 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  
 }
 
 body {
-
   background-color: rgb(253, 251, 251);
+  font-family:monospace;
 }
+
 #cabecalho {
   position: fixed;
-  top:0;
+  top: 0;
   background-color: green;
   color: white;
   padding-left: 5%;
@@ -49,66 +50,86 @@ body {
   text-align: center;
 }
 
-nav ul {
-display: inline-block;
-position: fixed;
-top: 10%;
-width: 50%;
+nav {
+  position: absolute;
+  top: 10%;
+  width: 50%;
 }
 
-nav ul a {
+nav a {
   display: inline-block;
   width: 15%;
   text-align: center;
   text-decoration: none;
   color: white;
-
- 
 }
 
-nav ul a:hover {
+nav a:hover {
   background-color: greenyellow;
-  border-radius: 50%;
-}
-
-a {
-
-}
-
-main {
-  position:absolute;
-  margin-top: 10%;
+  /* border-radius: 60%; */
 }
 
 #minha_foto {
+  position: absolute;
   border-radius: 100px;
-  height: 100px;
-  width: 100px;
- 
+  width: 5%;
+  top: 20%;
 }
 
-main div {
-  
-  
-
-}
-
-main div img {
-  display: inline-block;
-}
-
-main div h2 {
-  display: inline-block;
-  text-align: center;
-  background-color: greenyellow;
+.nome {
+  position: absolute;
+  left: 110px;
+  width: 95%;
+  top:23%;
+  display: block;
+  background-color: rgb(255, 47, 64);
   padding: 5px;
   padding-top: 20px;
+   
+}
 
+main {
+  position: absolute;
+  top: 30%;
+  background-color: cadetblue;
+}
+
+.listas {
+  padding-bottom: 40px;
+}
+
+#list1 {
+  display: inline-block;
+  width: 40%;
+  right: 0;
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+#list2 {
+  display: inline-block;
+  width: 40%;
+  left: 0;
+  text-align: center;
+  padding-top: 20px;
+  padding-left: 50px;
+
+}
+
+aside {
+  display: block;
+  width: 600px;
+  height: 100px;
+  position:absolute;
+  text-align: center;
+  right: 0;
+  background-color: crimson;
+  bottom: 0;
 }
 
 footer {
-  position:absolute;
+  position: absolute;
   bottom: 0;
   left: 0;
-
 }
