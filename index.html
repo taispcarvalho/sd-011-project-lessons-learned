@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="titulo">
-        MEU PRIMEIRO PROJETO
-    </h1>
     <header id="cabecalho">        
+        <h1 id="titulo">
+            MEU PRIMEIRO PROJETO
+        </h1>
         <nav>
             <a href="">Techs</a>
             <a href="">Aprendido</a>
@@ -20,47 +20,57 @@
     </header>
     <section>
         <img id="minha_foto" src="/img/WhatsApp Image 2021-03-19 at 12.00.31.jpeg" alt="Minha foto de perfil">
-        <section>                       
-            <ol id="licoes_aprendidas">
-                <li>Unix</li>
-                <li>Bash</li>
-                <li>Shell Script</li>
-                <li>Git</li>
-                <li>Github</li>
-                <li>Internet</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>HTML Semântico</li>
-                <li>Node.js</li>                
-            </ol>
-            <ul id="licoes_a_aprender">
-                <li>Javascript</li>
-                <li>DOM</li>
-                <li>Flexbox</li>
-                <li>Forms</li>
-                <li>Responsivo</li>
-                <li>Functions</li>
-                <li>ES6</li>
-                <li>Assíncronos</li>
-                <li>Promises</li>
-                <li>Testes</li>                
-            </ul>            
+        <section>
+            <table id="lado-esquerdo">
+                <tr>
+                    <th>Lições Aprendidas</th>
+                    <th>Lições a Aprender</th>
+                </tr>
+                <td>
+                    <ol id="licoes_aprendidas">
+                        <li>Unix</li>
+                        <li>Bash</li>
+                        <li>Shell Script</li>
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Internet</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>HTML Semântico</li>
+                        <li>Node.js</li>                
+                    </ol>
+                </td>
+                <td>
+                    <ul id="licoes_a_aprender">
+                        <li>Javascript</li>
+                        <li>DOM</li>
+                        <li>Flexbox</li>
+                        <li>Forms</li>
+                        <li>Responsivo</li>
+                        <li>Functions</li>
+                        <li>ES6</li>
+                        <li>Assíncronos</li>
+                        <li>Promises</li>
+                        <li>Testes</li>                
+                    </ul>
+                <td>
+            </table>                                   
         </section>
     </section>
-    <article>
+    <article id="lado-direito">
         <h3>O que foi aprendido</h3>
         <p> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim cras tincidunt lobortis feugiat vivamus. Purus non enim praesent elementum facilisis leo. Risus nullam eget felis eget. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Dui faucibus in ornare quam viverra orci sagittis eu. At augue eget </p>
-    </article>
-    <section>
-        <h3>O que aprendi</h3>
-        <aside>
-            <p>
+        <section>
+            <h3>O que aprendi</h3>
+            <aside>
+                <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus vitae congue mauris rhoncus aenean vel elit.   
             </p>
         </aside>
-    </section>
-    <p><a href="https://github.com/gusm217" target="_blank">Github</a></p>
-    <footer id="rodape"></footer>
+        </section>
+    </article>
+    <div id="link-externo"><a href="https://github.com/gusm217" target="_blank">Github</a></div>
+    <footer id="rodape">Criado por Gustavo Mendes</footer>
     
     
 </body>

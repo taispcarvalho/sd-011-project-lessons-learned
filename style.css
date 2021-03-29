@@ -1,5 +1,11 @@
 body {
   background-color: rgb(253, 251, 251);
+  border: 1px solid black;
+  margin: 20px;
+  padding: 20px;
+  font-family: fantasy;
+  color: rgb(46, 46, 46);
+  line-height: 1.2;
 }
 
 #cabecalho {
@@ -9,8 +15,39 @@ body {
 #minha_foto {
   width: 200px;
   border-radius: 100px;
+  padding: 15px;
 }
 
 #rodape {
   background-color: palevioletred;
+}
+
+#licoes_aprendidas {
+  color: rgb(243, 156, 170);
+}
+
+#licoes_a_aprender {
+  color: rgb(230, 92, 138);
+}
+
+th {
+  font-size: 15px;
+}
+
+#lado-direito {
+  display: inline-block;
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+#lado-esquerdo {
+  display: inline-block;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+#link-externo {
+  margin-top: 50px;
 }
