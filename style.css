@@ -20,6 +20,7 @@ body {
   position: absolute;
   z-index: 1;
   top: 100px;
+  left: 80px;
   border: 3px solid rgb(29, 53, 87);
   border-radius: 100%;
 }
@@ -27,5 +28,18 @@ body {
 #licoes_aprendidas {
   position: absolute;
   z-index: 2;
-  top: 270px;
+  top: 320px;
+}
+
+.h2_title {
+  background-color: rgb(29, 53, 87);
+  color: rgb(244, 244, 244);
+  padding: 2px 20px;
+  border-radius: 4px;
+}
+
+#licoes_a_aprender {
+  position: absolute;
+  z-index: 3;
+  top: 580px;
 }
