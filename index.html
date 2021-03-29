@@ -5,70 +5,77 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="reset.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>Document</title>
 </head>
 
 <body>
   <header id="cabecalho">
-    <h1 id="titulo">Lorem, ipsum dolor sit</h1>
+    <h1 id="titulo">Leonardo Rodrigues Lima</h1>
     <nav>
       <a href="https://github.com/limaleonardo" target="_blank">Conheça meus trabalhos</a>
+      <a href="#about-me" target="_blank">About-me</a>
+      <a href="#skills" target="_blank"></a>
     </nav>
   </header>
   
   <main>
-    <div id="about_me">
-      <img id="minha_foto" src="profile-pic.jpeg" alt="Foto de um rosto masculno - criador do site">
-      <section>
-        <h2>Sobre mim</h2>
-        <p>Tenho 28 anos, ex-estudante de engenharia mecânica pela Universidade Federal de Itajubá.</p>
-        <p>Atualmente cursando Desenvolvimento de Software pela <strong>Trybe - A melhor escola de formação para pessoas desenvolvedoras do Brasil</strong></p>
-      </section>
+    <div class="first-block">
+      <div id="about_me">
+        <img id="minha_foto" src="profile-pic.jpeg" alt="Foto de um rosto masculno - criador do site">
+        <section>
+          <h2>Sobre mim</h2>
+          <p>Tenho 28 anos, ex-estudante de engenharia mecânica pela Universidade Federal de Itajubá.</p>
+          <p>Atualmente cursando Desenvolvimento de Software pela <strong>Trybe - A melhor escola de formação para pessoas desenvolvedoras do Brasil</strong></p>
+        </section>
+      </div>
+      <aside class="side-bar">
+        <section>
+          <p>Na Trybe somos instigados, diariamente, a desenvolver a curiosidade e nutrir o desejo de sempre querer buscar mais. Esse desejo nos leva a criar boas práticas de pesquisa e leitura de documentação, habilidades essenciais para qualquer pessoa desenvolvedora.</p>
+        </section>
+      </aside>
     </div>
-
-    <div id="lessons" class="lado_esquerdo">
-      <ol id="licoes_aprendidas">
-        <h2>A Estrada Até Aqui:</h2>
-        <li>Unix</li>
-        <li>Bash e como lidar com o terminal </li>
-        <li>Internet e sua estrutura básica</li>
-        <li>CSS básico</li>
-        <li>HTML</li>
-        <li>Inteligência Emocional</li>
-        <li>Uso semântico do HTML (acessibilidade)</li>
-        <li>Code Review</li>
-        <li>Box-layout</li>
-        <li>Ferramentas de validação</li>
-      </ol>
-
-      <ul id="licoes_a_aprender">
-        <h2>O Caminho Pela Frente:</h2>
-        <li>CSS: Flex-box layout</li>
-        <li>CSS: Grid layout</li>
-        <li>Responsividade</li>
-        <li>CSS: opções avançadas</li>
-        <li>Javascript</li>
-        <li>Front-end</li>
-        <li>Frameworks</li>
-        <li>Uso de APIs</li>
-        <li>Um monte de Soft-Skills</li>
-        <li>Back-end</li>
-      </ul>
-    </div>
-
-    <article class="lado_direito">
-      <h2>Sobre a Experiência de Aprender com a Trybe</h2>
-      <p>A metodologia de ensino que tenho experimentado na Trybe é algo único. Foi a melhor das surpresas após entrar no curso de Desenvolvimento Web.</p>
-      <p>A dinâmica ativa e a atenção das pessoas especialistas e de facilitação tem sido uma experiência maravilhosa, um modelo de ensino que deveria servir de modelo. A educação vai além apenas das <em>Hard-Skills</em>, somos ensinados diariamente a importancia das <em>Soft-Skills</em> que tratam do lado humano dentro do ambiente profissional.</p>
-    </article>
-
-    <aside class="side-bar">
-      <section>
-        <p>Na Trybe somos instigados, diariamente, a desenvolver a curiosidade e nutrir o desejo de sempre querer buscar mais. Esse desejo nos leva a criar boas práticas de pesquisa e leitura de documentação, habilidades essenciais para qualquer pessoa desenvolvedora.</p>
-      </section>
-    </aside>
-
+      <div class="second-block">
+        <div id="lessons" class="lado_esquerdo">
+          <h1 id="skills">Minhas Habilidades</h1>
+          <ol id="licoes_aprendidas">
+            <h2>A Estrada Até Aqui:</h2>
+            <li>Unix</li>
+            <li>Bash e como lidar com o terminal </li>
+            <li>Internet e sua estrutura básica</li>
+            <li>CSS básico</li>
+            <li>HTML</li>
+            <li>Inteligência Emocional</li>
+            <li>Uso semântico do HTML (acessibilidade)</li>
+            <li>Code Review</li>
+            <li>Box-layout</li>
+            <li>Ferramentas de validação</li>
+          </ol>
+  
+          <ul id="licoes_a_aprender">
+            <h2>O Caminho Pela Frente:</h2>
+            <li>CSS: Flex-box layout</li>
+            <li>CSS: Grid layout</li>
+            <li>Responsividade</li>
+            <li>CSS: opções avançadas</li>
+            <li>Javascript</li>
+            <li>Front-end</li>
+            <li>Frameworks</li>
+            <li>Uso de APIs</li>
+            <li>Um monte de Soft-Skills</li>
+            <li>Back-end</li>
+          </ul>
+        </div>
+  
+        <article class="lado_direito">
+          <h2>Sobre a Experiência de Aprender com a Trybe</h2>
+          <p>A metodologia de ensino que tenho experimentado na Trybe é algo único. Foi a melhor das surpresas após entrar no curso de Desenvolvimento Web.</p>
+          <p>A dinâmica ativa e a atenção das pessoas especialistas e de facilitação tem sido uma experiência maravilhosa, um modelo de ensino que deveria servir de modelo. A educação vai além apenas das <em>Hard-Skills</em>, somos ensinados diariamente a importancia das <em>Soft-Skills</em> que tratam do lado humano dentro do ambiente profissional.</p>
+        </article>
+      </div>
+          
   </main>
 
   <footer id="rodape">
