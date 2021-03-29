@@ -10,7 +10,7 @@ body {
 }
 
 #cabecalho {
-  top: 0px;
+  top: 0;
 	text-align: center;
   position: fixed;
 	margin-left: 550px;
@@ -47,14 +47,14 @@ body {
 }
 
 .sociais li a:hover {
-	color:white;
+	color: white;
 	transition: 2s;
 }
 
 aside #paragrafo {
   max-width: 500px;
   margin-left: 200px;
-  margin-top: 0px;
+  margin-top: 0;
   background: orange;
   display: inline-block;
 }
@@ -73,7 +73,7 @@ td:hover {
 }
 
 #rodape {
-  text-align:	center;
+  text-align: center;
   background: dimgray;
   padding: 25px;
 }
