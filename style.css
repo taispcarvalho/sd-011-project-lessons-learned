@@ -6,7 +6,7 @@ body {
 }
 
 header {
-  font-family: Impact;
+  font-family: Impact, sans-serif;
   position: fixed;
   top: 0%;
   color: green;
@@ -15,7 +15,7 @@ header {
   width: 700 px;
 }
 
-h3 {
+h2 {
   color: green;
 }
 
@@ -101,7 +101,7 @@ article {
 table {
   border-collapse: collapse;
   border: solid black;
-  font-family: Impact;
+  font-family: Impact, sans-serif;
 }
 
 th {
@@ -114,3 +114,4 @@ td {
   border: solid black;
   border-collapse: collapse;
 }
+
