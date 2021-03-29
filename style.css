@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
-
 body {
   background-color: rgb(253, 251, 251);
   margin: 0	auto;
   font-size: 16px;
   color: black;
   letter-spacing: .5px;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
 }
 
 #cabecalho {
-  top: 0;
+ top: 0;
 	text-align: center;
-  position: fixed;
+ position: fixed;
 	margin-left: 550px;
 }
 
