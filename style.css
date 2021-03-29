@@ -42,24 +42,23 @@ body {
 }
 
 #table li {
-  display: inline-block;
+  text-align: center;
   font-family: cursive;
-  list-style: none;
   border: 1px;
-  width: 40%;
-  margin: auto;
+  width: 50%;
   border-style: solid;
+  margin: auto;
 }
 
 .tabela {
   border-color: green;
-  width: 80%;
-  margin: auto;
+  width: 50%;
 }
 
 .title-table , #contato {
   background-color: azure;
   font-family: cursive;
+  text-align: center;
 }
 
 #lado-direito , #lado-esquerdo {
