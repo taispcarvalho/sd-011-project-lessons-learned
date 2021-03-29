@@ -1,26 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
-  font-size: sans-serif, Arial, Helvetica;
-}
-
-nav {
-margin-left: 70px;
-}
-
-article {
-  margin-left: 70px;
-  padding-bottom: 50px;
-  float: right;
-}
-
-aside {
-  width: auto;
-  margin-left: 50px;
-  margin-right: auto;  
-}
-
-section {
-  margin-left: 70px;
+  font-size: 17px;
 }
 
 header {
@@ -33,8 +13,66 @@ header {
   width: 700 px;
 }
 
+nav {
+padding: 100px;
+}
+
+#trybe {
+  padding: 20px;
+  margin-right: 50px;
+  border: 1px, solid;
+  border-radius: 10px;
+  background-color: rgb(97, 175, 97)
+}
+
+#linkedin {
+  padding: 20px;
+  margin-right: 50px;
+  border: 1px, solid;
+  border-radius: 10px;
+  background-color: rgb(97, 175, 97)
+}
+
+#minha_foto {
+  padding: 30px;
+  margin-right: 50px;
+  margin-left: 250px;
+}
+
+article {
+  margin-left: 70px;
+  padding: 50px;
+  margin-bottom: 30;
+  float: right;
+}
+
+aside {
+  padding: 50px;
+  margin-left: 70px;
+  margin-right: auto;  
+}
+
+#lista1 {
+  padding: 80px;
+  margin: 10px;
+  
+}
+
+#lista2 {
+  padding: 80px;
+  margin: 10px;
+}
+
+
+
 #lista1 {
 float: right;
+}
+
+#investimento {
+  padding: 30px;
+  margin-right: 250px;
+  margin-left: 300px;
 }
 
 table {
