@@ -3,6 +3,7 @@ body {
   font-family: Acme, serif;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 
 #cabecalho {
@@ -20,13 +21,26 @@ body {
 }
 
 .aprendizados {
-  display: inline-block;
+  display: flex;
+  padding: 5px 50px;
+}
+
+.lado-direito {
+  border: 2px dotted black;
+  color: rgb(2, 2, 2);
+  padding: 5px 10px 10px;
+}
+
+.lado-esquerdo {
+  border: 2px dotted black;
+  color: rgb(2, 2, 2);
 }
 
 .tab {
   background-color: rgb(26, 23, 23);
   border-color: white;
   color: white;
+  margin: auto;
 }
 
 td {
