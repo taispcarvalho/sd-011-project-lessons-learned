@@ -3,7 +3,6 @@ body {
   font-family: Acme, serif;
   padding: 0;
   margin: 0;
-  text-align: center;
 }
 
 #cabecalho {
@@ -13,6 +12,22 @@ body {
   color: white;
   width: 100%;
   padding: 15px 10px 5px;
+  text-align: center;
+}
+
+a{
+  color: white;
+  text-decoration: transparent;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: all 0.5s;
+}
+
+a:hover{
+  background: rgb(90, 90, 90);
+  transition: 0.5s;
+  position: relative;
+  padding-right: 25px;
 }
 
 #minha_foto {
@@ -29,11 +44,17 @@ body {
   border: 2px dotted black;
   color: rgb(2, 2, 2);
   padding: 5px 10px 10px;
+  text-align: center;
 }
 
 .lado-esquerdo {
   border: 2px dotted black;
   color: rgb(2, 2, 2);
+  text-align: center;
+}
+.lados {
+  display: flex;
+  padding: auto;
 }
 
 .tab {
@@ -46,4 +67,8 @@ body {
 td {
   border: 1px solid white;
   padding: 5px 10px;
+}
+
+#rodape {
+  text-align: center;
 }
