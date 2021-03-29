@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 body {
-  background-color:rgb(253, 251, 251);
+  background-color: rgb(253, 251, 251);
   margin: 0	auto;
   font-size: 16px;
   color: black;
@@ -43,7 +44,6 @@ body {
 .sociais li a {
 	color: black;
 	text-decoration: none;
-	font-family: 'Metal Mania', cursive;
 }
 
 .sociais li a:hover {
@@ -51,16 +51,25 @@ body {
 	transition: 2s;
 }
 
-aside #paragrafo {
+.lado-esquerdo{
   max-width: 500px;
   margin-left: 200px;
+  margin-top: 10px;
   background: orange;
+  display: inline-block;
+  text-indent: justify;
+
+}
+
+.lado-direito {
+  display: inline;
+  float: right;
+  margin-top: -5px;
+  margin-right: 200px;
+  text-indent: justify;
 }
 article p {
   max-width: 400px;
-  float: right;
-  margin-top: -110px;
-  margin-right: 200px;
   background: orange;
 }
 
@@ -71,7 +80,7 @@ table, th, td {
   text-align: center;
 }
 
-td:hover{
+td:hover {
   color: orange;
   background: black;
   transition: 1s;
@@ -79,6 +88,6 @@ td:hover{
 
 #rodape {
   text-align:	center;
-	background: dimgray;
-	padding: 25px;
+  background: dimgray;
+  padding: 25px;
 }
