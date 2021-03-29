@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-size: sans-serif, Arial, Helvetica;
 }
 
 nav {
@@ -23,6 +24,7 @@ section {
 }
 
 header {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   position: fixed;
   top: 0%;
   color: green;
