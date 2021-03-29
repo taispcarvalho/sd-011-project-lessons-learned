@@ -36,6 +36,7 @@ html {
 body {
   background-color: rgb(253, 251, 251);
   font-family:monospace;
+  font-size: 15px;
 }
 
 #cabecalho {
@@ -92,6 +93,8 @@ main {
   position: absolute;
   top: 30%;
   background-color: cadetblue;
+  padding: 30px 10px;
+  
 }
 
 .listas {
@@ -114,18 +117,34 @@ main {
   text-align: center;
   padding-top: 20px;
   padding-left: 50px;
+}
+
+h2 {
+  margin: 10px;
+}
+
+p {
+  padding: 5px;
+}
+.textos {
 
 }
 
+.text1 {
+  position: absolute;
+  
+}
+
 aside {
-  display: block;
-  width: 600px;
-  height: 100px;
+  display: inline-block;
+  width: 20%;
+  height: 60%;
   position:absolute;
   text-align: center;
   right: 0;
   background-color: crimson;
   bottom: 0;
+  padding-top: 10px;
 }
 
 footer {
