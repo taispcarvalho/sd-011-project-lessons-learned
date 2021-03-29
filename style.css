@@ -61,7 +61,7 @@ header {
   margin-top: 100px;
 }
 
-.me {
+.hello {
   font-size: 30px;
   line-height: 8vh;
   padding-top: 2vh;
@@ -72,7 +72,7 @@ header {
   font-weight: 900;
 }
 
-.cristian {
+.name_two {
   font-size: 60px;
   color: rgb(50, 237, 138);
 }
@@ -108,6 +108,12 @@ header {
   width: 0 auto;
 }
 
+.title_licoes {
+  color: dodgerblue;
+  font-size: 22px;
+  font-weight: 900;
+}
+
 .article {
   width: 100%;
   margin-top: 1px;
@@ -130,12 +136,16 @@ header {
 }
 
 .lado-direito {
-  float: right;
-  margin-right: 10px;
+  float: center;
+  margin-right: 45px;
+  width: 600px;
+  height: 244px;
 }
 
 .lado-esquerdo {
   float: left;
+  height: 244px;
+  margin-left: 45px;
 }
 
 .article_title {
