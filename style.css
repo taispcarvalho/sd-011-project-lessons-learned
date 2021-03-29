@@ -3,7 +3,7 @@ body {
 }
 
 #cabecalho {
-  background-color: #1d3557;
+  background-color: rgb(29, 53, 87);
   position: fixed;
   top: 0;
   left: 0;
@@ -12,5 +12,5 @@ body {
 
 #titulo {
   text-align: center;
-  color: #f4f4f4;
+  color: rgb(244, 244, 244);
 }
