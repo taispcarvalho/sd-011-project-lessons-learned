@@ -1,5 +1,8 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 2%;
+  padding: 2%;
+  border: black;
 }
 
 #cabecalho {
@@ -14,21 +17,10 @@ body {
 }
 
 article {
-  width: 365px;
-  
+  width: 365px;  
 }
 
 aside {
-  position: relative;
-  bottom: 227px;
   width: 365px;
-  margin: 1%;
-  padding: 0px 350px 0px;
-  border: black;
-}
-
-table {
-  position: relative;
-  bottom: 120px;
 }
 
