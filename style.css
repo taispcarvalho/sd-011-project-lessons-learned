@@ -70,7 +70,7 @@ a {
 
 .lado-direito {
   display: table-cell;
-  float: left;
+  float: right;
   width: 200px;
   margin-top: -20px;
   margin-left: 20px;
