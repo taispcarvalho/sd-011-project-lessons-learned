@@ -56,6 +56,41 @@ body{
 
 }
 
+#aprendizado {
+	background: orange;
+	max-width: 500px;
+	margin-left: 195px;
+	display: inline-block;
+}
+
+#aprendizado h2 {
+	color: dimgray;
+	text-align: center;
+	text-align: justify;
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+#aprendizado p {
+		color: black;
+		text-align: center;
+		text-align: justify;
+		padding: 20px 20px 10px 10px;
+
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -63,4 +98,6 @@ body{
 
 #rodape{
 	text-align:	center;
+	background: dimgray;
+	padding: 25px
 }
