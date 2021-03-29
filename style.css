@@ -31,12 +31,12 @@ ol {
   display: inline-block;
 }
 
-article {
+.lado-esquerdo {
   display: inline-block;
   width: 300px;
 }
 
-aside {
+.lado-direito {
   display: inline-block;
   width: 300px;
 }
