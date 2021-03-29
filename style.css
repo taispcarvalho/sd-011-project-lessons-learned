@@ -57,7 +57,7 @@ footer {
   background-color: rgb(116, 203, 230);
 }
 
-table, td, th {
+table , td , th {
   margin-top: 10px;
   border: 1px solid black;
   margin-left: 10px;
