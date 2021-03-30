@@ -29,22 +29,21 @@ html {
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  scroll-margin: 3px;
   font-family:monospace;
-  color: black;
   
   
 }
 
 body {
   background-color: rgb(253, 251, 251);
-  
   font-size: 15px;
 }
 
 .head {
   position: absolute;
+  display: inline-block;
+  width: 100%;
+  
 }
 
 #cabecalho {
@@ -85,31 +84,30 @@ nav a:hover {
   position: absolute;
   border-radius: 100px;
   width: 5%;
-  top: 20%;
+  top: 65px;
 }
 
 .nome {
   position: absolute;
   left: 110px;
-  width: 95%;
-  top:23%;
-  display: block;
-  background-color: rgb(255, 47, 64);
+  width: 500px;
+  top: 65px;
   padding: 5px;
   padding-top: 20px;
+  color: white;
+  font-size: 40px;
+  font-family: fantasy;
+  
    
 }
 
 main {
   position: absolute;
   box-sizing: border-box;
- 
   top: 30%;
   background-color: cadetblue;
   padding: 30px 10px;
   font-size: 20px;
-  text-align: center;
-  
 }
 
 .listas {
@@ -141,22 +139,18 @@ p {
   padding: 5px;
 }
 
-.textos {
-  display: inline-block;
-  top: 30%;
-  width: 25%;
-  height: 200px;
-  
-}
-
 .lado-esquerdo {
   background-color: blue;
-
+  display: inline-block;
+  top: 50%;
+  width: 25%;
 }
 
 .lado-direito {
   background-color: chartreuse;
-
+  display: inline-block;
+  top: 50%;
+  width: 25%;
   }
 
 aside {
