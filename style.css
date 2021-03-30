@@ -75,14 +75,14 @@ nav a:hover {
 main {
   position: absolute;
   box-sizing: border-box;
-  top: 30%;
+  top: 200px;
   background-color: cadetblue;
-  padding: 30px 10px;
   font-size: 20px;
 }
 
 .listas {
   padding-bottom: 40px;
+  text-align: center;
 }
 
 #list1 {
