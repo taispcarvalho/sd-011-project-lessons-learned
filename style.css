@@ -3,21 +3,26 @@ body {
   margin: 2%;
   padding: 2%;
   border: black;
+  font-size: 120%;
+  line-height: 125%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
 }
 
 #cabecalho {
   background-color: green;
   top: 0%;
   position: fixed;
+  color: white;
 }
 
 #minha_foto {
-  width: 365px;
+  width: 350px;
   height: 400px;
 }
 
 article {
-  width: 365px;  
+  width: 365px;
 }
 
 aside {
