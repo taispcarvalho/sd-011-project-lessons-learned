@@ -132,7 +132,7 @@ h2 {
   border-radius: 4%;
 }
 
-.lado_direito {
+.lado-direito {
   display: inline-block;
   position: absolute;
   width: 30%;
@@ -149,7 +149,7 @@ aside {
   border-radius: 4%;
 }
 
-.lado_esquerdo {
+.lado-esquerdo {
   display: inline-block;
   position: absolute;
   width: 50%;
