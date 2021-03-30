@@ -1,37 +1,7 @@
-/* 
-html {
-  margin: 0px;
-}
-
-#titulo {
-  padding-left: 10%;
-}
-
-
-
-#licoes_aprendidas {
-
-}
-
-#rodape {
-  position: relative;
-  bottom: 0%;
-}
-
-#list {
-
-}
-
-#text {
-
-} */
-
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family:monospace;
-  
-  
+  font-family: monospace;
 }
 
 body {
@@ -43,13 +13,12 @@ body {
   position: absolute;
   display: inline-block;
   width: 100%;
-  
 }
 
 #cabecalho {
   position: fixed;
   top: 0;
-  background-color: green;
+  background-color: rgb(2, 97, 2);
   color: white;
   padding-left: 5%;
   padding-top: 2%;
@@ -58,12 +27,15 @@ body {
   text-align: center;
 }
 
+#titulo {
+  font-size: 40px;
+}
+
 nav {
   position: absolute;
   text-align: right;
   width: 100%;
-  top: 12%;
-  
+  top: 15%;
 }
 
 nav a {
@@ -72,7 +44,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: white;
-  border: solid black;
+  font-weight: bold;
 }
 
 nav a:hover {
@@ -95,10 +67,9 @@ nav a:hover {
   padding: 5px;
   padding-top: 20px;
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   font-family: fantasy;
-  
-   
+  font-style: italic;
 }
 
 main {
@@ -112,7 +83,6 @@ main {
 
 .listas {
   padding-bottom: 40px;
-  
 }
 
 #list1 {
@@ -151,19 +121,6 @@ p {
   display: inline-block;
   top: 50%;
   width: 25%;
-  }
-
-aside {
-  display: inline-block;
-  width: 20%;
-  height: 60%;
-  position:absolute;
-  text-align: center;
-  right: 0;
-  background-color: crimson;
-  bottom: 0;
-  padding-top: 10px;
-  top: 30%;
 }
 
 footer {
