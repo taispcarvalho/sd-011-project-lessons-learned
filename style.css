@@ -14,18 +14,33 @@ body {
   top: 0%;
   position: fixed;
   color: white;
+  left: 400px;
 }
 
 #minha_foto {
-  width: 350px;
-  height: 400px;
+  width: 286px;
+  height: 300px;
+  position: relative;
+  bottom: 50px;
 }
 
 article {
   width: 365px;
+  position: relative;
+  left: 350px;
+  bottom: 565px;
 }
 
 aside {
   width: 365px;
+  position: relative;
+  left: 350px;
+  bottom: 565px;
+}
+
+table {
+  position: relative;
+  bottom: 465px;
+  left: 180px;
 }
 
