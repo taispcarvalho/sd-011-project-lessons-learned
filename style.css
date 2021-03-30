@@ -24,11 +24,15 @@ body {
   bottom: 50px;
 }
 
-article {
+.lado-direito {
   width: 365px;
   position: relative;
   left: 350px;
   bottom: 565px;
+}
+
+.lado-esquerdo {
+  top: 1px;
 }
 
 aside {
