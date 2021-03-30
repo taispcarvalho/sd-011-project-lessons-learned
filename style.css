@@ -1,66 +1,78 @@
-
-body{ background-color: rgb(253, 251, 251);
+body { background-color: rgb(253, 251, 251);
 }
-#cabecalho{ position: fixed;
-top: 0px;
+#cabecalho { 
+position: fixed;
+top: 0;
 background-color: bisque;
 }
-#titulo{ font-weight: bolder;
+
+#titulo { 
+font-weight: 700;
 }
-#minha_foto{
+
+#minha_foto {
 margin-top: 8%;
 display: inline;
-height:20%;
-width:15% ;
+height: 20%;
+width: 15%;
 }
-#licoes_aprendidas{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+#licoes_aprendidas {
+font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
 background-color: blanchedalmond;
 color: dimgrey;
 line-height: 1.5;
 font-size: large;
 }
-#licoes_a_aprender{
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+#licoes_a_aprender { 
+font-family: Impact, Haettenschweiler, Arial Narrow Bold, sans-serif;
 background-color: blanchedalmond;
 color: dimgrey;
 line-height: 1.5;
 font-size: large;
 }
+
 .button {
-    background-color: #11a36a;
-    color: white;
-    padding: 15px 73px;
-    border-radius: 4px;
-    font-weight: 700;
-    text-decoration: none;}
-    .button2 {
-        background-color: rgb(0, 0, 0);
-        color: white;
-        padding: 15px 80px;
-        border-radius: 4px;
-        font-weight: 700;
-        text-decoration: none;}
-            .lado-direito{
-                float: right;
-                display: inline;
-                border-style: solid;
-                border-color: black;
-              margin-left: 60%;
-              margin-top: 9%;
-            }
-            .lado-esquerdo{
-                float: left;
-                display: inline;
-                margin-right: 60%;
-                margin-top: -17%;
-                margin-bottom: 40px;
-                border-style: solid;
-                border-color: black;
-            }
-.tabela1{
-    display: inline;
-    float: right;
+background-color:rgb(0, 255, 255);
+color: white;
+padding: 15px 73px;
+border-radius: 4px;
+font-weight: 700;
+text-decoration: none;
+}
+
+.button2 {
+background-color: black;
+color: white;
+padding: 15px 80px;
+border-radius: 4px;
+font-weight: 700;
+text-decoration: none;
+} 
+
+.l ado-direito {   
+float: right;
+display: inline;
+border-style: solid;
+border-color: black;
+margin-left: 60%;
+margin-top: 9%;
+}
+
+.lado-esquerdo {
+float: left;
+display: inline;
+margin-right: 60%;
+margin-top: -17%;
+margin-bottom: 40px;
+border-style: solid;
+border-color: black;
+}
+
+.tabela1 {
+display: inline;
+float: right;
 margin-top: 100px;
 margin-right: 100px;
 border: 1px solid black;
