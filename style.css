@@ -1,73 +1,81 @@
-
-
 #cabecalho {
-display:block;
-position:fixed;
-top:0;
-left:0;
-width:100%;
-background-color: rgb(0, 18, 66);
-text-align:center;
-padding: 5px 0;     
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(0, 18, 66);
+  text-align: center;
+  padding: 5px 0;
 }
 
 #titulo {
-background-color: rgb(0, 18, 66);  
-font-family: 'Cinzel', serif;
-color: white;
+  background-color: rgb(0, 18, 66);
+  font-family: "Cinzel", serif;
+  color: white;
 }
 
-body { background-color:rgb(253, 251, 251);
-color: rgb(4, 15, 22);
+body {
+  background-color: rgb(253, 251, 251);
+  color: rgb(4, 15, 22);
 }
 
 .imagens {
-text-align: center;
+  text-align: center;
 }
 
-.titulonivel2 { font-family: 'Roboto', sans-serif;
-font-weight:bold;
-color: rgb(0, 18, 66);
+.titulonivel2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: rgb(0, 18, 66);
 }
 
-span { font-family: 'Roboto', sans-serif;
-font-weight:bold;
-font-size: 0,83em;
-color: rgb(0, 18, 66)
-}
-    
-#listas{ display: flex;
-padding: 20px 40px;
+span {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 0, 83em;
+  color: rgb(0, 18, 66);
 }
 
-#licoes_aprendidas, #licoes_a_aprender { font-family: 'Roboto', sans-serif;
-list-style: none;
-width: 50%;
+#listas {
+  display: flex;
+  padding: 20px 40px;
 }
 
-.linha { display: flex;
-flex-flow: row wrap;
-padding: 30px 20px;
-}
-.lado-esquerdo { display: inline-block;
-width: 50%;
-text-align: justify;
-align-content: center;
+#licoes_aprendidas,
+#licoes_a_aprender {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  width: 50%;
 }
 
-.lado-direito { display: inline-block;
-width: 50%;
-font-style: italic;
-text-align: center;
-align-content: center;
+.linha {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 20px;
 }
-#rodape { display: block;
-position: fixed;
-bottom: 0;
-left: 0;
-width: 100%;
-background-color: rgb(0, 18, 66);
-text-align: center;
-padding: 5px 0;
-color: white;
+.lado-esquerdo {
+  display: inline-block;
+  width: 50%;
+  text-align: justify;
+  align-content: center;
+}
+
+.lado-direito {
+  display: inline-block;
+  width: 50%;
+  font-style: italic;
+  text-align: center;
+  align-content: center;
+}
+#rodape {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(0, 18, 66);
+  text-align: center;
+  padding: 5px 0;
+  color: white;
 }
