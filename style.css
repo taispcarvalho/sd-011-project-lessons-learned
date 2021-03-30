@@ -57,3 +57,14 @@ body {
   color: rgb(29, 53, 87);
   transition: 400ms;
 }
+
+nav ul > li{
+  display: inline-block;
+  text-align: center;
+}
+
+ #menu a {
+  color: rgb(244, 244, 244);
+  
+  list-style: none;
+}
