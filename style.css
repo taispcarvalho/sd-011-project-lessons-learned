@@ -4,7 +4,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Rubik';
+  font-family: 'Rubik', sans-serif;
   width: 1366px;
   margin: 0 auto;
 }
@@ -23,7 +23,7 @@ body {
 #titulo {
   float: left;
   position: relative;
-  font-family: 'Righteous';
+  font-family: 'Righteous', cursive;
   font-size: 64px;
   color: rgb(253, 251, 251);
   top: 1px;
