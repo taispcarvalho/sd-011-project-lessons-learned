@@ -35,8 +35,27 @@ header {
 }
 
 #minha_foto {
-    max-width: 400px;
+    width: 300px;
     border-style: solid;
     display: inline-block;
-
 }
+
+#sobre-trybe {
+    text-align: center;
+    margin-top: 100px;
+}
+#sobre-trybe h3 {
+    font-weight: 900;
+}
+
+#licoes_aprendidas, #licoes_a_aprender {
+    background-color: coral;
+    display: inline-block;
+    width: 350px;
+    margin: 40px;
+    padding: 40px;
+    padding-bottom: 20px;
+    border-style: solid;
+}
+
+
