@@ -64,7 +64,6 @@ nav li a {
 #sobre-trybe {
   text-align: center;
   margin-top: 400px;
-  
 }
 
 #sobre-trybe h3 {
@@ -105,9 +104,9 @@ nav li a {
 }
 
 .lado-esquerdo {
-    float: left;
-    width: 50%;
-    font-size: 100%;
+  float: left;
+  width: 50%;
+  font-size: 100%;
 }
 
 .lado-direito {
