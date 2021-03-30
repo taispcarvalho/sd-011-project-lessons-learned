@@ -108,7 +108,7 @@ span {
 }
 
 .foto {
-  /* background-image: url('/img/background-foto.png'); */
+  background-image: url('/img/background-foto.png');
   background-size: cover;
   background-position-y: -85px;
   text-align: center;
