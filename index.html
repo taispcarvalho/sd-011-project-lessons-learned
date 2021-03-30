@@ -6,29 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100;1, 300&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <title>Líções Aprendiadas - Trybe</title>
 </head>
 
 <body>
+
   <header id="cabecalho">
-    <h1 id="titulo">Lições Aprendiadas -Trybe</h1>
-    <nav>
+    <h1 id="titulo">Lições Aprendidas -Trybe</h1>
+    <nav class="menu  sub-title ">
       <a href="https://nick-713.github.io/" target="_blank">Portfólio Web</a>
       <a href="https://www.betrybe.com/" target="_blank">Conheça a Trybe</a>
     </nav>
   </header>
-
-  <main>
+  <div class="photo">
+    <img id="minha_foto" src="/foto-perfil.jpeg" alt="Foto de Estudante de Trybe">
+  </div>
   
-      <div class="photo">
-        <img id="minha_foto" src="/foto-perfil.jpeg" alt="Foto de Estudante de Trybe">
-      </div>
-      <div class="lessons">
-        <section class="lessons-learned">
-          <h2>Lições Aprendidas:</h2>
+  <table class="chart">
+    <tr>
+      <th>Bloco 1 </th>
+      <th>bloco 2 </th>
+      <th>bloco 3 </th>
+      <th> Introdução as Soft Skills</th>
+    </tr>
+    <tr>
+      <td> Unix & Bash </td>
+      <td> Git,GitHub e Internet</td>
+      <td> Introdução a HTML e CSS</td>
+      <td>Introdução a inteligência Emocional</td>
+    </tr>
+
+  </table>
+    
+    
+      <section class="lessons">
+        <div class="lessons-learned">
+          <h2 class="sub-title" >Lições Aprendidas:</h2>
           <ol id="licoes_aprendidas">
             <li>Funcionamento do Sistema Unix </li>
             <li> Principais comandos do Bash </li>
@@ -41,9 +60,9 @@
             <li>Html Semântico</li>
             <li> Emoções e Empatia</li>
           </ol>
-         </section>
-         <section class="lessons-to-learn">
-          <h2>Quero aprender:</h2>
+        </div>
+        <div class="lessons-to-learn">
+          <h2 class="sub-title">Quero aprender:</h2>
 
           <ul id="licoes_a_aprender">
             <li>JavaScript</li>
@@ -57,53 +76,44 @@
             <li>Arquitetura de Computadores</li>
             <li>Estrutura de Dados</li>
           </ul>
-        </section>
-  
-     <div class="teste">
-      <article class="lado-esquerdo">
-        <h2>Título do Artigo</h2>
-        <p>
-          lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt elementum at nulla etiam accumsan bibendum porttitor vulputate litora nibh augue non donec tempor auctor montes in himenaeos nascetur sodales eros tellus conubia mi est aliquam felis curabitur finibus magna vehicula id praesent hac gravida nisl primis quam sagittis fames torquent convallis porta congue commodo tortor cras quis ad pellentesque ultricies nam dis volutpat euismod.
-        </p>
-      </article>
-    
-      <aside class="lado-direito">
-        <h2>Título do aside</h2>
-        <p>
-          lorem ipsum dolor sit amet consectetur adipiscing elit tincidunt elementum at nulla etiam accumsan bibendum porttitor vulputate litora nibh augue non donec tempor auctor montes in himenaeos nascetur sodales eros tellus conubia mi est aliquam felis curabitur finibus magna.
-        </p>
-      </aside>
+        </div>
 
-      <table class="tabela">
-        <tr>
-          <th>FUndamentos do Desenvolvimento Web</th>
-        </tr>
-          
-        <tr>
-          <th>bloco 1</th>
-          <th>bloco 2 </th>
-          <th>bloco 3 </th>
-          <th> Introdução as Soft Skills</th>
-        </tr>
-        <tr>
-          <td> Unix & Bash </td>
-          <td> Git,GitHub e Internet</td>
-          <td> Introdução a HTML e CSS</td>
-          <td>Introdução a inteligência Emocional</td>
-        </tr>
-        
-      </table>
-   
-
-     </div>
+      </section>
       
+        <article class="lado-esquerdo">
+          <h2 class="sub-title">Primeiros Passos</h2>
+          <p class="paragraph">
+            Se passaram 3 blocos do módulo de Fundamentos de Desenvolvimento Web e já fui apresentado a conceitos importantes que vão guiar toda minha formação e além. 
+          </p>
+          <p class="paragraph">
+            Tendo Compreensão do funcionamento do sistema 	Unix, utilização do  terminal de forma confortável, conhecendo os principais comandos do Bash e conhecendo o funcionamento da internet. 
+          </p>
+          <p class="paragraph">
+            Utilizar o Git,  ir do git init ao git push, permitindo guardar meus projetos em um repositório remoto - Github e Fazer Code Review.
+          </p>
+          <p class="paragraph">
+              
+            Por último, primeiro contato com HTML e CSS para dar estrutura e estilização das minhas primeiras páginas web.
 
+          </p>
 
-    
-  </main>
-
-
+        </article>
   
-</body>
+        <aside class="lado-direito">
+          <h2 class="sub-title">Soft Skills </h2>
+          <p class="paragraph"> 
+            Teremos durante toda formação o desenvolvimento de soft skills mais requisitadas no mercado.
+            Na parte introdutória de  soft skills podemos abordar a importância da inteligência emocional no dia a dia de uma pessoa desenvolvedora e abordamos sobre autoconhecimento, dando ênfase às emoções e empatia.
+          </p>
+      
+        </aside>
+  
 
+
+     
+
+     <footer id="rodape">
+         <h4 class="sub-title">Todos os direitos reservados, Nicolas Silva.</h4>
+     </footer>
+  
 </html>
