@@ -31,6 +31,9 @@ body {
 .aprendizado {
 	text-align: center;
 	font-family: 'Courier New', Courier, monospace;
+	font-size: 40px;
+	color: #2fc18c;
+	line-height: 1px;
 }
 
 .lado-esquerdo {
@@ -45,4 +48,5 @@ body {
   padding-left: 20%;
   float: right;
 	border-style: inset;
+	font-size: 100%;
 }
