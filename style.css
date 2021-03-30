@@ -108,7 +108,7 @@ span {
 }
 
 .foto {
-  background-image: url('/img/background-foto.png');
+  background-image: url('/img/background-foto.svg');
   background-size: cover;
   background-position-y: -85px;
   text-align: center;
@@ -125,6 +125,7 @@ span {
   width: 25%;
   height: 1350px;
   padding: 440px 30px 100px;
+  float: right;
 }
 
 .lado-direito article {
@@ -143,6 +144,7 @@ span {
   width: 75%;
   height: 1400px;
   color: white;
+  float: left;
 }
 
 .lado-esquerdo li:hover {
