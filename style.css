@@ -79,6 +79,7 @@ main {
   top: 200px;
   background-color: cadetblue;
   font-size: 20px;
+
 }
 
 .listas {
@@ -129,8 +130,14 @@ p {
   width: 45%;
   background-color: plum;
   border: solid;
-}
+  font-family: Comic 'Gill Sans', Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  margin: 5px;
+  border: 5px;
+  padding: 5px;
 
+}
 
 aside {
   position: absolute;
