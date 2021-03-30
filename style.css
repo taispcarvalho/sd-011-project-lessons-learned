@@ -43,29 +43,32 @@ body {
   padding: 135px 35% 0;
 }
 
-li {
+table {
   background-color: azure;
   font-family: cursive;
 }
 
 #lado-esquerdo {
+  float: right;
   display: inline-block;
   border: solid;
   width: 40%;
-  margin: auto;
 }
 
 #lado-direito {
   float: left;
   display: inline-block;
-  width: 50%;
-  margin: auto;
+  width: 40%;
   font-size: 40;
   text-align: center;
 }
 
+#aside {
+  border: solid;
+  display: inline-block;
+  margin: 10px;
+}
+
 #rodape {
-  background-color: rgb(212, 212, 209);
-  margin: auto;
-  padding: 50px;
+  background-color: aquamarine;
 }
