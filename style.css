@@ -120,7 +120,6 @@ span {
   /* background-image: url('/img/background-direita.png'); */
   background-size: cover;
   background-color: whitesmoke;
-  position: relative;
   float: right;
   width: 25%;
   height: 1350px;
@@ -137,9 +136,8 @@ span {
 }
 
 .lado-esquerdo {
-  position: relative;
-  top: 50px;
   float: left;
+  margin-top: 50px;
   width: 75%;
   height: 1400px;
   color: white;
