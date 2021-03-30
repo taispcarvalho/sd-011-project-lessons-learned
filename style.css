@@ -4,7 +4,7 @@
 
 body {
   background-color: rgb(253, 251, 251);
-  font-family: 'Rubik', sans-serif;;
+  font-family: 'Rubik', sans-serif;
   width: 1366px;
   margin: 0 auto;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 #cabecalho nav {
-  background-color: #d90429;
+  background-color: rgb(217, 4, 41);
   width: 1366px;
   height: 85px;
 }
@@ -58,7 +58,7 @@ body {
 
 .navbar-items li a:hover {
   font-weight: 300;
-  color: #d4d4d4;
+  color: rgb(212,212,212);
 }
 
 .profile-container {
