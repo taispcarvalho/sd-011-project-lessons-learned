@@ -3,7 +3,7 @@
 }
 
 .site_content {
-  margin-top: 8%;
+  margin-top: 120px;
 }
 
 body {
@@ -19,8 +19,7 @@ body {
 }
 
 #cabecalho h1 {
-  /* background-color: seagreen; */
-  margin: 0;
+  margin: 1%;
 }
 
 #titulo {
@@ -65,19 +64,26 @@ body {
 
 nav ul li {
   display: inline-block;
-  border-left: 3px solid rgb(244, 244, 244);
-  background-color: rgba(69, 123, 157, 0.349);
-  margin-left: 3px;
+  margin-top: 10px;
 }
 
-#menu, nav ul li a {
+nav ul li > a:hover {
+  border-left: 3px solid rgb(244, 244, 244);
+  color: green;
+}
+
+#menu {
   text-align: center;
+}
+
+ nav ul li a {
   text-decoration: none;
+  background-color: rgba(69, 123, 157, 0.349);
   color: rgb(244, 244, 244);
   list-style: none;
   padding: 3px 6px;
 }
 
 nav ul {
-  margin:13px;
+  margin: 13px;
 }
