@@ -26,13 +26,13 @@ body {
 
 .titulonivel2 {
   font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   color: rgb(0, 18, 66);
 }
 
 span {
   font-family: Roboto, sans-serif;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 0, 83em;
   color: rgb(0, 18, 66);
 }
@@ -42,7 +42,7 @@ span {
   padding: 20px 40px;
 }
 
-#licoes_aprendidas, #licoes_a_aprender {
+#licoes_aprendidas , #licoes_a_aprender {
   font-family: Roboto, sans-serif;
   list-style: none;
   width: 50%;
@@ -53,6 +53,7 @@ span {
   flex-flow: row wrap;
   padding: 30px 20px;
 }
+
 .lado-esquerdo {
   display: inline-block;
   width: 50%;
