@@ -6,19 +6,38 @@ body {
   background-color: rgb(253, 251, 251);
   color: brown;
   font-family: 'Gill Sans', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 
 header {
   position: fixed;
   margin-top: 0;
   width: 100%;
-  height: 30px;
+  height: auto;
   background-color: coral;
   border-bottom-style: solid;
 }
 
 #cabecalho {
-  padding: 10px 0px;
+  padding: 7px 0px;
+}
+
+nav {
+  text-align: left;
+  border-top-style: solid;
+  padding-top: 5px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav li a {
+  padding: 0 10px;
+  text-decoration: none;
+  color: brown;
+  font-weight: 800;
 }
 
 #titulo {
@@ -26,6 +45,7 @@ header {
 }
 
 #eu {
+  padding: 5%;
   text-align: center;
 }
 
