@@ -14,8 +14,9 @@ body {
   width: 100%;
   background-color: olive;
   font-family: cursive;
-  font-size: auto;
+  font-size: 18px;
   font-weight: 100;
+  line-height: 50px;
   top: 0;
 }
 
@@ -36,40 +37,31 @@ body {
 }
 
 #minha_foto {
-  display: inline-block;
-  margin: auto;
-  border-radius: 40px;
-  width: 15%;
-  padding: 120px 0 0;
+  border-width: 10px;
+  border-radius: 50%;
+  width: 20%;
+  padding: 135px 35% 0;
 }
 
-#table li {
-  text-align: center;
-  font-family: cursive;
-  border: 1px;
-  width: 50%;
-  border-style: solid;
-  margin: auto;
-}
-
-.tabela {
-  border-color: green;
-  width: 50%;
-}
-
-.title-table , #contato {
+li {
   background-color: azure;
   font-family: cursive;
-  text-align: center;
 }
 
-#lado-direito , #lado-esquerdo {
-  border-style: solid;
-  border-width: 2px;
+#lado-esquerdo {
+  display: inline-block;
+  border: solid;
   width: 40%;
   margin: auto;
+}
+
+#lado-direito {
+  float: left;
   display: inline-block;
-  padding: 50px;
+  width: 50%;
+  margin: auto;
+  font-size: 40;
+  text-align: center;
 }
 
 #rodape {
