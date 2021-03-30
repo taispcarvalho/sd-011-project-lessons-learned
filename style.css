@@ -3,6 +3,7 @@
   margin: 0;
   font-family: monospace;
   letter-spacing: 3px;
+  
 }
 
 body {
@@ -37,7 +38,7 @@ nav {
   position: absolute;
   text-align: right;
   width: 100%;
-  top: 15%;
+  top: 12%;
 }
 
 nav a {
@@ -80,7 +81,6 @@ main {
   top: 200px;
   background-color: cadetblue;
   font-size: 20px;
-
 }
 
 .listas {
@@ -131,13 +131,12 @@ p {
   width: 45%;
   background-color: plum;
   border: solid;
-  font-family: Comic 'Gill Sans', Helvetica, sans-serif;
+  font-family: Comic "Gill Sans", Helvetica, sans-serif;
   font-size: 15px;
   line-height: 25px;
   margin: 5px;
   border: 5px;
   padding: 5px;
-
 }
 
 aside {
@@ -148,6 +147,7 @@ aside {
   right: 30px;
   bottom: 10px;
 }
+
 footer {
   position: absolute;
   bottom: 0;
