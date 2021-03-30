@@ -117,7 +117,6 @@ span {
 }
 
 .lado-direito {
-  /* background-image: url('/img/background-direita.png'); */
   background-size: cover;
   background-color: whitesmoke;
   float: right;
