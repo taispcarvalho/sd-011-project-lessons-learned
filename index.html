@@ -1,42 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
     <title>Luana Souza</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <h1>Luana Souza - Lições aprendidas na Trybe</h1>
-    <img src="luana.jpg" alt="Foto da estudante da Trybe Luana Souza">
 
-    <h3>Lições aprendidas:</h3>
-    <ol>
-        <li>Unix;</li>
-        <li>Bash;</li>
-        <li>Shell;</li>
-        <li>Git;</li>
-        <li>GitHub;</li>
-        <li>Internet;</li>
-        <li>HTML;</li>
-        <li>CSS;</li>
-        <li>Empatia;</li>
-        <li>Trabalho em equipe.</li>
-    </ol>
-    
-    <h3>Lições a aprender:</h3>
-
+<nav>
     <ul>
-        <li>JavaScript;</li>
-        <li>Lógica de Programação;</li>
-        <li>React;</li>
-        <li>SQL;</li>
-        <li>MongoDB;</li>
-        <li>NodeJS;</li>
-        <li>Arquitetura de computadores e redes;</li>
-        <li>Python;</li>
-        <li>Algoritmos e Estrutura de dados;</li>
-        <li>Soft Skills.</li>
-    </ul>
+        <li><a href="#lessons">O que aprendi e vou aprender?</a></li>
+        <li><a href="#personal_data">Informações pessoais</a></li>
+        <li><a href="#rodape">Contatos</a></li>
+      </ul>
+</nav>
+<body>
+    <header id="cabecalho">
+        <h1> Lições aprendidas <br> Trybe</h1>
+    </header>
+    <section id="personal_data">
+        <img id="minha_foto" src="luana.jpg" alt="Foto da estudante da Trybe Luana Souza">
+        <div>
+            <table>
+                <caption>
+                    Informações Pessoais:
+                </caption>
+                <tr> 
+                    <th>Nome</th>
+                    <td>Luana Souza</td>
+                </tr>
+                <tr> 
+                    <th>Idade</th>
+                    <td>29</td>
+                </tr>
+                <tr> 
+                    <th>Turma Trybe</th>
+                    <td>11 - Março 2021</td>
+                </tr>
+                <tr> 
+                    <th>Cidade</th>
+                    <td>Cotegipe-BA</td>
+                </tr>
+                
+            </table>
+        </div>
+    </section>
 
-    <article>
+    <section id="lessons"> 
+        <h3>Lições aprendidas:</h3>
+        <ol id="licoes_aprendidas">
+            <li>Unix;</li>
+            <li>Bash;</li>
+            <li>Shell;</li>
+            <li>Git;</li>
+            <li>GitHub;</li>
+            <li>Internet;</li>
+            <li>HTML;</li>
+            <li>CSS;</li>
+            <li>Empatia;</li>
+            <li>Trabalho em equipe.</li>
+        </ol>
+        
+        <h3>Lições a aprender:</h3>
+    
+        <ul id="licoes_a_aprender">
+            <li>JavaScript;</li>
+            <li>Lógica de Programação;</li>
+            <li>React;</li>
+            <li>SQL;</li>
+            <li>MongoDB;</li>
+            <li>NodeJS;</li>
+            <li>Arquitetura de computadores e redes;</li>
+            <li>Python;</li>
+            <li>Algoritmos e Estrutura de dados;</li>
+            <li>Soft Skills.</li>
+        </ul>
+    </section>
+
+    <article id="apprenticeship" class="left side">
         <h>Sobre o meu aprendizado:</h>
         <p>
         Quando somos iniciantes, começar é uma tarefa bastante difícil, mas com o curso da <a href="https://www.betrybe.com/" target="_blank">Trybe</a>, o aprendizado tem se tornado algo muito além do esperado. A cada Bloco de aulas, vou me superando e gostando cada vez mais desse vasto mundo tecnológico. 
@@ -44,15 +86,16 @@
         </p>
     </article>
 
-    <aside>
+    <aside class="right side"> 
         <em>"O gostinho de ver um “git commit” “git push” dar certo, ver seu repositório no GitHub crescendo a cada dia, é maravilhoso!” </em>
     </aside>
-    <footer> 
+    <footer id="rodape"> 
         <h3>Contato e redes sociais:</h3>
-        <p><a href="https://www.linkedin.com/in/luana-souza-2b42b6120/" target="_blank"><img src="linkedin-logo.png" alt="Ícone Linkedin"></a>
-        <p><a href="https://github.com/luanah-souzza" target="_blank"><img src="GITHUB-LOGO.png"alt = "Ícone Github"></a></p>
-             
-        </p>
+        <div> 
+            <p><a href="https://www.linkedin.com/in/luana-souza-2b42b6120/" target="_blank"><img src="linkedin-logo.png" alt="Ícone Linkedin"></a>
+            <p><a href="https://github.com/luanah-souzza" target="_blank"><img src="GITHUB-LOGO.png"alt = "Ícone Github"></a></p>
+            </p>
+        </div>
     </footer>
     
 </body>
