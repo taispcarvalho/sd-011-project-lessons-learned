@@ -6,7 +6,7 @@
 
 body {
   padding-top: 100px;
-  background-color: rgb(253,251,251);
+  background-color: rgb(253, 251, 251);
   margin: 20px;
 }
 
@@ -42,11 +42,11 @@ body {
 }
 
 .sub-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
   font-weight: 100;
   text-align: center;
   margin-bottom: 10px;
-  font-size: 30px;;
+  font-size: 30px;
 }
 
 .photo {
@@ -66,6 +66,12 @@ body {
   background-color: whitesmoke;
 }
 
+.chart , th , td {
+  border: 1px solid black;
+  padding: 5px;
+  font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+}
+
 .chart th:hover {
   background-color: palegreen;
   color: black;
@@ -73,13 +79,7 @@ body {
 
 .chart td:hover {
   background-color: palegreen;
-  color:black;
-}
-
-.chart ,th ,td {
-  border: 1px solid black;
-  padding: 5px;
-  font-family: Roboto Condensed, sans-serif;
+  color: black;
 }
 
 .lessons {
@@ -98,7 +98,6 @@ body {
   font-size: 22px;
   padding: 15px;
   font-family: Amatic SC, cursive;
-  
 }
 
 #licoes_aprendidas li:hover {
@@ -122,13 +121,12 @@ body {
 
 #licoes_a_aprender li:hover {
   background-color: whitesmoke;
-  color:  black;
+  color: black;
 }
 
 .paragraph {
   font-size: 22px;
-  font-family: Roboto Condensed, sans-serif;
-  margin-bottom: 5px;
+  font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
   margin-top: 5px;
   letter-spacing: 2px;
   line-height: 30px;
@@ -159,5 +157,3 @@ body {
   box-shadow: 5px 10px palegreen;
   background-color: whitesmoke;
 }
-
-
