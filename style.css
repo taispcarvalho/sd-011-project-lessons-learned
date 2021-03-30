@@ -9,10 +9,37 @@ body {
 	right: 0px;
 	background-color: #2fc18c;
 	text-align: center;
-	margin-
 }
 
 #minha_foto {
-width: 200px;
-margin-top: 80px;
+width:200px;
+margin-top:80px;
+}
+
+#licoes {
+	text-align:center;
+}
+
+#licoes_aprendidas {
+  float: left;
+  width: 50%;
+  font-size: 100%;
+}
+
+.aprendizado {
+	text-align: center;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 50%;
+  font-size: 100%;
+	border-style: inset;
+}
+
+.lado-direito {
+  width: 20%;
+  padding-left: 20%;
+  float: right;
+	border-style: inset;
 }
