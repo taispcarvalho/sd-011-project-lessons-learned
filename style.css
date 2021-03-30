@@ -67,6 +67,10 @@ nav ul li {
   margin-top: 10px;
 }
 
+div a {
+  text-decoration: none;
+}
+
 #menu {
   text-align: center;
 }
@@ -93,4 +97,9 @@ nav ul li > a:active {
 
 nav ul {
   margin: 13px;
+}
+
+div h4 {
+  font-size: 1em;
+  letter-spacing: 1px;
 }
