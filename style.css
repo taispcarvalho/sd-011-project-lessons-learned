@@ -30,7 +30,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  letter-spacing: 3px;
+  scroll-margin: 3px;
   
 }
 
@@ -38,6 +38,10 @@ body {
   background-color: rgb(253, 251, 251);
   font-family:monospace;
   font-size: 15px;
+}
+
+.head {
+  position: absolute;
 }
 
 #cabecalho {
@@ -54,8 +58,8 @@ body {
 
 nav {
   position: absolute;
-  top: 10%;
-  width: 50%;
+  text-align: right;
+  width: 100%;
 }
 
 nav a {
@@ -93,18 +97,18 @@ nav a:hover {
 main {
   position: absolute;
   box-sizing: border-box;
-  /* percentual que ocupa na tela */
+ 
   top: 30%;
   background-color: cadetblue;
   padding: 30px 10px;
   font-size: 20px;
   text-align: center;
-  height: 60%;
+  
+}
 
 .listas {
   padding-bottom: 40px;
   
-}
 }
 
 #list1 {
@@ -132,16 +136,22 @@ p {
 }
 
 .textos {
-
+  display: inline-block;
+  top: 30%;
+  width: 25%;
+  height: 200px;
+  
 }
 
 .lado-esquerdo {
+  background-color: blue;
 
 }
 
 .lado-direito {
+  background-color: chartreuse;
 
-}
+  }
 
 aside {
   display: inline-block;
