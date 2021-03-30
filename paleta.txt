@@ -1,0 +1,19 @@
+Azul escuro
+#1d3557
+rgb (29, 53, 87)
+
+Azul claro
+#457b9d
+rgb (69, 123, 157)
+
+Azul mais claro
+#a8dadc 
+rgb (168, 218, 220)
+
+Vermelho rosado
+#f1daEE
+rgb (230, 57, 70)
+
+Quase branco
+#F4F4F4
+rgb (244, 244, 244)
