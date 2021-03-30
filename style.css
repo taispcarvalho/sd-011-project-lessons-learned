@@ -137,15 +137,6 @@ p {
   padding: 5px;
 }
 
-aside {
-  position: absolute;
-  margin: 20px;
-  width: 100%;
-  text-align: right;
-  right: 30px;
-  bottom: 10px;
-}
-
 footer {
   position: absolute;
   bottom: 0;
