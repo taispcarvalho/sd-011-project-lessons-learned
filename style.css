@@ -123,6 +123,14 @@ p {
   width: 25%;
 }
 
+.table {
+  display: inline-block;
+  width: 45%;
+  background-color: plum;
+  border: solid;
+}
+
+
 aside {
   position: absolute;
   margin: 20px;
