@@ -12,15 +12,17 @@ body {
 }
 
 #minha_foto {
-width:200px;
-margin-top:80px;
+	width: 200px;
+	margin-top: 80px;
 }
 
 #licoes {
-	text-align:center;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 #licoes_aprendidas {
+	table-layout: fixed;
   float: left;
   width: 50%;
   font-size: 100%;
@@ -28,6 +30,7 @@ margin-top:80px;
 
 .aprendizado {
 	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
 }
 
 .lado-esquerdo {
