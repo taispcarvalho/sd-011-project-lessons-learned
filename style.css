@@ -18,6 +18,11 @@ body {
   left: 0;
 }
 
+#cabecalho h1 {
+  /* background-color: seagreen; */
+  margin: 0;
+}
+
 #titulo {
   text-align: center;
   color: rgb(244, 244, 244);
@@ -58,13 +63,21 @@ body {
   transition: 400ms;
 }
 
-nav ul > li{
+nav ul li {
   display: inline-block;
-  text-align: center;
+  border-left: 3px solid rgb(244, 244, 244);
+  background-color: rgba(69, 123, 157, 0.349);
+  margin-left: 3px;
 }
 
- #menu a {
+#menu, nav ul li a {
+  text-align: center;
+  text-decoration: none;
   color: rgb(244, 244, 244);
-  
   list-style: none;
+  padding: 3px 6px;
+}
+
+nav ul {
+  margin:13px;
 }
