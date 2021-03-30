@@ -49,26 +49,23 @@ table {
 }
 
 #lado-esquerdo {
-  float: right;
-  display: inline-block;
   border: solid;
-  width: 40%;
+  float: left;
+  position: relative;
+  width: auto;
+  padding: 10px 20px;
 }
 
 #lado-direito {
-  float: left;
-  display: inline-block;
-  width: 40%;
-  font-size: 40;
-  text-align: center;
+  border: solid;
+  float: right;
+  width: 50%;
+  height: 200px;
+  padding: 10px 20px;
 }
 
 #aside {
   border: solid;
   display: inline-block;
-  margin: 10px;
-}
-
-#rodape {
-  background-color: aquamarine;
+  margin: 5%;
 }
